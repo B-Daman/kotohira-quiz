@@ -49,17 +49,19 @@ function SourceLink({
   source: { label: string; url: string };
 }) {
   return (
-    <p className="text-xs text-gray-400 mt-2">
-      📎 出典:{" "}
+    <>
+      <p className="text-sm text-gray-500 mt-3 mb-1 font-bold">
+        📎 出典
+      </p>
       <a
         href={source.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-400 underline"
+        className="text-blue-500 underline text-sm"
       >
         {source.label}
       </a>
-    </p>
+    </>
   );
 }
 
