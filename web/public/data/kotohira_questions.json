@@ -8500,6 +8500,346 @@
       "source": "konpie-bot/knowledge_base/modern",
       "reviewed": true,
       "enabled": true
+    },
+    {
+      "id": "kotohira_501",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の大門の開門時間は何時ですか？",
+      "choices": [
+        "A. 5時",
+        "B. 6時",
+        "C. 7時",
+        "D. 8時"
+      ],
+      "answer": "B",
+      "explanation": "大門の開門時間は6時です。閉門は18時。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_502",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の御本宮の参拝可能時間は何時からですか？",
+      "choices": [
+        "A. 6時",
+        "B. 7時",
+        "C. 8時",
+        "D. 9時"
+      ],
+      "answer": "B",
+      "explanation": "御本宮の参拝可能時間は7時から17時です。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_503",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の個人祈祷の初穂料はいくらですか？",
+      "choices": [
+        "A. 3,000円",
+        "B. 5,000円",
+        "C. 8,000円",
+        "D. 10,000円"
+      ],
+      "answer": "B",
+      "explanation": "個人祈祷の初穂料は1件5,000円です。団体祈祷は1人1,000円（10名以上）。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_504",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の御利益として公式サイトに記載されていないものはどれですか？",
+      "choices": [
+        "A. 海上守護",
+        "B. 農業",
+        "C. 縁結び",
+        "D. 医療"
+      ],
+      "answer": "C",
+      "explanation": "公式サイトに記載の御利益は海上守護、農業、殖産、医療です。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_505",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の三穂津姫社前の青銅灯籠が奉納されたのは何年ですか？",
+      "choices": [
+        "A. 宝暦7年（1757年）",
+        "B. 安永3年（1774年）",
+        "C. 天明8年（1788年）",
+        "D. 寛政5年（1793年）"
+      ],
+      "answer": "A",
+      "explanation": "青銅灯籠は宝暦7年（1757年）に奉納され、国指定重要有形民俗文化財に指定されています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_506",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の表書院に所蔵されている障壁画の作者は誰ですか？",
+      "choices": [
+        "A. 狩野永徳",
+        "B. 伊藤若冲",
+        "C. 円山応挙",
+        "D. 長谷川等伯"
+      ],
+      "answer": "C",
+      "explanation": "表書院には円山応挙による障壁画が所蔵されており、重要文化財に指定されています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_507",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "高橋由一館に収蔵されている高橋由一の油絵は何点ですか？",
+      "choices": [
+        "A. 15点",
+        "B. 20点",
+        "C. 27点",
+        "D. 35点"
+      ],
+      "answer": "C",
+      "explanation": "高橋由一館には高橋由一の油絵が27点収蔵されています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_508",
+      "category": "shrine",
+      "difficulty": "easy",
+      "question": "金刀比羅宮の奥社（厳魂神社）に祀られている神は誰ですか？",
+      "choices": [
+        "A. 大物主神",
+        "B. 崇徳天皇",
+        "C. 厳魂彦命",
+        "D. 天照大御神"
+      ],
+      "answer": "C",
+      "explanation": "奥社（厳魂神社）には厳魂彦命が祀られています。御本宮には大物主神と崇徳天皇が祀られています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_509",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "江戸時代、庶民に許可された旅の行き先として金刀比羅宮はどのような位置づけでしたか？",
+      "choices": [
+        "A. 多くの旅先の一つ",
+        "B. 庶民に許可された唯一の旅先",
+        "C. 武士のみ参拝可能",
+        "D. 女人禁制の聖地"
+      ],
+      "answer": "B",
+      "explanation": "江戸時代（1603〜1867年）、金刀比羅宮への参拝は庶民に許可された唯一の旅でした。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_510",
+      "category": "shrine",
+      "difficulty": "easy",
+      "question": "金刀比羅宮は何の山の東斜面に鎮座していますか？",
+      "choices": [
+        "A. 飯野山",
+        "B. 象頭山",
+        "C. 讃岐富士",
+        "D. 五色台"
+      ],
+      "answer": "B",
+      "explanation": "金刀比羅宮は象に似た形の象頭山の東斜面に鎮座しています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_511",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の奥社道の通常の開門時間は何時から何時までですか？",
+      "choices": [
+        "A. 7時〜17時",
+        "B. 8時〜16時",
+        "C. 9時〜16時半",
+        "D. 10時〜15時"
+      ],
+      "answer": "C",
+      "explanation": "奥社道の通常開門は9時〜16時半です。7月12日〜9月30日は7時〜16時半に延長されます。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_guide2)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_512",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の表書院の障壁画を描いた画家は円山応挙ともう2人は誰ですか？",
+      "choices": [
+        "A. 狩野探幽と尾形光琳",
+        "B. 村田丹陵と森寛斎",
+        "C. 長谷川等伯と雪舟",
+        "D. 横山大観と下村観山"
+      ],
+      "answer": "B",
+      "explanation": "表書院の障壁画は円山応挙、村田丹陵、森寛斎の3人が描いています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_museum)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_513",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の宝物館に収蔵されている重要文化財の仏像は何ですか？",
+      "choices": [
+        "A. 阿弥陀如来坐像",
+        "B. 十一面観音立像",
+        "C. 薬師如来立像",
+        "D. 不動明王立像"
+      ],
+      "answer": "B",
+      "explanation": "宝物館には重要文化財の十一面観音立像が収蔵されています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_museum)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_514",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "高橋由一館では27点の収蔵作品のうち、常時何点程度を展示していますか？",
+      "choices": [
+        "A. 約10点",
+        "B. 約20点",
+        "C. 全27点",
+        "D. 約5点"
+      ],
+      "answer": "B",
+      "explanation": "27点の収蔵作品から約20点を選んで展示し、定期的に入れ替えを行っています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_museum)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_515",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の博物館3施設（表書院・宝物館・高橋由一館）で写真撮影はできますか？",
+      "choices": [
+        "A. 全施設で禁止",
+        "B. 表書院のみ可",
+        "C. 全施設で撮影可",
+        "D. 宝物館のみ可"
+      ],
+      "answer": "C",
+      "explanation": "3施設の展示室で通年写真撮影が可能になりました。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_museum)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_516",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の青銅灯籠を制作したのは誰ですか？",
+      "choices": [
+        "A. 大谷相模掾",
+        "B. 高村光雲",
+        "C. 雨宮治郎",
+        "D. 朝倉文夫"
+      ],
+      "answer": "A",
+      "explanation": "青銅灯籠は大坂の商人が奉納し、大谷相模掾が制作しました。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_history)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_517",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の例大祭で行列を率いる人物は何と呼ばれますか？",
+      "choices": [
+        "A. 神主",
+        "B. お頭人様",
+        "C. 大宮司",
+        "D. 行列長"
+      ],
+      "answer": "B",
+      "explanation": "例大祭の行列は「お頭人様」が率います。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_history)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_518",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の蹴鞠は何に指定されていますか？",
+      "choices": [
+        "A. 国指定重要無形文化財",
+        "B. 県無形民俗文化財",
+        "C. 世界無形文化遺産",
+        "D. 国選択無形民俗文化財"
+      ],
+      "answer": "B",
+      "explanation": "蹴鞠は県無形民俗文化財に指定されています。現在は鞠庭手入れのため公開が一時休止中です。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_history)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_519",
+      "category": "shrine",
+      "difficulty": "easy",
+      "question": "金刀比羅宮ではペットを連れて参拝できますか？",
+      "choices": [
+        "A. 全面禁止",
+        "B. 犬のみ許可（建物内は不可）",
+        "C. 全てのペット可",
+        "D. 猫のみ許可"
+      ],
+      "answer": "B",
+      "explanation": "こんぴら狗の習俗に鑑み、ペット同伴での参拝を特別に許可しています。ただし社殿はじめ建物内への立入は不可です。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_dog)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_520",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "2022年4月29日、門前町から一人で金刀比羅宮に参拝した犬の名前は？",
+      "choices": [
+        "A. ポチ",
+        "B. ゲン",
+        "C. むつき",
+        "D. こんぴら"
+      ],
+      "answer": "B",
+      "explanation": "2022年4月29日、門前町の「ゲン」くんが一人で参拝し、巫女に保護されました。家族のコメント：「朝、家出して、こんぴらさんに参拝してました。」（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_dog)）",
+      "source": "https://www.konpira.or.jp/",
+      "reviewed": false,
+      "enabled": true
     }
   ]
 }
