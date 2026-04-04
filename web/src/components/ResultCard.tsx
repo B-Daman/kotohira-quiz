@@ -1,0 +1,117 @@
+import type { Question, AnswerRecord } from "../types";
+import { isKotohiraQuestion, isEnglishQuestion } from "../types";
+
+function EnglishExplanation({
+  explanation,
+  pronunciation,
+}: {
+  explanation: string;
+  pronunciation?: string;
+}) {
+  // "word = 意味。例: English sentence.（日本語訳）"
+  // → 答え行と例文行に分割
+  const exampleMatch = explanation.match(
+    /^(.+?)(?:。\s*例:\s*|。\s*例：\s*)(.+)$/,
+  );
+
+  const meaningLine = exampleMatch ? exampleMatch[1] : explanation;
+  const exampleLine = exampleMatch ? exampleMatch[2] : null;
+
+  return (
+    <>
+      <p className="text-sm text-gray-500 mb-1 font-bold">
+        💡 答え
+      </p>
+      <p className="text-gray-700 font-medium">
+        {meaningLine}
+      </p>
+      {pronunciation && (
+        <p className="text-sm text-gray-400 italic mt-1">
+          発音: {pronunciation}
+        </p>
+      )}
+      {exampleLine && (
+        <>
+          <p className="text-sm text-gray-500 mt-3 mb-1 font-bold">
+            📝 例文
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            {exampleLine}
+          </p>
+        </>
+      )}
+    </>
+  );
+}
+
+interface Props {
+  question: Question;
+  answer: AnswerRecord;
+  onNext: () => void;
+  isLast: boolean;
+}
+
+export function ResultCard({
+  question,
+  answer,
+  onNext,
+  isLast,
+}: Props) {
+  const isKotohira = isKotohiraQuestion(question);
+  const accentColor = isKotohira ? "#D4A574" : "#5B8DEF";
+
+  return (
+    <div className="w-full max-w-lg mx-auto">
+      <div
+        className={`text-center text-4xl mb-4 ${
+          answer.correct ? "animate-bounce" : ""
+        }`}
+      >
+        {answer.correct ? "✅" : "❌"}
+      </div>
+
+      <h2
+        className={`text-2xl font-bold text-center mb-2 ${
+          answer.correct ? "text-green-600" : "text-red-500"
+        }`}
+      >
+        {answer.correct ? "正解！" : "不正解…"}
+      </h2>
+
+      {!answer.correct && (
+        <p className="text-center text-gray-600 mb-4">
+          正解は <strong>{question.answer}</strong>
+        </p>
+      )}
+
+      <div
+        className="rounded-lg p-4 mb-6"
+        style={{ backgroundColor: `${accentColor}15` }}
+      >
+        {isEnglishQuestion(question) ? (
+          <EnglishExplanation
+            explanation={question.explanation}
+            pronunciation={question.pronunciation}
+          />
+        ) : (
+          <>
+            <p className="text-sm text-gray-500 mb-1 font-bold">
+              💡 解説
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              {question.explanation}
+            </p>
+          </>
+        )}
+      </div>
+
+      <button
+        onClick={onNext}
+        className="w-full py-3 rounded-lg text-white font-bold text-lg transition-all hover:opacity-90 active:scale-[0.98]"
+        style={{ backgroundColor: accentColor }}
+      >
+        {isLast ? "結果を見る" : "次の問題へ →"}
+      </button>
+    </div>
+  );
+}
