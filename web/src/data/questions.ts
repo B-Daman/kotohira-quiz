@@ -14,9 +14,10 @@ let cache: QuestionCache | null = null;
 export async function loadAllQuestions(): Promise<QuestionCache> {
   if (cache) return cache;
 
+  const base = import.meta.env.BASE_URL;
   const [kotohiraRes, englishRes] = await Promise.all([
-    fetch("/data/kotohira_questions.json"),
-    fetch("/data/english_questions.json"),
+    fetch(`${base}data/kotohira_questions.json`),
+    fetch(`${base}data/english_questions.json`),
   ]);
 
   if (!kotohiraRes.ok || !englishRes.ok) {
