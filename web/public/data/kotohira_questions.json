@@ -8550,7 +8550,7 @@
       "explanation": "個人祈祷の初穂料は1件5,000円です。団体祈祷は1人1,000円（10名以上）。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
       "source": "https://www.konpira.or.jp/",
       "reviewed": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_504",
@@ -8737,7 +8737,7 @@
       "explanation": "27点の収蔵作品から約20点を選んで展示し、定期的に入れ替えを行っています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
       "source": "https://www.konpira.or.jp/",
       "reviewed": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_515",
@@ -8941,7 +8941,7 @@
       "explanation": "海上安全御守（ミサンガ型・ステッカー型）は令和8年4月1日より1,000円に改定されます。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
       "source": "https://www.konpira.or.jp/",
       "reviewed": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_527",
@@ -9066,15 +9066,15 @@
       "id": "kotohira_534",
       "category": "shrine",
       "difficulty": "medium",
-      "question": "金刀比羅宮の御本宮から奥社までの所要時間は片道どのくらいですか？",
+      "question": "金刀比羅宮の御本宮から奥社までの石段は何段ありますか？",
       "choices": [
-        "A. 約20分",
-        "B. 約30分",
-        "C. 約45分",
-        "D. 約1時間"
+        "A. 385段",
+        "B. 483段",
+        "C. 583段",
+        "D. 683段"
       ],
-      "answer": "D",
-      "explanation": "御本宮から奥社までは片道約1時間かかります。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "answer": "C",
+      "explanation": "御本宮（785段）から奥社（1,368段）までは583段あります。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
       "source": "https://www.konpira.or.jp/",
       "reviewed": false,
       "enabled": true
@@ -9094,7 +9094,7 @@
       "explanation": "お問い合わせ電話番号は0877-75-2121です。午後5時以降は翌日に順次対応。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
       "source": "https://www.konpira.or.jp/",
       "reviewed": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_536",
