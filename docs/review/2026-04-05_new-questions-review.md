@@ -134,7 +134,7 @@
 - D. 10時〜15時
 
 解説: 奥社道の通常開門は9時〜16時半です。7月12日〜9月30日は7時〜16時半に延長されます。
-出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_guide2)
+出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)
 
 ---
 
@@ -146,7 +146,7 @@
 - D. 横山大観と下村観山
 
 解説: 表書院の障壁画は円山応挙、村田丹陵、森寛斎の3人が描いています。
-出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_museum)
+出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)
 
 ---
 
@@ -158,7 +158,7 @@
 - D. 不動明王立像
 
 解説: 宝物館には重要文化財の十一面観音立像が収蔵されています。
-出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_museum)
+出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)
 
 ---
 
@@ -170,7 +170,7 @@
 - D. 約5点
 
 解説: 27点の収蔵作品から約20点を選んで展示し、定期的に入れ替えを行っています。
-出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_museum)
+出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)
 
 ---
 
@@ -182,7 +182,7 @@
 - D. 宝物館のみ可
 
 解説: 3施設の展示室で通年写真撮影が可能になりました。
-出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_museum)
+出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)
 
 ---
 
@@ -194,7 +194,7 @@
 - D. 朝倉文夫
 
 解説: 青銅灯籠は大坂の商人が奉納し、大谷相模掾が制作しました。
-出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_history)
+出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)
 
 ---
 
@@ -206,7 +206,7 @@
 - D. 行列長
 
 解説: 例大祭の行列は「お頭人様」が率います。
-出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_history)
+出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)
 
 ---
 
@@ -218,7 +218,7 @@
 - D. 国選択無形民俗文化財
 
 解説: 蹴鞠は県無形民俗文化財に指定されています。現在は鞠庭手入れのため公開が一時休止中です。
-出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_history)
+出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)
 
 ---
 
@@ -230,7 +230,7 @@
 - D. 猫のみ許可
 
 解説: こんぴら狗の習俗に鑑み、ペット同伴での参拝を特別に許可しています。ただし社殿はじめ建物内への立入は不可です。
-出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_dog)
+出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)
 
 ---
 
@@ -242,4 +242,4 @@
 - D. こんぴら
 
 解説: 2022年4月29日、門前町の「ゲン」くんが一人で参拝し、巫女に保護されました。家族のコメント：「朝、家出して、こんぴらさんに参拝してました。」
-出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/?stageID=hp_visit_dog)
+出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)
