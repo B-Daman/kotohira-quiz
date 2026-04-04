@@ -8250,15 +8250,15 @@
       "id": "kotohira_486",
       "category": "gourmet",
       "difficulty": "hard",
-      "question": "灸まんの製造元の正式名称は何ですか？",
+      "question": "灸まんの製造元の会社名は何ですか？",
       "choices": [
-        "A. 灸まん本舗金丸屋",
-        "B. 灸まん本舗石段や",
-        "C. 灸まん本舗参道堂",
-        "D. 灸まん本舗琴平屋"
+        "A. 株式会社金丸屋",
+        "B. 株式会社こんぴら堂",
+        "C. 株式会社参道堂",
+        "D. 株式会社琴平屋"
       ],
       "answer": "B",
-      "explanation": "灸まんの製造元の正式名称は「灸まん本舗石段や」（株式会社こんぴら堂）です。（出典: [https://kyuman.co.jp/company.html](https://kyuman.co.jp/company.html)）",
+      "explanation": "灸まんの製造元は株式会社こんぴら堂です。店舗名は「灸まん本舗石段や」。（出典: [灸まん本舗石段や](https://kyuman.co.jp/company.html)）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true

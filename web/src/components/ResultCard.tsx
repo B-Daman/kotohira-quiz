@@ -26,6 +26,43 @@ function RichText({ text }: { text: string }) {
   );
 }
 
+function splitSource(text: string): {
+  body: string;
+  source: { label: string; url: string } | null;
+} {
+  // （出典: [label](url)） を分離
+  const m = text.match(
+    /（出典: \[([^\]]+)\]\(([^)]+)\)）$/,
+  );
+  if (m) {
+    return {
+      body: text.replace(m[0], "").trim(),
+      source: { label: m[1], url: m[2] },
+    };
+  }
+  return { body: text, source: null };
+}
+
+function SourceLink({
+  source,
+}: {
+  source: { label: string; url: string };
+}) {
+  return (
+    <p className="text-xs text-gray-400 mt-2">
+      📎 出典:{" "}
+      <a
+        href={source.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-400 underline"
+      >
+        {source.label}
+      </a>
+    </p>
+  );
+}
+
 function EnglishExplanation({
   explanation,
   pronunciation,
@@ -119,14 +156,24 @@ export function ResultCard({
             pronunciation={question.pronunciation}
           />
         ) : (
-          <>
-            <p className="text-sm text-gray-500 mb-1 font-bold">
-              💡 解説
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              <RichText text={question.explanation} />
-            </p>
-          </>
+          (() => {
+            const { body, source } = splitSource(
+              question.explanation,
+            );
+            return (
+              <>
+                <p className="text-sm text-gray-500 mb-1 font-bold">
+                  💡 解説
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  <RichText text={body} />
+                </p>
+                {source && (
+                  <SourceLink source={source} />
+                )}
+              </>
+            );
+          })()
         )}
       </div>
 
