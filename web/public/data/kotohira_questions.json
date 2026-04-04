@@ -1189,7 +1189,7 @@
       "explanation": "琴平町のご当地ビールは「こんぴらビール」です。地ビールとして親しまれています。",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_071",
@@ -8108,7 +8108,7 @@
       "explanation": "琴平町ではこんぴらビールという地ビールブランドが楽しめます。地元で醸造されたビールです。",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_478",
