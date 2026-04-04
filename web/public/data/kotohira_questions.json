@@ -1033,7 +1033,7 @@
         "D. 11:30〜12:00の30分間"
       ],
       "answer": "B",
-      "explanation": "大庄屋製麺は12:00〜12:10のわずか10分間のみ営業しています。価格は200円という驚きの安さです。",
+      "explanation": "大庄屋製麺は12:00〜12:10のわずか10分間のみ営業しています。価格は200円という驚きの安さです。（出典: https://www.osyoya.com/10pun.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -1050,7 +1050,7 @@
         "D. 500円"
       ],
       "answer": "B",
-      "explanation": "大庄屋製麺のうどんは200円です。営業時間は12:00〜12:10のわずか10分間という珍しいお店です。",
+      "explanation": "大庄屋製麺のうどんは200円です。営業時間は12:00〜12:10のわずか10分間という珍しいお店です。（出典: https://www.osyoya.com/10pun.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -1067,7 +1067,7 @@
         "D. 陶芸体験"
       ],
       "answer": "A",
-      "explanation": "中野うどん学校ではうどん打ち体験ができます。年中無休で営業しており、琴平の人気観光スポットです。",
+      "explanation": "中野うどん学校ではうどん打ち体験ができます。開校時間9:00〜15:00。（出典: https://www.nakanoya.net/nakanoudon/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -1084,7 +1084,7 @@
         "D. 約600年"
       ],
       "answer": "C",
-      "explanation": "虎屋うどんは築約400年の歴史ある建物で営業しています。琴平町の老舗うどん店です。",
+      "explanation": "虎屋うどんは創業400年以上の歴史があります。2023年に建て替えリニューアルオープンしました。（出典: https://www.kotohirakankou.jp/gourmet/udon/entry-143.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -1101,7 +1101,7 @@
         "D. 431段目"
       ],
       "answer": "B",
-      "explanation": "吉田家はこんぴらさんの92段目に位置しています。石段を登る途中に立ち寄れるお店です。",
+      "explanation": "吉田家はこんぴらさんの92段目に位置しています。営業時間は9:00〜16:00。（出典: https://www.kotohirakankou.jp/navi/entry-68.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -1118,7 +1118,7 @@
         "D. 銀座ウエスト"
       ],
       "answer": "C",
-      "explanation": "CAFE神椿は資生堂パーラーが運営しています。名物はふわふわパンケーキです。",
+      "explanation": "CAFE&レストラン神椿は資生堂パーラーが運営しています。金刀比羅宮の境内500段目にあり、名物は神椿パフェです。（出典: https://kamitsubaki.com/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -1129,13 +1129,13 @@
       "difficulty": "easy",
       "question": "CAFE神椿の名物スイーツは何ですか？",
       "choices": [
-        "A. かき氷",
-        "B. ティラミス",
-        "C. ふわふわパンケーキ",
-        "D. 抹茶パフェ"
+        "A. チーズタルト",
+        "B. カヌレ",
+        "C. 神椿パフェ",
+        "D. わらび餅"
       ],
       "answer": "C",
-      "explanation": "CAFE神椿の名物はふわふわパンケーキです。資生堂パーラーが運営するカフェとして人気を集めています。",
+      "explanation": "CAFE神椿の名物は神椿パフェです。資生堂パーラーが運営するカフェとして人気を集めています。（出典: https://kamitsubaki.com/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -1152,7 +1152,7 @@
         "D. 菓子店"
       ],
       "answer": "C",
-      "explanation": "金陵は江戸時代からの老舗酒造です。琴平を代表する日本酒の蔵元として知られています。",
+      "explanation": "金陵は寛政元年（1789年）創業の老舗酒造です。西野金陵株式会社が琴平で醸造しています。（出典: https://www.nishino-kinryo.co.jp/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -1169,7 +1169,7 @@
         "D. 22:00"
       ],
       "answer": "D",
-      "explanation": "琴平うどん食堂紡麦は22:00まで営業しています。夜遅くまでうどんが食べられる貴重なお店です。",
+      "explanation": "琴平うどん食堂紡麦は注文22:00まで営業しています。夜はうどん以外のメニューも楽しめます。（出典: https://www.shikoku-np.co.jp/udon/shop/1088）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4093,7 +4093,7 @@
         "D. 駐車場なし"
       ],
       "answer": "C",
-      "explanation": "CAFE神椿には13台分の駐車場があります。資生堂パーラーが運営するカフェです。",
+      "explanation": "CAFE神椿には13台分の駐車場があります。資生堂パーラーが運営し、専用道路からアクセスできます。（出典: https://kamitsubaki.com/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4113,7 +4113,7 @@
       "explanation": "カフェブリュは榎井駅から徒歩1分の場所にあります。",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_243",
@@ -4127,7 +4127,7 @@
         "D. 手作りチーズケーキ"
       ],
       "answer": "B",
-      "explanation": "アカボシ珈琲店の名物は手作りロールケーキです。",
+      "explanation": "アカボシ珈琲店の名物はカヌレです。毎日約500個焼き上げており、県外からも買いに来るファンがいます。（出典: https://tabelog.com/kagawa/A3703/A370302/37008520/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4144,7 +4144,7 @@
         "D. 金毘羅"
       ],
       "answer": "C",
-      "explanation": "金陵のプレミアム大吟醸は「濃藍」です。普及酒は「さぬきよいまい」という銘柄です。",
+      "explanation": "金陵の「濃藍」は大瀬戸米を使用した純米吟醸です。（出典: https://www.nishino-kinryo.co.jp/store/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4161,7 +4161,7 @@
         "D. 象頭"
       ],
       "answer": "B",
-      "explanation": "金陵の普及酒は「さぬきよいまい」です。プレミアム大吟醸は「濃藍」です。",
+      "explanation": "金陵の「さぬきよいまい」は香川県育成の酒米品種を使った銘柄です。（出典: https://www.nishino-kinryo.co.jp/store/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4178,7 +4178,7 @@
         "D. 肉うどん"
       ],
       "answer": "B",
-      "explanation": "むさしの名物はカレーうどんです。琴平の人気うどん店の一つです。",
+      "explanation": "むさしの名物はカレーうどんです。濃厚なルーが特徴で琴平の人気うどん店です。（出典: https://www.udon-musashi.com/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4198,7 +4198,7 @@
       "explanation": "天満屋の営業時間は11:00〜15:00です。天ぷら専門店です。",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_248",
@@ -4215,7 +4215,7 @@
       "explanation": "天満屋は天ぷら専門店です。営業時間は11:00〜15:00です。",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_249",
@@ -4232,7 +4232,7 @@
       "explanation": "BAKE CHEESE TARTは北海道発のチーズタルト専門店です。賞味期限は3日間です。",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_250",
@@ -4249,7 +4249,7 @@
       "explanation": "BAKE CHEESE TARTの賞味期限は3日間です。北海道発のチーズタルト専門店です。",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_251",
@@ -4266,7 +4266,7 @@
       "explanation": "串カツてんてこの定休日は第2・第4水曜日です。",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_252",
@@ -4280,7 +4280,7 @@
         "D. 年中無休"
       ],
       "answer": "D",
-      "explanation": "中野うどん学校は年中無休で営業しています。うどん打ち体験ができる人気の観光スポットです。",
+      "explanation": "中野うどん学校は年中無休で営業しています。うどん打ち体験ができる人気の観光スポットです。（出典: https://www.nakanoya.net/nakanoudon/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4289,15 +4289,15 @@
       "id": "kotohira_253",
       "category": "gourmet",
       "difficulty": "medium",
-      "question": "中野うどん学校の普通車の駐車場は何台分ありますか？",
+      "question": "中野うどん学校の駐車場はおよそ何台分ありますか？",
       "choices": [
         "A. 10台",
-        "B. 30台",
-        "C. 50台",
+        "B. 20台",
+        "C. 30台",
         "D. 100台"
       ],
       "answer": "C",
-      "explanation": "中野うどん学校には普通車50台分の駐車場があります。大型車は20台分あります。",
+      "explanation": "中野うどん学校には約30台分の駐車場があります。（出典: https://www.nakanoya.net/access/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4314,7 +4314,7 @@
         "D. テイクアウトのみ"
       ],
       "answer": "A",
-      "explanation": "虎屋うどんは築約400年の建物で営業しており、宿泊も可能です。年中無休で営業しています。",
+      "explanation": "虎屋は創業400年以上の老舗で、別館では宿泊も可能です。（出典: https://www.kotohirakankou.jp/gourmet/udon/entry-143.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4331,7 +4331,7 @@
         "D. コースメニュー"
       ],
       "answer": "C",
-      "explanation": "琴平うどん食堂紡麦は夜は居酒屋メニューも提供しています。22:00まで営業しています。",
+      "explanation": "琴平うどん食堂紡麦は夜は居酒屋メニューも提供しています。注文22:00まで。（出典: https://www.shikoku-np.co.jp/udon/shop/1088）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4348,7 +4348,7 @@
         "D. 本店のみ"
       ],
       "answer": "B",
-      "explanation": "こんぴらうどんには工場店と参道店があります。",
+      "explanation": "こんぴらうどんには工場店と参道店があります。参道店は築100年以上の登録有形文化財の建物です。（出典: https://www.kotohirakankou.jp/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4365,7 +4365,7 @@
         "D. コーヒー豆専門店"
       ],
       "answer": "B",
-      "explanation": "豆吉本舗は豆菓子専門店です。軒先カフェも併設されています。",
+      "explanation": "豆吉本舗は豆菓子専門店です。試食が充実しており、参道の人気店です。（出典: https://www.mame-kichi.jp/store/show/8）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4374,15 +4374,15 @@
       "id": "kotohira_258",
       "category": "gourmet",
       "difficulty": "hard",
-      "question": "旧万本舗石段屋本店は元々どのような施設でしたか？",
+      "question": "灸まん本舗石段やは元々どのような施設でしたか？",
       "choices": [
-        "A. 茶屋",
-        "B. 旅籠",
-        "C. 酒蔵",
-        "D. 寺院"
+        "A. 酒蔵",
+        "B. 旅籠（はたご）",
+        "C. 寺院",
+        "D. 醤油蔵"
       ],
       "answer": "B",
-      "explanation": "旧万本舗石段屋本店は旅籠（はたご）を改装したお店です。江戸時代に創業しました。",
+      "explanation": "灸まん本舗石段やは、元は明和2年（1765年）創業の旅籠を茶店に転業したお店です。（出典: https://kyuman.co.jp/company.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4399,7 +4399,7 @@
         "D. 明治時代"
       ],
       "answer": "C",
-      "explanation": "金陵は江戸時代からの老舗酒造です。琴平を代表する日本酒の蔵元として知られています。",
+      "explanation": "金陵は寛政元年（1789年）創業の老舗酒造です。金刀比羅宮の御神酒醸造元として知られています。（出典: https://www.nishino-kinryo.co.jp/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -4416,7 +4416,7 @@
         "D. 立ち食いスタイル"
       ],
       "answer": "B",
-      "explanation": "大庄屋製麺は12:00〜12:10のわずか10分間のみ営業しているのが最大の特徴です。価格は200円です。",
+      "explanation": "大庄屋製麺は12:00〜12:10のわずか10分間のみ営業しているのが最大の特徴です。価格は200円です。（出典: https://www.osyoya.com/10pun.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -5810,7 +5810,7 @@
         "D. 約100年"
       ],
       "answer": "C",
-      "explanation": "名物かまどの創業は70余年前です。全国菓子大博覧会で「橘花栄光章」を受賞しています。",
+      "explanation": "名物かまどは坂出市発祥の和菓子で、全国菓子大博覧会で受賞歴があります。（出典: https://ja.wikipedia.org/wiki/名物かまど）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -5929,7 +5929,7 @@
         "D. お好み焼き"
       ],
       "answer": "B",
-      "explanation": "琴平町は讃岐うどんが最も有名なご当地グルメです。多くのうどん店が集まっています。",
+      "explanation": "琴平町は讃岐うどんが最も有名なご当地グルメです。多くのうどん店が集まっています。（出典: https://www.kotohirakankou.jp/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -6116,7 +6116,7 @@
         "D. こんぴらうどん"
       ],
       "answer": "C",
-      "explanation": "琴平うどん食堂紡麦は22:00まで営業しており、夜遅くまでうどんが食べられます。",
+      "explanation": "琴平うどん食堂紡麦は注文22:00まで営業しており、夜遅くまでうどんが食べられます。（出典: https://www.shikoku-np.co.jp/udon/shop/1088）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -6235,7 +6235,7 @@
         "D. 陶芸体験"
       ],
       "answer": "B",
-      "explanation": "金陵の郷では日本酒の試飲と白壁酒蔵の見学が楽しめます。入場無料です。",
+      "explanation": "金陵の郷では日本酒の試飲と白壁酒蔵の見学が楽しめます。入場無料です。（出典: https://www.nishino-kinryo.co.jp/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -6354,7 +6354,7 @@
         "D. むさし"
       ],
       "answer": "C",
-      "explanation": "吉田家はこんぴらさんの92段目に位置しており、石段参拝の途中に立ち寄れます。",
+      "explanation": "吉田家はこんぴらさんの92段目に位置しており、石段参拝の途中に立ち寄れます。（出典: https://www.kotohirakankou.jp/navi/entry-68.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -6490,7 +6490,7 @@
         "D. 30台"
       ],
       "answer": "C",
-      "explanation": "中野うどん学校には大型バス20台分の駐車場があります。普通車は50台分です。",
+      "explanation": "中野うどん学校には大型バス用の駐車場があります。（出典: https://www.nakanoya.net/access/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -6609,7 +6609,7 @@
         "D. 年中無休"
       ],
       "answer": "D",
-      "explanation": "虎屋うどんは年中無休で営業しています。築約400年の建物で宿泊も可能です。",
+      "explanation": "虎屋うどんは年中無休で営業しています。創業400年以上の老舗です。（出典: https://www.kotohirakankou.jp/gourmet/udon/entry-143.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -6762,7 +6762,7 @@
         "D. 夏季限定"
       ],
       "answer": "B",
-      "explanation": "吉田家は年中無休で営業しています。こんぴらさんの92段目に位置しています。",
+      "explanation": "吉田家は年中無休で営業しています。こんぴらさんの92段目に位置。（出典: https://www.kotohirakankou.jp/navi/entry-68.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -6881,7 +6881,7 @@
         "D. コンビニ"
       ],
       "answer": "B",
-      "explanation": "加美代飴は金刀比羅宮境内で五人百姓のみが販売を許可されています。",
+      "explanation": "加美代飴は金刀比羅宮境内で五人百姓のみが販売を許可されている、700年以上の歴史を持つゆず風味の飴です。（出典: https://www.ikesyouten.com/kamiyoame.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -7034,7 +7034,7 @@
         "D. むさし"
       ],
       "answer": "B",
-      "explanation": "大庄屋製麺は200円と琴平町で最も安いうどんが食べられます。ただし営業は12:00〜12:10の10分間のみです。",
+      "explanation": "大庄屋製麺は200円と琴平町で最も安いうどんが食べられます。ただし営業は12:00〜12:10の10分間のみです。（出典: https://www.osyoya.com/10pun.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -7153,7 +7153,7 @@
         "D. 旧金丸座跡地"
       ],
       "answer": "C",
-      "explanation": "CAFE神椿は金刀比羅宮の境内にあります。資生堂パーラーが運営し、ふわふわパンケーキが名物です。",
+      "explanation": "CAFE神椿は金刀比羅宮の境内500段目にあります。資生堂パーラーが運営し、神椿パフェが名物です。（出典: https://kamitsubaki.com/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -7272,7 +7272,7 @@
         "D. 年中無休"
       ],
       "answer": "D",
-      "explanation": "吉田家は年中無休で営業しています。こんぴらさんの92段目に位置しています。",
+      "explanation": "吉田家は年中無休で営業しています。こんぴらさんの92段目に位置。（出典: https://www.kotohirakankou.jp/navi/entry-68.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -7391,7 +7391,7 @@
         "D. CAFE神椿"
       ],
       "answer": "B",
-      "explanation": "大庄屋製麺は12:00〜12:10のわずか10分間の営業で、琴平町で最も営業時間が短い店です。",
+      "explanation": "大庄屋製麺は12:00〜12:10のわずか10分間の営業で、琴平町で最も営業時間が短い店です。（出典: https://www.osyoya.com/10pun.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -7510,7 +7510,7 @@
         "D. ういろう"
       ],
       "answer": "B",
-      "explanation": "名物かまどは琴平町を代表する和菓子の一つで、全国菓子大博覧会で橘花栄光章を受賞しています。",
+      "explanation": "名物かまどは香川県を代表する和菓子の一つです。（出典: https://www.kotohirakankou.jp/souvenir/shop/entry-116.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -7714,7 +7714,7 @@
         "D. カステラ、煎餅、羊羹"
       ],
       "answer": "A",
-      "explanation": "琴平町の代表的なお菓子のお土産は加美代飴（五人百姓）、名物かまど、旧万（きゅうまん）です。",
+      "explanation": "琴平町の代表的なお菓子は加美代飴（五人百姓）、名物かまど、灸まん（きゅうまん）です。（出典: https://www.kotohirakankou.jp/souvenir/shop/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -7833,7 +7833,7 @@
         "D. 豆吉本舗"
       ],
       "answer": "C",
-      "explanation": "CAFE神椿は資生堂パーラーが運営するカフェで、ふわふわパンケーキが名物です。",
+      "explanation": "CAFE&レストラン神椿は資生堂パーラーが運営するカフェで、神椿パフェが名物です。（出典: https://kamitsubaki.com/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -7986,7 +7986,7 @@
         "D. こんぴらうどん"
       ],
       "answer": "B",
-      "explanation": "中野うどん学校ではうどん打ち体験ができ、自分で打ったうどんを食べることもできます。",
+      "explanation": "中野うどん学校ではうどん打ち体験ができ、自分で打ったうどんを食べることもできます。（出典: https://www.nakanoya.net/nakanoudon/）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -8250,15 +8250,15 @@
       "id": "kotohira_486",
       "category": "gourmet",
       "difficulty": "hard",
-      "question": "旧万の正式名称は何ですか？",
+      "question": "灸まんの製造元の正式名称は何ですか？",
       "choices": [
-        "A. 旧万菓子店",
-        "B. 旧万本舗石段屋本店",
-        "C. 旧万堂",
-        "D. 旧万和菓子店"
+        "A. 灸まん本舗金丸屋",
+        "B. 灸まん本舗石段や",
+        "C. 灸まん本舗参道堂",
+        "D. 灸まん本舗琴平屋"
       ],
       "answer": "B",
-      "explanation": "旧万の正式名称は旧万本舗石段屋本店です。江戸時代創業で、旅籠を改装したお店です。",
+      "explanation": "灸まんの製造元の正式名称は「灸まん本舗石段や」（株式会社こんぴら堂）です。（出典: https://kyuman.co.jp/company.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
@@ -8377,7 +8377,7 @@
         "D. むさし"
       ],
       "answer": "B",
-      "explanation": "虎屋うどんは築約400年の建物で、うどん店と宿泊施設を兼ねています。",
+      "explanation": "虎屋は創業400年以上の老舗で、うどん店のほか別館で宿泊もできます。（出典: https://www.kotohirakankou.jp/gourmet/udon/entry-143.html）",
       "source": "konpie-bot/knowledge_base/gourmet",
       "reviewed": true,
       "enabled": true
