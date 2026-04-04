@@ -1,6 +1,31 @@
 import type { Question, AnswerRecord } from "../types";
 import { isKotohiraQuestion, isEnglishQuestion } from "../types";
 
+function RichText({ text }: { text: string }) {
+  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
+  return (
+    <>
+      {parts.map((part, i) => {
+        const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+        if (m) {
+          return (
+            <a
+              key={i}
+              href={m[2]}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+              {m[1]}
+            </a>
+          );
+        }
+        return <span key={i}>{part}</span>;
+      })}
+    </>
+  );
+}
+
 function EnglishExplanation({
   explanation,
   pronunciation,
@@ -23,7 +48,7 @@ function EnglishExplanation({
         💡 答え
       </p>
       <p className="text-gray-700 font-medium">
-        {meaningLine}
+        <RichText text={meaningLine} />
       </p>
       {pronunciation && (
         <p className="text-sm text-gray-400 italic mt-1">
@@ -36,7 +61,7 @@ function EnglishExplanation({
             📝 例文
           </p>
           <p className="text-gray-700 leading-relaxed">
-            {exampleLine}
+            <RichText text={exampleLine} />
           </p>
         </>
       )}
@@ -99,7 +124,7 @@ export function ResultCard({
               💡 解説
             </p>
             <p className="text-gray-700 leading-relaxed">
-              {question.explanation}
+              <RichText text={question.explanation} />
             </p>
           </>
         )}
