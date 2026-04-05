@@ -11575,7 +11575,7 @@
       "answer": "B",
       "explanation": "金刀比羅宮は海の守り神であるため、航海安全祈願に関連した船の絵馬が特に多く奉納されています。（出典: [金刀比羅宮 絵馬堂](https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -11593,7 +11593,7 @@
       "explanation": "海洋冒険家・堀江謙一氏のモルツマーメイド号が金刀比羅宮に奉納され、現在は金毘羅庶民信仰資料収蔵庫で保存されています。（出典: [金刀比羅宮 絵馬堂](https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html",
       "reviewed": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_683",
@@ -11609,7 +11609,7 @@
       "answer": "B",
       "explanation": "絵馬堂は三穂津姫社の南側に南北2棟並んで配置されていました。江戸時代18世紀中頃に建てられたものです。（出典: [金刀比羅宮 絵馬堂](https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
