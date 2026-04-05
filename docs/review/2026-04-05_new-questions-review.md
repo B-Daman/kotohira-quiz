@@ -1118,6 +1118,29 @@
 
 ---
 
+# 高橋由一館ページから（kotohira_610〜613）4問
+
+出典: [金刀比羅宮 高橋由一館](https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm)
+
+### 既存問題にソースURL追記（3問）
+kotohira_507, 590, 594
+
+---
+
+## kotohira_610 | hard
+**Q: 高橋由一の代表作「鮭」「花魁」が所蔵されているのはどこ？** → **B. 東京藝術大学**（重要文化財）
+
+## kotohira_611 | hard
+**Q: 金刀比羅宮が高橋由一の油絵を購入したのは誰？** → **C. 琴陵宥常**（明治期の宮司）
+
+## kotohira_612 | hard
+**Q: 明治12年に金刀比羅宮で開催された博覧会の名前は？** → **B. 琴平山博覧会**（1879年3月1日〜6月15日）
+
+## kotohira_613 | hard
+**Q: 平成13年に宮司の屋敷から発見された高橋由一の作品は？** → **C. 琴陵宥常像**
+
+---
+
 # 奥社参拝ガイドから（kotohira_600〜607）8問
 
 出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)
