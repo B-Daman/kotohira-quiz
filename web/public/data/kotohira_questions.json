@@ -9433,7 +9433,7 @@
       "answer": "C",
       "explanation": "令和6年8月15日（2024年）に重要文化財に指定されました。答申は令和6年5月17日でした。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9450,7 +9450,7 @@
       "answer": "C",
       "explanation": "令和6年8月15日に12棟が重要文化財に指定されました。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9467,7 +9467,7 @@
       "answer": "C",
       "explanation": "御本宮拝殿は明治11年に建設されました。木造、入母屋造、檜皮葺の建物です。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9484,7 +9484,7 @@
       "answer": "D",
       "explanation": "御本宮は檜皮葺（ひわだぶき）です。総檜素木造りで蒔絵装飾が施されています。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9501,7 +9501,7 @@
       "answer": "B",
       "explanation": "明治7〜11年にかけて神仏分離に対応する形で現在の姿が創出されました。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9518,7 +9518,7 @@
       "answer": "B",
       "explanation": "金刀比羅宮の建物には丸金の神紋が施されています。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
