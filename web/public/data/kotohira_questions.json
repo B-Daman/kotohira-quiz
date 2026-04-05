@@ -10368,7 +10368,7 @@
       "answer": "B",
       "explanation": "高橋由一の代表作「鮭」「花魁」は東京藝術大学に所蔵されており、重要文化財に指定されています。（出典: [金刀比羅宮 高橋由一館](https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10385,7 +10385,7 @@
       "answer": "C",
       "explanation": "明治期の宮司・琴陵宥常が高橋由一の油絵27点を購入しました。（出典: [金刀比羅宮 高橋由一館](https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10402,7 +10402,7 @@
       "answer": "B",
       "explanation": "琴平山博覧会は明治12年（1879年）3月1日〜6月15日に開催されました。高橋由一が35点の油絵を奉納したことと関連しています。（出典: [金刀比羅宮 高橋由一館](https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10419,7 +10419,7 @@
       "answer": "C",
       "explanation": "平成13年（2001年）に「琴陵宥常像」が宮司の屋敷から発見されました。（出典: [金刀比羅宮 高橋由一館](https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
