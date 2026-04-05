@@ -8479,7 +8479,7 @@
         "D. 室町時代の天皇"
       ],
       "answer": "B",
-      "explanation": "崇徳天皇は平安時代末期の天皇で、保元の乱で讃岐に配流されました。金刀比羅宮にもう一柱の祭神として祀られています。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "explanation": "崇徳天皇は平安時代末期の天皇で、保元の乱で讃岐に配流されました。金刀比羅宮にもう一柱の祭神として祀られています。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）\n（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
@@ -9499,7 +9499,7 @@
         "D. 明治天皇の行幸"
       ],
       "answer": "B",
-      "explanation": "明治7〜11年にかけて神仏分離に対応する形で現在の姿が創出されました。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
+      "explanation": "明治7〜11年にかけて神仏分離に対応する形で現在の姿が創出されました。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）\n（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
       "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
       "reviewed": true,
       "enabled": true
@@ -10281,7 +10281,7 @@
         "D. 承久の乱"
       ],
       "answer": "B",
-      "explanation": "保元元年（1156年）の保元の乱に敗れた崇徳天皇は讃岐に配流されました。金刀比羅宮の白峰神社に祀られています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）\n（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
+      "explanation": "保元元年（1156年）の保元の乱に敗れた崇徳天皇は讃岐に配流されました。金刀比羅宮の白峰神社に祀られています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）\n（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）\n（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
@@ -11287,6 +11287,91 @@
       "explanation": "10月15日の焼払神事では、祝舎の建物を取り壊し、その用材や御幣などを焼払います。これで46日間の例大祭が終了します。（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html",
       "reviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_665",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "崇徳天皇が金刀比羅宮に合祀されたのは何年ですか？",
+      "choices": [
+        "A. 保元元年（1156年）",
+        "B. 永万元年（1165年）",
+        "C. 宝暦3年（1753年）",
+        "D. 明治元年（1868年）"
+      ],
+      "answer": "B",
+      "explanation": "永万元年（1165年）に崇徳天皇が相殿に合祀されました。（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200814_history/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_666",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "金刀比羅宮が「日本一社」の綸旨を賜ったのは何年ですか？",
+      "choices": [
+        "A. 宝暦3年（1753年）",
+        "B. 宝暦10年（1760年）",
+        "C. 明和4年（1767年）",
+        "D. 安永元年（1772年）"
+      ],
+      "answer": "B",
+      "explanation": "宝暦10年（1760年）5月に日本一社の綸旨を賜りました。宝暦3年（1753年）12月に勅願所に指定されています。（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200814_history/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_667",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "「金刀比羅宮」という名称になったのは何年ですか？",
+      "choices": [
+        "A. 江戸時代初期",
+        "B. 宝暦10年",
+        "C. 明治元年（1868年）",
+        "D. 大正元年"
+      ],
+      "answer": "C",
+      "explanation": "明治元年（1868年）の神仏混淆廃止に伴い「琴平神社」から「金刀比羅宮」に改称されました。（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200814_history/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_668",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "江戸時代に全国各地で形成された、金刀比羅宮への参拝を目的とした信仰集団を何と呼びますか？",
+      "choices": [
+        "A. 伊勢講",
+        "B. 金毘羅講",
+        "C. 富士講",
+        "D. 出雲講"
+      ],
+      "answer": "B",
+      "explanation": "江戸時代に金毘羅講が各地で形成され、こんぴら参りが庶民の憧れとなりました。（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200814_history/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_669",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "神代の頃、琴平山はどのような地形だったとされていますか？",
+      "choices": [
+        "A. 火山島",
+        "B. 瀬戸内海に浮かぶ島",
+        "C. 平野の丘",
+        "D. 海底の山"
+      ],
+      "answer": "B",
+      "explanation": "神代の頃、琴平山は瀬戸内海に浮かぶ島だったとされています。（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200814_history/article.htm",
+      "reviewed": false,
       "enabled": true
     }
   ]
