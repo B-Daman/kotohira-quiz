@@ -5487,7 +5487,7 @@
         "D. 宝物庫"
       ],
       "answer": "B",
-      "explanation": "南渡殿は金刀比羅宮境内の渡り廊下にあたる建物で、国指定重要文化財15件の一つです。",
+      "explanation": "南渡殿は金刀比羅宮境内の渡り廊下にあたる建物で、国指定重要文化財15件の一つです。 （出典: [金刀比羅宮 南渡殿](https://www.konpira.or.jp/articles_2025/20251203_south-connecting-corridor/article.html)）",
       "source": "konpie-bot/knowledge_base/shrine",
       "reviewed": true,
       "enabled": true
@@ -10607,6 +10607,23 @@
       "explanation": "三穂津姫社の拝殿は大社関棟造・檜皮葺です。本殿は王子造檜皮葺。（出典: [金刀比羅宮 三穂津姫社](https://www.konpira.or.jp/articles_2024/20240927_mihotsuhime-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20240927_mihotsuhime-shrine/article.html",
       "reviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_625",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の南渡殿はどこからどこを結ぶ廊下ですか？",
+      "choices": [
+        "A. 大門から旭社",
+        "B. 御本宮から三穂津姫社",
+        "C. 旭社から御本宮",
+        "D. 表書院から宝物館"
+      ],
+      "answer": "B",
+      "explanation": "南渡殿は御本宮から三穂津姫社まで南北に約40メートル延びる檜皮葺の廊下です。祭典時に祭員・舞人・巫女が参進する際に使用されます。（出典: [金刀比羅宮 南渡殿](https://www.konpira.or.jp/articles_2025/20251203_south-connecting-corridor/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2025/20251203_south-connecting-corridor/article.html",
+      "reviewed": false,
       "enabled": true
     }
   ]
