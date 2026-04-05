@@ -11488,7 +11488,7 @@
         "D. 金峯山寺"
       ],
       "answer": "B",
-      "explanation": "「丸金か京六か」の「丸金」は金毘羅（金刀比羅宮）、「京六」は京都の東西本願寺を指し、庶民の参拝先として人気を二分していました。（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
+      "explanation": "「丸金か京六か」の「丸金」は金毘羅（金刀比羅宮）、「京六」は京都の東西本願寺を指します。お伊勢参りと並んで庶民の憧れの参拝先でした。（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm",
       "reviewed": false,
       "enabled": true
@@ -11542,7 +11542,7 @@
       "explanation": "「こんぴら狗」は第58回日本児童文学者協会賞、第65回産経児童出版文化賞、第67回小学館児童出版文化賞を受賞しています。（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm",
       "reviewed": false,
-      "enabled": true
+      "enabled": false
     }
   ]
 }
