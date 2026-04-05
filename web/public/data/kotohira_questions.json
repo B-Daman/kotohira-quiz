@@ -9839,7 +9839,7 @@
         "D. 菅原道真"
       ],
       "answer": "B",
-      "explanation": "白峰神社の御祭神・崇徳天皇が詠んだ「瀬をはやみ 岩にせかるる 滝川の われても末に 逢はむとぞ思ふ」がデザインされています。（出典: [金刀比羅宮 授与品](https://www.konpira.or.jp/charms/article.php)）",
+      "explanation": "白峰神社の御祭神・崇徳天皇が詠んだ「瀬をはやみ 岩にせかるる 滝川の われても末に 逢はむとぞ思ふ」がデザインされています。（出典: [金刀比羅宮 授与品](https://www.konpira.or.jp/charms/article.php)）\n（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
       "source": "https://www.konpira.or.jp/charms/article.php",
       "reviewed": true,
       "enabled": true
@@ -10230,7 +10230,7 @@
         "D. 菅原道真命"
       ],
       "answer": "D",
-      "explanation": "白峰神社には崇徳天皇、待賢門院、大山祇神が祀られています。菅原道真命は菅原神社の祭神です。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "explanation": "白峰神社には崇徳天皇、待賢門院、大山祇神が祀られています。菅原道真命は菅原神社の祭神です。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）\n（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
@@ -10281,7 +10281,7 @@
         "D. 承久の乱"
       ],
       "answer": "B",
-      "explanation": "保元元年（1156年）の保元の乱に敗れた崇徳天皇は讃岐に配流されました。金刀比羅宮の白峰神社に祀られています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "explanation": "保元元年（1156年）の保元の乱に敗れた崇徳天皇は讃岐に配流されました。金刀比羅宮の白峰神社に祀られています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）\n（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
@@ -10709,6 +10709,74 @@
       "explanation": "御本宮の建築では枓栱に角材が用いられているのが特色です。（出典: [金刀比羅宮 御本宮](https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html",
       "reviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_631",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の白峰神社が建設されたのはいつですか？",
+      "choices": [
+        "A. 明治11年〜明治14年",
+        "B. 明治30年〜明治33年",
+        "C. 明治44年〜大正2年",
+        "D. 大正10年〜昭和2年"
+      ],
+      "answer": "C",
+      "explanation": "白峰神社は明治44年（1911年）から大正2年（1913年）にかけて建設されました。（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_632",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の白峰神社の付近は何と呼ばれていますか？",
+      "choices": [
+        "A. 桜馬場",
+        "B. 紅葉谷",
+        "C. 松風台",
+        "D. 梅林園"
+      ],
+      "answer": "B",
+      "explanation": "白峰神社の付近は「紅葉谷」と呼ばれ、秋には紅葉が楽しめます。（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_633",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の白峰神社に随神として木像が安置されている2人は誰ですか？",
+      "choices": [
+        "A. 源頼朝と源義経",
+        "B. 源爲義と源爲朝",
+        "C. 平清盛と平重盛",
+        "D. 藤原道長と藤原頼通"
+      ],
+      "answer": "B",
+      "explanation": "白峰神社には随神として源爲義と源爲朝の木像が安置されています。（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_634",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の白峰神社の例祭は何月何日ですか？",
+      "choices": [
+        "A. 5月10日",
+        "B. 7月7日",
+        "C. 8月26日",
+        "D. 10月10日"
+      ],
+      "answer": "C",
+      "explanation": "白峰神社の例祭は8月26日です。月次祭は毎月26日に行われます。（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html",
+      "reviewed": false,
       "enabled": true
     }
   ]
