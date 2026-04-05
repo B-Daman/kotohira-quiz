@@ -10793,7 +10793,7 @@
       "answer": "B",
       "explanation": "威徳巖は讃岐岩質安山岩の急斜面で、厳魂彦命の参籠跡です。上方には天狗とカラス天狗の彫物があります。（出典: [金刀比羅宮 厳魂神社](https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10810,7 +10810,7 @@
       "answer": "B",
       "explanation": "厳魂彦命は「死して永く当山を守護せん」と言い残し天狗と化して消え、のちに「金剛坊」として祀られています。（出典: [金刀比羅宮 厳魂神社](https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10827,7 +10827,7 @@
       "answer": "C",
       "explanation": "厳魂神社からは瀬戸大橋や讃岐富士（飯野山）が見えます。（出典: [金刀比羅宮 厳魂神社](https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
