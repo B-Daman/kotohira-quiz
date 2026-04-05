@@ -11560,6 +11560,57 @@
       "source": "https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm",
       "reviewed": true,
       "enabled": true
+    },
+    {
+      "id": "kotohira_681",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の絵馬堂に特に多く奉納されている絵馬の種類は何ですか？",
+      "choices": [
+        "A. 馬の絵馬",
+        "B. 船の絵馬",
+        "C. 武者絵",
+        "D. 美人画"
+      ],
+      "answer": "B",
+      "explanation": "金刀比羅宮は海の守り神であるため、航海安全祈願に関連した船の絵馬が特に多く奉納されています。（出典: [金刀比羅宮 絵馬堂](https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_682",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮に展示されていた海洋冒険家・堀江謙一氏の船の名前は何ですか？",
+      "choices": [
+        "A. サントリーマーメイド号",
+        "B. モルツマーメイド号",
+        "C. 太平洋ひとりぼっち号",
+        "D. アサヒマーメイド号"
+      ],
+      "answer": "B",
+      "explanation": "海洋冒険家・堀江謙一氏のモルツマーメイド号が金刀比羅宮に奉納され、現在は金毘羅庶民信仰資料収蔵庫で保存されています。（出典: [金刀比羅宮 絵馬堂](https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_683",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の絵馬堂は何棟ありましたか？",
+      "choices": [
+        "A. 1棟",
+        "B. 2棟",
+        "C. 3棟",
+        "D. 5棟"
+      ],
+      "answer": "B",
+      "explanation": "絵馬堂は三穂津姫社の南側に南北2棟並んで配置されていました。江戸時代18世紀中頃に建てられたものです。（出典: [金刀比羅宮 絵馬堂](https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html",
+      "reviewed": false,
+      "enabled": true
     }
   ]
 }
