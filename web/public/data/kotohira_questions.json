@@ -11543,6 +11543,23 @@
       "source": "https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm",
       "reviewed": false,
       "enabled": false
+    },
+    {
+      "id": "kotohira_680",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "1994年に出版された、こんぴら狗を題材にした絵本のタイトルは何ですか？",
+      "choices": [
+        "A. こんぴら狗物語",
+        "B. 走れゴン",
+        "C. こんぴらさんの犬",
+        "D. 金毘羅犬の旅"
+      ],
+      "answer": "B",
+      "explanation": "多田とし子著の絵本「走れゴン」（1994年出版）は、こんぴら狗を題材にした作品です。主人公の犬の名前はゴン。（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm",
+      "reviewed": false,
+      "enabled": true
     }
   ]
 }
