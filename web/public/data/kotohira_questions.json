@@ -10334,7 +10334,7 @@
       "answer": "B",
       "explanation": "大門楼上の「琴平山」の額は有栖川宮熾仁親王殿下の御筆です。（出典: [金刀比羅宮 大門](https://www.konpira.or.jp/articles_2025/20251208_main-gate/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20251208_main-gate/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10351,7 +10351,7 @@
       "answer": "B",
       "explanation": "大門は二層入母屋造・瓦葺の神域の総門です。松平頼重候の寄進によるものです。（出典: [金刀比羅宮 大門](https://www.konpira.or.jp/articles_2025/20251208_main-gate/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20251208_main-gate/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
