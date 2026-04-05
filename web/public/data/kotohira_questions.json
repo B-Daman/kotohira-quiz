@@ -10725,7 +10725,7 @@
       "answer": "C",
       "explanation": "白峰神社は明治44年（1911年）から大正2年（1913年）にかけて建設されました。（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10742,7 +10742,7 @@
       "answer": "B",
       "explanation": "白峰神社の付近は「紅葉谷」と呼ばれ、秋には紅葉が楽しめます。（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10759,7 +10759,7 @@
       "answer": "B",
       "explanation": "白峰神社には随神として源爲義と源爲朝の木像が安置されています。（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10776,7 +10776,7 @@
       "answer": "C",
       "explanation": "白峰神社の例祭は8月26日です。月次祭は毎月26日に行われます。（出典: [金刀比羅宮 白峰神社](https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20251203_shiro-mine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
