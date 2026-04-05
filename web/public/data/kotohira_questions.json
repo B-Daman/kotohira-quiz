@@ -10247,7 +10247,7 @@
         "D. 京極家"
       ],
       "answer": "B",
-      "explanation": "厳魂彦命は戦国時代に生駒家家臣の子として出生しました。宥盛と称して修行し、金毘羅大権現を再興しました。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）\n（出典: [金刀比羅宮 厳魂神社](https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html)）",
+      "explanation": "厳魂彦命は戦国時代に生駒家家臣の子として出生しました。宥盛と称して修行し、金毘羅大権現を再興しました。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）\n（出典: [金刀比羅宮 厳魂神社](https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html)）\n（出典: [金刀比羅宮 金刀比羅本教](https://www.konpira.or.jp/ARCHIVES/center/founder/page.html)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
@@ -10264,7 +10264,7 @@
         "D. 元和元年（1615年）"
       ],
       "answer": "C",
-      "explanation": "慶長18年（1613年）に厳魂彦命は天狗と化して姿を消したと伝えられています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）\n（出典: [金刀比羅宮 厳魂神社](https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html)）",
+      "explanation": "慶長18年（1613年）に厳魂彦命は天狗と化して姿を消したと伝えられています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）\n（出典: [金刀比羅宮 厳魂神社](https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html)）\n（出典: [金刀比羅宮 金刀比羅本教](https://www.konpira.or.jp/ARCHIVES/center/founder/page.html)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
@@ -10808,7 +10808,7 @@
         "D. 明神"
       ],
       "answer": "B",
-      "explanation": "厳魂彦命は「死して永く当山を守護せん」と言い残し天狗と化して消え、のちに「金剛坊」として祀られています。（出典: [金刀比羅宮 厳魂神社](https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html)）",
+      "explanation": "厳魂彦命は「死して永く当山を守護せん」と言い残し天狗と化して消え、のちに「金剛坊」として祀られています。（出典: [金刀比羅宮 厳魂神社](https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html)）\n（出典: [金刀比羅宮 金刀比羅本教](https://www.konpira.or.jp/ARCHIVES/center/founder/page.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html",
       "reviewed": true,
       "enabled": true
@@ -11372,6 +11372,74 @@
       "explanation": "神代の頃、琴平山は瀬戸内海に浮かぶ島だったとされています。（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200814_history/article.htm",
       "reviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_670",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の教祖・厳魂彦命の父親の名前は何ですか？",
+      "choices": [
+        "A. 松平頼重",
+        "B. 井上四郎右衛門",
+        "C. 琴陵宥常",
+        "D. 京極高和"
+      ],
+      "answer": "B",
+      "explanation": "厳魂彦命は生駒家の家臣・井上四郎右衛門の子として誕生しました。（出典: [金刀比羅宮 金刀比羅本教](https://www.konpira.or.jp/ARCHIVES/center/founder/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/center/founder/page.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_671",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の教祖・厳魂彦命が修行した場所はどこですか？",
+      "choices": [
+        "A. 比叡山",
+        "B. 高野山",
+        "C. 吉野山",
+        "D. 出羽三山"
+      ],
+      "answer": "B",
+      "explanation": "厳魂彦命は高野山で修行し、「宥盛」と称しました。その後、象頭山金毘羅大権現別当金光院の第四代主となりました。（出典: [金刀比羅宮 金刀比羅本教](https://www.konpira.or.jp/ARCHIVES/center/founder/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/center/founder/page.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_672",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の教祖・厳魂彦命の命日は何月何日ですか？",
+      "choices": [
+        "A. 1月6日",
+        "B. 3月3日",
+        "C. 5月10日",
+        "D. 10月10日"
+      ],
+      "answer": "A",
+      "explanation": "厳魂彦命は慶長18年（1613年）正月6日に逝去しました。厳魂神社の例祭が1月6日なのはこの命日に由来します。（出典: [金刀比羅宮 金刀比羅本教](https://www.konpira.or.jp/ARCHIVES/center/founder/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/center/founder/page.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_673",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の教祖・厳魂彦命が主に取り組んだ事業はどれですか？",
+      "choices": [
+        "A. 城の建設",
+        "B. 社頭の復興と民衆救済",
+        "C. 鉄道の敷設",
+        "D. 海外貿易"
+      ],
+      "answer": "B",
+      "explanation": "厳魂彦命は荒廃した金毘羅大権現の社頭の復興と、病者や悩める人々の救済に尽力しました。（出典: [金刀比羅宮 金刀比羅本教](https://www.konpira.or.jp/ARCHIVES/center/founder/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/center/founder/page.html",
+      "reviewed": false,
       "enabled": true
     }
   ]
