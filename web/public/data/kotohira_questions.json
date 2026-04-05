@@ -10504,7 +10504,7 @@
       "answer": "C",
       "explanation": "緑黛殿は鈴木了二氏の設計で2004年6月に竣工しました。1997年に建築学会賞を受賞した建築家です。（出典: [金刀比羅宮 緑黛殿](https://www.konpira.or.jp/ARCHIVES/architecture/ryoku-tai-den/page.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/architecture/ryoku-tai-den/page.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10521,7 +10521,7 @@
       "answer": "B",
       "explanation": "緑黛殿は2005年に第18回村野藤吾賞、2008年に日本藝術院賞を受賞しています。（出典: [金刀比羅宮 緑黛殿](https://www.konpira.or.jp/ARCHIVES/architecture/ryoku-tai-den/page.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/architecture/ryoku-tai-den/page.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10538,7 +10538,7 @@
       "answer": "B",
       "explanation": "「緑黛殿」は琴陵容世宮司が命名。象頭山の青々とした山の形状と阿讃山脈の風景を表現しています。（出典: [金刀比羅宮 緑黛殿](https://www.konpira.or.jp/ARCHIVES/architecture/ryoku-tai-den/page.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/architecture/ryoku-tai-den/page.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10555,7 +10555,7 @@
       "answer": "B",
       "explanation": "緑黛殿は2004年の「平成の大遷座祭」を記念して建築されました。（出典: [金刀比羅宮 緑黛殿](https://www.konpira.or.jp/ARCHIVES/architecture/ryoku-tai-den/page.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/architecture/ryoku-tai-den/page.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
