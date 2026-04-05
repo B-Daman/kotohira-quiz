@@ -10198,7 +10198,7 @@
       "answer": "C",
       "explanation": "御本宮から奥社までの距離は約1.2キロメートルです。石段583段を登ります。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10215,7 +10215,7 @@
       "answer": "C",
       "explanation": "厳魂神社（奥社）の海抜は421メートルです。御本宮は海抜251メートル。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10232,7 +10232,7 @@
       "answer": "D",
       "explanation": "白峰神社には崇徳天皇、待賢門院、大山祇神が祀られています。菅原道真命は菅原神社の祭神です。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10249,7 +10249,7 @@
       "answer": "B",
       "explanation": "厳魂彦命は戦国時代に生駒家家臣の子として出生しました。宥盛と称して修行し、金毘羅大権現を再興しました。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10266,7 +10266,7 @@
       "answer": "C",
       "explanation": "慶長18年（1613年）に厳魂彦命は天狗と化して姿を消したと伝えられています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10283,7 +10283,7 @@
       "answer": "B",
       "explanation": "保元元年（1156年）の保元の乱に敗れた崇徳天皇は讃岐に配流されました。金刀比羅宮の白峰神社に祀られています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10300,7 +10300,7 @@
       "answer": "C",
       "explanation": "真井貯水池は明治37年（1904年）に防火用水源として作製されました。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10317,7 +10317,7 @@
       "answer": "C",
       "explanation": "菅原神社には菅原道真命が祀られています。学問の神様として知られています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
