@@ -9465,7 +9465,7 @@
         "D. 明治15年"
       ],
       "answer": "C",
-      "explanation": "御本宮拝殿は明治11年に建設されました。木造、入母屋造、檜皮葺の建物です。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
+      "explanation": "御本宮拝殿は明治11年に建設されました。木造、入母屋造、檜皮葺の建物です。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）\n（出典: [金刀比羅宮 御本宮](https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
       "reviewed": true,
       "enabled": true
@@ -9482,7 +9482,7 @@
         "D. 檜皮葺"
       ],
       "answer": "D",
-      "explanation": "御本宮は檜皮葺（ひわだぶき）です。総檜素木造りで蒔絵装飾が施されています。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
+      "explanation": "御本宮は檜皮葺（ひわだぶき）です。総檜素木造りで蒔絵装飾が施されています。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）\n（出典: [金刀比羅宮 御本宮](https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
       "reviewed": true,
       "enabled": true
@@ -9958,7 +9958,7 @@
         "D. 301メートル"
       ],
       "answer": "C",
-      "explanation": "御本宮は海抜251メートルの位置にあります。（出典: [金刀比羅宮 参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide/article.htm)）",
+      "explanation": "御本宮は海抜251メートルの位置にあります。（出典: [金刀比羅宮 参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide/article.htm)）\n（出典: [金刀比羅宮 御本宮](https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide/article.htm",
       "reviewed": true,
       "enabled": true
@@ -10624,6 +10624,91 @@
       "explanation": "南渡殿は御本宮から三穂津姫社まで南北に約40メートル延びる檜皮葺の廊下です。祭典時に祭員・舞人・巫女が参進する際に使用されます。（出典: [金刀比羅宮 南渡殿](https://www.konpira.or.jp/articles_2025/20251203_south-connecting-corridor/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20251203_south-connecting-corridor/article.html",
       "reviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_626",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の御本宮の御神木は何の木ですか？",
+      "choices": [
+        "A. 松",
+        "B. 杉",
+        "C. クスノキ",
+        "D. 檜"
+      ],
+      "answer": "C",
+      "explanation": "御本宮の御神木はクスノキで、周囲約5メートル、高さ約25メートルです。（出典: [金刀比羅宮 御本宮](https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_627",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の御本宮にある「目標燈」は何のために設置されていますか？",
+      "choices": [
+        "A. 参拝者の夜間照明",
+        "B. 瀬戸内海航行船舶の目標",
+        "C. 祭典の演出",
+        "D. 防犯用"
+      ],
+      "answer": "B",
+      "explanation": "目標燈は瀬戸内海を航行する船舶の目標として設置されています。海の守り神である金刀比羅宮ならではの施設です。（出典: [金刀比羅宮 御本宮](https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_628",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の御本宮の建築様式は何ですか？",
+      "choices": [
+        "A. 入母屋造",
+        "B. 流造",
+        "C. 大社関棟造",
+        "D. 春日造"
+      ],
+      "answer": "C",
+      "explanation": "御本宮は大社関棟造・檜皮葺で、檜材が使用されています。（出典: [金刀比羅宮 御本宮](https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_629",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "崇徳天皇が金刀比羅宮に御参籠されたとされる「御所の尾」は何年の出来事ですか？",
+      "choices": [
+        "A. 保元元年（1156年）",
+        "B. 長寛元年（1163年）",
+        "C. 承安2年（1172年）",
+        "D. 治承4年（1180年）"
+      ],
+      "answer": "B",
+      "explanation": "長寛元年（1163年）に崇徳天皇が「御所の尾」に御参籠されたと伝えられています。（出典: [金刀比羅宮 御本宮](https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_630",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の御本宮の建築上の特色として、枓栱（ときょう）に何が用いられていますか？",
+      "choices": [
+        "A. 丸材",
+        "B. 角材",
+        "C. 竹材",
+        "D. 石材"
+      ],
+      "answer": "B",
+      "explanation": "御本宮の建築では枓栱に角材が用いられているのが特色です。（出典: [金刀比羅宮 御本宮](https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20241027_head-shrine/article.html",
+      "reviewed": false,
       "enabled": true
     }
   ]
