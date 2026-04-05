@@ -6184,7 +6184,7 @@
         "D. 県指定文化財"
       ],
       "answer": "C",
-      "explanation": "金刀比羅宮の宝物館は国登録有形文化財（1件）に登録されています。",
+      "explanation": "金刀比羅宮の宝物館は国登録有形文化財（1件）に登録されています。\n（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
       "source": "konpie-bot/knowledge_base/shrine",
       "reviewed": true,
       "enabled": true
@@ -8717,7 +8717,7 @@
         "D. 不動明王立像"
       ],
       "answer": "B",
-      "explanation": "宝物館には重要文化財の十一面観音立像が収蔵されています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "explanation": "宝物館には重要文化財の十一面観音立像が収蔵されています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）\n（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
       "source": "https://www.konpira.or.jp/",
       "reviewed": true,
       "enabled": true
@@ -10828,6 +10828,108 @@
       "explanation": "厳魂神社からは瀬戸大橋や讃岐富士（飯野山）が見えます。（出典: [金刀比羅宮 厳魂神社](https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20250926_inner-shrine/article.html",
       "reviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_638",
+      "category": "architecture",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の宝物館を設計した文部省技師は誰ですか？",
+      "choices": [
+        "A. 辰野金吾",
+        "B. 久留正道",
+        "C. 片山東熊",
+        "D. 妻木頼黄"
+      ],
+      "answer": "B",
+      "explanation": "宝物館は久留正道の設計で明治38年（1905年）に建設されました。香川県産花崗石造の二層建です。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_639",
+      "category": "architecture",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の宝物館設計者・久留正道が設計し、フランク・ロイド・ライトに影響を与えた建物は何ですか？",
+      "choices": [
+        "A. パリ万博日本館",
+        "B. シカゴ万博日本館",
+        "C. ロンドン万博日本館",
+        "D. ウィーン万博日本館"
+      ],
+      "answer": "B",
+      "explanation": "久留正道は明治26年（1893年）のシカゴ万博で日本館を設計しました。フランク・ロイド・ライトはこれを見て日本建築を認識したとされています。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_640",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の裏参道の特徴として正しいのはどれですか？",
+      "choices": [
+        "A. 石段が多い",
+        "B. 石段がない舗装道路",
+        "C. 階段と坂の繰り返し",
+        "D. 未舗装の山道"
+      ],
+      "answer": "B",
+      "explanation": "裏参道は石段なしの舗装道路で、季節によって新緑や紅葉を楽しみながら下山できます。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_641",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "琴平町の町木に指定されている、金刀比羅宮の境内にも自生する木は何ですか？",
+      "choices": [
+        "A. サクラ",
+        "B. マツ",
+        "C. オガタマノキ",
+        "D. クスノキ"
+      ],
+      "answer": "C",
+      "explanation": "オガタマノキは琴平町の町木です。名前は「招魂」から転化したもので、サカキと共に神事に使用されます。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_642",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮原産のツバキ「琴娘」の花の特徴はどれですか？",
+      "choices": [
+        "A. 純白の一重咲き",
+        "B. 濃紅に不規則な白斑入り",
+        "C. 黄色の八重咲き",
+        "D. 薄桃色の大輪"
+      ],
+      "answer": "B",
+      "explanation": "「琴娘」は金刀比羅宮原産のツバキで、濃紅に不規則な白斑入り、筒蕊の花が1月〜3月に咲きます。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_643",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の裏参道にあった「明道学校」はどのような学校でしたか？",
+      "choices": [
+        "A. 寺子屋",
+        "B. 香川の中等普通教育の中心",
+        "C. 神職養成学校",
+        "D. 海軍の学校"
+      ],
+      "answer": "B",
+      "explanation": "明道学校は明治16年（1883年）〜明治29年（1896年）に存在した、香川の中等普通教育の中心でした。丸亀の尋常中学校にその役割を譲り廃校になりました。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
+      "reviewed": false,
       "enabled": true
     }
   ]
