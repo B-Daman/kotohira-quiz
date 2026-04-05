@@ -10844,7 +10844,7 @@
       "answer": "B",
       "explanation": "宝物館は久留正道の設計で明治38年（1905年）に建設されました。香川県産花崗石造の二層建です。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10862,7 +10862,7 @@
       "explanation": "久留正道は明治26年（1893年）のシカゴ万博で日本館を設計しました。フランク・ロイド・ライトはこれを見て日本建築を認識したとされています。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
       "reviewed": false,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "kotohira_640",
@@ -10878,7 +10878,7 @@
       "answer": "B",
       "explanation": "裏参道は石段なしの舗装道路で、季節によって新緑や紅葉を楽しみながら下山できます。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10895,7 +10895,7 @@
       "answer": "C",
       "explanation": "オガタマノキは琴平町の町木です。名前は「招魂」から転化したもので、サカキと共に神事に使用されます。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10912,7 +10912,7 @@
       "answer": "B",
       "explanation": "「琴娘」は金刀比羅宮原産のツバキで、濃紅に不規則な白斑入り、筒蕊の花が1月〜3月に咲きます。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10929,7 +10929,7 @@
       "answer": "B",
       "explanation": "明道学校は明治16年（1883年）〜明治29年（1896年）に存在した、香川の中等普通教育の中心でした。丸亀の尋常中学校にその役割を譲り廃校になりました。（出典: [金刀比羅宮 裏参道ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
