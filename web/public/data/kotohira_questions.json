@@ -9899,16 +9899,16 @@
       "id": "kotohira_583",
       "category": "shrine",
       "difficulty": "medium",
-      "question": "金刀比羅宮の厳魂神社 天狗御守は、どのような力が宿るとされていますか？",
+      "question": "金刀比羅宮の「天狗御守」はどこでしか入手できませんか？",
       "choices": [
-        "A. 学業成就の力",
-        "B. 霊妙不可思議な能力",
-        "C. 海上安全の力",
-        "D. 商売繁盛の力"
+        "A. 御本宮 神札授与所",
+        "B. 参道のお土産店",
+        "C. 厳魂神社（奥社）神札授与所",
+        "D. 白峰神社 神札授与所"
       ],
-      "answer": "B",
-      "explanation": "厳魂彦命の人知では計り知れない霊妙不可思議な能力が宿るとされ、諸々の災厄から身を守る「身守り」として授与されています。（出典: [金刀比羅宮 授与品](https://www.konpira.or.jp/charms/article.php)）",
-      "source": "https://www.konpira.or.jp/charms/article.php",
+      "answer": "C",
+      "explanation": "天狗御守は石段1,368段を登った先にある厳魂神社（奥社）でしか入手できません。2017年1月から授与が始まり、2018年6月には授与10万体を突破しました。（出典: [金刀比羅宮 天狗御守](https://www.konpira.or.jp/ARCHIVES/charm/2017_-new-tengu-charms/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/charm/2017_-new-tengu-charms/page.html",
       "reviewed": false,
       "enabled": true
     }
