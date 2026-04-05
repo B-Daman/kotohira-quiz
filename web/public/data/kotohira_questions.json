@@ -10319,6 +10319,40 @@
       "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
+    },
+    {
+      "id": "kotohira_608",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の大門の楼上に掲げられている「琴平山」の額は誰の御筆ですか？",
+      "choices": [
+        "A. 松平頼重",
+        "B. 有栖川宮熾仁親王",
+        "C. 崇徳天皇",
+        "D. 琴陵宥常"
+      ],
+      "answer": "B",
+      "explanation": "大門楼上の「琴平山」の額は有栖川宮熾仁親王殿下の御筆です。（出典: [金刀比羅宮 大門](https://www.konpira.or.jp/articles_2025/20251208_main-gate/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2025/20251208_main-gate/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_609",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の大門の建築様式は何ですか？",
+      "choices": [
+        "A. 一層切妻造",
+        "B. 二層入母屋造",
+        "C. 三層宝形造",
+        "D. 一層寄棟造"
+      ],
+      "answer": "B",
+      "explanation": "大門は二層入母屋造・瓦葺の神域の総門です。松平頼重候の寄進によるものです。（出典: [金刀比羅宮 大門](https://www.konpira.or.jp/articles_2025/20251208_main-gate/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2025/20251208_main-gate/article.html",
+      "reviewed": false,
+      "enabled": true
     }
   ]
 }
