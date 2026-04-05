@@ -10931,6 +10931,91 @@
       "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-3/guide-3_2015.html",
       "reviewed": true,
       "enabled": true
+    },
+    {
+      "id": "kotohira_644",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の神苑はいくつの区域で構成されていますか？",
+      "choices": [
+        "A. 6区域",
+        "B. 8区域",
+        "C. 10区域",
+        "D. 12区域"
+      ],
+      "answer": "D",
+      "explanation": "神苑は12区域で構成されています。青葉岡、常磐森、待宵山、時雨岡、凉杜、明野、朝日岡、小杉森、袖岡、藤渓、千種台、千歳岡です。（出典: [金刀比羅宮 神苑ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_645",
+      "category": "architecture",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の図書館が開館したのは何年ですか？",
+      "choices": [
+        "A. 明治38年",
+        "B. 大正12年",
+        "C. 昭和2年",
+        "D. 昭和11年"
+      ],
+      "answer": "B",
+      "explanation": "図書館は大正11年（1922年）11月18日に竣工し、大正12年（1923年）2月11日に開館しました。蔵書は5万冊以上です。（出典: [金刀比羅宮 神苑ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_646",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の神苑にある「鏡池」の直径はおよそ何メートルですか？",
+      "choices": [
+        "A. 約5メートル",
+        "B. 約10メートル",
+        "C. 約15メートル",
+        "D. 約25メートル"
+      ],
+      "answer": "C",
+      "explanation": "鏡池は直径約15メートルの丸い池です。（出典: [金刀比羅宮 神苑ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_647",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の第20代宮司・琴陵光𠘑の在任期間はおよそ何年ですか？",
+      "choices": [
+        "A. 約20年",
+        "B. 約30年",
+        "C. 約40年",
+        "D. 約50年"
+      ],
+      "answer": "C",
+      "explanation": "琴陵光𠘑は明治31年（1898年）に就任し、昭和17年（1942年）に退職。在任40余年でした。（出典: [金刀比羅宮 神苑ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_648",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の神苑にある紫藤の樹齢はどのくらいですか？",
+      "choices": [
+        "A. 約50年",
+        "B. 約100年",
+        "C. 数百年",
+        "D. 約1000年"
+      ],
+      "answer": "C",
+      "explanation": "神苑の藤渓にある紫藤は樹齢数百年とされています。（出典: [金刀比羅宮 神苑ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html",
+      "reviewed": false,
+      "enabled": true
     }
   ]
 }
