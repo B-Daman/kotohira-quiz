@@ -11611,6 +11611,23 @@
       "source": "https://www.konpira.or.jp/articles_2023/0805_EMADOU/article.html",
       "reviewed": true,
       "enabled": true
+    },
+    {
+      "id": "kotohira_684",
+      "category": "shrine",
+      "difficulty": "easy",
+      "question": "金刀比羅宮での正しい拝礼作法は何��すか？",
+      "choices": [
+        "A. 一拝一拍手一拝",
+        "B. 二拝二拍手一拝",
+        "C. 三拝三拍手三拝",
+        "D. 二拝四拍手一拝"
+      ],
+      "answer": "B",
+      "explanation": "金刀比��宮の拝礼作法は二拝二拍手一拝です。神拝詞は「祓へ給へ 清め給へ 守り給へ 幸へ給へ」です。（出典: [金刀比羅宮 拝礼作法](https://www.konpira.or.jp/ARCHIVES/etiquette/01/worship.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/etiquette/01/worship.html",
+      "reviewed": false,
+      "enabled": true
     }
   ]
 }
