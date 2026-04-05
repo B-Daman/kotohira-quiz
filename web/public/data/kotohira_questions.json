@@ -9314,7 +9314,7 @@
       "answer": "B",
       "explanation": "東京分社は現在、東京都文京区本郷1-5-11にあります。昭和39年（1964年）に深川から移転しました。（出典: [金刀比羅宮 分社情報](https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9331,7 +9331,7 @@
       "answer": "C",
       "explanation": "東京分社は文政2年（1819年）に板橋市左衛門の邸内祠として創設されました。（出典: [金刀比羅宮 分社情報](https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9348,7 +9348,7 @@
       "answer": "B",
       "explanation": "尾張分社は文化9年（1812年）の記録が最古で、平田家の邸内祠として始まりました。（出典: [金刀比羅宮 分社情報](https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9365,7 +9365,7 @@
       "answer": "B",
       "explanation": "鳥羽分社では神輿の海上渡御と花火大会が行われます。（出典: [金刀比羅宮 分社情報](https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9382,7 +9382,7 @@
       "answer": "B",
       "explanation": "神戸分社の祭神は大物主神・崇徳天皇に加え、武甕槌神も祀られています。（出典: [金刀比羅宮 分社情報](https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9399,7 +9399,7 @@
       "answer": "B",
       "explanation": "尾張分社は愛知県一宮市にあります。（出典: [金刀比羅宮 分社情報](https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9416,7 +9416,7 @@
       "answer": "D",
       "explanation": "松山分社は明治11年に支教会となり、昭和41年（1966年）に分社に昇格しました。（出典: [金刀比羅宮 分社情報](https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
