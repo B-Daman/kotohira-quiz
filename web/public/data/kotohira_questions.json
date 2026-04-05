@@ -8581,7 +8581,7 @@
         "D. 寛政5年（1793年）"
       ],
       "answer": "A",
-      "explanation": "青銅灯籠は宝暦7年（1757年）に奉納され、国指定重要有形民俗文化財に指定されています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "explanation": "青銅灯籠は宝暦7年（1757年）に奉納され、国指定重要有形民俗文化財に指定されています。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）\n（出典: [金刀比羅宮 三穂津姫社](https://www.konpira.or.jp/articles_2024/20240927_mihotsuhime-shrine/article.html)）",
       "source": "https://www.konpira.or.jp/",
       "reviewed": true,
       "enabled": true
@@ -10556,6 +10556,57 @@
       "explanation": "緑黛殿は2004年の「平成の大遷座祭」を記念して建築されました。（出典: [金刀比羅宮 緑黛殿](https://www.konpira.or.jp/ARCHIVES/architecture/ryoku-tai-den/page.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/architecture/ryoku-tai-den/page.html",
       "reviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_622",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の三穂津姫社に祀られている三穂津姫神は、大物主神とどのような関係ですか？",
+      "choices": [
+        "A. 母",
+        "B. 娘",
+        "C. 后",
+        "D. 姉"
+      ],
+      "answer": "C",
+      "explanation": "三穂津姫神は大物主神の后です。高皇産霊神の娘でもあります。（出典: [金刀比羅宮 三穂津姫社](https://www.konpira.or.jp/articles_2024/20240927_mihotsuhime-shrine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20240927_mihotsuhime-shrine/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_623",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の三穂津姫社は別名で何と呼ばれていますか？",
+      "choices": [
+        "A. 奥社",
+        "B. 御別宮",
+        "C. 摂社",
+        "D. 末社"
+      ],
+      "answer": "B",
+      "explanation": "三穂津姫社は「御別宮」とも呼ばれています。重要文化財に指定されています。（出典: [金刀比羅宮 三穂津姫社](https://www.konpira.or.jp/articles_2024/20240927_mihotsuhime-shrine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20240927_mihotsuhime-shrine/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_624",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の三穂津姫社の拝殿の建築様式は何ですか？",
+      "choices": [
+        "A. 入母屋造",
+        "B. 大社関棟造",
+        "C. 流造",
+        "D. 春日造"
+      ],
+      "answer": "B",
+      "explanation": "三穂津姫社の拝殿は大社関棟造・檜皮葺です。本殿は王子造檜皮葺。（出典: [金刀比羅宮 三穂津姫社](https://www.konpira.or.jp/articles_2024/20240927_mihotsuhime-shrine/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20240927_mihotsuhime-shrine/article.html",
+      "reviewed": false,
       "enabled": true
     }
   ]
