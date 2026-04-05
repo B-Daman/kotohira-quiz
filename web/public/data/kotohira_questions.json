@@ -10436,7 +10436,7 @@
       "answer": "C",
       "explanation": "旭社の高さは約18メートルです。銅板葺の総欅造二重入母屋造の建物です。（出典: [金刀比羅宮 旭社](https://www.konpira.or.jp/articles_2025/20251203_asahi/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20251203_asahi/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10453,7 +10453,7 @@
       "answer": "C",
       "explanation": "「降神觀」の額は清国の王文治の筆で、劉雲臺が献納しました。（出典: [金刀比羅宮 旭社](https://www.konpira.or.jp/articles_2025/20251203_asahi/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20251203_asahi/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10470,7 +10470,7 @@
       "answer": "D",
       "explanation": "「旭社」の扁額は正二位綾小路有長の筆です。（出典: [金刀比羅宮 旭社](https://www.konpira.or.jp/articles_2025/20251203_asahi/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20251203_asahi/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -10487,7 +10487,7 @@
       "answer": "C",
       "explanation": "旭社は全て槻材（欅/けやき）で造られた総欅造です。（出典: [金刀比羅宮 旭社](https://www.konpira.or.jp/articles_2025/20251203_asahi/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2025/20251203_asahi/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
