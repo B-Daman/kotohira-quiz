@@ -11303,7 +11303,7 @@
       "answer": "B",
       "explanation": "永万元年（1165年）に崇徳天皇が相殿に合祀されました。（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200814_history/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -11320,7 +11320,7 @@
       "answer": "B",
       "explanation": "宝暦10年（1760年）5月に日本一社の綸旨を賜りました。宝暦3年（1753年）12月に勅願所に指定されています。（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200814_history/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -11337,7 +11337,7 @@
       "answer": "C",
       "explanation": "明治元年（1868年）の神仏混淆廃止に伴い「琴平神社」から「金刀比羅宮」に改称されました。（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200814_history/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -11354,7 +11354,7 @@
       "answer": "B",
       "explanation": "江戸時代に金毘羅講が各地で形成され、こんぴら参りが庶民の憧れとなりました。（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200814_history/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -11371,7 +11371,7 @@
       "answer": "B",
       "explanation": "神代の頃、琴平山は瀬戸内海に浮かぶ島だったとされています。（出典: [金刀比羅宮 由緒](https://www.konpira.or.jp/articles/20200814_history/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200814_history/article.htm",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
