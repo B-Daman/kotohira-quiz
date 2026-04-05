@@ -30,8 +30,8 @@
         "D. 1,000段"
       ],
       "answer": "C",
-      "explanation": "御本宮までの石段は785段です。さらに奥社までは1,368段あり、御本宮からさらに583段登る必要があります。",
-      "source": "konpie-bot/knowledge_base/shrine",
+      "explanation": "御本宮までの石段は785段です。さらに奥社までは1,368段あり、御本宮からさらに583段登る必要があります。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
     },
@@ -47,8 +47,8 @@
         "D. 大国主神"
       ],
       "answer": "B",
-      "explanation": "金刀比羅宮の主祭神は大物主神です。もう一柱の祭神として崇徳天皇も祀られています。",
-      "source": "konpie-bot/knowledge_base/shrine",
+      "explanation": "金刀比羅宮の主祭神は大物主神です。もう一柱の祭神として崇徳天皇も祀られています。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
     },
@@ -64,8 +64,8 @@
         "D. 1,500段"
       ],
       "answer": "C",
-      "explanation": "奥社までの石段は全部で1,368段です。御本宮（785段）からさらに583段登った場所に奥社があります。",
-      "source": "konpie-bot/knowledge_base/shrine",
+      "explanation": "奥社までの石段は全部で1,368段です。御本宮（785段）からさらに583段登った場所に奥社があります。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
     },
@@ -1696,8 +1696,8 @@
         "D. 785段"
       ],
       "answer": "C",
-      "explanation": "御本宮から奥社まではさらに583段の石段を登る必要があります。御本宮までの785段に加えて、合計で1,368段となります。",
-      "source": "konpie-bot/knowledge_base/modern",
+      "explanation": "御本宮から奥社まではさらに583段の石段を登る必要があります。御本宮までの785段に加えて、合計で1,368段となります。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
     },
@@ -1713,8 +1713,8 @@
         "D. 仁徳天皇"
       ],
       "answer": "B",
-      "explanation": "金刀比羅宮のもう一柱の祭神は崇徳天皇です。主祭神の大物主神とともに祀られています。",
-      "source": "konpie-bot/knowledge_base/shrine",
+      "explanation": "金刀比羅宮のもう一柱の祭神は崇徳天皇です。主祭神の大物主神とともに祀られています。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
     },
@@ -5470,8 +5470,8 @@
         "D. 約6割"
       ],
       "answer": "B",
-      "explanation": "奥社までの全1,368段のうち、御本宮から奥社までは583段で全体の約43%（約4割）です。",
-      "source": "konpie-bot/knowledge_base/shrine",
+      "explanation": "奥社までの全1,368段のうち、御本宮から奥社までは583段で全体の約43%（約4割）です。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
     },
@@ -5912,8 +5912,8 @@
         "D. 5柱"
       ],
       "answer": "B",
-      "explanation": "金刀比羅宮の祭神は大物主神と崇徳天皇の2柱です。",
-      "source": "konpie-bot/knowledge_base/history",
+      "explanation": "金刀比羅宮の祭神は大物主神と崇徳天皇の2柱です。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
     },
@@ -6541,8 +6541,8 @@
         "D. 633段"
       ],
       "answer": "C",
-      "explanation": "1,368段から785段を引くと583段です。これが御本宮から奥社までの石段数です。",
-      "source": "konpie-bot/knowledge_base/shrine",
+      "explanation": "1,368段から785段を引くと583段です。これが御本宮から奥社までの石段数です。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
     },
@@ -7323,8 +7323,8 @@
         "D. 2,153段"
       ],
       "answer": "C",
-      "explanation": "御本宮までの785段と、さらに奥社までの583段を合わせて全部で1,368段です。",
-      "source": "konpie-bot/knowledge_base/shrine",
+      "explanation": "御本宮までの785段と、さらに奥社までの583段を合わせて全部で1,368段です。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
     },
@@ -8479,8 +8479,8 @@
         "D. 室町時代の天皇"
       ],
       "answer": "B",
-      "explanation": "崇徳天皇は平安時代末期の天皇で、保元の乱で讃岐に配流されました。金刀比羅宮にもう一柱の祭神として祀られています。",
-      "source": "konpie-bot/knowledge_base/history",
+      "explanation": "崇徳天皇は平安時代末期の天皇で、保元の乱で讃岐に配流されました。金刀比羅宮にもう一柱の祭神として祀られています。 （出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
       "reviewed": true,
       "enabled": true
     },
@@ -10182,6 +10182,142 @@
       "explanation": "大門以降の境内は国の名勝・天然記念物に指定されており、瀬戸内海国立公園にも含まれています。（出典: [金刀比羅宮 参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide/article.htm)）",
       "source": "https://www.konpira.or.jp/articles/20200616_guide/article.htm",
       "reviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_600",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の御本宮から奥社までの距離はおよそ何キロメートルですか？",
+      "choices": [
+        "A. 約0.5キロ",
+        "B. 約0.8キロ",
+        "C. 約1.2キロ",
+        "D. 約2.0キロ"
+      ],
+      "answer": "C",
+      "explanation": "御本宮から奥社までの距離は約1.2キロメートルです。石段583段を登ります。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_601",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の厳魂神社（奥社）の海抜は何メートルですか？",
+      "choices": [
+        "A. 251メートル",
+        "B. 321メートル",
+        "C. 421メートル",
+        "D. 538メートル"
+      ],
+      "answer": "C",
+      "explanation": "厳魂神社（奥社）の海抜は421メートルです。御本宮は海抜251メートル。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_602",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の白峰神社に祀られている3柱の神様に含まれないのは誰ですか？",
+      "choices": [
+        "A. 崇徳天皇",
+        "B. 待賢門院",
+        "C. 大山祇神",
+        "D. 菅原道真命"
+      ],
+      "answer": "D",
+      "explanation": "白峰神社には崇徳天皇、待賢門院、大山祇神が祀られています。菅原道真命は菅原神社の祭神です。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_603",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の厳魂彦命は、戦国時代にどの家の家臣の子として生まれましたか？",
+      "choices": [
+        "A. 長宗我部家",
+        "B. 生駒家",
+        "C. 松平家",
+        "D. 京極家"
+      ],
+      "answer": "B",
+      "explanation": "厳魂彦命は戦国時代に生駒家家臣の子として出生しました。宥盛と称して修行し、金毘羅大権現を再興しました。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_604",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の厳魂彦命が天狗と化して姿を消したとされるのは何年ですか？",
+      "choices": [
+        "A. 天正18年（1590年）",
+        "B. 慶長5年（1600年）",
+        "C. 慶長18年（1613年）",
+        "D. 元和元年（1615年）"
+      ],
+      "answer": "C",
+      "explanation": "慶長18年（1613年）に厳魂彦命は天狗と化して姿を消したと伝えられています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_605",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "崇徳天皇が配流される原因となった戦いは何ですか？",
+      "choices": [
+        "A. 応仁の乱",
+        "B. 保元の乱",
+        "C. 壬申の乱",
+        "D. 承久の乱"
+      ],
+      "answer": "B",
+      "explanation": "保元元年（1156年）の保元の乱に敗れた崇徳天皇は讃岐に配流されました。金刀比羅宮の白峰神社に祀られています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_606",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の真井貯水池は何のために作られましたか？",
+      "choices": [
+        "A. 飲料水",
+        "B. 農業用水",
+        "C. 防火用水",
+        "D. 庭園用水"
+      ],
+      "answer": "C",
+      "explanation": "真井貯水池は明治37年（1904年）に防火用水源として作製されました。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_607",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の境内にある菅原神社に祀られているのは誰ですか？",
+      "choices": [
+        "A. 崇徳天皇",
+        "B. 厳魂彦命",
+        "C. 菅原道真",
+        "D. 大物主神"
+      ],
+      "answer": "C",
+      "explanation": "菅原神社には菅原道真命が祀られています。学問の神様として知られています。（出典: [金刀比羅宮 奥社参拝ガイド](https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm",
+      "reviewed": false,
       "enabled": true
     }
   ]
