@@ -166,7 +166,7 @@
         "D. 11月3日〜5日"
       ],
       "answer": "C",
-      "explanation": "金刀比羅宮の例大祭は毎年10月9日〜11日に行われます。10月10日の21時には「お下がり」、10月11日には「お上がり」が行われます。",
+      "explanation": "金刀比羅宮の例大祭は毎年10月9日〜11日に行われます。10月10日の21時には「お下がり」、10月11日には「お上がり」が行われます。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/shrine",
       "reviewed": true,
       "enabled": true
@@ -183,7 +183,7 @@
         "D. 10月10日 18時"
       ],
       "answer": "B",
-      "explanation": "金刀比羅宮の「お下がり」は10月10日の21時に開始されます。例大祭（10月9日〜11日）の中日に行われる重要な神事です。",
+      "explanation": "金刀比羅宮の「お下がり」は10月10日の21時に開始されます。例大祭（10月9日〜11日）の中日に行われる重要な神事です。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/shrine",
       "reviewed": true,
       "enabled": true
@@ -1271,7 +1271,7 @@
         "D. 十人組"
       ],
       "answer": "B",
-      "explanation": "境内で飴を売ることを許された5軒の商家を「五人百姓」と呼びます。販売している加美代飴は700年以上の歴史があります。",
+      "explanation": "境内で飴を売ることを許された5軒の商家を「五人百姓」と呼びます。販売している加美代飴は700年以上の歴史があります。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/tourism",
       "reviewed": true,
       "enabled": true
@@ -1764,7 +1764,7 @@
         "D. 金平糖"
       ],
       "answer": "B",
-      "explanation": "五人百姓が販売しているのは「加美代飴」です。700年以上の歴史があり、境内での販売を特別に許可された5軒のみが扱えます。",
+      "explanation": "五人百姓が販売しているのは「加美代飴」です。700年以上の歴史があり、境内での販売を特別に許可された5軒のみが扱えます。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/shrine",
       "reviewed": true,
       "enabled": true
@@ -2036,7 +2036,7 @@
         "D. 10月15日"
       ],
       "answer": "C",
-      "explanation": "お上がりは10月11日に行われます。前日10月10日の21時にお下がりが行われ、翌日のお上がりで神事が完結します。",
+      "explanation": "お上がりは10月11日に行われます。前日10月10日の21時にお下がりが行われ、翌日のお上がりで神事が完結します。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/shrine",
       "reviewed": true,
       "enabled": true
@@ -3192,7 +3192,7 @@
         "D. 5日間"
       ],
       "answer": "C",
-      "explanation": "金刀比羅宮の例大祭は10月9日〜11日の3日間にわたって行われます。",
+      "explanation": "金刀比羅宮の例大祭は10月9日〜11日の3日間にわたって行われます。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/event",
       "reviewed": true,
       "enabled": true
@@ -3243,7 +3243,7 @@
         "D. 10日と12日"
       ],
       "answer": "B",
-      "explanation": "お下がりは10月10日、お上がりは10月11日に行われます。",
+      "explanation": "お下がりは10月10日、お上がりは10月11日に行われます。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/event",
       "reviewed": true,
       "enabled": true
@@ -3481,7 +3481,7 @@
         "D. 10月15日"
       ],
       "answer": "B",
-      "explanation": "金刀比羅宮の例大祭は10月9日から始まります。10月9日〜11日の3日間にわたって行われます。",
+      "explanation": "金刀比羅宮の例大祭は10月9日から始まります。10月9日〜11日の3日間にわたって行われます。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/event",
       "reviewed": true,
       "enabled": true
@@ -5555,7 +5555,7 @@
         "D. 10軒"
       ],
       "answer": "B",
-      "explanation": "五人百姓は5軒の商家です。境内で加美代飴を販売することを700年以上にわたり特別に許可されています。",
+      "explanation": "五人百姓は5軒の商家です。境内で加美代飴を販売することを700年以上にわたり特別に許可されています。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/shrine",
       "reviewed": true,
       "enabled": true
@@ -5878,7 +5878,7 @@
         "D. 12月"
       ],
       "answer": "C",
-      "explanation": "金刀比羅宮の例大祭は10月（9日〜11日）に行われます。",
+      "explanation": "金刀比羅宮の例大祭は10月（9日〜11日）に行われます。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/event",
       "reviewed": true,
       "enabled": true
@@ -7493,7 +7493,7 @@
         "D. 新酒祭"
       ],
       "answer": "C",
-      "explanation": "お下がりとお上がりは例大祭（10月9日〜11日）の行事です。",
+      "explanation": "お下がりとお上がりは例大祭（10月9日〜11日）の行事です。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/event",
       "reviewed": true,
       "enabled": true
@@ -7969,7 +7969,7 @@
         "D. 前夜祭"
       ],
       "answer": "B",
-      "explanation": "例大祭の2日目（10月10日）の21時にお下がりが行われます。",
+      "explanation": "例大祭の2日目（10月10日）の21時にお下がりが行われます。\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "konpie-bot/knowledge_base/event",
       "reviewed": true,
       "enabled": true
@@ -8785,7 +8785,7 @@
         "D. 行列長"
       ],
       "answer": "B",
-      "explanation": "例大祭の行列は「お頭人様」が率います。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "explanation": "例大祭の行列は「お頭人様」が率います。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "https://www.konpira.or.jp/",
       "reviewed": true,
       "enabled": true
@@ -9550,7 +9550,7 @@
         "D. 11月9日〜11日"
       ],
       "answer": "B",
-      "explanation": "例大祭は10月9日（宵宮祭）、10日（例祭・神幸祭）、11日（還幸祭）の3日間行われます。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
+      "explanation": "例大祭は10月9日（宵宮祭）、10日（例祭・神幸祭）、11日（還幸祭）の3日間行われます。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
       "reviewed": true,
       "enabled": true
@@ -9652,7 +9652,7 @@
         "D. 10月12日"
       ],
       "answer": "B",
-      "explanation": "10月10日に例祭・神幸祭が行われ、御神輿が発御します。翌11日に還幸祭で御神輿が還御します。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
+      "explanation": "10月10日に例祭・神幸祭が行われ、御神輿が発御します。翌11日に還幸祭で御神輿が還御します。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）\n（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
       "reviewed": true,
       "enabled": true
@@ -11151,6 +11151,142 @@
       "explanation": "金刀比羅宮の蹴鞠は昭和49年（1974年）に香川県の無形文化財に指定されました。昭和7年に再興されたものです。（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html",
       "reviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_657",
+      "category": "event",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の例大祭は全体で何日間にわたりますか？",
+      "choices": [
+        "A. 3日間",
+        "B. 10日間",
+        "C. 30日間",
+        "D. 46日間"
+      ],
+      "answer": "D",
+      "explanation": "例大祭は8月31日の口明神事から10月15日の焼払神事まで46日間にわたります。（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_658",
+      "category": "event",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の例大祭で「お頭人さん」として行列を導くのは誰ですか？",
+      "choices": [
+        "A. 宮司",
+        "B. 男女の児童",
+        "C. 地元の長老",
+        "D. 巫女"
+      ],
+      "answer": "B",
+      "explanation": "お頭人さんは乗馬の男子児童2名と駕籠の女子児童2名です。邪心のない子どもたちは神を導くことができるとされています。（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_659",
+      "category": "event",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の例大祭の御神輿渡御の距離はおよそ何キロメートルですか？",
+      "choices": [
+        "A. 約500メートル",
+        "B. 約1キロ",
+        "C. 約2キロ",
+        "D. 約5キロ"
+      ],
+      "answer": "C",
+      "explanation": "御神輿渡御は御本宮から御神事場まで約2キロメートルの道のりを約2時間かけて進みます。（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_660",
+      "category": "event",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の例大祭で食される「七膳片箸」に含まれないものはどれですか？",
+      "choices": [
+        "A. うどん",
+        "B. あんころもち",
+        "C. 赤飯",
+        "D. 甘酒"
+      ],
+      "answer": "C",
+      "explanation": "七膳片箸はうどん・卵豆腐・あんころもち・雑炊・団子吸い物・魚吸い物・甘酒の七つの膳です。甘酒に箸が1本だけ添えられることからそう呼ばれます。（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_661",
+      "category": "event",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の例大祭の「潮川神事」は元々どこで行われていましたか？",
+      "choices": [
+        "A. 瀬戸内海の島",
+        "B. 多度津の海岸",
+        "C. 金倉川の上流",
+        "D. 象頭山の山頂"
+      ],
+      "answer": "B",
+      "explanation": "潮川神事は古くは多度津の海岸で行われていましたが、正平年間（1346-70年）の兵乱で中止。以降は多度津の海水と海藻を金倉川に混ぜて行われるようになりました。（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_662",
+      "category": "event",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の例大祭で祝舎が1か所に統合されたのは何年ですか？",
+      "choices": [
+        "A. 明治31年",
+        "B. 大正12年",
+        "C. 昭和31年",
+        "D. 平成元年"
+      ],
+      "answer": "C",
+      "explanation": "昭和31年（1956年）より祝舎は1か所に統合されました。以前は上祝舎と次祝舎の2か所に設けられていました。（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_663",
+      "category": "event",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の例大祭で、昔お頭人さんを輪番で勤めていた4つの村はどれですか？",
+      "choices": [
+        "A. 琴平・善通寺・多度津・丸亀",
+        "B. 四条・五条・榎井・苗田",
+        "C. 象郷・琴平・満濃・仲南",
+        "D. 琴平・榎井・善通寺・観音寺"
+      ],
+      "answer": "B",
+      "explanation": "昔は琴平山麓の四条・五条・榎井・苗田の4つの村が毎年輪番で祝舎神事を勤めていました。（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_664",
+      "category": "event",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の例大祭の最後の神事「焼払神事」では何を行いますか？",
+      "choices": [
+        "A. 松明を燃やす",
+        "B. 祝舎の用材や御幣を焼払う",
+        "C. 護摩木を焚く",
+        "D. 花火を打ち上げる"
+      ],
+      "answer": "B",
+      "explanation": "10月15日の焼払神事では、祝舎の建物を取り壊し、その用材や御幣などを焼払います。これで46日間の例大祭が終了します。（出典: [金刀比羅宮 例大祭](https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html",
+      "reviewed": false,
       "enabled": true
     }
   ]
