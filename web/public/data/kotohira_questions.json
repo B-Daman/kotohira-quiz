@@ -404,7 +404,7 @@
         "D. 奉納犬"
       ],
       "answer": "B",
-      "explanation": "江戸時代に飼い主の代わりに金刀比羅宮を参拝した犬は「こんぴら狗」と呼ばれました。",
+      "explanation": "江戸時代に飼い主の代わりに金刀比羅宮を参拝した犬は「こんぴら狗」と呼ばれました。\n（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
       "source": "konpie-bot/knowledge_base/history",
       "reviewed": true,
       "enabled": true
@@ -421,7 +421,7 @@
         "D. 約2,000km"
       ],
       "answer": "C",
-      "explanation": "こんぴら狗として有名な犬「むつき」は約340里（約1,340km）を旅して金刀比羅宮に参拝したとされています。",
+      "explanation": "こんぴら狗として有名な犬「むつき」は約340里（約1,340km）を旅して金刀比羅宮に参拝したとされています。\n（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
       "source": "konpie-bot/knowledge_base/history",
       "reviewed": true,
       "enabled": true
@@ -438,7 +438,7 @@
         "D. 628段目付近"
       ],
       "answer": "C",
-      "explanation": "こんぴら狗の銅像は石段の431段目付近に設置されています。",
+      "explanation": "こんぴら狗の銅像は石段の431段目付近に設置されています。\n（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
       "source": "konpie-bot/knowledge_base/history",
       "reviewed": true,
       "enabled": true
@@ -2546,7 +2546,7 @@
         "D. 明治時代"
       ],
       "answer": "C",
-      "explanation": "こんぴら狗は江戸時代の風習で、飼い主の代わりに犬が金刀比羅宮を参拝しました。",
+      "explanation": "こんぴら狗は江戸時代の風習で、飼い主の代わりに犬が金刀比羅宮を参拝しました。\n（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
       "source": "konpie-bot/knowledge_base/history",
       "reviewed": true,
       "enabled": true
@@ -3158,7 +3158,7 @@
         "D. 宮司の個人的な好み"
       ],
       "answer": "B",
-      "explanation": "金刀比羅宮で犬が境内に入ることが許されているのは、江戸時代のこんぴら狗の歴史的伝統に基づいています。",
+      "explanation": "金刀比羅宮で犬が境内に入ることが許されているのは、江戸時代のこんぴら狗の歴史的伝統に基づいています。\n（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
       "source": "konpie-bot/knowledge_base/event",
       "reviewed": true,
       "enabled": true
@@ -6286,7 +6286,7 @@
         "D. 参拝犬"
       ],
       "answer": "B",
-      "explanation": "江戸時代に犬が飼い主の代わりに金刀比羅宮を参拝する風習を「こんぴら狗」と呼びます。",
+      "explanation": "江戸時代に犬が飼い主の代わりに金刀比羅宮を参拝する風習を「こんぴら狗」と呼びます。\n（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
       "source": "konpie-bot/knowledge_base/history",
       "reviewed": true,
       "enabled": true
@@ -8054,7 +8054,7 @@
         "D. 御本宮近く"
       ],
       "answer": "C",
-      "explanation": "こんぴら狗の銅像は石段の431段目付近にあります。",
+      "explanation": "こんぴら狗の銅像は石段の431段目付近にあります。\n（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
       "source": "konpie-bot/knowledge_base/history",
       "reviewed": true,
       "enabled": true
@@ -9822,7 +9822,7 @@
         "D. タロウ"
       ],
       "answer": "C",
-      "explanation": "主人公は雑種犬のムツキ。「こんぴら狗」として江戸から金毘羅参りに向かう物語です。著者は今井恭子、装画・挿絵は犬ん子（いぬんこ）。（出典: [金刀比羅宮 授与品](https://www.konpira.or.jp/charms/article.php)）",
+      "explanation": "主人公は雑種犬のムツキ。「こんぴら狗」として江戸から金毘羅参りに向かう物語です。著者は今井恭子、装画・挿絵は犬ん子（いぬんこ）。（出典: [金刀比羅宮 授与品](https://www.konpira.or.jp/charms/article.php)）\n（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
       "source": "https://www.konpira.or.jp/charms/article.php",
       "reviewed": true,
       "enabled": true
@@ -11474,6 +11474,74 @@
       "explanation": "金刀比羅本教は昭和42年（1967年）5月3日に立教奉告祭を斎行し、昭和44年（1969年）8月5日に宗教法人として認証されました。（出典: [金刀比羅宮 金刀比羅本教の歴史](https://www.konpira.or.jp/ARCHIVES/center/history/page.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/center/history/page.html",
       "reviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_676",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "江戸時代に「丸金か京六か」と言われた「丸金」はどこを指しますか？",
+      "choices": [
+        "A. 金閣寺",
+        "B. 金毘羅（金刀比羅宮）",
+        "C. 金沢",
+        "D. 金峯山寺"
+      ],
+      "answer": "B",
+      "explanation": "「丸金か京六か」の「丸金」は金毘羅（金刀比羅宮）、「京六」は京都の東西本願寺を指し、庶民の参拝先として人気を二分していました。（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_677",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "清水次郎長の代参で金毘羅参拝したとされる人物は誰ですか？",
+      "choices": [
+        "A. 大政",
+        "B. 小政",
+        "C. 森石松",
+        "D. 桶屋の鬼吉"
+      ],
+      "answer": "C",
+      "explanation": "森石松が清水次郎長の代参として金毘羅参拝を行ったとされています。（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_678",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の境内にある「こんぴら狗」の銅像をデザインしたのは誰ですか？",
+      "choices": [
+        "A. 犬ん子",
+        "B. 湯村輝彦",
+        "C. 高橋由一",
+        "D. 円山応挙"
+      ],
+      "answer": "B",
+      "explanation": "こんぴら狗の銅像はイラストレーター湯村輝彦氏のデザインで、高橋由一館前の境内に設置されています。（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_679",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "単行本「こんぴら狗」（今井恭子著）が受賞していない賞はどれですか？",
+      "choices": [
+        "A. 日本児童文学者協会賞",
+        "B. 産経児童出版文化賞",
+        "C. 小学館児童出版文化賞",
+        "D. 直木賞"
+      ],
+      "answer": "D",
+      "explanation": "「こんぴら狗」は第58回日本児童文学者協会賞、第65回産経児童出版文化賞、第67回小学館児童出版文化賞を受賞しています。（出典: [金刀比羅宮 こんぴら狗](https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm)）",
+      "source": "https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm",
+      "reviewed": false,
       "enabled": true
     }
   ]
