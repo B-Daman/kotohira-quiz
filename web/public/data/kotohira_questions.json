@@ -9860,6 +9860,57 @@
       "source": "https://www.konpira.or.jp/charms/article.php",
       "reviewed": false,
       "enabled": true
+    },
+    {
+      "id": "kotohira_581",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の「こんぴら狗みくじ《置物型》」は何でできていますか？",
+      "choices": [
+        "A. 木彫り",
+        "B. 陶器",
+        "C. ガラス",
+        "D. 紙"
+      ],
+      "answer": "B",
+      "explanation": "こんぴら狗みくじ（置物型）は陶器製です。おみくじは下から取り出し、取り出した後は置物として飾れます。（出典: [金刀比羅宮 授与品](https://www.konpira.or.jp/charms/article.php)）",
+      "source": "https://www.konpira.or.jp/charms/article.php",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_582",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の令和八年限定御朱印紙に切り絵で描かれている2頭の神馬の名前は何ですか？",
+      "choices": [
+        "A. 月光号と日光号",
+        "B. 光驥号と白平号",
+        "C. 金毘羅号と象頭号",
+        "D. 瑞穂号と千歳号"
+      ],
+      "answer": "B",
+      "explanation": "令和八年丙午の限定御朱印紙には、金刀比羅宮の神馬「光驥号」と「白平号」が切り絵で描かれています。（出典: [金刀比羅宮 授与品](https://www.konpira.or.jp/charms/article.php)）",
+      "source": "https://www.konpira.or.jp/charms/article.php",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_583",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の厳魂神社 天狗御守は、どのような力が宿るとされていますか？",
+      "choices": [
+        "A. 学業成就の力",
+        "B. 霊妙不可思議な能力",
+        "C. 海上安全の力",
+        "D. 商売繁盛の力"
+      ],
+      "answer": "B",
+      "explanation": "厳魂彦命の人知では計り知れない霊妙不可思議な能力が宿るとされ、諸々の災厄から身を守る「身守り」として授与されています。（出典: [金刀比羅宮 授与品](https://www.konpira.or.jp/charms/article.php)）",
+      "source": "https://www.konpira.or.jp/charms/article.php",
+      "reviewed": false,
+      "enabled": true
     }
   ]
 }
