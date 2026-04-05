@@ -9535,7 +9535,7 @@
       "answer": "C",
       "explanation": "初十日祭（初こんぴら）は毎年1月10日に行われます。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9552,7 +9552,7 @@
       "answer": "B",
       "explanation": "例大祭は10月9日（宵宮祭）、10日（例祭・神幸祭）、11日（還幸祭）の3日間行われます。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9569,7 +9569,7 @@
       "answer": "B",
       "explanation": "大祓式は6月30日と12月31日の年2回行われます。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9586,7 +9586,7 @@
       "answer": "C",
       "explanation": "月次祭は毎月1日・6日・10日・26日など複数回行われます。御本宮、三穂津姫社、旭社、厳魂神社など対象も異なります。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9603,7 +9603,7 @@
       "answer": "B",
       "explanation": "節分祭は2月3日に行われます。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9620,7 +9620,7 @@
       "answer": "B",
       "explanation": "御田植祭は4月15日に行われます。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9637,7 +9637,7 @@
       "answer": "C",
       "explanation": "海上安全特別大祈願祭は7月20日に行われます。金刀比羅宮は海の守り神として知られています。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9654,7 +9654,7 @@
       "answer": "B",
       "explanation": "10月10日に例祭・神幸祭が行われ、御神輿が発御します。翌11日に還幸祭で御神輿が還御します。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9671,7 +9671,7 @@
       "answer": "B",
       "explanation": "煤払式は12月13日に行われます。同日に御年木伐神事も執り行われます。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     },
     {
@@ -9688,7 +9688,7 @@
       "answer": "B",
       "explanation": "厳魂神社の例祭は1月6日に行われます。（出典: [金刀比羅宮 年間行事](https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html)）",
       "source": "https://www.konpira.or.jp/articles_2026/20260225_annual-events/article.html",
-      "reviewed": false,
+      "reviewed": true,
       "enabled": true
     }
   ]
