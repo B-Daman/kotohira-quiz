@@ -795,7 +795,7 @@
         "D. 8月15日"
       ],
       "answer": "A",
-      "explanation": "金刀比羅宮の七夕蹴鞠は7月7日に行われます。七夕の日にちなんだ伝統行事です。",
+      "explanation": "金刀比羅宮の七夕蹴鞠は7月7日に行われます。七夕の日にちなんだ伝統行事です。\n（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
       "source": "konpie-bot/knowledge_base/event",
       "reviewed": true,
       "enabled": true
@@ -3379,7 +3379,7 @@
         "D. 流鏑馬"
       ],
       "answer": "B",
-      "explanation": "七夕蹴鞠は7月7日に行われ、蹴鞠（けまり）という伝統的な球技が奉納されます。",
+      "explanation": "七夕蹴鞠は7月7日に行われ、蹴鞠（けまり）という伝統的な球技が奉納されます。\n（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
       "source": "konpie-bot/knowledge_base/event",
       "reviewed": true,
       "enabled": true
@@ -8241,7 +8241,7 @@
         "D. 御田植祭"
       ],
       "answer": "C",
-      "explanation": "蹴鞠が行われるのは7月7日の七夕蹴鞠です。",
+      "explanation": "蹴鞠が行われるのは7月7日の七夕蹴鞠です。\n（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
       "source": "konpie-bot/knowledge_base/event",
       "reviewed": true,
       "enabled": true
@@ -8802,7 +8802,7 @@
         "D. 国選択無形民俗文化財"
       ],
       "answer": "B",
-      "explanation": "蹴鞠は県無形民俗文化財に指定されています。現在は鞠庭手入れのため公開が一時休止中です。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+      "explanation": "蹴鞠は県無形民俗文化財に指定されています。現在は鞠庭手入れのため公開が一時休止中です。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）\n（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
       "source": "https://www.konpira.or.jp/",
       "reviewed": true,
       "enabled": true
@@ -9278,7 +9278,7 @@
         "D. 梅・桃・桜・柳"
       ],
       "answer": "B",
-      "explanation": "鞠庭には桜・柳・楓・松の4本の木が植えられています。二股に分かれたところに神様が座って蹴鞠をご覧になると言われています。（出典: [金刀比羅宮 オフィシャルガイド](https://www.konpira.or.jp/articles_2024/20241029_booklets/kotohira-gu-booklets.pdf)）",
+      "explanation": "鞠庭には桜・柳・楓・松の4本の木が植えられています。二股に分かれたところに神様が座って蹴鞠をご覧になると言われています。（出典: [金刀比羅宮 オフィシャルガイド](https://www.konpira.or.jp/articles_2024/20241029_booklets/kotohira-gu-booklets.pdf)）\n（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20241029_booklets/kotohira-gu-booklets.pdf",
       "reviewed": true,
       "enabled": true
@@ -9295,7 +9295,7 @@
         "D. 全国10か所以上"
       ],
       "answer": "B",
-      "explanation": "蹴鞠は現在、京都と金刀比羅宮にしか遺っていません。（出典: [金刀比羅宮 オフィシャルガイド](https://www.konpira.or.jp/articles_2024/20241029_booklets/kotohira-gu-booklets.pdf)）",
+      "explanation": "蹴鞠は現在、京都と金刀比羅宮にしか遺っていません。（出典: [金刀比羅宮 オフィシャルガイド](https://www.konpira.or.jp/articles_2024/20241029_booklets/kotohira-gu-booklets.pdf)）\n（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
       "source": "https://www.konpira.or.jp/articles_2024/20241029_booklets/kotohira-gu-booklets.pdf",
       "reviewed": true,
       "enabled": true
@@ -11015,6 +11015,142 @@
       "explanation": "神苑の藤渓にある紫藤は樹齢数百年とされています。（出典: [金刀比羅宮 神苑ガイド](https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html)）",
       "source": "https://www.konpira.or.jp/ARCHIVES/map/guide-4/guide-4_2015.html",
       "reviewed": true,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_649",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の蹴鞠は何人で行いますか？",
+      "choices": [
+        "A. 4人",
+        "B. 6人",
+        "C. 8人",
+        "D. 10人"
+      ],
+      "answer": "B",
+      "explanation": "蹴鞠は6人で構成し、この集まりを「座」と呼びます。各参加者は「鞠足」と称されます。（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_650",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "蹴鞠ではどちらの足で蹴る決まりですか？",
+      "choices": [
+        "A. 左足のみ",
+        "B. 右足のみ",
+        "C. どちらでも可",
+        "D. 両足交互"
+      ],
+      "answer": "B",
+      "explanation": "蹴鞠は右足のみで蹴る決まりです。（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_651",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "蹴鞠の鞠は何の皮で作られていますか？",
+      "choices": [
+        "A. 牛皮",
+        "B. 鹿皮",
+        "C. 馬皮",
+        "D. 羊皮"
+      ],
+      "answer": "B",
+      "explanation": "鞠は鹿皮をなめして馬皮で縫合した中空構造です。表面にニカワ・白色の御粉・卵白を塗布して仕上げます。（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_652",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "蹴鞠を行う「鞠懸」の広さはどのくらいですか？",
+      "choices": [
+        "A. 10メートル四方",
+        "B. 15メートル四方",
+        "C. 20メートル四方",
+        "D. 25メートル四方"
+      ],
+      "answer": "B",
+      "explanation": "鞠懸は15メートル四方の平坦な地面です。四隅に松・柳・桜・楓の式木が植えられています。（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_653",
+      "category": "history",
+      "difficulty": "medium",
+      "question": "蹴鞠の特徴として正しいのはどれですか？",
+      "choices": [
+        "A. 勝負を競う",
+        "B. 個人の技を競う",
+        "C. 勝負を競わず和の精神を涵養する",
+        "D. チーム対抗戦"
+      ],
+      "answer": "C",
+      "explanation": "蹴鞠は勝負を競わず、和の精神を涵養するものです。天下泰平・国家安泰・五穀豊穣を象徴しています。（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_654",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "蹴鞠が日本に伝来したのはいつ頃ですか？",
+      "choices": [
+        "A. 紀元前1世紀頃",
+        "B. 西暦200年頃",
+        "C. 西暦500年頃",
+        "D. 西暦700年頃"
+      ],
+      "answer": "C",
+      "explanation": "蹴鞠は西暦500年頃に仏教とともに日本に伝来しました。第31代用明天皇の御代に初めて実施されたとされています。（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_655",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "蹴鞠がきっかけで大化改新を成就したとされる2人は誰ですか？",
+      "choices": [
+        "A. 聖徳太子と蘇我馬子",
+        "B. 中大兄皇子と藤原鎌足",
+        "C. 天武天皇と大友皇子",
+        "D. 桓武天皇と坂上田村麻呂"
+      ],
+      "answer": "B",
+      "explanation": "中大兄皇子と藤原鎌足が蹴鞠を機縁に出会い、大化改新を成就したとされています。（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_656",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の蹴鞠が香川県の無形文化財に指定されたのは何年ですか？",
+      "choices": [
+        "A. 昭和7年",
+        "B. 昭和30年",
+        "C. 昭和49年",
+        "D. 平成元年"
+      ],
+      "answer": "C",
+      "explanation": "金刀比羅宮の蹴鞠は昭和49年（1974年）に香川県の無形文化財に指定されました。昭和7年に再興されたものです。（出典: [金刀比羅宮 蹴鞠](https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html)）",
+      "source": "https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html",
+      "reviewed": false,
       "enabled": true
     }
   ]
