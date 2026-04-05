@@ -9418,6 +9418,108 @@
       "source": "https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html",
       "reviewed": true,
       "enabled": true
+    },
+    {
+      "id": "kotohira_555",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の御本宮等が重要文化財に指定されたのはいつですか？",
+      "choices": [
+        "A. 平成30年8月15日",
+        "B. 令和4年5月17日",
+        "C. 令和6年8月15日",
+        "D. 令和6年5月17日"
+      ],
+      "answer": "C",
+      "explanation": "令和6年8月15日（2024年）に重要文化財に指定されました。答申は令和6年5月17日でした。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_556",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "令和6年に重要文化財に指定された金刀比羅宮の建造物は何棟ですか？",
+      "choices": [
+        "A. 5棟",
+        "B. 8棟",
+        "C. 12棟",
+        "D. 15棟"
+      ],
+      "answer": "C",
+      "explanation": "令和6年8月15日に12棟が重要文化財に指定されました。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_557",
+      "category": "shrine",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の御本宮拝殿が建設されたのは何年ですか？",
+      "choices": [
+        "A. 明治5年",
+        "B. 明治8年",
+        "C. 明治11年",
+        "D. 明治15年"
+      ],
+      "answer": "C",
+      "explanation": "御本宮拝殿は明治11年に建設されました。木造、入母屋造、檜皮葺の建物です。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_558",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の御本宮の屋根はどのような葺き方ですか？",
+      "choices": [
+        "A. 瓦葺",
+        "B. 銅板葺",
+        "C. 茅葺",
+        "D. 檜皮葺"
+      ],
+      "answer": "D",
+      "explanation": "御本宮は檜皮葺（ひわだぶき）です。総檜素木造りで蒔絵装飾が施されています。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_559",
+      "category": "history",
+      "difficulty": "hard",
+      "question": "金刀比羅宮の御本宮が現在の姿になったのは、何に対応するためでしたか？",
+      "choices": [
+        "A. 戦災復興",
+        "B. 神仏分離",
+        "C. 廃藩置県",
+        "D. 明治天皇の行幸"
+      ],
+      "answer": "B",
+      "explanation": "明治7〜11年にかけて神仏分離に対応する形で現在の姿が創出されました。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
+      "reviewed": false,
+      "enabled": true
+    },
+    {
+      "id": "kotohira_560",
+      "category": "shrine",
+      "difficulty": "medium",
+      "question": "金刀比羅宮の建物に施されている神紋はどのような形ですか？",
+      "choices": [
+        "A. 菊の御紋",
+        "B. 丸金の神紋",
+        "C. 三つ巴紋",
+        "D. 五七桐紋"
+      ],
+      "answer": "B",
+      "explanation": "金刀比羅宮の建物には丸金の神紋が施されています。（出典: [金刀比羅宮 重要文化財指定](https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html)）",
+      "source": "https://www.konpira.or.jp/articles_2024/20240518_important-cultural-propertys/article.html",
+      "reviewed": false,
+      "enabled": true
     }
   ]
 }
