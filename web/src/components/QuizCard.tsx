@@ -1,6 +1,15 @@
 import type { Question } from "../types";
 import { isKotohiraQuestion, isEnglishQuestion } from "../types";
 
+const DIFFICULTY_BADGE: Record<
+  string,
+  { label: string; color: string; bg: string }
+> = {
+  easy: { label: "やさしい", color: "#16a34a", bg: "#f0fdf4" },
+  medium: { label: "ふつう", color: "#d97706", bg: "#fffbeb" },
+  hard: { label: "むずかしい", color: "#dc2626", bg: "#fef2f2" },
+};
+
 interface Props {
   question: Question;
   index: number;
@@ -18,16 +27,34 @@ export function QuizCard({ question, index, onAnswer }: Props) {
     tag = question.pattern === "en_to_ja" ? "英→日" : "日→英";
   }
 
+  const badge =
+    isKotohiraQuestion(question)
+      ? DIFFICULTY_BADGE[question.difficulty]
+      : null;
+
   const labels = ["A", "B", "C", "D"];
 
   return (
     <div className="w-full max-w-lg mx-auto">
-      <div
-        className="text-xs font-bold uppercase tracking-wider mb-2"
-        style={{ color: accentColor }}
-      >
-        {isKotohira ? "🏛️ 琴平町クイズ" : "🔤 英単語クイズ"} ・{" "}
-        {tag}
+      <div className="flex items-center gap-2 mb-2">
+        <span
+          className="text-xs font-bold uppercase tracking-wider"
+          style={{ color: accentColor }}
+        >
+          {isKotohira ? "🏛️ " : "🔤 "}
+          {tag}
+        </span>
+        {badge && (
+          <span
+            className="text-xs font-bold px-2 py-0.5 rounded-full"
+            style={{
+              color: badge.color,
+              backgroundColor: badge.bg,
+            }}
+          >
+            {badge.label}
+          </span>
+        )}
       </div>
 
       <h2 className="text-xl font-bold text-gray-800 mb-1">

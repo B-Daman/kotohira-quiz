@@ -16,12 +16,8 @@ export function ProgressBar({ current, total }: Props) {
       </div>
       <div className="w-full bg-gray-200 rounded-full h-2">
         <div
-          className="h-2 rounded-full transition-all duration-300"
-          style={{
-            width: `${pct}%`,
-            backgroundColor:
-              current < 5 ? "#D4A574" : "#5B8DEF",
-          }}
+          className="h-2 rounded-full transition-all duration-300 bg-amber-600"
+          style={{ width: `${pct}%` }}
         />
       </div>
     </div>

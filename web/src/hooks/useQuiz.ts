@@ -1,15 +1,15 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type {
   Question,
   KotohiraQuestion,
   EnglishQuestion,
   AnswerRecord,
   QuizPhase,
+  QuizConfig,
 } from "../types";
 import { loadAllQuestions } from "../data/questions";
 import {
   getTodayAnsweredIds,
-  getTodayAnswers,
   saveAnswer,
   saveDailyScore,
 } from "../data/history";
@@ -27,6 +27,18 @@ function shuffled<T>(arr: T[]): T[] {
 function selectKotohira(
   pool: KotohiraQuestion[],
   count: number,
+  applyDistribution?: boolean,
+): KotohiraQuestion[] {
+  if (!applyDistribution) {
+    // Simple category-distributed selection
+    return selectWithCategoryDistribution(pool, count);
+  }
+  return selectWithCategoryDistribution(pool, count);
+}
+
+function selectWithCategoryDistribution(
+  pool: KotohiraQuestion[],
+  count: number,
 ): KotohiraQuestion[] {
   const byCategory: Record<string, KotohiraQuestion[]> = {};
   for (const q of pool) {
@@ -38,12 +50,13 @@ function selectKotohira(
   const selectedIds = new Set<string>();
   const categories = shuffled(Object.keys(byCategory));
   const catCount: Record<string, number> = {};
+  const maxPerCat = 2;
 
   while (selected.length < count) {
     let added = false;
     for (const cat of categories) {
       if (selected.length >= count) break;
-      if ((catCount[cat] ?? 0) >= 1) continue;
+      if ((catCount[cat] ?? 0) >= maxPerCat) continue;
       const candidates = byCategory[cat].filter(
         (q) => !selectedIds.has(q.id),
       );
@@ -66,6 +79,44 @@ function selectKotohira(
     }
   }
   return selected;
+}
+
+function selectMixDifficulty(
+  pool: KotohiraQuestion[],
+  count: number,
+): KotohiraQuestion[] {
+  const byDiff: Record<string, KotohiraQuestion[]> = {};
+  for (const q of pool) {
+    (byDiff[q.difficulty] ??= []).push(q);
+  }
+
+  // Random distribution: pick counts for each difficulty
+  const easyCount = 2 + Math.floor(Math.random() * 3); // 2-4
+  const hardCount = 2 + Math.floor(Math.random() * 3); // 2-4
+  const mediumCount = count - easyCount - hardCount;
+
+  const targets: [string, number][] = [
+    ["easy", Math.min(easyCount, (byDiff["easy"] ?? []).length)],
+    ["medium", Math.min(Math.max(mediumCount, 0), (byDiff["medium"] ?? []).length)],
+    ["hard", Math.min(hardCount, (byDiff["hard"] ?? []).length)],
+  ];
+
+  const selected: KotohiraQuestion[] = [];
+  for (const [diff, n] of targets) {
+    const candidates = shuffled(byDiff[diff] ?? []);
+    selected.push(...candidates.slice(0, n));
+  }
+
+  // Fill remaining if targets didn't reach count
+  if (selected.length < count) {
+    const selectedIds = new Set(selected.map((q) => q.id));
+    const remaining = shuffled(
+      pool.filter((q) => !selectedIds.has(q.id)),
+    );
+    selected.push(...remaining.slice(0, count - selected.length));
+  }
+
+  return shuffled(selected);
 }
 
 function selectEnglish(
@@ -101,8 +152,47 @@ function selectEnglish(
   return selected;
 }
 
+function buildQuestions(
+  config: QuizConfig,
+  kotohiraPool: KotohiraQuestion[],
+  englishPool: EnglishQuestion[],
+): Question[] {
+  if (config.mode === "english_mix") {
+    const kotohiraQs = selectKotohira(kotohiraPool, 5);
+    const englishQs = selectEnglish(englishPool, 5);
+    return [...kotohiraQs, ...englishQs];
+  }
+
+  let filtered = kotohiraPool;
+
+  // Filter by categories
+  if (config.categories && config.categories.length > 0) {
+    const cats = new Set(config.categories);
+    filtered = filtered.filter((q) => cats.has(q.category));
+  }
+
+  // Filter by difficulty
+  if (config.difficulty && config.difficulty !== "mix") {
+    filtered = filtered.filter((q) => q.difficulty === config.difficulty);
+  }
+
+  // Mix difficulty mode
+  if (config.difficulty === "mix") {
+    return selectMixDifficulty(filtered, 10);
+  }
+
+  // Theme/category selected: no category distribution
+  if (config.categories && config.categories.length > 0) {
+    const count = Math.min(10, filtered.length);
+    return shuffled(filtered).slice(0, count);
+  }
+
+  return selectKotohira(filtered, 10);
+}
+
 export interface QuizState {
   phase: QuizPhase;
+  config: QuizConfig | null;
   questions: Question[];
   currentIndex: number;
   answers: AnswerRecord[];
@@ -111,54 +201,71 @@ export interface QuizState {
 
 export function useQuiz() {
   const [state, setState] = useState<QuizState>({
-    phase: "loading",
+    phase: "start",
+    config: null,
     questions: [],
     currentIndex: 0,
     answers: [],
     errorMessage: "",
   });
 
+  const sessionAnsweredIds = useRef(new Set<string>());
+  const roundCounter = useRef(0);
+
+  const startQuiz = useCallback((config: QuizConfig) => {
+    setState((s) => ({
+      ...s,
+      phase: "loading",
+      config,
+      questions: [],
+      currentIndex: 0,
+      answers: [],
+      errorMessage: "",
+    }));
+    roundCounter.current += 1;
+  }, []);
+
   useEffect(() => {
+    if (state.phase !== "loading" || !state.config) return;
+
     let cancelled = false;
 
     async function init() {
       try {
         const data = await loadAllQuestions();
-        const answeredIds = getTodayAnsweredIds();
+        const todayIds = getTodayAnsweredIds();
+        const excludeIds = new Set([
+          ...todayIds,
+          ...sessionAnsweredIds.current,
+        ]);
 
         const kotohiraPool = data.kotohira.filter(
-          (q) => !answeredIds.has(q.id),
+          (q) => !excludeIds.has(q.id),
         );
         const englishPool = data.english.filter(
-          (q) => !answeredIds.has(q.id),
+          (q) => !excludeIds.has(q.id),
         );
 
-        const kotohiraQs = selectKotohira(kotohiraPool, 5);
-        const englishQs = selectEnglish(englishPool, 5);
-        const questions: Question[] = [
-          ...kotohiraQs,
-          ...englishQs,
-        ];
+        const questions = buildQuestions(
+          state.config!,
+          kotohiraPool,
+          englishPool,
+        );
 
         if (cancelled) return;
 
         if (questions.length === 0) {
-          const existing = getTodayAnswers();
-          if (existing.length > 0) {
-            setState((s) => ({
-              ...s,
-              phase: "summary",
-              answers: existing,
-              questions: [],
-            }));
-          } else {
-            setState((s) => ({
-              ...s,
-              phase: "error",
-              errorMessage: "出題可能な問題がありません。",
-            }));
-          }
+          setState((s) => ({
+            ...s,
+            phase: "error",
+            errorMessage:
+              "出題可能な問題がありません。条件を変えて試してみてください。",
+          }));
           return;
+        }
+
+        for (const q of questions) {
+          sessionAnsweredIds.current.add(q.id);
         }
 
         setState((s) => ({
@@ -185,7 +292,7 @@ export function useQuiz() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [state.phase, state.config, roundCounter.current]);
 
   const submitAnswer = useCallback(
     (selected: string) => {
@@ -228,6 +335,23 @@ export function useQuiz() {
     });
   }, []);
 
+  const restartQuiz = useCallback(() => {
+    if (state.config) {
+      startQuiz(state.config);
+    }
+  }, [state.config, startQuiz]);
+
+  const goToStart = useCallback(() => {
+    setState({
+      phase: "start",
+      config: null,
+      questions: [],
+      currentIndex: 0,
+      answers: [],
+      errorMessage: "",
+    });
+  }, []);
+
   const currentQuestion =
     state.questions[state.currentIndex] ?? null;
   const lastAnswer =
@@ -237,7 +361,10 @@ export function useQuiz() {
     ...state,
     currentQuestion,
     lastAnswer,
+    startQuiz,
     submitAnswer,
     nextQuestion,
+    restartQuiz,
+    goToStart,
   };
 }

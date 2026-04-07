@@ -47,7 +47,14 @@ export interface AnswerRecord {
   correct: boolean;
 }
 
-export type QuizPhase = "loading" | "question" | "result" | "summary" | "error";
+export interface QuizConfig {
+  mode: "free" | "english_mix" | "difficulty" | "theme";
+  difficulty?: "easy" | "medium" | "hard" | "mix";
+  categories?: string[];
+  label?: string;
+}
+
+export type QuizPhase = "start" | "loading" | "question" | "result" | "summary" | "error";
 
 export interface DailyScore {
   date: string;

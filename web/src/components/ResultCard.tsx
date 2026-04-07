@@ -26,41 +26,45 @@ function RichText({ text }: { text: string }) {
   );
 }
 
-function splitSource(text: string): {
+function splitSources(text: string): {
   body: string;
-  source: { label: string; url: string } | null;
+  sources: { label: string; url: string }[];
 } {
-  // （出典: [label](url)） を分離
-  const m = text.match(
-    /（出典: \[([^\]]+)\]\(([^)]+)\)）$/,
-  );
-  if (m) {
-    return {
-      body: text.replace(m[0], "").trim(),
-      source: { label: m[1], url: m[2] },
-    };
+  const sources: { label: string; url: string }[] = [];
+  const pattern = /\n?（出典: \[([^\]]+)\]\(([^)]+)\)）/g;
+  let m: RegExpExecArray | null;
+  while ((m = pattern.exec(text)) !== null) {
+    sources.push({ label: m[1], url: m[2] });
   }
-  return { body: text, source: null };
+  const body = text.replace(pattern, "").trim();
+  return { body, sources };
 }
 
-function SourceLink({
-  source,
+function SourceLinks({
+  sources,
 }: {
-  source: { label: string; url: string };
+  sources: { label: string; url: string }[];
 }) {
+  if (sources.length === 0) return null;
   return (
     <>
       <p className="text-sm text-gray-500 mt-3 mb-1 font-bold">
         📎 出典
       </p>
-      <a
-        href={source.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 underline text-sm"
-      >
-        {source.label}
-      </a>
+      <ul className="list-none space-y-1">
+        {sources.map((s, i) => (
+          <li key={i}>
+            <a
+              href={s.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline text-sm"
+            >
+              {s.label}
+            </a>
+          </li>
+        ))}
+      </ul>
     </>
   );
 }
@@ -159,7 +163,7 @@ export function ResultCard({
           />
         ) : (
           (() => {
-            const { body, source } = splitSource(
+            const { body, sources } = splitSources(
               question.explanation,
             );
             return (
@@ -170,9 +174,7 @@ export function ResultCard({
                 <p className="text-gray-700 leading-relaxed">
                   <RichText text={body} />
                 </p>
-                {source && (
-                  <SourceLink source={source} />
-                )}
+                <SourceLinks sources={sources} />
               </>
             );
           })()
