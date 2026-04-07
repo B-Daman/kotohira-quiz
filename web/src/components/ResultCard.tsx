@@ -1,73 +1,7 @@
 import type { Question, AnswerRecord } from "../types";
 import { isKotohiraQuestion, isEnglishQuestion } from "../types";
-
-function RichText({ text }: { text: string }) {
-  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
-  return (
-    <>
-      {parts.map((part, i) => {
-        const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-        if (m) {
-          return (
-            <a
-              key={i}
-              href={m[2]}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 underline"
-            >
-              {m[1]}
-            </a>
-          );
-        }
-        return <span key={i}>{part}</span>;
-      })}
-    </>
-  );
-}
-
-function splitSources(text: string): {
-  body: string;
-  sources: { label: string; url: string }[];
-} {
-  const sources: { label: string; url: string }[] = [];
-  const pattern = /\n?（出典: \[([^\]]+)\]\(([^)]+)\)）/g;
-  let m: RegExpExecArray | null;
-  while ((m = pattern.exec(text)) !== null) {
-    sources.push({ label: m[1], url: m[2] });
-  }
-  const body = text.replace(pattern, "").trim();
-  return { body, sources };
-}
-
-function SourceLinks({
-  sources,
-}: {
-  sources: { label: string; url: string }[];
-}) {
-  if (sources.length === 0) return null;
-  return (
-    <>
-      <p className="text-sm text-gray-500 mt-3 mb-1 font-bold">
-        📎 出典
-      </p>
-      <ul className="list-none space-y-1">
-        {sources.map((s, i) => (
-          <li key={i}>
-            <a
-              href={s.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 underline text-sm"
-            >
-              {s.label}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </>
-  );
-}
+import { RichText, SourceLinks } from "./ExplanationParts";
+import { splitSources } from "../utils/explanation";
 
 function EnglishExplanation({
   explanation,

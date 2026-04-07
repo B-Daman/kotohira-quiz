@@ -1,13 +1,74 @@
+import { useState } from "react";
 import type { AnswerRecord, Question } from "../types";
 import { isKotohiraQuestion } from "../types";
 import { getTodayJST } from "../utils/date";
 import { getDailyScores } from "../data/history";
+import { splitSources } from "../utils/explanation";
+import { RichText, SourceLinks } from "./ExplanationParts";
 
 interface Props {
   answers: AnswerRecord[];
   questions: Question[];
   onRestart: () => void;
   onGoToStart: () => void;
+}
+
+function ReviewItem({
+  question,
+  answer,
+  index,
+}: {
+  question: Question;
+  answer: AnswerRecord;
+  index: number;
+}) {
+  const [open, setOpen] = useState(false);
+  const { body, sources } = splitSources(question.explanation);
+
+  const correctChoice = question.choices.find((c) =>
+    c.startsWith(`${question.answer}.`),
+  );
+  const selectedChoice = question.choices.find((c) =>
+    c.startsWith(`${answer.selected}.`),
+  );
+
+  return (
+    <div
+      className={`rounded-lg border-2 ${answer.correct ? "border-green-200 bg-green-50/50" : "border-red-200 bg-red-50/50"}`}
+    >
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full text-left px-4 py-3 flex items-start gap-3"
+      >
+        <span className="text-lg mt-0.5 shrink-0">
+          {answer.correct ? "✅" : "❌"}
+        </span>
+        <div className="flex-1 min-w-0">
+          <p className="text-sm font-bold text-gray-800">
+            Q{index + 1}. {question.question}
+          </p>
+          {!answer.correct && (
+            <p className="text-xs text-gray-500 mt-1">
+              あなた: {selectedChoice ?? answer.selected} → 正解:{" "}
+              {correctChoice ?? question.answer}
+            </p>
+          )}
+        </div>
+        <span className="text-gray-400 text-xs shrink-0 mt-1">
+          {open ? "▲" : "▼"}
+        </span>
+      </button>
+
+      {open && (
+        <div className="px-4 pb-4 border-t border-gray-200 pt-3">
+          <p className="text-sm text-gray-700 leading-relaxed">
+            <RichText text={body} />
+          </p>
+          <SourceLinks sources={sources} />
+        </div>
+      )}
+    </div>
+  );
 }
 
 export function ScoreSummary({
@@ -92,9 +153,7 @@ export function ScoreSummary({
                 key={d}
                 className="bg-gray-50 rounded-lg px-4 py-2 text-sm"
               >
-                <p className="text-gray-500">
-                  {diffLabels[d]}
-                </p>
+                <p className="text-gray-500">{diffLabels[d]}</p>
                 <p className="text-lg font-bold text-gray-700">
                   {s.correct}/{s.total}
                 </p>
@@ -133,7 +192,7 @@ export function ScoreSummary({
       )}
 
       {/* Action buttons */}
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 mb-8">
         <button
           onClick={onRestart}
           className="w-full py-3 rounded-lg bg-amber-600 text-white font-bold text-lg hover:bg-amber-700 active:scale-[0.98] transition-all"
@@ -146,6 +205,27 @@ export function ScoreSummary({
         >
           モードを変えて遊ぶ
         </button>
+      </div>
+
+      {/* Review list */}
+      <div className="text-left">
+        <h3 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">
+          問題のふりかえり
+        </h3>
+        <div className="flex flex-col gap-2">
+          {questions.map((q, i) => {
+            const a = answers[i];
+            if (!a) return null;
+            return (
+              <ReviewItem
+                key={q.id}
+                question={q}
+                answer={a}
+                index={i}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );
