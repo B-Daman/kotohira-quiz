@@ -89,14 +89,25 @@ export function DailyQuiz() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-50 px-4 py-8">
+    <div className="min-h-screen bg-stone-50 px-4 py-8">
       {phase !== "start" && (
-        <header className="text-center mb-8">
-          <h1 className="text-2xl font-bold text-gray-800">
-            琴平クイズ
-          </h1>
+        <header className="mb-6 max-w-lg mx-auto">
+          <div className="flex items-center justify-between">
+            <button
+              onClick={goToStart}
+              className="text-sm text-gray-500 hover:text-amber-700 transition-colors flex items-center gap-1"
+            >
+              ← トップへ
+            </button>
+            <span className="text-sm font-bold text-gray-800">
+              ⛩️ 琴平クイズ
+            </span>
+            <span className="w-12" />
+          </div>
           {config?.label && (
-            <p className="text-sm text-gray-400">{config.label}</p>
+            <p className="text-xs text-gray-500 text-right mt-1">
+              {config.label}
+            </p>
           )}
         </header>
       )}
@@ -139,7 +150,10 @@ export function DailyQuiz() {
         )}
 
         {phase === "error" && (
-          <ErrorMessage message={errorMessage} />
+          <ErrorMessage
+            message={errorMessage}
+            onGoToStart={goToStart}
+          />
         )}
 
         {phase === "question" && currentQuestion && (

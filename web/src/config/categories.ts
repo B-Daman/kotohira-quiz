@@ -81,3 +81,17 @@ export const THEME_GROUPS: ThemeGroup[] = [
     ],
   },
 ];
+
+/** JSON category key → 日本語ラベル */
+const CATEGORY_LABELS: Record<string, string> = {};
+for (const group of THEME_GROUPS) {
+  for (const cat of group.categories) {
+    // サブカテゴリがある場合はサブのラベルを使う
+    const sub = group.subs.find((s) => s.categories.includes(cat));
+    CATEGORY_LABELS[cat] = sub ? sub.label : group.label;
+  }
+}
+
+export function getCategoryLabel(category: string): string {
+  return CATEGORY_LABELS[category] ?? category;
+}

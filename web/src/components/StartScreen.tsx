@@ -56,17 +56,17 @@ function Popover({
   return (
     <div
       ref={ref}
-      className="absolute top-full left-0 mt-1 z-20 bg-white rounded-lg shadow-lg border border-gray-200 py-1 min-w-[200px]"
+      className="absolute top-full right-0 sm:left-0 sm:right-auto mt-1 z-20 bg-white rounded-lg shadow-lg border border-gray-200 py-1 min-w-[200px]"
     >
       <button
         onClick={() => onToggle(group.categories)}
-        className="w-full text-left px-4 py-2 hover:bg-gray-50 flex items-center justify-between"
+        className="w-full text-left px-4 py-3 hover:bg-gray-50 flex items-center justify-between"
       >
         <span className="text-sm font-medium text-gray-700">
           すべて
         </span>
         <span className="flex items-center gap-2">
-          <span className="text-xs text-gray-400">
+          <span className="text-xs text-gray-500">
             {allCount}問
           </span>
           {allSelected && (
@@ -86,13 +86,13 @@ function Popover({
           <button
             key={sub.label}
             onClick={() => onToggle(sub.categories)}
-            className="w-full text-left px-4 py-2 hover:bg-gray-50 flex items-center justify-between"
+            className="w-full text-left px-4 py-3 hover:bg-gray-50 flex items-center justify-between"
           >
             <span className="text-sm text-gray-600">
               {sub.label}
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-xs text-gray-400">
+              <span className="text-xs text-gray-500">
                 {subCount}問
               </span>
               {subSelected && (
@@ -307,13 +307,13 @@ export function StartScreen({
                   <span>{group.label}</span>
                   {hasSubs && (
                     <span
-                      className={`text-xs ml-0.5 ${selected ? "text-amber-200" : "text-gray-400"}`}
+                      className={`text-xs ml-0.5 ${selected ? "text-amber-200" : "text-gray-500"}`}
                     >
                       ▾
                     </span>
                   )}
                   <span
-                    className={`text-xs ${selected ? "text-amber-200" : "text-gray-400"}`}
+                    className={`text-xs ${selected ? "text-amber-200" : "text-gray-500"}`}
                   >
                     {count}
                   </span>

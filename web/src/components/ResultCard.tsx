@@ -10,8 +10,6 @@ function EnglishExplanation({
   explanation: string;
   pronunciation?: string;
 }) {
-  // "word = 意味。例: English sentence.（日本語訳）"
-  // → 答え行と例文行に分割
   const exampleMatch = explanation.match(
     /^(.+?)(?:。\s*例:\s*|。\s*例：\s*)(.+)$/,
   );
@@ -28,7 +26,7 @@ function EnglishExplanation({
         <RichText text={meaningLine} />
       </p>
       {pronunciation && (
-        <p className="text-sm text-gray-400 italic mt-1">
+        <p className="text-sm text-gray-500 italic mt-1">
           発音: {pronunciation}
         </p>
       )}
@@ -62,34 +60,41 @@ export function ResultCard({
   const isKotohira = isKotohiraQuestion(question);
   const accentColor = isKotohira ? "#D4A574" : "#5B8DEF";
 
+  const bgClass = answer.correct
+    ? "bg-green-50 border-green-200"
+    : "bg-red-50 border-red-200";
+
   return (
-    <div className="w-full max-w-lg mx-auto">
+    <div
+      className={`w-full max-w-lg mx-auto animate-fadeIn ${answer.correct ? "" : "animate-shake"}`}
+    >
+      {/* Result header with colored background */}
       <div
-        className={`text-center text-4xl mb-4 ${
-          answer.correct ? "animate-bounce" : ""
-        }`}
+        className={`rounded-xl border-2 ${bgClass} p-6 mb-4 text-center`}
       >
-        {answer.correct ? "✅" : "❌"}
+        <div
+          className={`text-4xl mb-2 ${answer.correct ? "animate-bounce" : ""}`}
+        >
+          {answer.correct ? "✅" : "❌"}
+        </div>
+
+        <h2
+          className={`text-2xl font-bold mb-1 ${
+            answer.correct ? "text-green-600" : "text-red-500"
+          }`}
+        >
+          {answer.correct ? "正解！" : "不正解…"}
+        </h2>
+
+        {!answer.correct && (
+          <p className="text-gray-600">
+            正解は <strong>{question.answer}</strong>
+          </p>
+        )}
       </div>
 
-      <h2
-        className={`text-2xl font-bold text-center mb-2 ${
-          answer.correct ? "text-green-600" : "text-red-500"
-        }`}
-      >
-        {answer.correct ? "正解！" : "不正解…"}
-      </h2>
-
-      {!answer.correct && (
-        <p className="text-center text-gray-600 mb-4">
-          正解は <strong>{question.answer}</strong>
-        </p>
-      )}
-
-      <div
-        className="rounded-lg p-4 mb-6"
-        style={{ backgroundColor: `${accentColor}15` }}
-      >
+      {/* Explanation */}
+      <div className="rounded-xl bg-white border border-gray-200 p-4 mb-4">
         {isEnglishQuestion(question) ? (
           <EnglishExplanation
             explanation={question.explanation}
@@ -117,6 +122,7 @@ export function ResultCard({
 
       <button
         onClick={onNext}
+        autoFocus
         className="w-full py-3 rounded-lg text-white font-bold text-lg transition-all hover:opacity-90 active:scale-[0.98]"
         style={{ backgroundColor: accentColor }}
       >

@@ -54,7 +54,7 @@ function ReviewItem({
             </p>
           )}
         </div>
-        <span className="text-gray-400 text-xs shrink-0 mt-1">
+        <span className="text-gray-500 text-xs shrink-0 mt-1">
           {open ? "▲" : "▼"}
         </span>
       </button>

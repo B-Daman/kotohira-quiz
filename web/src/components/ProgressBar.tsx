@@ -7,7 +7,7 @@ export function ProgressBar({ current, total }: Props) {
   const pct = total > 0 ? ((current + 1) / total) * 100 : 0;
 
   return (
-    <div className="mb-6">
+    <div className="mb-6 max-w-lg mx-auto">
       <div className="flex justify-between text-sm text-gray-500 mb-1">
         <span>
           {current + 1} / {total}
