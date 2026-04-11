@@ -121,6 +121,9 @@ export function ScoreSummary({
   const hasEnglish = answers.some((a) =>
     a.questionId.startsWith("eng"),
   );
+  const hasJapanese = answers.some((a) =>
+    a.questionId.startsWith("jpn"),
+  );
 
   return (
     <div className="w-full max-w-lg mx-auto text-center">
@@ -180,6 +183,28 @@ export function ScoreSummary({
               {answers.filter((a) => a.questionId.startsWith("eng") && a.correct).length}
               /
               {answers.filter((a) => a.questionId.startsWith("eng")).length}
+            </p>
+          </div>
+        </div>
+      )}
+
+      {/* Japanese/Kotohira split (only in mixed mode) */}
+      {hasKotohira && hasJapanese && (
+        <div className="grid grid-cols-2 gap-4 mb-6">
+          <div className="bg-amber-50 rounded-lg p-4">
+            <p className="text-sm text-gray-500">🏛️ 琴平町</p>
+            <p className="text-2xl font-bold text-amber-700">
+              {answers.filter((a) => a.questionId.startsWith("kotohira") && a.correct).length}
+              /
+              {answers.filter((a) => a.questionId.startsWith("kotohira")).length}
+            </p>
+          </div>
+          <div className="bg-emerald-50 rounded-lg p-4">
+            <p className="text-sm text-gray-500">📝 漢字</p>
+            <p className="text-2xl font-bold text-emerald-600">
+              {answers.filter((a) => a.questionId.startsWith("jpn") && a.correct).length}
+              /
+              {answers.filter((a) => a.questionId.startsWith("jpn")).length}
             </p>
           </div>
         </div>

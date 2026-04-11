@@ -21,18 +21,41 @@ export interface EnglishQuestion {
   explanation: string;
   word: string;
   pronunciation: string;
+  search_url: string;
+  translate_url: string;
   reviewed: boolean;
   enabled: boolean;
 }
 
-export type Question = KotohiraQuestion | EnglishQuestion;
+export interface JapaneseQuestion {
+  id: string;
+  level: "easy" | "medium" | "hard";
+  pattern: "kanji_to_reading" | "reading_to_kanji";
+  question: string;
+  choices: string[];
+  answer: string;
+  explanation: string;
+  word: string;
+  reading: string;
+  english: string;
+  search_url: string;
+  translate_url: string;
+  reviewed: boolean;
+  enabled: boolean;
+}
+
+export type Question = KotohiraQuestion | EnglishQuestion | JapaneseQuestion;
 
 export function isKotohiraQuestion(q: Question): q is KotohiraQuestion {
   return "category" in q;
 }
 
 export function isEnglishQuestion(q: Question): q is EnglishQuestion {
-  return "pattern" in q;
+  return "pattern" in q && "pronunciation" in q;
+}
+
+export function isJapaneseQuestion(q: Question): q is JapaneseQuestion {
+  return "pattern" in q && "reading" in q;
 }
 
 export interface QuestionBank {
@@ -48,7 +71,7 @@ export interface AnswerRecord {
 }
 
 export interface QuizConfig {
-  mode: "free" | "english_mix" | "difficulty" | "theme";
+  mode: "free" | "english_mix" | "japanese_mix" | "english_only" | "japanese_only" | "difficulty" | "theme";
   difficulty?: "easy" | "medium" | "hard" | "mix";
   categories?: string[];
   label?: string;

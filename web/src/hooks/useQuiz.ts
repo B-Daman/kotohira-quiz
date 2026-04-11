@@ -3,6 +3,7 @@ import type {
   Question,
   KotohiraQuestion,
   EnglishQuestion,
+  JapaneseQuestion,
   AnswerRecord,
   QuizPhase,
   QuizConfig,
@@ -152,15 +153,63 @@ function selectEnglish(
   return selected;
 }
 
+function selectJapanese(
+  pool: JapaneseQuestion[],
+  count: number,
+): JapaneseQuestion[] {
+  const kanjiToReading = shuffled(
+    pool.filter((q) => q.pattern === "kanji_to_reading"),
+  );
+  const readingToKanji = shuffled(
+    pool.filter((q) => q.pattern === "reading_to_kanji"),
+  );
+
+  const selected: JapaneseQuestion[] = [];
+  let iK = 0;
+  let iR = 0;
+  let useK = true;
+
+  while (selected.length < count) {
+    if (useK && iK < kanjiToReading.length) {
+      selected.push(kanjiToReading[iK++]);
+    } else if (!useK && iR < readingToKanji.length) {
+      selected.push(readingToKanji[iR++]);
+    } else if (iK < kanjiToReading.length) {
+      selected.push(kanjiToReading[iK++]);
+    } else if (iR < readingToKanji.length) {
+      selected.push(readingToKanji[iR++]);
+    } else {
+      break;
+    }
+    useK = !useK;
+  }
+  return selected;
+}
+
 function buildQuestions(
   config: QuizConfig,
   kotohiraPool: KotohiraQuestion[],
   englishPool: EnglishQuestion[],
+  japanesePool: JapaneseQuestion[] = [],
 ): Question[] {
   if (config.mode === "english_mix") {
     const kotohiraQs = selectKotohira(kotohiraPool, 5);
     const englishQs = selectEnglish(englishPool, 5);
     return [...kotohiraQs, ...englishQs];
+  }
+
+  if (config.mode === "japanese_mix") {
+    const kotohiraQs = selectKotohira(kotohiraPool, 5);
+    const japaneseQs = selectJapanese(japanesePool, 5);
+    return [...kotohiraQs, ...japaneseQs];
+  }
+
+  if (config.mode === "english_only") {
+    return selectEnglish(englishPool, 10);
+  }
+
+  if (config.mode === "japanese_only") {
+    return selectJapanese(japanesePool, 10);
   }
 
   let filtered = kotohiraPool;
@@ -245,11 +294,15 @@ export function useQuiz() {
         const englishPool = data.english.filter(
           (q) => !excludeIds.has(q.id),
         );
+        const japanesePool = data.japanese.filter(
+          (q) => !excludeIds.has(q.id),
+        );
 
         const questions = buildQuestions(
           state.config!,
           kotohiraPool,
           englishPool,
+          japanesePool,
         );
 
         if (cancelled) return;

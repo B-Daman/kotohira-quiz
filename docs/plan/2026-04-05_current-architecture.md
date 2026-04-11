@@ -1,13 +1,13 @@
 # kotohira-quiz 現行アーキテクチャ設計書
 
-更新日: 2026-04-05
+更新日: 2026-04-11
 ステータス: Phase 1 稼働中
 
 ---
 
 ## 概要
 
-琴平町の知識と英単語を毎日10問で学べるデイリークイズサービス。
+琴平町の知識・英単語・漢字読みを毎日10問で学べるデイリークイズサービス。
 Discord Bot（2問ティーザー）+ Web アプリ（10問フル回答）の構成。
 
 - Web: https://b-daman.github.io/kotohira-quiz/
@@ -22,17 +22,19 @@ Discord Bot（2問ティーザー）+ Web アプリ（10問フル回答）の構
 kotohira-quiz/
 ├── web/                              # Vite + React + TypeScript + Tailwind CSS v4
 │   ├── src/
-│   │   ├── types.ts                  # 型定義（Question, AnswerRecord, QuizPhase等）
+│   │   ├── types.ts                  # 型定義（Question, AnswerRecord, QuizPhase等。KotohiraQuestion, EnglishQuestion, JapaneseQuestion）
 │   │   ├── utils/
 │   │   │   └── date.ts              # JST日付ヘルパー（sv-SEロケール方式）
 │   │   ├── data/
 │   │   │   ├── questions.ts         # JSON fetch + キャッシュ + enabled/reviewedフィルタ
 │   │   │   └── history.ts           # localStorage回答履歴・スコア管理
+│   │   ├── config/
+│   │   │   └── categories.ts       # テーマグループ・カテゴリ階層定義
 │   │   ├── hooks/
 │   │   │   └── useQuiz.ts           # 問題選出（カテゴリ分散・パターン混合）+ 進行管理
 │   │   ├── components/
 │   │   │   ├── QuizCard.tsx         # 問題文 + 4択ボタン
-│   │   │   ├── ResultCard.tsx       # 正解/不正解 + 解説（英語は答え/発音/例文を分離表示）
+│   │   │   ├── ResultCard.tsx       # 正解/不正解 + 解説（英語・漢字は答え/発音or英訳/例文/検索リンクを分離表示）
 │   │   │   ├── ScoreSummary.tsx     # 10問完了後のスコア画面（カテゴリ別成績）
 │   │   │   ├── ProgressBar.tsx      # 進捗バー（1/10）
 │   │   │   └── ErrorMessage.tsx     # JSONロード失敗時のエラー表示
@@ -42,8 +44,9 @@ kotohira-quiz/
 │   │   ├── main.tsx
 │   │   └── index.css                # Tailwind directives
 │   ├── public/data/                  # ビルド時にJSONを同梱（hisho-botからコピー）
-│   │   ├── kotohira_questions.json   # 琴平町クイズ 500問
-│   │   └── english_questions.json    # 英単語クイズ 500問
+│   │   ├── kotohira_questions.json   # 琴平町クイズ 991問
+│   │   ├── english_questions.json    # 英単語クイズ 1000問
+│   │   └── japanese_questions.json   # 漢字読みクイズ 948問
 │   ├── index.html
 │   ├── vite.config.ts                # base: '/kotohira-quiz/'（GitHub Pages用）
 │   └── package.json
@@ -151,7 +154,8 @@ Discord チャンネルに投稿
 | 種別 | 問題数 | カテゴリ | 1日消費 | 持ち日数 |
 |------|--------|---------|---------|---------|
 | 琴平町クイズ | 498問（2問無効化済み） | shrine, history, theater, event, geography, gourmet, tourism, architecture, life, modern | 5問 | 約100日 |
-| 英単語クイズ | 500問 | 感情, 日常動作, コミュニケーション, 描写, 仕事, 旅行, 食/健康, 抽象, 家庭, 天気, 買物, 関係, 技術, 教育, 感情状態, 身体, 時間, 形容詞 | 5問 | 100日 |
+| 英単語クイズ | 1000問（500語×2パターン） | 感情, 日常動作, コミュニケーション, 描写, 仕事, 旅行, 食/健康, 抽象, 家庭, 天気, 買物, 関係, 技術, 教育, 感情状態, 身体, 時間, 形容詞, ビジネス, 学術, 医療, 環境, 法律, 科学 | 5問 | 200日 |
+| 漢字読みクイズ | 948問（474語×2パターン） | 一般漢字70% + 琴平関連30%。easy327/medium401/hard220 | 5問 | 約190日 |
 
 ### 問題品質に関する既知の課題
 - konpie-bot ナレッジベース由来の問題はAI生成のため、事実確認が不十分な可能性がある
@@ -160,7 +164,20 @@ Discord チャンネルに投稿
 
 ### 問題データスキーマ
 **琴平クイズ**: `{id, category, difficulty, question, choices[], answer, explanation, source, reviewed, enabled}`
-**英単語**: `{id, level, pattern, question, choices[], answer, explanation, word, pronunciation, reviewed, enabled}`
+**英単語**: `{id, level, pattern, question, choices[], answer, explanation, word, pronunciation, search_url, translate_url, reviewed, enabled}`
+**漢字読み**: `{id, level, pattern, question, choices[], answer, explanation, word, reading, english, search_url, translate_url, reviewed, enabled}`
+
+#### 漢字読みクイズのフィールド詳細
+- `level`: "easy" | "medium" | "hard"
+- `pattern`: "kanji_to_reading"（漢字→読み）| "reading_to_kanji"（読み→漢字）
+- `word`: 漢字表記
+- `reading`: ひらがな読み
+- `english`: 英訳（複数ある場合はカンマ区切り。例: "offering, dedication"）
+
+#### 英単語・漢字読み共通フィールド
+- `search_url`: Google検索リンク（問題作成時に `word` から生成して保存）
+- `translate_url`: Google翻訳リンク（問題作成時に `word` から生成して保存）
+- 解答画面で「🔍 Google検索」「🌐 Google翻訳」として表示される
 
 ---
 

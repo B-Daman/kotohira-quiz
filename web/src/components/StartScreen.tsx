@@ -204,6 +204,18 @@ export function StartScreen({
     onStart({ mode: "english_mix", label: "英語もまぜる" });
   }
 
+  function handleJapaneseMix() {
+    onStart({ mode: "japanese_mix", label: "漢字もまぜる" });
+  }
+
+  function handleEnglishOnly() {
+    onStart({ mode: "english_only", label: "英語だけ" });
+  }
+
+  function handleJapaneseOnly() {
+    onStart({ mode: "japanese_only", label: "漢字だけ" });
+  }
+
   function handleMouseEnter(groupId: string, hasSubs: boolean) {
     if (!hasSubs) return;
     if (hoverTimeout.current) clearTimeout(hoverTimeout.current);
@@ -346,13 +358,37 @@ export function StartScreen({
         </span>
       </button>
 
-      {/* English mix */}
-      <button
-        onClick={handleEnglishMix}
-        className="w-full py-3 rounded-xl bg-blue-50 text-blue-700 font-medium border border-blue-200 hover:border-blue-400 active:scale-[0.98] transition-all text-sm mb-4"
-      >
-        🔤 英語もまぜる（琴平5問 + 英語5問）
-      </button>
+      {/* Other modes */}
+      <div className="flex flex-col gap-2 mb-4">
+        <div className="flex gap-2">
+          <button
+            onClick={handleEnglishMix}
+            className="flex-1 py-3 rounded-xl bg-blue-50 text-blue-700 font-medium border border-blue-200 hover:border-blue-400 active:scale-[0.98] transition-all text-sm"
+          >
+            🔤 英語もまぜる
+          </button>
+          <button
+            onClick={handleEnglishOnly}
+            className="py-3 px-4 rounded-xl bg-blue-50 text-blue-700 font-medium border border-blue-200 hover:border-blue-400 active:scale-[0.98] transition-all text-sm"
+          >
+            英語だけ
+          </button>
+        </div>
+        <div className="flex gap-2">
+          <button
+            onClick={handleJapaneseMix}
+            className="flex-1 py-3 rounded-xl bg-emerald-50 text-emerald-700 font-medium border border-emerald-200 hover:border-emerald-400 active:scale-[0.98] transition-all text-sm"
+          >
+            📝 漢字もまぜる
+          </button>
+          <button
+            onClick={handleJapaneseOnly}
+            className="py-3 px-4 rounded-xl bg-emerald-50 text-emerald-700 font-medium border border-emerald-200 hover:border-emerald-400 active:scale-[0.98] transition-all text-sm"
+          >
+            漢字だけ
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

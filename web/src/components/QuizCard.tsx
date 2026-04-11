@@ -1,6 +1,10 @@
 import { useState } from "react";
 import type { Question } from "../types";
-import { isKotohiraQuestion, isEnglishQuestion } from "../types";
+import {
+  isKotohiraQuestion,
+  isEnglishQuestion,
+  isJapaneseQuestion,
+} from "../types";
 import { getCategoryLabel } from "../config/categories";
 
 const DIFFICULTY_BADGE: Record<
@@ -22,19 +26,29 @@ export function QuizCard({ question, index, onAnswer }: Props) {
   const [selected, setSelected] = useState<string | null>(null);
 
   const isKotohira = isKotohiraQuestion(question);
-  const accentColor = isKotohira ? "#D4A574" : "#5B8DEF";
+  const isJapanese = isJapaneseQuestion(question);
+  const accentColor = isKotohira
+    ? "#D4A574"
+    : isJapanese
+      ? "#10B981"
+      : "#5B8DEF";
 
   let tag = "";
   if (isKotohiraQuestion(question)) {
     tag = getCategoryLabel(question.category);
   } else if (isEnglishQuestion(question)) {
     tag = question.pattern === "en_to_ja" ? "英→日" : "日→英";
+  } else if (isJapaneseQuestion(question)) {
+    tag =
+      question.pattern === "kanji_to_reading" ? "漢字→読み" : "読み→漢字";
   }
 
   const badge =
     isKotohiraQuestion(question)
       ? DIFFICULTY_BADGE[question.difficulty]
-      : null;
+      : isJapaneseQuestion(question)
+        ? DIFFICULTY_BADGE[question.level]
+        : null;
 
   const labels = ["A", "B", "C", "D"];
 
@@ -67,7 +81,7 @@ export function QuizCard({ question, index, onAnswer }: Props) {
     <div className="w-full max-w-lg mx-auto animate-fadeIn">
       <div className="flex items-center gap-2 mb-2">
         <span className="text-xs font-bold tracking-wider text-stone-500">
-          {isKotohira ? "🏛️ " : "🔤 "}
+          {isKotohira ? "🏛️ " : isJapanese ? "📝 " : "🔤 "}
           {tag}
         </span>
         {badge && (
