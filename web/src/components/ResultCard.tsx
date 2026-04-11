@@ -72,15 +72,11 @@ function EnglishExplanation({
 
 function JapaneseExplanation({
   explanation,
-  word,
-  reading,
   english,
   searchUrl,
   translateUrl,
 }: {
   explanation: string;
-  word: string;
-  reading: string;
   english: string;
   searchUrl: string;
   translateUrl: string;
@@ -201,8 +197,6 @@ export function ResultCard({
         ) : isJapaneseQuestion(question) ? (
           <JapaneseExplanation
             explanation={question.explanation}
-            word={question.word}
-            reading={question.reading}
             english={question.english}
             searchUrl={question.search_url}
             translateUrl={question.translate_url}
