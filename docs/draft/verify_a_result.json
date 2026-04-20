@@ -1,0 +1,38 @@
+[
+  {
+    "id": "kotohira_776",
+    "claim": "金刀比羅神社の分社が全国に約600社ある",
+    "verified": true,
+    "additional_source_url": "https://www.gltjp.com/ja/article/item/20810/",
+    "additional_source_title": "GOOD LUCK TRIP「香川屈指のパワースポット！金刀比羅宮の観光ガイド」",
+    "evidence": "「1,000年以上の歴史を持ち、全国に600ほどある『金比羅神社』の総本宮を担っている。」",
+    "notes": "折橋商店ブログ (orihasisyouten.jp) にはより詳細に「金刀比羅神社、琴平神社、金比羅神社と呼ばれる神社が全国に601社あり、全国神社祭祀祭礼総合調査（1990〜1995年）では15位の多さ」と記載。GOOD LUCK TRIPは「600ほど」、折橋商店は「601社」と記載しており、約600社という数字は裏付けられる。"
+  },
+  {
+    "id": "kotohira_782",
+    "claim": "加美代飴が1950年頃に丸型から扇型に改められた（類似商品が出回ったため）",
+    "verified": "partial",
+    "additional_source_url": "https://shinise.tv/ikeshoten/",
+    "additional_source_title": "老舗食堂「700年以上販売、五人百姓 池商店の加美代飴」",
+    "evidence": "「元々は丸型のこんぴら飴として販売されていましたが、類似品が出回ってしまったため、扇型へと形を変え加美代飴に変更されました。」",
+    "notes": "丸型から扇型への変更および類似品が理由であることは shinise.tv で裏付け可能。ただし「1950年頃」という具体的な年代はWikipedia以外のオンラインソースでは確認できなかった。年代の裏付けには追加調査が必要。"
+  },
+  {
+    "id": "kotohira_786",
+    "claim": "1677年『玉藻集』に「金比羅の丸糖」の記載がある",
+    "verified": false,
+    "additional_source_url": null,
+    "additional_source_title": null,
+    "evidence": null,
+    "notes": "国立国会図書館デジタルコレクション (https://dl.ndl.go.jp/info:ndljp/pid/1181753) に『玉藻集：俳諧』という資料の存在は確認できたが、内容の閲覧は不可。ikesyouten.com、shinise.tv、omotenashinippon.jp、琴平町観光協会ブログ等のオンラインソースにも「玉藻集」「丸糖」への言及なし。Wikipedia以外での裏付けは取れなかった。"
+  },
+  {
+    "id": "kotohira_848",
+    "claim": "『金毘羅参詣名所図会』に五人百姓が描かれている",
+    "verified": true,
+    "additional_source_url": "https://tono202.livedoor.blog/archives/1377679.html",
+    "additional_source_title": "瀬戸の島から「金毘羅大権現形成史 五人百姓」",
+    "evidence": "「山門内の五人百姓の飴売り図（金毘羅名所図会）」というキャプション付きで、五人百姓が大きな朱色の傘の下で飴を売る様子を描いた図が掲載されている。",
+    "notes": "ブログ「瀬戸の島から」にて『金毘羅名所図会』（＝金毘羅参詣名所図会）から五人百姓の飴売り図が引用されている。ただし「文化年間に編纂」という点について、香川県立図書館デジタルライブラリー (https://www.library.pref.kagawa.lg.jp/digitallibrary/konpira/komonjo/detail/DK00100.html) では出版年は1847年（弘化4年）と記載されており、文化年間（1804-1818）ではなく弘化年間が正しい可能性がある。クイズ問題で「文化年間」としている場合は要確認。"
+  }
+]

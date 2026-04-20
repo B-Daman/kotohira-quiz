@@ -1,0 +1,599 @@
+[
+  {
+    "id": "kotohira_002",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "金刀比羅宮の御本宮までの石段は何段ありますか？",
+    "choices": [
+      "A. 583段",
+      "B. 1,368段",
+      "C. 785段",
+      "D. 1,000段"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "kotohira_013",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "金刀比羅宮の表書院・宝物館の開館時間は何時から何時までですか？",
+    "choices": [
+      "A. 9:00〜16:00",
+      "B. 8:30〜17:00",
+      "C. 10:00〜16:30",
+      "D. 8:00〜18:00"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_054",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "高松から琴平までJRでおよそどのくらいかかりますか？",
+    "choices": [
+      "A. 約30分",
+      "B. 約1時間",
+      "C. 約1時間30分",
+      "D. 約2時間"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_055",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "岡山から琴平まで特急でおよそどのくらいかかりますか？",
+    "choices": [
+      "A. 約30分",
+      "B. 約1時間",
+      "C. 約1時間30分",
+      "D. 約2時間"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_057",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "高松空港から琴平町まで車でおよそどのくらいかかりますか？",
+    "choices": [
+      "A. 約15分",
+      "B. 約30分",
+      "C. 約45分",
+      "D. 約1時間30分"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "kotohira_061",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "大庄屋製麺の営業時間はどのくらいですか？",
+    "choices": [
+      "A. 11:00〜14:00の3時間",
+      "B. 12:00〜12:10の10分間",
+      "C. 12:00〜13:00の1時間",
+      "D. 11:30〜12:00の30分間"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_166",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "金丸座の開館時間は何時から何時までですか？",
+    "choices": [
+      "A. 8:00〜16:00",
+      "B. 9:00〜17:00",
+      "C. 10:00〜18:00",
+      "D. 8:30〜17:30"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_173",
+    "issues": [
+      "answer_too_long"
+    ],
+    "question": "金丸座の花道の役割は何ですか？",
+    "choices": [
+      "A. 花を飾る通路",
+      "B. 役者が客席の間を通って出入りする通路",
+      "C. 観客の通路",
+      "D. 楽器演奏者の通路"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_179",
+    "issues": [
+      "answer_too_long"
+    ],
+    "question": "金丸座の見学では何を見ることができますか？",
+    "choices": [
+      "A. 花道、回り舞台、升席など江戸時代の芝居小屋の内部",
+      "B. 最新の音響設備と照明設備",
+      "C. 3Dシアター",
+      "D. VR体験コーナー"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "kotohira_186",
+    "issues": [
+      "answer_extra_detail"
+    ],
+    "question": "金刀比羅宮で犬が境内に入ることを許されているのはなぜですか？",
+    "choices": [
+      "A. 最近のペットブームに対応",
+      "B. 歴史的伝統（こんぴら狗）に基づく",
+      "C. 町の条例で決定",
+      "D. 宮司の個人的な好み"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_191",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "金刀比羅宮の例大祭で「お下がり」と「お上がり」が行われる日はそれぞれ何日ですか？",
+    "choices": [
+      "A. 9日と10日",
+      "B. 10日と11日",
+      "C. 9日と11日",
+      "D. 10日と12日"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_195",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "石段マラソンには何段のコースと何段のコースがありますか？",
+    "choices": [
+      "A. 500段と1,000段",
+      "B. 785段と1,368段",
+      "C. 583段と785段",
+      "D. 1,000段と1,500段"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_307",
+    "issues": [
+      "answer_extra_detail"
+    ],
+    "question": "琴平町の面積は香川県の市町の中でどのような特徴がありますか？",
+    "choices": [
+      "A. 最大",
+      "B. 平均的",
+      "C. かなり小さい（8.47km²）",
+      "D. 最小"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "kotohira_353",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "海の科学館の開館時間は何時から何時までですか？",
+    "choices": [
+      "A. 8:30〜16:30",
+      "B. 9:00〜17:00",
+      "C. 10:00〜18:00",
+      "D. 9:30〜16:00"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_356",
+    "issues": [
+      "answer_too_long",
+      "answer_extra_detail"
+    ],
+    "question": "琴平町で急病になった場合、夜間はどこに行けばよいですか？",
+    "choices": [
+      "A. 琴平町立病院",
+      "B. 中讃地域夜間急病センター（丸亀市）",
+      "C. 高松市民病院",
+      "D. 善通寺市立病院"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_402",
+    "issues": [
+      "answer_too_long"
+    ],
+    "question": "金刀比羅宮の高燈籠はなぜ高く作られたのですか？",
+    "choices": [
+      "A. 戦の見張り台として",
+      "B. 航海する船からも見える灯りの目印として",
+      "C. 花火の打上台として",
+      "D. 天文観測のため"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_414",
+    "issues": [
+      "answer_extra_detail"
+    ],
+    "question": "琴平町で最も安いうどんが食べられる店はどこですか？",
+    "choices": [
+      "A. 虎屋うどん",
+      "B. 大庄屋製麺（200円）",
+      "C. こんぴらうどん",
+      "D. むさし"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_426",
+    "issues": [
+      "format_mismatch",
+      "answer_extra_detail"
+    ],
+    "question": "JR琴平駅とことでん琴平駅、どちらの歴史が古いですか？",
+    "choices": [
+      "A. JR琴平駅（1889年開業）",
+      "B. ことでん琴平駅",
+      "C. 同時に開業",
+      "D. 不明"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "kotohira_438",
+    "issues": [
+      "answer_too_long"
+    ],
+    "question": "金刀比羅宮で販売されているお守りの種類に含まれるものをすべて選ぶとどれですか？",
+    "choices": [
+      "A. 幸福の黄色いお守り、海上安全守、商売繁盛守、学業成就守",
+      "B. 幸福の黄色いお守りのみ",
+      "C. 海上安全守と商売繁盛守のみ",
+      "D. 学業成就守のみ"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "kotohira_445",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "琴平町に住む人が最寄りの高速道路ICに行くにはどのくらいかかりますか？",
+    "choices": [
+      "A. 約5分",
+      "B. 約15分",
+      "C. 約30分",
+      "D. 約1時間"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_464",
+    "issues": [
+      "answer_too_long",
+      "answer_extra_detail"
+    ],
+    "question": "琴平町への車でのアクセスで、最寄りの高速ICと駐車場の組み合わせは？",
+    "choices": [
+      "A. 善通寺IC＋町営駐車場（200台/500円）",
+      "B. 丸亀IC＋町営駐車場",
+      "C. 坂出IC＋琴参閣駐車場",
+      "D. 三豊IC＋民間駐車場"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "kotohira_467",
+    "issues": [
+      "answer_too_long"
+    ],
+    "question": "金刀比羅宮が「海の神様」として信仰される理由は何ですか？",
+    "choices": [
+      "A. 海辺に建っているから",
+      "B. 主祭神の大物主神が海上安全の神だから",
+      "C. 海賊を退治したから",
+      "D. 漁港が近いから"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_479",
+    "issues": [
+      "answer_too_long"
+    ],
+    "question": "桜の抄の特徴は何ですか？",
+    "choices": [
+      "A. 最大の客室数",
+      "B. 石段22段目に位置し露天風呂付き客室がある",
+      "C. 日本最古の旅館",
+      "D. 最も安い宿泊施設"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_481",
+    "issues": [
+      "answer_too_long"
+    ],
+    "question": "金刀比羅宮の参拝者数と琴平町の人口の比率からわかることは何ですか？",
+    "choices": [
+      "A. 参拝者が少ない",
+      "B. 住民より観光客のほうが圧倒的に多い",
+      "C. 住民と観光客が同数",
+      "D. 観光客が来ない"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_487",
+    "issues": [
+      "answer_extra_detail"
+    ],
+    "question": "金刀比羅宮の「神楽殿」はどのような用途の建物ですか？",
+    "choices": [
+      "A. 祭具の収蔵",
+      "B. 神楽（舞や音楽）の奉納",
+      "C. 参拝者の休憩所",
+      "D. 神職の住居"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_490",
+    "issues": [
+      "answer_too_long",
+      "answer_extra_detail"
+    ],
+    "question": "琴平町で「日本最古」として知られるものは何と何ですか？",
+    "choices": [
+      "A. 神社と鉄道",
+      "B. 芝居小屋（金丸座）と飴屋（池商店）",
+      "C. 旅館と橋",
+      "D. 学校と病院"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_499",
+    "issues": [
+      "answer_too_long",
+      "answer_extra_detail"
+    ],
+    "question": "金刀比羅宮の「崇徳天皇」はどのような歴史上の人物ですか？",
+    "choices": [
+      "A. 飛鳥時代の天皇",
+      "B. 平安時代末期の天皇（保元の乱で讃岐に配流）",
+      "C. 鎌倉時代の天皇",
+      "D. 室町時代の天皇"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_519",
+    "issues": [
+      "answer_extra_detail"
+    ],
+    "question": "金刀比羅宮ではペットを連れて参拝できますか？",
+    "choices": [
+      "A. 全面禁止",
+      "B. 犬のみ許可（建物内は不可）",
+      "C. 全てのペット可",
+      "D. 猫のみ許可"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_536",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "金刀比羅宮では例年何月に蹴鞠を公開していましたか？",
+    "choices": [
+      "A. 1月と8月",
+      "B. 3月と9月",
+      "C. 5月と7月",
+      "D. 4月と10月"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "kotohira_583",
+    "issues": [
+      "answer_extra_detail"
+    ],
+    "question": "金刀比羅宮の「天狗御守」はどこでしか入手できませんか？",
+    "choices": [
+      "A. 御本宮 神札授与所",
+      "B. 参道のお土産店",
+      "C. 厳魂神社（奥社）神札授与所",
+      "D. 白峰神社 神札授与所"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "kotohira_659",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "金刀比羅宮の例大祭の御神輿渡御の距離はおよそ何キロメートルですか？",
+    "choices": [
+      "A. 約500メートル",
+      "B. 約1キロ",
+      "C. 約2キロ",
+      "D. 約5キロ"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "kotohira_667",
+    "issues": [
+      "format_mismatch",
+      "answer_extra_detail"
+    ],
+    "question": "「金刀比羅宮」という名称になったのは何年ですか？",
+    "choices": [
+      "A. 江戸時代初期",
+      "B. 宝暦10年",
+      "C. 明治元年（1868年）",
+      "D. 大正元年"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "kotohira_696",
+    "issues": [
+      "answer_too_long",
+      "numeric_not_sorted"
+    ],
+    "question": "こんぴーくんの身長として公式に発表されているのはどれですか？",
+    "choices": [
+      "A. 3尺（約90cm）",
+      "B. 6尺（約180cm）※実は1寸（3cm）",
+      "C. 5尺（約150cm）",
+      "D. 8尺（約240cm）"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_747",
+    "issues": [
+      "answer_too_long",
+      "answer_extra_detail"
+    ],
+    "question": "金丸座（旧金毘羅大芝居）の設計モデルとなった芝居小屋はどれですか？",
+    "choices": [
+      "A. 京都の南座",
+      "B. 江戸の中村座",
+      "C. 大阪道頓堀の大西芝居（後の浪花座）",
+      "D. 大阪の角座"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "kotohira_761",
+    "issues": [
+      "answer_extra_detail"
+    ],
+    "question": "染匠 吉野屋が手掛ける「讃岐正藍染」の特長として正しいものはどれですか？",
+    "choices": [
+      "A. 化学染料を併用して鮮やかな発色を実現する",
+      "B. 蒅（すくも）と灰汁のみで建て、色移りがしない",
+      "C. 機械による大量生産に適した染色法である",
+      "D. 藍の葉を直接布に擦りつけて染める"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_763",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "五人百姓 池商店の創業年はいつですか？",
+    "choices": [
+      "A. 1185年（平安時代末期）",
+      "B. 1245年（鎌倉時代）",
+      "C. 1333年（鎌倉時代末期）",
+      "D. 1105年（平安時代）"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_764",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "五人百姓 池商店は金刀比羅宮表参道の何段目に位置していますか？",
+    "choices": [
+      "A. 113段目",
+      "B. 365段目",
+      "C. 69段目",
+      "D. 500段目"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "kotohira_770",
+    "issues": [
+      "numeric_not_sorted"
+    ],
+    "question": "こんぴら石段マラソンの定員は何名ですか？",
+    "choices": [
+      "A. 500名",
+      "B. 1,000名",
+      "C. 785名",
+      "D. 628名"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "kotohira_835",
+    "issues": [
+      "answer_too_long"
+    ],
+    "question": "田窪恭治が金刀比羅宮の白書院障壁画を手がける前に再生プロジェクトを行ったのはどこですか？",
+    "choices": [
+      "A. イタリアの修道院",
+      "B. フランス・ノルマンディーの礼拝堂",
+      "C. スペインの大聖堂",
+      "D. ドイツの城館"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_856",
+    "issues": [
+      "answer_too_long",
+      "answer_extra_detail"
+    ],
+    "question": "「金毘羅船々」の歌詞にある「追風（おいて）に帆かけてシュラシュシュシュ」の「シュラシュシュシュ」の由来として有力な説はどれか？",
+    "choices": [
+      "A. 船の櫓を漕ぐ掛け声",
+      "B. 船が風を受けて速く進む擬音で、修羅（運搬具）にかけた言葉",
+      "C. サンスクリット語の祈りの言葉",
+      "D. 讃岐弁で「急げ」を意味する方言"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_874",
+    "issues": [
+      "answer_too_long"
+    ],
+    "question": "金刀比羅宮宝物館の建築的特徴として、文化遺産オンラインで評価されている点はどれですか？",
+    "choices": [
+      "A. 日本最古の木造博物館である",
+      "B. 日本人建築家が伝統建築に本格的な洋風意匠を持ち込んだ初期の事例",
+      "C. 完全な西洋式石造建築である",
+      "D. 和洋折衷の木造建築である"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "kotohira_882",
+    "issues": [
+      "answer_extra_detail"
+    ],
+    "question": "金刀比羅宮の参道で利用されていた「石段かご」とは何ですか？",
+    "choices": [
+      "A. 石段を登るための人力の駕籠（かご）",
+      "B. 石段に設置された小型エスカレーター",
+      "C. 参拝者の荷物を運ぶ手押し車",
+      "D. 石段の途中にある休憩所の名称"
+    ],
+    "answer": "A"
+  }
+]

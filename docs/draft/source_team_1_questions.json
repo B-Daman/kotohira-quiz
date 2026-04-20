@@ -1,0 +1,764 @@
+[
+  {
+    "id": "kotohira_001",
+    "question": "金刀比羅宮の通称は何ですか？",
+    "explanation": "金刀比羅宮の通称は「こんぴらさん」です。香川県琴平町の象頭山中腹に鎮座し、年間200〜300万人が参拝する人気の神社です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_006",
+    "question": "金刀比羅宮の年間参拝者数はおよそどのくらいですか？",
+    "explanation": "金刀比羅宮の年間参拝者数はおよそ200〜300万人です。全国各地から多くの参拝者が訪れます。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_007",
+    "question": "金刀比羅宮の境内で唯一飴の販売を許可されている「五人百姓」は、何年以上の歴史がありますか？",
+    "explanation": "五人百姓は700年以上の歴史を持ち、境内で加美代飴を販売することを特別に許可された5軒の商家です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_008",
+    "question": "金刀比羅宮で最も人気のあるお守りは何ですか？",
+    "explanation": "金刀比羅宮で最も人気のあるお守りは「幸福の黄色いお守り」です。参拝の記念やお土産として多くの人に選ばれています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_009",
+    "question": "金刀比羅宮の国指定重要文化財は何件ありますか？",
+    "explanation": "金刀比羅宮には国指定重要文化財が15件あります。また、宝物館が国登録有形文化財1件として登録されています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_013",
+    "question": "金刀比羅宮の表書院・宝物館の開館時間は何時から何時までですか？",
+    "explanation": "金刀比羅宮の表書院・宝物館は8:30〜17:00まで開館しています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_014",
+    "question": "金刀比羅宮が鎮座している山の名前は何ですか？",
+    "explanation": "金刀比羅宮は象頭山（ぞうずさん）の中腹に鎮座しています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_015",
+    "question": "金刀比羅宮の石段を上りで登った場合、所要時間はおよそどのくらいですか？",
+    "explanation": "金刀比羅宮の石段は上りで約45分、下りで約30分が目安の所要時間です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_029",
+    "question": "2022年に自発的に金刀比羅宮の石段を登った地元の犬の名前は何ですか？",
+    "explanation": "2022年に自発的に石段を登った地元の犬は「げんくん」です。江戸時代のこんぴら狗を彷彿とさせる出来事として話題になりました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_043",
+    "question": "石段マラソンは毎年何月に開催されますか？",
+    "explanation": "石段マラソンは毎年10月に開催されます。参加者は500〜600人規模のイベントです。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_044",
+    "question": "石段マラソンの参加者数はおよそ何人ですか？",
+    "explanation": "石段マラソンの参加者数はおよそ500〜600人です。毎年10月に開催される琴平町の人気イベントです。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_049",
+    "question": "2025年に開催された「わん詣」イベントにはおよそ何人が参加しましたか？",
+    "explanation": "2025年に開催されたわん詣イベントにはおよそ3,000人が参加しました。こんぴら狗の伝統にちなんだ犬の参拝イベントです。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_081",
+    "question": "高燈籠の高さはおよそどのくらいですか？",
+    "explanation": "高燈籠の高さは約27.5mです。1860年（万延元年）に約3,000両をかけて建設され、国指定重要有形民俗文化財に指定されています。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_082",
+    "question": "高燈籠が建設されたのは何年ですか？",
+    "explanation": "高燈籠は1860年（万延元年）に建設されました。建設費用は約3,000両で、国指定重要有形民俗文化財です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_083",
+    "question": "高燈籠の建設費用はおよそいくらでしたか？",
+    "explanation": "高燈籠の建設費用は約3,000両でした。1860年（万延元年）に建設され、約27.5mの高さがあります。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_084",
+    "question": "鞘橋の特徴は何ですか？",
+    "explanation": "鞘橋は屋根付き橋で、国登録有形文化財に登録されています。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_085",
+    "question": "琴平町公会堂が建設されたのは何年ですか？",
+    "explanation": "琴平町公会堂は昭和9年（1934年）に建設されました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_086",
+    "question": "紫銅鳥居が建てられたのは何年ですか？",
+    "explanation": "紫銅鳥居は1788年（天明8年）に建てられました。江戸茅場町の鴻池儀兵衛が寄進したものです。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_087",
+    "question": "紫銅鳥居を寄進したのは誰ですか？",
+    "explanation": "紫銅鳥居を寄進したのは江戸茅場町の鴻池儀兵衛です。1788年（天明8年）に建てられました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_088",
+    "question": "JR琴平駅が建設されたのは何年ですか？",
+    "explanation": "JR琴平駅は大正11年（1922年）に建設されました。登録有形文化財5棟を有する歴史的な駅舎です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_089",
+    "question": "JR琴平駅の登録有形文化財は何棟ありますか？",
+    "explanation": "JR琴平駅には登録有形文化財が5棟あります。大正11年（1922年）に建設された歴史ある駅舎です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_090",
+    "question": "象頭山松尾寺の弘法大師坐像が作られたのは何年ですか？",
+    "explanation": "象頭山松尾寺の弘法大師坐像は1319年に作られました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_095",
+    "question": "丸尾醸造が登録有形文化財に登録されたのは何年ですか？",
+    "explanation": "丸尾醸造は平成17年に登録有形文化財に登録されました。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_103",
+    "question": "金刀比羅宮の国登録有形文化財は何件ですか？",
+    "explanation": "金刀比羅宮の国登録有形文化財は1件で、宝物館が登録されています。国指定重要文化財は別途15件あります。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_106",
+    "question": "金刀比羅宮の石段を下りる場合の所要時間はおよそどのくらいですか？",
+    "explanation": "金刀比羅宮の石段を下りる場合の所要時間は約30分です。上りは約45分かかります。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_108",
+    "question": "金刀比羅宮の重要文化財「本宮本殿・中殿・拝殿」以外に、もう一つの本殿を持つ建物群は何ですか？",
+    "explanation": "金刀比羅宮には本宮のほかに「別宮本殿・中殿・拝殿」があり、これも国指定重要文化財に含まれています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_110",
+    "question": "金刀比羅宮が鎮座する象頭山はどのような文化財に指定されていますか？",
+    "explanation": "象頭山は国指定名勝に指定されています。金刀比羅宮はこの象頭山の中腹に鎮座しています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_111",
+    "question": "金刀比羅宮の祈年祭は何月何日に行われますか？",
+    "explanation": "金刀比羅宮の祈年祭は2月17日に行われます。五穀豊穣を祈願する重要な祭祀です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_112",
+    "question": "金刀比羅宮の節分祭は何月何日に行われますか？",
+    "explanation": "金刀比羅宮の節分祭は2月3日に行われます。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_113",
+    "question": "金刀比羅宮の重要文化財のうち、書院建築に分類されるものはいくつありますか？",
+    "explanation": "金刀比羅宮の重要文化財のうち、書院建築は「奥書院」と「表書院及び四脚門」の2件です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_114",
+    "question": "金刀比羅宮の参拝で「海上安全守」はどのような人に人気がありますか？",
+    "explanation": "海上安全守は船乗りや漁師など海に関わる人々に人気のお守りです。金刀比羅宮は海の神様の総本山として知られています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_116",
+    "question": "金刀比羅宮の新酒祭は何月に行われますか？",
+    "explanation": "金刀比羅宮の新酒祭は11月に行われます。その年の新酒を神前に供える祭祀です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_119",
+    "question": "金刀比羅宮の重要文化財「御鉾楯及び御台船」はどのような性質の文化財ですか？",
+    "explanation": "御鉾楯及び御台船は金刀比羅宮の神具・祭具であり、国指定重要文化財に含まれています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_138",
+    "question": "与謝蕪村の句碑に刻まれている句はどれですか？",
+    "explanation": "与謝蕪村の句碑には「象の目の笑ひかけたり山桜」と刻まれています。象頭山の風景を詠んだ句です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_144",
+    "question": "石井八幡宮が創建されたのは何年ですか？",
+    "explanation": "石井八幡宮は天元5年（982年）に創建されました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_145",
+    "question": "長法寺が創建されたのは何年ですか？",
+    "explanation": "長法寺は天平12年（740年）に創建されました。行基作の千手観音菩薩が安置されています。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_146",
+    "question": "長法寺の千手観音菩薩を作ったとされるのは誰ですか？",
+    "explanation": "長法寺の千手観音菩薩は行基の作とされています。天平12年（740年）に創建された寺院です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_152",
+    "question": "讃岐三白とは何を指しますか？",
+    "explanation": "讃岐三白とは砂糖・塩・綿のことです。高燈籠は讃岐三白の砂糖製造業者らの寄進によって建設されました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_153",
+    "question": "金刀比羅宮への参拝は、江戸時代にどのように呼ばれていましたか？",
+    "explanation": "江戸時代、金刀比羅宮への参拝は「金比羅参り」と呼ばれ、お伊勢参りと並ぶ人気の旅でした。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_159",
+    "question": "象頭山松尾寺はどの宗派に属していますか？",
+    "explanation": "象頭山松尾寺は高野山真言宗に属しています。1319年作の弘法大師坐像が安置されています。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_160",
+    "question": "象頭山松尾寺の弘法大師坐像は四国で何番目に古いですか？",
+    "explanation": "象頭山松尾寺の弘法大師坐像（1319年作）は四国で3番目に古いとされています。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_169",
+    "question": "金丸座が建てられてから重要文化財に指定されるまで、何年かかりましたか？",
+    "explanation": "金丸座は天保6年（1835年）に建設され、昭和45年（1970年）に重要文化財に指定されたため、約135年かかりました。",
+    "category": "theater"
+  },
+  {
+    "id": "kotohira_182",
+    "question": "石段マラソンの本宮コースは何段を走りますか？",
+    "explanation": "石段マラソンの本宮コースは785段を走ります。奥社コースは1,368段です。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_183",
+    "question": "石段マラソンの奥社コースは何段を走りますか？",
+    "explanation": "石段マラソンの奥社コースは1,368段を走ります。本宮コースは785段です。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_195",
+    "question": "石段マラソンには何段のコースと何段のコースがありますか？",
+    "explanation": "石段マラソンには785段（本宮）コースと1,368段（奥社）コースがあります。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_203",
+    "question": "石段マラソンのコースは何種類ありますか？",
+    "explanation": "石段マラソンは本宮コース（785段）と奥社コース（1,368段）の2種類があります。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_212",
+    "question": "JR琴平駅から金刀比羅宮の御本宮まで、徒歩の合計時間はおよそ何分ですか？",
+    "explanation": "JR琴平駅から御本宮まで徒歩約45分です。参道入口まで約10分、そこから石段を登って約35分です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_229",
+    "question": "JR琴平駅から金刀比羅宮の参道入口まで徒歩でおよそ何分ですか？",
+    "explanation": "JR琴平駅から金刀比羅宮の参道入口まで徒歩約10分です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_230",
+    "question": "JR琴平駅から奥社まで徒歩でおよそ何分かかりますか？",
+    "explanation": "JR琴平駅から奥社まで徒歩約90分かかります。参道入口まで約10分、御本宮まで約45分、奥社までさらに時間がかかります。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_238",
+    "question": "JR琴平駅が登録有形文化財に登録されたのは何年ですか？",
+    "explanation": "JR琴平駅は平成24年（2012年）に登録有形文化財に登録されました。平成28年（2016年）には耐震補強が行われています。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_239",
+    "question": "JR琴平駅の耐震補強が行われたのは何年ですか？",
+    "explanation": "JR琴平駅の耐震補強は平成28年（2016年）に行われました。登録有形文化財の登録は平成24年（2012年）です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_240",
+    "question": "JR琴平駅の登録有形文化財に含まれるものはどれですか？",
+    "explanation": "JR琴平駅の登録有形文化財5棟には本屋、旅客上屋一号・二号、陳列所一号、乗換跨線橋が含まれます。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_262",
+    "question": "桜の抄は石段の何段目に位置していますか？",
+    "explanation": "桜の抄は石段22段目に位置しています。露天風呂付き客室が23室あります。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_263",
+    "question": "桜の抄の露天風呂付き客室は何室ありますか？",
+    "explanation": "桜の抄には露天風呂付き客室が23室あります。石段22段目に位置する旅館です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_281",
+    "question": "高燈籠はどのような文化財に指定されていますか？",
+    "explanation": "高燈籠は国指定重要有形民俗文化財に指定されています。約27.5mの高さがあります。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_282",
+    "question": "高燈籠の石台部分の高さはどのくらいですか？",
+    "explanation": "高燈籠の石台部分は10mの高さがあります。全体では約27.5mです。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_283",
+    "question": "高燈籠を寄進したのは主にどのような人々ですか？",
+    "explanation": "高燈籠は讃岐三白の砂糖製造業者らが寄進して建設されました。建設費は約3,000両でした。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_284",
+    "question": "鞘橋の構造はどのようなものですか？",
+    "explanation": "鞘橋は木造瓦葺きの屋根付き橋です。国登録有形文化財に登録されています。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_285",
+    "question": "鞘橋はどの時代に建てられましたか？",
+    "explanation": "鞘橋は江戸時代に建てられた木造瓦葺きの屋根付き橋です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_286",
+    "question": "大宮橋はどの時代に建てられましたか？",
+    "explanation": "大宮橋は明治時代に建てられました。琴陵光熙氏の筆による橋です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_287",
+    "question": "大宮橋の筆を揮った人物は誰ですか？",
+    "explanation": "大宮橋は琴陵光熙氏の筆によるものです。明治時代に建てられました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_288",
+    "question": "紫銅鳥居の別名（読み方）は何ですか？",
+    "explanation": "紫銅鳥居は「かねんとりい」と読みます。1788年（天明8年）に建てられました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_289",
+    "question": "紫銅鳥居を寄進した鴻池儀兵衛はどこの人ですか？",
+    "explanation": "紫銅鳥居を寄進した鴻池儀兵衛は江戸茅場町の人物です。1788年（天明8年）に建てられました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_290",
+    "question": "並び燈籠は何基ありますか？",
+    "explanation": "並び燈籠は30基あります。幕末から明治初頭（1865〜1880年）にかけて建てられました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_291",
+    "question": "並び燈籠が建てられた時期はいつ頃ですか？",
+    "explanation": "並び燈籠は幕末から明治初頭（1865〜1880年）にかけて建てられました。30基あります。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_292",
+    "question": "尾州燈籠が建てられたのは何年ですか？",
+    "explanation": "尾州燈籠は1831年（天保2年）に建てられました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_295",
+    "question": "多度津街道町口鳥居を寄進したのは誰ですか？",
+    "explanation": "多度津街道町口鳥居は粟島廻船中が寄進したもので、最古の鳥居です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_296",
+    "question": "高松街道町口鳥居が建てられたのは何年ですか？",
+    "explanation": "高松街道町口鳥居は1864年（元治元年）に建てられました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_298",
+    "question": "丸尾醸造の登録有形文化財は何棟ですか？",
+    "explanation": "丸尾醸造は平成17年に4棟が登録有形文化財に登録されました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_300",
+    "question": "JR琴平駅の登録有形文化財5棟に含まれるものはどれですか？",
+    "explanation": "JR琴平駅の登録有形文化財5棟は本屋、旅客上屋一号・二号、陳列所一号、乗換跨線橋です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_313",
+    "question": "わん詣は何にちなんだイベントですか？",
+    "explanation": "わん詣は江戸時代のこんぴら狗の伝統にちなんだ犬の参拝イベントです。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_314",
+    "question": "琴平町の観光における最大の強みは何ですか？",
+    "explanation": "琴平町の最大の観光資源は金刀比羅宮の参拝と門前町の文化です。年間200〜300万人が参拝に訪れます。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_317",
+    "question": "金刀比羅宮で犬と一緒に参拝できるのは他の神社と比べて珍しいことですか？",
+    "explanation": "金刀比羅宮で犬が境内に入れるのは珍しいことです。こんぴら狗の歴史的伝統に基づき特別に許可されています。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_320",
+    "question": "琴平町は年間何万人以上の観光客が訪れる町ですか？",
+    "explanation": "琴平町は金刀比羅宮だけで年間200〜300万人の参拝者が訪れる観光の町です。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_321",
+    "question": "金刀比羅宮の「商売繁盛守」はどのような人向けのお守りですか？",
+    "explanation": "商売繁盛守は商売をしている人向けのお守りです。金刀比羅宮のご利益の一つが商売繁盛です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_324",
+    "question": "金刀比羅宮の「祓除殿」はどのような用途の建物ですか？",
+    "explanation": "祓除殿はお祓い（祓除）を行うための建物で、国指定重要文化財に含まれています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_325",
+    "question": "金刀比羅宮の「神庫」はどのような用途の建物ですか？",
+    "explanation": "神庫は神宝や祭具を収蔵するための建物で、国指定重要文化財に含まれています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_330",
+    "question": "金刀比羅宮の重要文化財「神饌幣帛料供進神社神饌所及び廻廊」の「神饌」とは何のことですか？",
+    "explanation": "「神饌」は神への供え物のことです。この建物は神饌を調理・管理するための施設で、国指定重要文化財です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_334",
+    "question": "多度津街道町口鳥居が「最古の鳥居」と呼ばれる理由は何ですか？",
+    "explanation": "多度津街道町口鳥居はこんぴら参りの街道入口にある鳥居として最古のものです。粟島廻船中が寄進しました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_337",
+    "question": "金刀比羅宮への5つの街道は何を目的に整備されましたか？",
+    "explanation": "こんぴら街道5本（高松、丸亀、多度津、阿波、伊予土佐）は金比羅参りの参拝者のために整備されました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_339",
+    "question": "金刀比羅宮は江戸時代にどのような参拝と並ぶ人気がありましたか？",
+    "explanation": "江戸時代、金比羅参りはお伊勢参りと並ぶ人気の参拝でした。全国から多くの参拝者が訪れました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_340",
+    "question": "金刀比羅宮の加美代飴の歴史はどのくらいですか？",
+    "explanation": "加美代飴の歴史は700年以上です。五人百姓のみが境内で販売を許可されています。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_344",
+    "question": "鞘橋はどのような文化財に登録されていますか？",
+    "explanation": "鞘橋は国登録有形文化財に登録されています。木造瓦葺きの屋根付き橋です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_345",
+    "question": "金刀比羅宮で「学業成就守」はありますか？",
+    "explanation": "金刀比羅宮には学業成就守があります。海上安全守、商売繁盛守とともに人気のお守りです。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_347",
+    "question": "JR琴平駅から金刀比羅宮の御本宮まで徒歩でおよそ何分ですか？",
+    "explanation": "JR琴平駅から御本宮まで徒歩約45分です。駅から参道入口まで約10分、そこから石段を約35分登ります。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_351",
+    "question": "金刀比羅宮の重要文化財15件のうち、「本宮」と名の付くものはいくつですか？",
+    "explanation": "本宮と名の付く重要文化財は「本宮本殿・中殿・拝殿」「本宮斎場」「本宮神饌所及び廻廊」の3件です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_352",
+    "question": "金刀比羅宮の重要文化財15件のうち、「別宮」と名の付くものはいくつですか？",
+    "explanation": "別宮と名の付く重要文化財は「別宮本殿・中殿・拝殿」「別宮斎場」「別宮神饌所及び廻廊」の3件です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_358",
+    "question": "金刀比羅宮の参拝で、上りと下りのどちらが時間がかかりますか？",
+    "explanation": "金刀比羅宮の石段は上りが約45分、下りが約30分で、上りのほうが時間がかかります。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_361",
+    "question": "琴平町で最も高い構造物は何ですか？",
+    "explanation": "高燈籠は約27.5mの高さがあり、琴平町で最も高い歴史的構造物です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_368",
+    "question": "琴平町で国登録有形文化財に登録されている施設はいくつありますか？",
+    "explanation": "琴平町にはJR琴平駅（5棟）、鞘橋、宝物館、丸尾醸造（4棟）など複数の国登録有形文化財があります。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_375",
+    "question": "JR琴平駅の登録有形文化財5棟をすべて挙げるとどれですか？",
+    "explanation": "JR琴平駅の登録有形文化財5棟は本屋、旅客上屋一号・二号、陳列所一号、乗換跨線橋です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_379",
+    "question": "金刀比羅宮の石段785段を毎日往復すると、1ヶ月（30日）で合計何段になりますか？",
+    "explanation": "785段×2（往復）×30日＝47,100段です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_381",
+    "question": "金刀比羅宮で行われるスポーツイベントは何ですか？",
+    "explanation": "石段マラソンは毎年10月に開催され、500〜600人が参加するスポーツイベントです。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_383",
+    "question": "琴平町にある屋根付き橋の名前は何ですか？",
+    "explanation": "鞘橋は琴平町にある屋根付き橋です。木造瓦葺きで、国登録有形文化財に登録されています。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_390",
+    "question": "琴平町公会堂はどの時代に建てられましたか？",
+    "explanation": "琴平町公会堂は昭和9年（1934年）に建てられました。昭和初期の建物です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_394",
+    "question": "金刀比羅宮の「幸福の黄色いお守り」の色は何色ですか？",
+    "explanation": "幸福の黄色いお守りはその名の通り黄色です。金刀比羅宮で最も人気のあるお守りです。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_399",
+    "question": "紫銅鳥居が建てられた1788年は何時代ですか？",
+    "explanation": "1788年（天明8年）は江戸時代です。紫銅鳥居は鴻池儀兵衛が寄進しました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_400",
+    "question": "琴平町の観光で「門前町」とは何のことですか？",
+    "explanation": "門前町とは神社（金刀比羅宮）の参道沿いに発展した町のことです。琴平町は代表的な門前町です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_409",
+    "question": "琴平町の年間参拝者数（200〜300万人）は町の人口（約7,700人）の約何倍ですか？",
+    "explanation": "参拝者200〜300万人÷人口約7,700人＝約260〜390倍です。人口をはるかに上回る観光客が訪れます。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_415",
+    "question": "琴平町で「万延元年」に建てられた構造物は何ですか？",
+    "explanation": "万延元年（1860年）に建てられたのは高燈籠です。約27.5mの高さで、建設費は約3,000両でした。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_417",
+    "question": "金刀比羅宮の石段で、全体の約半分にあたる段数はどこまでですか？",
+    "explanation": "全1,368段の約半分は684段で、こんぴら狗の銅像がある431段目付近から少し上がった辺りです。御本宮785段の約半分は約393段です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_420",
+    "question": "四国こんぴら歌舞伎と石段マラソン、どちらが先に開催されますか？",
+    "explanation": "四国こんぴら歌舞伎は4月、石段マラソンは10月に開催されるため、歌舞伎が先です。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_424",
+    "question": "金刀比羅宮の重要文化財15件のうち、「斎場」と名の付くものはいくつですか？",
+    "explanation": "「本宮斎場」と「別宮斎場」の2件です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_434",
+    "question": "金刀比羅宮の祭祀で、人気のお守り「幸福の黄色いお守り」を買うのに最適なタイミングはいつですか？",
+    "explanation": "幸福の黄色いお守りは通年いつでも購入可能です。金刀比羅宮で最も人気のお守りです。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_438",
+    "question": "金刀比羅宮で販売されているお守りの種類に含まれるものをすべて選ぶとどれですか？",
+    "explanation": "金刀比羅宮では幸福の黄色いお守り、海上安全守、商売繁盛守、学業成就守が販売されています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_446",
+    "question": "琴平町の観光で、鉄道駅自体が観光スポットになっているのはどこですか？",
+    "explanation": "JR琴平駅は登録有形文化財5棟を有する大正11年（1922年）建設の歴史的駅舎で、観光スポットにもなっています。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_448",
+    "question": "金刀比羅宮の紫銅鳥居（1788年）と高燈籠（1860年）が建てられた間隔は何年ですか？",
+    "explanation": "紫銅鳥居（1788年）と高燈籠（1860年）の間隔は1860-1788=72年です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_450",
+    "question": "金刀比羅宮に参拝する際、石段を登りたくない場合はどうすればよいですか？",
+    "explanation": "金刀比羅宮には石段を登る以外に御本宮に行く方法はありません。785段の石段を登る必要があります。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_453",
+    "question": "琴平町で10月に開催される2つの主要イベントは何ですか？",
+    "explanation": "10月には金刀比羅宮の例大祭（10月9日〜11日）と石段マラソンが開催されます。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_456",
+    "question": "琴平町の観光パンフレットなどでよく紹介される「3大スポット」はどれですか？",
+    "explanation": "琴平町の観光では金刀比羅宮、金丸座（日本最古の芝居小屋）、参道沿いの門前町が主要スポットです。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_457",
+    "question": "金刀比羅宮の重要文化財15件のうち、「廻廊」が含まれるものはいくつですか？",
+    "explanation": "廻廊が含まれる重要文化財は「本宮神饌所及び廻廊」「別宮神饌所及び廻廊」「神饌幣帛料供進神社神饌所及び廻廊」の3件です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_462",
+    "question": "琴平町で最も古い建造物（現存）はどれですか？",
+    "explanation": "琴平町最古の石燈籠は承応3年（1654年）に建てられたもので、京都の連歌師・里村玄陳が寄進しました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_465",
+    "question": "琴平町の魅力を一言で表すとすれば何ですか？",
+    "explanation": "琴平町は金刀比羅宮の門前町として発展した歴史と文化の町です。年間200〜300万人が参拝に訪れます。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_466",
+    "question": "金刀比羅宮の参拝に車は使えますか？",
+    "explanation": "金刀比羅宮の石段は徒歩で登るしかありません。車での参拝はできません。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_467",
+    "question": "金刀比羅宮が「海の神様」として信仰される理由は何ですか？",
+    "explanation": "金刀比羅宮は主祭神の大物主神が海上安全の神であることから、「海の神様の総本山」として信仰されています。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_473",
+    "question": "金刀比羅宮の境内にあるカフェの名前は何ですか？",
+    "explanation": "CAFE神椿は金刀比羅宮の境内にあるカフェで、資生堂パーラーが運営しています。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_476",
+    "question": "わん詣ではどのようなことをしますか？",
+    "explanation": "わん詣は犬と一緒に金刀比羅宮を参拝するイベントです。こんぴら狗の伝統にちなんでいます。",
+    "category": "event"
+  },
+  {
+    "id": "kotohira_478",
+    "question": "鞘橋と大宮橋、どちらの橋のほうが歴史が古いですか？",
+    "explanation": "鞘橋は江戸時代に建てられ、大宮橋は明治時代に建てられたため、鞘橋のほうが歴史が古いです。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_479",
+    "question": "桜の抄の特徴は何ですか？",
+    "explanation": "桜の抄は石段22段目に位置し、露天風呂付き客室が23室あるのが特徴です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_481",
+    "question": "金刀比羅宮の参拝者数と琴平町の人口の比率からわかることは何ですか？",
+    "explanation": "年間参拝者200〜300万人に対して人口は約7,700人で、住民より観光客のほうが圧倒的に多い町です。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_482",
+    "question": "金刀比羅宮の重要文化財のうち「神饌所」が含まれるものはいくつですか？",
+    "explanation": "神饌所が含まれるのは「本宮神饌所及び廻廊」「別宮神饌所及び廻廊」「神饌幣帛料供進神社神饌所及び廻廊」の3件です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_487",
+    "question": "金刀比羅宮の「神楽殿」はどのような用途の建物ですか？",
+    "explanation": "神楽殿は神楽（舞や音楽）を神前に奉納するための建物で、国指定重要文化財に含まれています。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_488",
+    "question": "琴平町の参道で豆菓子が買える専門店はどこですか？",
+    "explanation": "豆吉本舗は豆菓子専門店で、軒先カフェも併設されています。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_489",
+    "question": "金刀比羅宮のお守りで最も有名なのは何色のお守りですか？",
+    "explanation": "金刀比羅宮で最も有名なのは「幸福の黄色いお守り」で、黄色のお守りです。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_494",
+    "question": "琴平町で1860年代に建てられた構造物を2つ挙げるとすれば？",
+    "explanation": "高燈籠は1860年（万延元年）、高松街道町口鳥居は1864年（元治元年）で、どちらも1860年代です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_498",
+    "question": "金刀比羅宮の奥社を参拝して戻る場合、往復で何段の石段を上り下りしますか？",
+    "explanation": "奥社まで1,368段×往復2＝2,736段です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_500",
+    "question": "琴平町を訪れる観光客が最も多く訪れるスポットはどこですか？",
+    "explanation": "金刀比羅宮は年間200〜300万人が参拝する琴平町最大の観光スポットです。",
+    "category": "modern"
+  }
+]

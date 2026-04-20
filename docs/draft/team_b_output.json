@@ -1,0 +1,209 @@
+[
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "金丸座（旧金毘羅大芝居）が建設された背景として、当時の琴平はどのような行政上の地位にあったため興行が盛んだったのですか？",
+    "choices": ["A. 城下町として藩の保護を受けていた", "B. 朱印地・天領として取締が寛大だった", "C. 幕府直轄の宿場町として特権を持っていた", "D. 寺社奉行の管轄外で自由な商業が認められていた"],
+    "answer": "B",
+    "explanation": "江戸時代の琴平は朱印地・天領として取締が寛大であり、富籤や芝居など様々な興行が行われていました。この環境が金丸座建設の背景にあります。（出典: [金丸座 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "金丸座（旧金毘羅大芝居）の設計モデルとなった大阪道頓堀の大西芝居は、後に何という名称になりましたか？",
+    "choices": ["A. 中座", "B. 角座", "C. 浪花座", "D. 朝日座"],
+    "answer": "C",
+    "explanation": "金丸座は大阪道頓堀の大西芝居の規模・様式・構造を模して建設されました。この大西芝居は後に「浪花座」と改称されています。（出典: [旧金毘羅大芝居の修復](https://www.konpirakabuki.jp/history/reform.html)）",
+    "source": "https://www.konpirakabuki.jp/history/reform.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金丸座の照明は自然光のみで行われますが、明かり窓の開閉は何段階で調整されますか？",
+    "choices": ["A. 2段階", "B. 3段階", "C. 4段階", "D. 5段階"],
+    "answer": "B",
+    "explanation": "金丸座の照明は自然光のみで、3段階になっている明かり窓の開閉によって調整されます。電気や機械を使わない江戸時代そのままの方式です。（出典: [こんぴら歌舞伎のあゆみ](https://www.konpirakabuki.jp/history/ayumi.html)）",
+    "source": "https://www.konpirakabuki.jp/history/ayumi.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "金丸座は1953年に一度香川県の重要文化財に指定されましたが、その後県指定が解除されたのは何年ですか？",
+    "choices": ["A. 1960年", "B. 1962年", "C. 1964年", "D. 1966年"],
+    "answer": "C",
+    "explanation": "金丸座は昭和28年（1953年）に香川県の重要文化財に指定されましたが、1964年に県指定が解除され、その後1970年に国の重要文化財に指定されました。（出典: [金丸座 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "四国こんぴら歌舞伎大芝居の復活のきっかけとなったテレビ番組「すばらしき仲間」の撮影で金丸座を訪れた歌舞伎役者に含まれないのは誰ですか？",
+    "choices": ["A. 中村勘九郎", "B. 中村吉右衛門", "C. 澤村藤十郎", "D. 片岡仁左衛門"],
+    "answer": "D",
+    "explanation": "1984年7月にTBS番組「すばらしき仲間」の撮影で金丸座を訪れたのは中村勘九郎、中村吉右衛門、澤村藤十郎の3名です。片岡仁左衛門はこの撮影には参加していません。（出典: [金丸座 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "四国こんぴら歌舞伎大芝居の復活に尽力した近兼孝休は、琴平グランドホテルの経営者であるとともに、他にどのような要職を歴任しましたか？",
+    "choices": ["A. 香川県知事と四国観光協会会長", "B. 琴平町観光協会会長と日本旅館協会会長", "C. 琴平町長と香川県文化功労者", "D. 全国旅館組合理事長と四国経済連合会副会長"],
+    "answer": "B",
+    "explanation": "近兼孝休は琴平グランドホテル会長として1985年のこんぴら歌舞伎復活に尽力し、琴平町観光協会会長および日本旅館協会会長も歴任しました。（出典: [KSBニュース](https://news.ksb.co.jp/article/13845185)）",
+    "source": "https://news.ksb.co.jp/article/13845185"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "近兼孝休が出版した、こんぴら歌舞伎35周年に際する回顧録は何部印刷されましたか？",
+    "choices": ["A. 1,000部", "B. 1,500部", "C. 2,500部", "D. 5,000部"],
+    "answer": "C",
+    "explanation": "近兼孝休はこんぴら歌舞伎35周年に際し回顧録を出版し、2,500部が印刷されて要望に応じて無料配布されました。（出典: [KSBニュース](https://news.ksb.co.jp/article/13845185)）",
+    "source": "https://news.ksb.co.jp/article/13845185"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金丸座の「平成の大改修」が行われた期間はいつですか？",
+    "choices": ["A. 1998年〜2000年", "B. 2000年〜2002年", "C. 2002年〜2004年", "D. 2004年〜2006年"],
+    "answer": "C",
+    "explanation": "金丸座の「平成の大改修」は2002年から2004年にかけて行われ、耐震補強と江戸時代の内装の復原が実施されました。（出典: [旧金毘羅大芝居の修復](https://www.konpirakabuki.jp/history/reform.html)）",
+    "source": "https://www.konpirakabuki.jp/history/reform.html"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "和田邦坊が新聞社を退社して故郷の香川県に戻ったのは何年ですか？",
+    "choices": ["A. 1932年", "B. 1935年", "C. 1938年", "D. 1941年"],
+    "answer": "C",
+    "explanation": "和田邦坊は1926年に東京日日新聞社（現毎日新聞）に入社し、1938年に退社後、故郷の香川県で画家やデザイナーとして活動しました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "琴平町出身の和田邦坊は新聞漫画家として、ある有名漫画家と人気を二分していました。その人物は誰ですか？",
+    "choices": ["A. 北沢楽天", "B. 岡本一平", "C. 田河水泡", "D. 近藤日出造"],
+    "answer": "B",
+    "explanation": "和田邦坊は東京日日新聞の記者・風刺漫画家として活動し、朝日新聞社の岡本一平と並ぶ人気を誇りました。岡本一平は岡本太郎の父としても知られています。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "和田邦坊がパッケージデザインを手がけた香川県の銘菓として、灸まんの他に含まれるのはどれですか？",
+    "choices": ["A. おいり", "B. 名物かまど", "C. 瓦せんべい", "D. 讃岐おはぎ"],
+    "answer": "B",
+    "explanation": "和田邦坊は灸まんのほか、「名物かまど」「ひょうげ豆」「ぶどう餅」などのパッケージデザインも手がけました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "和田邦坊の小説『うちの女房にゃ髭がある』が映画化されたのは何年ですか？",
+    "choices": ["A. 1932年", "B. 1934年", "C. 1936年", "D. 1938年"],
+    "answer": "C",
+    "explanation": "和田邦坊の小説『うちの女房にゃ髭がある』は1936年に日活で映画化されました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "和田邦坊が1979年にプロデュースした、讃岐うどんの名店はどれですか？",
+    "choices": ["A. 山越うどん", "B. うどん本陣 山田家", "C. 中野うどん学校", "D. こんぴらうどん"],
+    "answer": "B",
+    "explanation": "和田邦坊は1979年に「うどん本陣 山田家」をプロデュースしました。和田邦坊は琴平町出身の画家・デザイナーで、多方面で香川の文化に貢献しました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "easy",
+    "question": "和田邦坊は何年に生まれ、何歳まで生きましたか？",
+    "choices": ["A. 1895年生まれ、88歳", "B. 1899年生まれ、93歳", "C. 1902年生まれ、85歳", "D. 1905年生まれ、90歳"],
+    "answer": "B",
+    "explanation": "和田邦坊は1899年（明治32年）に琴平町に生まれ、1992年に93歳で亡くなりました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮の第19代宮司・琴陵宥常が水難救済会を創設するきっかけとなった事件は何ですか？",
+    "choices": ["A. エルトゥールル号遭難事件", "B. ノルマントン号沈没事件", "C. 日清戦争の海戦", "D. 咸臨丸の遭難事件"],
+    "answer": "B",
+    "explanation": "1886年のノルマントン号沈没事件では、イギリス人船員は救助されたが日本人乗船者全員が水死する惨事が発生しました。これを契機に琴陵宥常は海上安全を祈願し、大日本帝国水難救済会の創設に尽力しました。（出典: [琴陵宥常紹介ページ](https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html)）",
+    "source": "https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "琴陵宥常が大日本帝国水難救済会の創設を直接訴えた総理大臣は誰ですか？",
+    "choices": ["A. 伊藤博文", "B. 山県有朋", "C. 黒田清隆", "D. 大隈重信"],
+    "answer": "C",
+    "explanation": "琴陵宥常は明治22年（1889年）3月に総理大臣・黒田清隆に直接会い、水難救済会の創設を訴えました。同年11月3日に大日本帝国水難救済会の開会式が挙行されました。（出典: [琴陵宥常紹介ページ](https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html)）",
+    "source": "https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "琴陵宥常が「金光院金毘羅大権現」から改称した神社名は何ですか？",
+    "choices": ["A. 金毘羅宮", "B. 金刀比羅宮", "C. 象頭山神社", "D. 琴平神社"],
+    "answer": "B",
+    "explanation": "琴陵宥常は江戸時代から称されていた寺院名「金光院金毘羅大権現」を、神社名「金刀比羅宮」に改めました。これは明治の神仏分離に伴う重要な改革でした。（出典: [琴陵宥常紹介ページ](https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html)）",
+    "source": "https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "大日本帝国水難救済会の開会式が行われたのはいつですか？",
+    "choices": ["A. 明治19年（1886年）11月3日", "B. 明治20年（1887年）3月15日", "C. 明治22年（1889年）11月3日", "D. 明治25年（1892年）1月1日"],
+    "answer": "C",
+    "explanation": "琴陵宥常の尽力により、明治22年（1889年）11月3日の天長節に大日本帝国水難救済会の開会式が挙行されました。これが今日の日本水難救済会の礎となりました。（出典: [琴陵宥常紹介ページ](https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html)）",
+    "source": "https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金丸座の収容人員はおよそ何人ですか？",
+    "choices": ["A. 約500人", "B. 約630人", "C. 約740人", "D. 約900人"],
+    "answer": "C",
+    "explanation": "金丸座の収容人員は約730〜740人です。升席や花道など江戸時代の芝居小屋の様式を今に伝えています。（出典: [金丸座 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "第1回四国こんぴら歌舞伎大芝居が開催されたのは何年何月ですか？",
+    "choices": ["A. 1984年4月", "B. 1985年4月", "C. 1985年6月", "D. 1986年4月"],
+    "answer": "C",
+    "explanation": "第1回四国こんぴら歌舞伎大芝居は昭和60年（1985年）6月27日から3日間にわたり開催されました。（出典: [こんぴら歌舞伎のあゆみ](https://www.konpirakabuki.jp/history/ayumi.html)）",
+    "source": "https://www.konpirakabuki.jp/history/ayumi.html"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "和田邦坊が入社した東京日日新聞社は、現在のどの新聞社にあたりますか？",
+    "choices": ["A. 読売新聞", "B. 朝日新聞", "C. 毎日新聞", "D. 産経新聞"],
+    "answer": "C",
+    "explanation": "和田邦坊は1926年に東京日日新聞社に入社しました。東京日日新聞社は現在の毎日新聞の前身にあたります。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "四国こんぴら歌舞伎大芝居で観客の案内やプログラム販売を行う「お茶子さん」は、1日に約何名が参加しますか？",
+    "choices": ["A. 5〜10名", "B. 20〜30名", "C. 50〜60名", "D. 100名以上"],
+    "answer": "B",
+    "explanation": "お茶子さんは1日に約20〜30名の女性がかすりの着物姿でボランティアとして参加しています。県外からの泊りがけ参加者もいます。（出典: [こんぴら歌舞伎のあゆみ](https://www.konpirakabuki.jp/history/ayumi.html)）",
+    "source": "https://www.konpirakabuki.jp/history/ayumi.html"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "和田邦坊が1964年に受けた栄誉は何ですか？",
+    "choices": ["A. 文化勲章", "B. 紫綬褒章", "C. 香川県文化功労者表彰", "D. 人間国宝認定"],
+    "answer": "C",
+    "explanation": "和田邦坊は1964年に香川県文化功労者として表彰されました。さらに1966年には四国新聞社文化賞も受賞しています。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  }
+]

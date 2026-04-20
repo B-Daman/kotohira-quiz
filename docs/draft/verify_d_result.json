@@ -1,0 +1,74 @@
+[
+  {
+    "id": "kotohira_814",
+    "claim": "灸まんはお灸（もぐさ）の形をした饅頭である",
+    "verified": true,
+    "additional_source_url": "https://sweetrip.sunairo.life/sweets-wiki/kyuman/",
+    "additional_source_title": "こんぴら堂 旅する銘菓「灸まん(きゅうまん)とは？」",
+    "evidence": "「お灸の形をしたお菓子」と記載。江戸時代に金刀比羅宮参道の旅籠で提供されていた「こんぴら灸」にちなみ、茶店に商売替えする際にお灸の形をした饅頭を創始したとされる"
+  },
+  {
+    "id": "kotohira_815",
+    "claim": "灸まん本舗石段やの前身「麻田屋久八」が1765年（明和2年）に開業",
+    "verified": false,
+    "additional_source_url": "",
+    "additional_source_title": "",
+    "evidence": "kyuman.co.jp の公式サイト（トップページ・会社概要・about）には創業年1765年（明和2年）や旧屋号「麻田屋久八」の記述が見当たらなかった。会社概要では最も古い記載が「昭和41年12月 本店設立」のみ。食べログ等の検索結果では「1765年（明和2年）に麻田屋久八として開業」との記述が散見されるが、一次ソースでの裏付けは取れなかった"
+  },
+  {
+    "id": "kotohira_818",
+    "claim": "琴平町と旧大社町が2004年9月25日に友好都市協定を締結",
+    "verified": true,
+    "additional_source_url": "https://www.city.izumo.shimane.jp/www/contents/1487306213767/index.html",
+    "additional_source_title": "出雲市「国内友好交流都市事業の概要」",
+    "evidence": "「平成16年9月25日 友好都市提携（旧大社町）」と明記。歌舞伎公演に伴うお練に相互参加するなど長年文化交流を重ねていたことが経緯として記載されている"
+  },
+  {
+    "id": "kotohira_819",
+    "claim": "明治12年の第二回琴平山博覧会で高橋由一が37点出品、35点奉納",
+    "verified": true,
+    "additional_source_url": "https://www.bunka.pref.mie.lg.jp/art-museum/55460038533.htm",
+    "additional_source_title": "三重県立美術館「高橋由一と金刀比羅宮」田中善明",
+    "evidence": "「リストの作品と別便にて送った2点をあわせた37点が琴平山博覧会に出品」「由一が37点を出品した第2回琴平山博覧会開催翌年の明治13年12月5日」と記載。金刀比羅宮公式サイトでは「明治12年2月、由一は35点の油絵を奉納」と記載されており、奉納35点＋別便2点＝出品37点の構成が確認できる"
+  },
+  {
+    "id": "kotohira_826",
+    "claim": "象頭山は不完全なメサ（卓状台地）である",
+    "verified": true,
+    "additional_source_url": "https://morifumikirikita319.hatenablog.com/entry/2018/01/05/174654",
+    "additional_source_title": "森の踏切番日記「こんぴらさんでブラタモリ(2/3)」",
+    "evidence": "ブラタモリ放送内容の記録として「不完全ながらメサ？」「不完全メサがよかったんですよ」との記述あり。花崗岩の上に安山岩が載る地質構成で、下位の花崗岩が侵食されて急崖を形成するメサの特徴を持つと解説"
+  },
+  {
+    "id": "kotohira_827",
+    "claim": "象頭山の北側半分が「大麻山」、標高616.3m",
+    "verified": true,
+    "additional_source_url": "https://www.yamakei-online.com/yamanavi/yama.php?yama_id=18280",
+    "additional_source_title": "山と溪谷オンライン「大麻山(おおさやま)：616m」",
+    "evidence": "山と溪谷オンラインで大麻山の標高616mと記載。善通寺市の資料（city.zentsuji.kagawa.jp）では「大麻山（おおさやま）は善通寺市と三豊市の境界をなす標高616mの山で、大麻山から南東に延びる尾根は琴平山」と記載。二等三角点の標高は616.32m"
+  },
+  {
+    "id": "kotohira_829",
+    "claim": "こんぴら温泉郷は1997年に近兼孝休が掘削成功",
+    "verified": true,
+    "additional_source_url": "https://news.ksb.co.jp/article/13845185",
+    "additional_source_title": "KSBニュース",
+    "evidence": "KSBニュース記事は近兼孝休のこんぴら歌舞伎支援に関する回顧録の記事で、温泉掘削の直接記述はなかったが、Web検索結果（温泉の歴史ジャパン等）から「平成9年（1997年）にホテルを経営していた近兼孝休が自身の敷地内で泉源を掘削し、周辺の宿泊施設に供給した」との記述が確認できた"
+  },
+  {
+    "id": "kotohira_830",
+    "claim": "こんぴら温泉郷の泉質はナトリウム・カルシウム塩化物泉",
+    "verified": true,
+    "additional_source_url": "https://www.radium-spa.com/konpira.html",
+    "additional_source_title": "全国ラジウム温泉ガイド「こんぴら温泉郷」",
+    "evidence": "「食塩重炭酸土類泉、またナトリウム・カルシウム塩化物温泉」と記載。なお湯元八千代の口コミ（ニフティ温泉）では正式泉質名「ナトリウム・カルシウムー塩化物・炭酸水素塩泉」と記載されており、炭酸水素塩も含む。琴参閣では「単純放射能冷鉱泉」、日本温泉協会では「炭酸水素塩泉」と記載されており、施設・源泉により泉質が異なる点に注意"
+  },
+  {
+    "id": "kotohira_831",
+    "claim": "2007年に琴平町が新たな泉源を開発",
+    "verified": false,
+    "additional_source_url": "",
+    "additional_source_title": "",
+    "evidence": "Web検索および関連サイトの調査では、2007年の新泉源開発に関する具体的な記述を確認できなかった。確認できたのは1997年（平成9年）の近兼孝休による掘削成功と、琴参閣等への温泉供給開始のみ。智光院温泉の存在は確認できたが、その開発年が2007年であるという裏付けは得られなかった"
+  }
+]

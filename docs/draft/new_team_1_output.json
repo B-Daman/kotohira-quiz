@@ -1,0 +1,128 @@
+[
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "金刀比羅宮の参道にあった「石段かご」は、石段の何段目まで参拝客を運んでいたか？",
+    "choices": ["A. 168段目（一之坂の上）", "B. 352段目（大門の手前）", "C. 500段目（本宮の手前）", "D. 785段目（本宮）"],
+    "answer": "B",
+    "explanation": "石段かごは参道1段目から352段目の大門手前までの区間を運行していました。本宮のある785段目までは運行しておらず、大門より先は自力で登る必要がありました。（出典: [桜の抄 らくら〜く石段かご！](https://www.sakuranosho.jp/blog/news/detail.php?id=274)）",
+    "source": "https://www.sakuranosho.jp/blog/news/detail.php?id=274"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の「石段かご」は何年に営業を終了したか？",
+    "choices": ["A. 2015年", "B. 2018年", "C. 2020年", "D. 2022年"],
+    "answer": "C",
+    "explanation": "石段かごは2020年（令和2年）1月末に営業を終了しました。担ぎ手の高齢化と後継者不足が廃止の主な理由で、かつて20人以上いた担ぎ手が最終的には大幅に減少していました。（出典: [KSBニュース こんぴらさんの「石段かご」廃止へ](https://news.ksb.co.jp/article/13850365)）",
+    "source": "https://news.ksb.co.jp/article/13850365"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の「石段かご」が廃止された主な理由は何か？",
+    "choices": ["A. 利用客の減少による採算悪化", "B. 担ぎ手の高齢化と後継者不足", "C. 金刀比羅宮の境内整備に伴う禁止", "D. エレベーター設置による代替"],
+    "answer": "B",
+    "explanation": "石段かごは担ぎ手の高齢化と後継者不足により2020年1月末に廃止されました。代表の田中武彦氏（当時72歳）は「担ぎ手が高齢化で、一人減り、二人減りして」と語っています。（出典: [KSBニュース こんぴらさんの「石段かご」廃止へ](https://news.ksb.co.jp/article/13850365)）",
+    "source": "https://news.ksb.co.jp/article/13850365"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "金刀比羅宮の「石段かご」は一時営業を中止した後、何年に復活したか？",
+    "choices": ["A. 1975年", "B. 1983年", "C. 1990年", "D. 1998年"],
+    "answer": "B",
+    "explanation": "石段かごは江戸時代から続く伝統でしたが、一時営業を中止していました。1983年に田中武彦氏が復活させ、その後2020年1月末の廃止まで運行を続けました。（出典: [KSBニュース こんぴらさんの「石段かご」廃止へ](https://news.ksb.co.jp/article/13850365)）",
+    "source": "https://news.ksb.co.jp/article/13850365"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "金刀比羅宮の「石段かご」の料金で、片道（上り）はいくらだったか？",
+    "choices": ["A. 3,200円", "B. 5,300円", "C. 6,800円", "D. 8,500円"],
+    "answer": "B",
+    "explanation": "石段かごの料金は、片道上りが5,300円、片道下りが3,200円、往復が6,800円でした。2人の担ぎ手が参拝客を乗せた竹かごを人力で石段を登りました。（出典: [桜の抄 らくら〜く石段かご！](https://www.sakuranosho.jp/blog/news/detail.php?id=274)）",
+    "source": "https://www.sakuranosho.jp/blog/news/detail.php?id=274"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "石段かご廃止後、金刀比羅宮の大門まで石段を登らずに行ける代替交通手段は何か？",
+    "choices": ["A. ケーブルカー", "B. こんぴら参拝登山シャトル", "C. 電動カート", "D. ロープウェイ"],
+    "answer": "B",
+    "explanation": "石段かごの廃止後、琴平バス株式会社が運営する「こんぴら参拝登山シャトル」が代替手段として利用できます。完全予約制で、片道700円で大門付近まで送迎してもらえます。（出典: [こんぴら参拝登山シャトル](https://www.kotobus.com/climbing/)）",
+    "source": "https://www.kotobus.com/climbing/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "「金毘羅船々（こんぴらふねふね）」とはどのような種類の曲か？",
+    "choices": ["A. 雅楽の楽曲", "B. 香川県の民謡", "C. 仏教の声明", "D. 軍歌"],
+    "answer": "B",
+    "explanation": "「金毘羅船々」は香川県の民謡で、金毘羅参詣の道中唄として生まれ、お座敷遊びの歌としても全国に広まりました。（出典: [四国新聞 民謡・踊こんぴら船々](https://www.shikoku-np.co.jp/feature/nokoshitai/bu/9/)）",
+    "source": "https://www.shikoku-np.co.jp/feature/nokoshitai/bu/9/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "「金毘羅船々」の歌詞に登場する「象頭山（ぞうずさん）」とは何のことか？",
+    "choices": ["A. 金刀比羅宮がある山の名前", "B. 金毘羅大権現の別名", "C. 参道沿いにある象の石像", "D. 讃岐国の旧国名"],
+    "answer": "A",
+    "explanation": "象頭山は金刀比羅宮が鎮座する山で、標高524メートルです。琴平街道から眺めた山容が象の頭に見えることが名前の由来とされ、琴平山とともに瀬戸内海国立公園の名勝に指定されています。（出典: [ニッポン旅マガジン 金毘羅船々](https://tabi-mag.jp/konpiraship/)）\n（出典: [四国新聞 民謡・踊こんぴら船々](https://www.shikoku-np.co.jp/feature/nokoshitai/bu/9/)）",
+    "source": "https://tabi-mag.jp/konpiraship/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "「金毘羅船々」の歌詞にある「追風（おいて）に帆かけてシュラシュシュシュ」の「シュラシュシュシュ」の由来として有力な説はどれか？",
+    "choices": ["A. 船の櫓を漕ぐ掛け声", "B. 船が風を受けて速く進む擬音で、修羅（運搬具）にかけた言葉", "C. サンスクリット語の祈りの言葉", "D. 讃岐弁で「急げ」を意味する方言"],
+    "answer": "B",
+    "explanation": "「シュラシュシュシュ」は追い風を受けた船が速く進む様子を表す擬音表現で、修羅（重い物を運ぶそりの形の運搬具）にかけた言葉であるという説があります。（出典: [ニッポン旅マガジン 金毘羅船々](https://tabi-mag.jp/konpiraship/)）\n（出典: [世界の民謡・童謡 金比羅船々](https://www.worldfolksong.com/songbook/japan/minyo/konpira.htm)）",
+    "source": "https://tabi-mag.jp/konpiraship/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "「金毘羅船々」のお座敷遊びで、台の上に椀（物）がないときに出すべき手の形はどれか？",
+    "choices": ["A. パー（手のひらを開く）", "B. グー（手を握る）", "C. チョキ（指2本を立てる）", "D. 手を出さない"],
+    "answer": "B",
+    "explanation": "金毘羅船々のお座敷遊びでは、台の上に椀があるときはパー（手の甲を上にして置く）、椀がないときはグー（手を握って台をたたく）にします。間違えた方が負けで、罰杯（お酒を飲む罰ゲーム）があります。（出典: [東京花柳界情報舎 お座敷遊び（金毘羅船舟）](https://www.tokyo-geisha.com/html/article/asobi_konpira.php)）",
+    "source": "https://www.tokyo-geisha.com/html/article/asobi_konpira.php"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "大阪と丸亀を結ぶ金毘羅参詣の乗合船「こんぴら船」が就航したのは何年か？",
+    "choices": ["A. 1688年（元禄元年）", "B. 1744年（延享元年）", "C. 1830年（天保元年）", "D. 1868年（明治元年）"],
+    "answer": "B",
+    "explanation": "金毘羅参詣客を運ぶ乗合船「こんぴら船」は1744年（延享元年）に大坂と丸亀の間で就航しました。大坂方面からの参詣客は丸亀に、中国・九州方面からの参詣客は多度津に上陸しました。（出典: [四国新聞 民謡・踊こんぴら船々](https://www.shikoku-np.co.jp/feature/nokoshitai/bu/9/)）\n（出典: [ニッポン旅マガジン 金毘羅船々](https://tabi-mag.jp/konpiraship/)）",
+    "source": "https://www.shikoku-np.co.jp/feature/nokoshitai/bu/9/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "JR四国の琴平駅で列車接近メロディに採用されている曲は何か？",
+    "choices": ["A. さぬき讃歌", "B. 金毘羅船々", "C. 瀬戸の花嫁", "D. よさこい節"],
+    "answer": "B",
+    "explanation": "JR四国の琴平駅では、2019年4月27日から「金毘羅船々」が列車接近メロディとして採用されています。金刀比羅宮の最寄り駅にふさわしい選曲です。（出典: [金毘羅船々 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%88%B9%E3%80%85)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%88%B9%E3%80%85"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "「金毘羅船々」がNHK「みんなのうた」で初めて放送されたのはいつか？",
+    "choices": ["A. 1955年", "B. 1961年", "C. 1975年", "D. 1988年"],
+    "answer": "B",
+    "explanation": "「金毘羅船々」は1961年12月にNHK「みんなのうた」で初めて放送されました。当時は「金ぴらふねふね」のタイトルで、スリー・グレイセス、ボニージャックス、みすず児童合唱団が歌唱しました。（出典: [金毘羅船々 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%88%B9%E3%80%85)）\n（出典: [世界の民謡・童謡 金比羅船々](https://www.worldfolksong.com/songbook/japan/minyo/konpira.htm)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%88%B9%E3%80%85"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "ボートレース丸亀で「金毘羅船々」が使われている場面はどれか？",
+    "choices": ["A. レース開始のファンファーレ", "B. 発売締切前のBGM", "C. 優勝者の表彰式", "D. 場内アナウンスのジングル"],
+    "answer": "B",
+    "explanation": "ボートレース丸亀では、レースの発売締切前のBGMとして「金毘羅船々」が使用されています。香川県のローカル色豊かな演出として競艇ファンに知られています。（出典: [マクール 香川県民が愛してやまない「金毘羅船々」](https://sp.macour.jp/columns/macour/161587/)）",
+    "source": "https://sp.macour.jp/columns/macour/161587/"
+  }
+]

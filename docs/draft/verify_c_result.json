@@ -1,0 +1,74 @@
+[
+  {
+    "id": "kotohira_797",
+    "claim": "和田邦坊は1926年（大正15年）に東京日日新聞社に入社し、1938年（昭和13年）に退社した",
+    "verified": true,
+    "additional_source_url": "https://kotobank.jp/word/%E5%92%8C%E7%94%B0%20%E9%82%A6%E5%9D%8A-1658787",
+    "additional_source_title": "コトバンク（日外アソシエーツ「20世紀日本人名事典」）",
+    "evidence": "「大正15年に東京日日新聞社(現・毎日新聞社)に入社」「昭和13年に退社して郷里に戻る」と記載。名物かまど公式サイト(kamado.co.jp)でも「大正15年：東京日々新聞社に入社」「昭和13年：香川県に帰郷」と一致"
+  },
+  {
+    "id": "kotohira_798",
+    "claim": "和田邦坊は岡本一平と人気を二分した",
+    "verified": false,
+    "additional_source_url": "",
+    "additional_source_title": "",
+    "evidence": "和田邦坊が東京日日新聞の時事漫画家、岡本一平が朝日新聞の漫画家として同時代に活躍した事実は複数ソースで確認できるが、「人気を二分」という具体的表現はWikipedia以外のウェブ上ソースでは確認できなかった。書籍等の一次資料での確認が必要"
+  },
+  {
+    "id": "kotohira_799",
+    "claim": "和田邦坊は名物かまど・ひょうげ豆・ぶどう餅のパッケージデザインを手がけた",
+    "verified": true,
+    "additional_source_url": "https://yousakana.jp/kunibo-wada/",
+    "additional_source_title": "物語を届けるしごと（生誕125周年記事）",
+    "evidence": "「『名物かまど』『銘菓観音寺』『ひょうげ豆』『ぶどう餅』などのロングセラーとなっている様々なデザインは、たった一人の作家『和田邦坊』によるもの」と記載。名物かまど公式(kamado.co.jp)、巴堂公式(tomoedo.net)でも各デザインが和田邦坊によるものと明記"
+  },
+  {
+    "id": "kotohira_800",
+    "claim": "小説『うちの女房にゃ髭がある』が1936年に日活で映画化された",
+    "verified": true,
+    "additional_source_url": "https://www.nikkatsu.com/movie/13473.html",
+    "additional_source_title": "日活公式サイト 映画情報",
+    "evidence": "日活公式サイトに「ウチの女房にゃ髭がある」として掲載。原作：和田邦坊、監督：千葉泰樹、公開日：1936年12月11日、制作：日活、73分、モノクロ。出演：杉狂児、星玲子"
+  },
+  {
+    "id": "kotohira_801",
+    "claim": "和田邦坊は1979年に「うどん本陣 山田家」をプロデュースした",
+    "verified": false,
+    "additional_source_url": "https://www.coolkagawa.jp/news/entry-795.html",
+    "additional_source_title": "COOL KAGAWA（四国新聞社提供）",
+    "evidence": "四国新聞系COOL KAGAWAに「1978（昭和53）年創業」と明記。和田邦坊がプロデュースした事実は確認できたが、創業年は1979年ではなく1978年。おにわさん(oniwa.garden)でも「1978年（昭和53年）の創業」と記載。問題の年号「1979年」は誤りの可能性あり"
+  },
+  {
+    "id": "kotohira_802",
+    "claim": "和田邦坊は1899年生まれ、1992年に93歳で死去した",
+    "verified": true,
+    "additional_source_url": "https://kotobank.jp/word/%E5%92%8C%E7%94%B0%20%E9%82%A6%E5%9D%8A-1658787",
+    "additional_source_title": "コトバンク（日外アソシエーツ「20世紀日本人名事典」）",
+    "evidence": "「明治32年(1899年)8月24日生まれ、平成4年(1992年)11月7日没、享年93歳」と記載。灸まん美術館(kyuman.art)でも「1899～1992年」、名物かまど公式(kamado.co.jp)でも「1899-1992年（享年93歳）」と一致"
+  },
+  {
+    "id": "kotohira_806",
+    "claim": "和田邦坊は1964年（昭和39年）に香川県文化功労者表彰を受けた",
+    "verified": true,
+    "additional_source_url": "https://kamado.co.jp/gallery/wada-kunibo.html",
+    "additional_source_title": "名物かまど公式サイト「名物かまどと和田邦坊」",
+    "evidence": "名物かまど公式サイトの年表に「昭和39年：香川県文化功労者」と記載。同サイトでは続けて「昭和41年：四国新聞文化賞受賞」「昭和57年：日本パッケージデザイン協会特別賞」も確認"
+  },
+  {
+    "id": "kotohira_811",
+    "claim": "灸まんのパッケージデザインを和田邦坊が手がけた",
+    "verified": true,
+    "additional_source_url": "https://yousakana.jp/kunibo-wada/",
+    "additional_source_title": "物語を届けるしごと（生誕125周年記事）",
+    "evidence": "「灸まん：琴平の名物菓子。邦坊は創業時から新商品開発からプロデュースを担当」と記載。灸まん美術館(kyuman.art)に和田邦坊画業館が併設されており、灸まんブランドの総合プロデュースを行った事実を示す"
+  },
+  {
+    "id": "kotohira_817",
+    "claim": "「おいり」は和田邦坊がデザインしていない銘菓である",
+    "verified": true,
+    "additional_source_url": "https://www.yamashita-oiri.jp/aboutoiri/",
+    "additional_source_title": "山下おいり本舗公式サイト",
+    "evidence": "おいりは1587年頃（安土桃山時代）の生駒親正公の姫君の輿入れに由来する伝統菓子。和田邦坊がデザインした菓子の一覧（名物かまど、灸まん、ひょうげ豆、ぶどう餅等）にはおいりは含まれず、おいりと和田邦坊を結びつける記述はどのソースにも存在しない"
+  }
+]

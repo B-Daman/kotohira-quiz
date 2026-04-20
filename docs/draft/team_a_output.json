@@ -1,0 +1,227 @@
+[
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "金刀比羅宮への参拝が難しい船乗りが、海上から奉納を行うために用いた「流し樽」の方法として正しいのはどれ？",
+    "choices": ["A. 初穂料と神酒を入れた樽に「奉納金刀比羅宮」の旗を立てて海に投じた", "B. 空の樽に願い事を書いた紙を入れて川に流した", "C. 樽に米を詰めて最寄りの港に届けた", "D. 樽を海底に沈めて竜神に捧げた"],
+    "answer": "A",
+    "explanation": "流し樽は、初穂料や神酒を入れた樽に「奉納金刀比羅宮」と書いた白旗を立て、航行中の船から海に投じる風習です。潮流に乗って漂着した樽を拾った漁師が代わりに金刀比羅宮へ届けました。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）\n（出典: [四国新聞 金毘羅信仰の源流](https://www.shikoku-np.co.jp/feature/kotohira/story/37.html)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮の「流し樽」の風習は現在も続いているが、どのような場面で行われているか？",
+    "choices": ["A. 漁船の大漁祈願の出港時", "B. 海上自衛隊の艦艇の処女航海時など", "C. 毎年正月の初詣に合わせた行事として", "D. 瀬戸内海の定期フェリーの就航記念時"],
+    "answer": "B",
+    "explanation": "流し樽の風習は現在でも海上自衛隊の艦艇の処女航海をはじめ、当該海域を通過する船舶によって行われています。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "easy",
+    "question": "金刀比羅宮は特に何の守り神として広く信仰されているか？",
+    "choices": ["A. 学問の神", "B. 海上交通の守り神", "C. 商売繁盛の神", "D. 縁結びの神"],
+    "answer": "B",
+    "explanation": "金刀比羅宮は古くから海上交通の守り神として信仰されており、漁師や船員など海事関係者の崇敬を集めています。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の正式な分社は全国にいくつあるか？",
+    "choices": ["A. 3社", "B. 6社", "C. 12社", "D. 20社"],
+    "answer": "B",
+    "explanation": "金刀比羅宮の正式な分社は、東京分社・尾張分社・鳥羽分社・神戸分社・出雲分社・松山分社の6社です。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+    "source": "https://www.konpira.or.jp/"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮の分社として存在しないものはどれ？",
+    "choices": ["A. 東京分社（東京都文京区）", "B. 鳥羽分社（三重県鳥羽市）", "C. 大阪分社（大阪府大阪市）", "D. 出雲分社（島根県出雲市）"],
+    "answer": "C",
+    "explanation": "金刀比羅宮の分社は東京・尾張・鳥羽・神戸・出雲・松山の6社であり、大阪分社は存在しません。（出典: [金刀比羅宮 公式サイト](https://www.konpira.or.jp/)）",
+    "source": "https://www.konpira.or.jp/"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "全国にある金刀比羅神社・琴平神社・金比羅神社などの分社はおよそ何社あるか？",
+    "choices": ["A. 約100社", "B. 約300社", "C. 約600社", "D. 約1000社"],
+    "answer": "C",
+    "explanation": "金刀比羅宮を総本宮とする金刀比羅神社・琴平神社・金比羅神社は全国に約600社あります。江戸時代に海運業者や商人により金毘羅信仰が各地に広められました。（出典: [折橋商店 金毘羅信仰](https://orihasisyouten.jp/blog/konpira-shinkou/)）",
+    "source": "https://orihasisyouten.jp/blog/konpira-shinkou/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "江戸時代に全国で組織された「金毘羅講」の仕組みとして正しいのはどれ？",
+    "choices": ["A. 藩主が費用を負担し家臣を代参させた", "B. 講のメンバーが資金を積み立て、交代で代表者が参詣した", "C. 寺社奉行が毎年参詣者を選抜した", "D. 商人組合が一括で参詣の手配を行った"],
+    "answer": "B",
+    "explanation": "金毘羅講は庶民が資金を出し合い積み立て、交代で選出された代表者が金刀比羅宮に参詣する相互扶助の制度でした。（出典: [折橋商店 金毘羅信仰](https://orihasisyouten.jp/blog/konpira-shinkou/)）",
+    "source": "https://orihasisyouten.jp/blog/konpira-shinkou/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "江戸時代、金毘羅参りは何に次ぐ庶民の憧れだったとされるか？",
+    "choices": ["A. 日光東照宮参り", "B. 出雲大社参り", "C. 伊勢神宮参り", "D. 高野山参り"],
+    "answer": "C",
+    "explanation": "金毘羅参りは伊勢神宮への参詣（お蔭参り）に次ぐ庶民の憧れとされ、全国各地で金毘羅講が組織されました。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "江戸時代の「こんぴら狗」とはどのような風習か？",
+    "choices": ["A. 境内で飼われていた神犬に参拝する風習", "B. 飼い主の代わりに犬が金刀比羅宮へ代参する風習", "C. 犬の形をした絵馬を奉納する風習", "D. 参道で犬を売買する市が開かれた風習"],
+    "answer": "B",
+    "explanation": "こんぴら狗は、飼い主が初穂料と道中の食料を犬の首にかけて代参させる風習です。道中の人々の善意により犬は金刀比羅宮まで連れて行かれました。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "清水次郎長の代わりに金刀比羅宮へ代参し、預かった刀を奉納したと伝えられる人物は誰か？",
+    "choices": ["A. 国定忠治", "B. 森の石松", "C. 大前田英五郎", "D. 黒駒勝蔵"],
+    "answer": "B",
+    "explanation": "清水次郎長の子分である森の石松が、次郎長の代わりに金刀比羅宮へ代参し、刀を奉納したという逸話が伝えられています。（出典: [折橋商店 金毘羅信仰](https://orihasisyouten.jp/blog/konpira-shinkou/)）",
+    "source": "https://orihasisyouten.jp/blog/konpira-shinkou/"
+  },
+  {
+    "category": "food",
+    "difficulty": "easy",
+    "question": "金刀比羅宮の境内で五人百姓が販売している名物の飴は何か？",
+    "choices": ["A. べっこう飴", "B. 加美代飴", "C. 讃岐飴", "D. 金平糖"],
+    "answer": "B",
+    "explanation": "加美代飴は五人百姓が境内で販売を許されている名物の飴です。名前は「神代」にちなんで名づけられました。（出典: [五人百姓 池商店](https://ikesyouten.com/)）",
+    "source": "https://ikesyouten.com/"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "加美代飴の原材料として正しい組み合わせはどれ？",
+    "choices": ["A. 砂糖・水飴・柚子油", "B. 砂糖・蜂蜜・抹茶", "C. 黒糖・水飴・生姜", "D. 砂糖・きな粉・柚子油"],
+    "answer": "A",
+    "explanation": "加美代飴の原材料は砂糖・水飴・柚子油の3つだけで、添加物を使わないシンプルな飴です。（出典: [老舗食堂 池商店](https://shinise.tv/ikeshoten/)）",
+    "source": "https://shinise.tv/ikeshoten/"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "加美代飴の形が現在の扇型になった理由は何か？",
+    "choices": ["A. 金刀比羅宮の神紋にちなんだため", "B. 類似商品が出回ったため丸型から改められた", "C. 扇は商売繁盛の縁起物とされたため", "D. 参拝者が持ち運びやすい形にするため"],
+    "answer": "B",
+    "explanation": "加美代飴はもともと丸型の「こんぴら飴」でしたが、類似商品が出回ったことから1950年頃に扇型に改められました。（出典: [加美代飴 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4"
+  },
+  {
+    "category": "food",
+    "difficulty": "easy",
+    "question": "加美代飴のパッケージに同梱されている、飴を食べるための道具は何か？",
+    "choices": ["A. 小さなハンマー", "B. 竹串", "C. 木のスプーン", "D. 金属のピック"],
+    "answer": "A",
+    "explanation": "加美代飴は固い飴なので、パッケージに同梱された小さなハンマー（小槌）で割って食べます。割った飴を分け合うことが「幸せの御裾分け」とされています。（出典: [老舗食堂 池商店](https://shinise.tv/ikeshoten/)）",
+    "source": "https://shinise.tv/ikeshoten/"
+  },
+  {
+    "category": "food",
+    "difficulty": "hard",
+    "question": "江戸時代の加美代飴（当時の「こんぴら飴」）は何を原料にして作られていたか？",
+    "choices": ["A. さとうきびの搾り汁", "B. 神前に供えられた米のお下がり", "C. 和三盆糖", "D. 麦芽から作った水飴"],
+    "answer": "B",
+    "explanation": "江戸時代には神前に供えられたお米のお下がりで飴が作られていましたが、戦後に砂糖を原料とする製法に変わりました。（出典: [老舗食堂 池商店](https://shinise.tv/ikeshoten/)）",
+    "source": "https://shinise.tv/ikeshoten/"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の大門内で営業を許された「五人百姓」の特権の由来は何か？",
+    "choices": ["A. 多額の寄進を行った豪商の子孫であるため", "B. 先祖代々神事のお手伝いを続けてきた功労のため", "C. 藩主から特別な商業許可を受けたため", "D. 参道の石段を寄進した家筋であるため"],
+    "answer": "B",
+    "explanation": "五人百姓は先祖代々、金刀比羅宮の神事のお手伝いを続けてきた功労により、境内で唯一商売を許された5軒の家筋です。（出典: [五人百姓 池商店](https://ikesyouten.com/)）",
+    "source": "https://ikesyouten.com/"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "五人百姓の5家として伝わる家名に含まれないのはどれ？",
+    "choices": ["A. 新庄家", "B. 公文家", "C. 田所家", "D. 丸尾家"],
+    "answer": "D",
+    "explanation": "五人百姓の5家は新庄家・本庄家・公文家・田所家・案主家です。丸尾家は含まれません。（出典: [老舗食堂 池商店](https://shinise.tv/ikeshoten/)）",
+    "source": "https://shinise.tv/ikeshoten/"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "五人百姓 池商店の創業年はいつか？",
+    "choices": ["A. 1185年（文治元年）", "B. 1245年（寛元3年）", "C. 1336年（建武3年）", "D. 1467年（応仁元年）"],
+    "answer": "B",
+    "explanation": "池商店は1245年（寛元3年）に創業し、現在28代目が営業を続けています。後嵯峨天皇より神祭に携わるよう勅命を受けたとされています。（出典: [老舗食堂 池商店](https://shinise.tv/ikeshoten/)）",
+    "source": "https://shinise.tv/ikeshoten/"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "五人百姓 池商店は金刀比羅宮の表参道の何段目にあるか？",
+    "choices": ["A. 50段目", "B. 69段目", "C. 100段目", "D. 133段目"],
+    "answer": "B",
+    "explanation": "池商店は金刀比羅宮の表参道石段69段目、大門をくぐってすぐの場所にあります。（出典: [五人百姓 池商店](https://ikesyouten.com/)）",
+    "source": "https://ikesyouten.com/"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "1677年に編纂された『玉藻集』に記録されている、加美代飴の前身にあたる土産菓子の名前は何か？",
+    "choices": ["A. 金比羅の丸糖", "B. 讃岐の白飴", "C. 象頭山の水飴", "D. 琴平の柚子菓子"],
+    "answer": "A",
+    "explanation": "1677年の『玉藻集』には「金比羅の丸糖」の記載があり、当時から金刀比羅宮の土産菓子として人気があったことがわかります。（出典: [加美代飴 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金毘羅五街道に含まれない街道はどれ？",
+    "choices": ["A. 丸亀街道", "B. 多度津街道", "C. 高松街道", "D. 善通寺街道"],
+    "answer": "D",
+    "explanation": "金毘羅五街道は高松街道・丸亀街道・多度津街道・阿波街道・伊予土佐街道の5つです。善通寺街道は含まれません。（出典: [金毘羅街道 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%A1%97%E9%81%93)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%A1%97%E9%81%93"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金毘羅五街道のうち、距離が短く平坦で最も賑わったとされる街道はどれか？",
+    "choices": ["A. 高松街道", "B. 阿波街道", "C. 丸亀街道", "D. 多度津街道"],
+    "answer": "C",
+    "explanation": "丸亀街道は丸亀港から琴平への距離が短く平坦であったため、大坂方面からの参詣客に最も利用されました。（出典: [金毘羅街道 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%A1%97%E9%81%93)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%A1%97%E9%81%93"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "天保年間の港の大改修後、丸亀街道をも凌ぐ賑わいを見せたとされる街道はどれか？",
+    "choices": ["A. 高松街道", "B. 阿波街道", "C. 伊予・土佐街道", "D. 多度津街道"],
+    "answer": "D",
+    "explanation": "天保年間に多度津港が大改修された後、多度津街道は丸亀街道をも凌ぐ賑わいを見せました。西国・九州からの参詣客が多く利用しました。（出典: [金毘羅街道 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%A1%97%E9%81%93)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%A1%97%E9%81%93"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "四国新聞の記事によると、金毘羅信仰の海上信仰が発展した背景として、塩飽（しわく）の海域が神聖視された理由は何か？",
+    "choices": ["A. 海底から温泉が湧き出ていたため", "B. 複数の潮流が衝突し「潮が湧き立つ」神聖な海域とされたため", "C. 古代の海戦の跡地であったため", "D. 珍しい深海魚が採れる不思議な海域とされたため"],
+    "answer": "B",
+    "explanation": "塩飽は「塩湧（しわく）」に由来し、複数の潮流が衝突して潮が湧き立つ海域です。古来より人形や依代を海に流す習俗と結びつき神聖視されました。（出典: [四国新聞 金毘羅信仰の源流](https://www.shikoku-np.co.jp/feature/kotohira/story/37.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/37.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮の参道について、江戸時代後期に本来直線だった参道を曲げた理由は何か？",
+    "choices": ["A. 急勾配を緩和するため", "B. 奉納された石碑を納めるスペースを確保するため", "C. 風水上の理由で方角を変えるため", "D. 門前町の店舗を増やすため"],
+    "answer": "B",
+    "explanation": "江戸時代後期には奉納が非常に多く行われ、奉納された石碑を納めるために本来直線だった参道を曲げたほどでした。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  }
+]

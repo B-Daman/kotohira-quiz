@@ -1,0 +1,47 @@
+出典置換レポート: Wikipedia「旧金毘羅大芝居」→ こんぴら歌舞伎公式サイト
+実行日: 2026-04-06
+
+■ 検証元
+  - https://www.konpirakabuki.jp/history/reform.html
+  - https://www.konpirakabuki.jp/history/ayumi.html
+
+■ 更新した問題数: 18問
+
+  reform.html を第1出典に設定 (14問):
+    kotohira_161 - 移築復元の期間 (昭和47〜51年)
+    kotohira_163 - 客席の形式 (升席)
+    kotohira_171 - 移築復元の完了年 (昭和51年)
+    kotohira_173 - 花道の役割
+    kotohira_175 - 天保6年=西暦1835年
+    kotohira_176 - 日本最古の芝居小屋
+    kotohira_177 - 移築復元完了から第1回歌舞伎まで9年
+    kotohira_179 - 金丸座の見学内容
+    kotohira_180 - 移築復元にかかった期間 (4年間)
+    kotohira_393 - 歴史と現代の融合
+    kotohira_416 - 日本最古の芝居小屋と飴屋
+    kotohira_429 - 天保年間の建造物
+    kotohira_483 - 琴平花壇と金丸座の年数差
+    kotohira_490 - 日本最古の芝居小屋と飴屋
+
+  ayumi.html を第1出典に設定 (4問):
+    kotohira_162 - 舞台機構 (回り舞台・せり・すっぽん)
+    kotohira_170 - せり上がりの説明
+    kotohira_174 - 回り舞台は人力で回転
+    kotohira_471 - 升席の説明
+
+■ スキップした問題: 6問
+
+  kotohira_035 - 収容人数（約700人）は公式サイトに記載なし
+  kotohira_036 - 回り舞台の直径（7.3m）は公式サイトに記載なし
+  kotohira_037 - 花道の幅（約1.8m）は公式サイトに記載なし
+  kotohira_039 - 改名年（明治33年/1900年）は公式サイトに記載なし
+  kotohira_178 - 改名年（明治33年/1900年）は公式サイトに記載なし
+  kotohira_791 - 朱印地・天領の記述は公式サイトに記載なし
+
+■ 対象外（既に複数出典あり、条件に合致せず）
+  kotohira_793 - 既に2出典 (Wikipedia + 文化庁)
+  kotohira_794 - 既に2出典 (Wikipedia + あゆみページ)
+
+■ 変更内容
+  - source フィールド: 公式サイトURLに変更
+  - explanation: 公式サイトを第1出典、Wikipediaを第2出典（改行区切り）に設定

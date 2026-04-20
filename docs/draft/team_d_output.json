@@ -1,0 +1,290 @@
+[
+  {
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "象頭山が国の名勝に指定されたのはいつですか？",
+    "choices": ["A. 1934年（昭和9年）", "B. 1951年（昭和26年）", "C. 1956年（昭和31年）", "D. 1968年（昭和43年）"],
+    "answer": "B",
+    "explanation": "象頭山は1951年（昭和26年）6月9日に国の名勝に指定されました。瀬戸内海国立公園にも含まれています。（出典: [文化遺産オンライン](https://online.bunka.go.jp/heritages/detail/139607)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/139607"
+  },
+  {
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "象頭山の暖帯林で、自生北限に近いとして注目される樹種はどれですか？",
+    "choices": ["A. モミ", "B. サカキ", "C. クス", "D. アオキ"],
+    "answer": "C",
+    "explanation": "象頭山の中腹以上におけるクス（楠）の自然林は自生北限に近いものとして注目されています。（出典: [文化遺産オンライン](https://online.bunka.go.jp/heritages/detail/139607)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/139607"
+  },
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "象頭山は地質学的にどのような地形に分類されますか？",
+    "choices": ["A. カルスト台地", "B. 不完全なメサ", "C. カルデラ", "D. 成層火山"],
+    "answer": "B",
+    "explanation": "象頭山は花崗岩の風化によって崩れている不完全なメサ（卓状台地）に分類されます。下位から花崗岩、凝灰角礫岩、讃岐岩質安山岩で構成されています。（出典: [象頭山 (香川県) - Wikipedia](https://ja.wikipedia.org/wiki/%E8%B1%A1%E9%A0%AD%E5%B1%B1_(%E9%A6%99%E5%B7%9D%E7%9C%8C))）",
+    "source": "https://ja.wikipedia.org/wiki/%E8%B1%A1%E9%A0%AD%E5%B1%B1_(%E9%A6%99%E5%B7%9D%E7%9C%8C)"
+  },
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "象頭山の北側半分にあたる山の名前は何ですか？",
+    "choices": ["A. 飯野山", "B. 大麻山", "C. 讃岐富士", "D. 弥谷山"],
+    "answer": "B",
+    "explanation": "象頭山の南側半分を「象頭山」、北側半分を「大麻山」と呼び、両方合わせた全体が名勝「象頭山」として指定されています。大麻山の最高地点は標高616.3mです。（出典: [象頭山 (香川県) - Wikipedia](https://ja.wikipedia.org/wiki/%E8%B1%A1%E9%A0%AD%E5%B1%B1_(%E9%A6%99%E5%B7%9D%E7%9C%8C))）",
+    "source": "https://ja.wikipedia.org/wiki/%E8%B1%A1%E9%A0%AD%E5%B1%B1_(%E9%A6%99%E5%B7%9D%E7%9C%8C)"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の境内に咲く桜はおよそ何本ですか？",
+    "choices": ["A. 約1,000本", "B. 約2,000本", "C. 約3,500本", "D. 約5,000本"],
+    "answer": "C",
+    "explanation": "金刀比羅宮の境内には約3,500本の桜があり、表参道の「桜馬場」が桜の名所として知られています。毎年4月10日には桜花祭（鎮花祭）が行われます。（出典: [金刀比羅宮 桜花祭と境内の桜](https://www.konpira.or.jp/ARCHIVES/ritual/04_B/O-ka-sai/page.html)）",
+    "source": "https://www.konpira.or.jp/ARCHIVES/ritual/04_B/O-ka-sai/page.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮発祥の桜の栽培品種「コトヒラ」を1928年に穂木を採取して各地に広めた人物は誰ですか？",
+    "choices": ["A. 牧野富太郎", "B. 佐野藤右衛門", "C. 三好学", "D. 本草寺住職"],
+    "answer": "B",
+    "explanation": "桜の品種「コトヒラ」は、1928年に京都の桜守として知られる佐野藤右衛門が金刀比羅宮にあった桜から穂木を採取し、佐野園で増殖して各地に広めた白色中輪の八重咲き品種です。（出典: [金刀比羅宮 桜花祭と境内の桜](https://www.konpira.or.jp/ARCHIVES/ritual/04_B/O-ka-sai/page.html)）",
+    "source": "https://www.konpira.or.jp/ARCHIVES/ritual/04_B/O-ka-sai/page.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮発祥の桜「ヤオトメ（八少女）」の花の特徴はどれですか？",
+    "choices": ["A. 白色・小輪・一重咲き", "B. 淡紅色・大輪・一重咲き", "C. 濃紅色・中輪・八重咲き", "D. 黄緑色・小輪・八重咲き"],
+    "answer": "B",
+    "explanation": "ヤオトメ（八少女）は金刀比羅宮の社務所門付近にある古木で、淡紅色の大輪一重咲きの品種です。2020年春に巫女の舞「八少女舞」にちなんで命名されました。（出典: [金刀比羅宮 桜花祭と境内の桜](https://www.konpira.or.jp/ARCHIVES/ritual/04_B/O-ka-sai/page.html)）",
+    "source": "https://www.konpira.or.jp/ARCHIVES/ritual/04_B/O-ka-sai/page.html"
+  },
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "こんぴら温泉郷の温泉が初めて掘り当てられたのはいつですか？",
+    "choices": ["A. 1978年", "B. 1985年", "C. 1997年", "D. 2007年"],
+    "answer": "C",
+    "explanation": "1997年に旅館経営者の近兼孝休が自己保有地内で温泉の掘削に成功し、源泉を得ました。その後、周辺の宿泊施設に供給して温泉郷が形成されました。（出典: [こんぴら温泉郷 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7"
+  },
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "こんぴら温泉郷の主な泉質はどれですか？",
+    "choices": ["A. 硫黄泉", "B. ナトリウム・カルシウム塩化物泉", "C. 単純温泉", "D. 炭酸水素塩泉"],
+    "answer": "B",
+    "explanation": "こんぴら温泉郷の主な泉質はナトリウム・カルシウム塩化物泉です。神経痛、筋肉痛、関節痛、冷え性などに効能があるとされています。（出典: [こんぴら温泉郷 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7"
+  },
+  {
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "こんぴら温泉郷で2007年に新たな泉源を開発したのは誰ですか？",
+    "choices": ["A. 近兼孝休", "B. 琴平町", "C. 香川県", "D. 民間温泉組合"],
+    "answer": "B",
+    "explanation": "2007年に琴平町が新たな泉源を開発しました。最初の泉源は1997年に近兼孝休が掘削したもので、両泉源とも自噴ではなくポンプで汲み上げています。（出典: [こんぴら温泉郷 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "伊藤若冲が金刀比羅宮の奥書院上段の間に描いた「百花図」には何種の花が描かれていますか？",
+    "choices": ["A. 100種", "B. 150種", "C. 201種", "D. 365種"],
+    "answer": "C",
+    "explanation": "伊藤若冲の「百花図」（花丸図）は、奥書院上段の間の襖・壁・障子の腰張りなど空間全体に201種もの花々が描かれています。紫陽花、蓮、牡丹、菊、水仙など多様な花が百花繚乱のように表現されています。（出典: [四国新聞 金刀比羅宮 美の世界 第59話](https://www.shikoku-np.co.jp/feature/kotohira/story/59.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/59.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "伊藤若冲が金刀比羅宮奥書院の「百花図」を完成させたのは何年ですか？",
+    "choices": ["A. 1748年（寛延元年）", "B. 1764年（明和元年）", "C. 1787年（天明7年）", "D. 1800年（寛政12年）"],
+    "answer": "B",
+    "explanation": "伊藤若冲は1764年（明和元年）に金刀比羅宮奥書院上段の間の「百花図」を完成させました。当時の別当が若冲と懇意であったことから制作が実現したとされています。（出典: [四国新聞 金刀比羅宮 美の世界 第59話](https://www.shikoku-np.co.jp/feature/kotohira/story/59.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/59.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "田窪恭治が金刀比羅宮の白書院（新書院）に描いた障壁画のモチーフは何ですか？",
+    "choices": ["A. ヤマザクラ", "B. ヤブツバキ", "C. ウメ", "D. アジサイ"],
+    "answer": "B",
+    "explanation": "田窪恭治は白書院（新書院）の長さ12間に及ぶ襖と長押に、ヤブツバキをモチーフとしたパステル画の障壁画を描きました。2001年から始まった「琴平山再生計画」の一環です。（出典: [三重県立美術館 金刀比羅宮 書院の美 図録](https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm)）",
+    "source": "https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "田窪恭治が金刀比羅宮の白書院障壁画を手がける前に再生プロジェクトを行ったのはどこですか？",
+    "choices": ["A. イタリアの修道院", "B. フランス・ノルマンディーの礼拝堂", "C. スペインの大聖堂", "D. ドイツの城館"],
+    "answer": "B",
+    "explanation": "田窪恭治は1989年から1999年にかけてフランス・ノルマンディーの礼拝堂でリンゴをモチーフとした再生プロジェクトを行いました。その経験をもとに、金刀比羅宮ではリンゴをヤブツバキに変えて書院の装飾を手がけました。（出典: [三重県立美術館 金刀比羅宮 書院の美 図録](https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm)）",
+    "source": "https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "円山応挙が金刀比羅宮表書院に描いた障壁画は全部で何面ありますか？",
+    "choices": ["A. 24面", "B. 48面", "C. 90面", "D. 120面"],
+    "answer": "C",
+    "explanation": "円山応挙は表書院の山水之間、七賢之間、虎之間、鶴之間に合わせて90面の障壁画を描きました。これは現存する応挙の最大の空間構成とされ、すべて重要文化財に指定されています。（出典: [四国新聞 金刀比羅宮 美の世界 第12話](https://www.shikoku-np.co.jp/feature/kotohira/story/12.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/12.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "円山応挙が金刀比羅宮表書院の障壁画を制作した期間はどれですか？",
+    "choices": ["A. 天明7年〜寛政6年（1787〜1794年）の7年間", "B. 安永3年〜天明5年（1774〜1785年）の11年間", "C. 寛政2年〜文化元年（1790〜1804年）の14年間", "D. 明和5年〜安永8年（1768〜1779年）の11年間"],
+    "answer": "A",
+    "explanation": "円山応挙は天明7年（1787年）から寛政6年（1794年）まで7年間をかけて表書院の障壁画90面を完成させました。京都の豪商・三井八郎兵衛の援助により実現したものです。（出典: [四国新聞 金刀比羅宮 美の世界 第12話](https://www.shikoku-np.co.jp/feature/kotohira/story/12.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/12.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金刀比羅宮表書院の「虎の間」で、円山応挙が襖16面に描いた虎は何頭ですか？",
+    "choices": ["A. 4頭", "B. 8頭", "C. 12頭", "D. 16頭"],
+    "answer": "B",
+    "explanation": "円山応挙は表書院「虎の間」の襖16面に8頭の虎を描きました。当時日本に虎はいなかったため、中国・朝鮮半島から入手した虎の画や毛皮を参考に想像して描いたとされています。（出典: [四国新聞 金刀比羅宮 美の世界 第12話](https://www.shikoku-np.co.jp/feature/kotohira/story/12.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/12.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "高橋由一が金刀比羅宮に油絵を奉納した直接のきっかけは何ですか？",
+    "choices": ["A. 宮司から肖像画の制作を依頼された", "B. 油絵普及のための画塾拡張資金を金刀比羅宮に依頼した", "C. 明治政府の文化振興事業として派遣された", "D. 琴平で開催された博覧会に招待された"],
+    "answer": "B",
+    "explanation": "明治11年（1878年）、高橋由一は自らの画塾「天絵舎」の拡張資金融資を金刀比羅宮に依頼しました。翌明治12年（1879年）2月に35点の油絵を奉納し、資金200円を受領したのが経緯です。（出典: [三重県立美術館 高橋由一と金刀比羅宮](https://www.bunka.pref.mie.lg.jp/art-museum/55460038533.htm)）",
+    "source": "https://www.bunka.pref.mie.lg.jp/art-museum/55460038533.htm"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "高橋由一が明治12年（1879年）に金刀比羅宮に奉納した油絵は何点ですか？",
+    "choices": ["A. 15点", "B. 27点", "C. 35点", "D. 50点"],
+    "answer": "C",
+    "explanation": "高橋由一は明治12年（1879年）2月に35点の油絵を奉納しました。現在金刀比羅宮に所蔵されているのは27点で、残りは散逸したとみられています。（出典: [三重県立美術館 高橋由一と金刀比羅宮](https://www.bunka.pref.mie.lg.jp/art-museum/55460038533.htm)）",
+    "source": "https://www.bunka.pref.mie.lg.jp/art-museum/55460038533.htm"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "加美代飴の「加美代」の名前の由来は何ですか？",
+    "choices": ["A. 創業者の名前", "B. 「神代（かみよ）」にちなんだ", "C. 加賀・美濃・代官の頭文字", "D. 金刀比羅宮の旧称"],
+    "answer": "B",
+    "explanation": "「加美代」は「神代（かみよ）」にちなんで名付けられたもので、「神様の代わりのご利益飴」という意味が込められています。（出典: [加美代飴 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "加美代飴が現在の扇型に改められたのはいつ頃ですか？",
+    "choices": ["A. 江戸時代末期", "B. 明治時代", "C. 1950年頃", "D. 1980年頃"],
+    "answer": "C",
+    "explanation": "戦後は砂糖製の「こんぱら飴」として丸型で販売されていましたが、類似商品が出回ったことから1950年頃に現在の扇型の加美代飴に改められました。（出典: [加美代飴 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4"
+  },
+  {
+    "category": "food",
+    "difficulty": "easy",
+    "question": "加美代飴を食べるときに使う道具は何ですか？",
+    "choices": ["A. 割り箸", "B. 小さなハンマー", "C. 木べら", "D. 銀のスプーン"],
+    "answer": "B",
+    "explanation": "加美代飴はべっこう飴の一種で、付属の小さなハンマーで砕き割って食べます。扇型の美しい形が特徴的な金刀比羅宮の名物です。（出典: [加美代飴 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の神馬「光驥号」の父親にあたる競走馬はどれですか？",
+    "choices": ["A. ディープインパクト", "B. オグリキャップ", "C. マヤノトップガン", "D. テイエムオペラオー"],
+    "answer": "C",
+    "explanation": "神馬「光驥号」は元競走馬の白馬で、父親はGI優勝馬のマヤノトップガンです。イタリア語で「光」を意味する旧名「ルーチェ」にちなみ、光驥号と命名されました。（出典: [COOL KAGAWA 新しい神馬お披露目](https://www.coolkagawa.jp/news/entry-4320.html)）",
+    "source": "https://www.coolkagawa.jp/news/entry-4320.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮に神馬が初めて奉納されたのはいつですか？",
+    "choices": ["A. 明治元年（1868年）", "B. 大正10年（1921年）", "C. 昭和2年（1927年）", "D. 昭和20年（1945年）"],
+    "answer": "B",
+    "explanation": "金刀比羅宮に神馬が初めて奉納されたのは大正10年（1921年）です。以来、神馬は途絶えることなく飼育が続けられています。（出典: [四国新聞 金刀比羅宮 美の世界 第24話](https://www.shikoku-np.co.jp/feature/kotohira/story/24.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/24.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の先代の神馬「月琴号」はおよそ何年間奉仕しましたか？",
+    "choices": ["A. 約10年間", "B. 約13年間", "C. 約17年間", "D. 約20年間"],
+    "answer": "C",
+    "explanation": "月琴号は2008年から金刀比羅宮の神馬として奉仕し、2025年1月に19歳で帰幽（死亡）しました。約17年間にわたり参拝者に親しまれました。（出典: [金刀比羅宮 御神馬「月琴号」帰幽](https://www.konpira.or.jp/articles_2025/20250117_gekkin/article.html)）",
+    "source": "https://www.konpira.or.jp/articles_2025/20250117_gekkin/article.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "琴平海洋博物館（海の科学館）の3階「深海コーナー」で紹介されている深海潜水調査船は何ですか？",
+    "choices": ["A. かいこう", "B. しんかい2000", "C. しんかい6500", "D. ちきゅう"],
+    "answer": "C",
+    "explanation": "琴平海洋博物館の3階深海コーナーでは、有人潜水調査船「しんかい6500」の活躍が紹介されています。（出典: [琴平海洋博物館](https://kotohira.kaiyohakubutukan.or.jp/about-museum/)）",
+    "source": "https://kotohira.kaiyohakubutukan.or.jp/about-museum/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "琴平海洋博物館（海の科学館）の1階に展示されている、江戸時代にこんぴら参詣客が乗った船は何ですか？",
+    "choices": ["A. 千石船", "B. 弁財船", "C. 遣唐使船", "D. 丸子船"],
+    "answer": "B",
+    "explanation": "琴平海洋博物館の1階には、江戸時代にこんぴら参詣客が乗船した弁財船が展示されています。金刀比羅宮が海の守り神として信仰されてきた歴史を物語る展示です。（出典: [琴平海洋博物館](https://kotohira.kaiyohakubutukan.or.jp/about-museum/)）",
+    "source": "https://kotohira.kaiyohakubutukan.or.jp/about-museum/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "琴平海洋博物館（海の科学館）にある体験型展示はどれですか？",
+    "choices": ["A. 天体観測シミュレーター", "B. 操船シミュレーター", "C. 地震体験装置", "D. 台風体験室"],
+    "answer": "B",
+    "explanation": "琴平海洋博物館には操船シミュレーターやラジコン船、動くブリッジなどの体験型展示があり、実際に船を操る体験ができます。（出典: [琴平海洋博物館](https://kotohira.kaiyohakubutukan.or.jp/about-museum/)）",
+    "source": "https://kotohira.kaiyohakubutukan.or.jp/about-museum/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "金刀比羅宮表書院の障壁画制作を資金面で援助した人物は誰ですか？",
+    "choices": ["A. 紀伊国屋文左衛門", "B. 淀屋辰五郎", "C. 三井八郎兵衛", "D. 鴻池善右衛門"],
+    "answer": "C",
+    "explanation": "金刀比羅宮表書院の円山応挙による障壁画90面の制作は、京都の豪商・三井八郎兵衛の援助によって実現しました。（出典: [四国新聞 金刀比羅宮 美の世界 第12話](https://www.shikoku-np.co.jp/feature/kotohira/story/12.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/12.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の表書院が建てられたとされる年代はいつですか？",
+    "choices": ["A. 慶長年間（1596〜1615年）", "B. 万治年間（1658〜1660年）", "C. 元禄年間（1688〜1704年）", "D. 享保年間（1716〜1736年）"],
+    "answer": "B",
+    "explanation": "表書院は万治年間（1658〜1660年）の建築と伝えられています。入母屋造、檜皮葺の建物で、金毘羅大権現に奉仕した別当金光院の客殿として使われていました。（出典: [四国新聞 金刀比羅宮 美の世界 第12話](https://www.shikoku-np.co.jp/feature/kotohira/story/12.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/12.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "田窪恭治がデザインした金刀比羅宮の茶所「神椿」の内装に使われているのはどのような素材ですか？",
+    "choices": ["A. 京焼の陶板", "B. 有田焼の陶壁", "C. 備前焼のタイル", "D. 信楽焼の壁面"],
+    "answer": "B",
+    "explanation": "田窪恭治がデザインした茶所「神椿」には、白書院の障壁画と同じヤブツバキをモチーフとした有田焼の大規模な陶壁が設置されています。（出典: [三重県立美術館 金刀比羅宮 書院の美 図録](https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm)）",
+    "source": "https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "江戸時代に五人百姓が大門内で傘を立てて飴を売る姿が描かれた文献は何ですか？",
+    "choices": ["A. 東海道中膝栗毛", "B. 金毘羅参詣名所図会", "C. 四国遍路道指南", "D. 讃岐国風土記"],
+    "answer": "B",
+    "explanation": "五人百姓が「傘の下商人」として大門内で飴を売る姿は、文化年間に編纂された『金毘羅参詣名所図会』にも描かれています。（出典: [加美代飴 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4"
+  }
+]

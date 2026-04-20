@@ -1,0 +1,30 @@
+選択肢品質修正サマリー（後半: 22件目〜42件目）
+============================================================
+
+対象: 21件
+修正: 18件
+スキップ: 3件
+
+------------------------------------------------------------
+kotohira_467: answer_too_long → 不正解の選択肢を正解と同程度の長さに修正
+kotohira_479: answer_too_long → 不正解の選択肢を正解と同程度の長さに修正
+kotohira_481: answer_too_long → 不正解の選択肢を正解と同程度の長さに修正
+kotohira_487: answer_extra_detail → 正解から括弧付き補足「（舞や音楽）」を削除
+kotohira_490: answer_too_long+answer_extra_detail → 不正解にも同様の括弧付き補足を追加
+kotohira_499: answer_too_long+answer_extra_detail → 不正解にも同様の括弧付き補足を追加
+kotohira_519: answer_extra_detail → 不正解にも同様の括弧付き補足を追加
+kotohira_536: numeric_not_sorted → 月の昇順に並べ替え、answer: C→D
+kotohira_583: answer_extra_detail → 不正解にも同様の括弧付き補足を追加
+kotohira_659: numeric_not_sorted → 既に昇順のためスキップ（単位の混在：メートルとキロだが順序は正しい）
+kotohira_667: format_mismatch+answer_extra_detail → 全選択肢に西暦の括弧付き補足を追加
+kotohira_696: answer_too_long+numeric_not_sorted → 数値昇順に並べ替え、answer: B→C（※注釈は問題の本質的情報のため維持）
+kotohira_747: answer_too_long+answer_extra_detail → 不正解にも同様の括弧付き補足を追加
+kotohira_761: answer_extra_detail → スキップ（「蓅（すくも）」は難読漢字の読み仮名であり、補足情報ではないため修正不要）
+kotohira_763: numeric_not_sorted → 年代昇順に並べ替え、answer: B→C
+kotohira_764: numeric_not_sorted → 数値昇順に並べ替え、answer: C→A
+kotohira_770: numeric_not_sorted → 数値昇順に並べ替え、answer: C→C（変更なし）
+kotohira_835: answer_too_long → 不正解の選択肢を正解と同程度の長さに修正（地方名を追加）
+kotohira_856: answer_too_long+answer_extra_detail → 正解を簡潔にし、不正解も同程度の長さに修正
+kotohira_874: answer_too_long → 不正解の選択肢を正解と同程度の長さに修正
+kotohira_882: answer_extra_detail → スキップ（「駕籠（かご）」は難読漢字の読み仮名であり、補足情報ではないため修正不要）
+------------------------------------------------------------

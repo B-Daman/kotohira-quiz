@@ -1,0 +1,1066 @@
+[
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "金刀比羅宮への参拝が難しい船乗りが、海上から奉納を行うために用いた「流し樽」の方法として正しいのはどれ？",
+    "choices": [
+      "A. 初穂料と神酒を入れた樽に「奉納金刀比羅宮」の旗を立てて海に投じた",
+      "B. 空の樽に願い事を書いた紙を入れて川に流した",
+      "C. 樽に米を詰めて最寄りの港に届けた",
+      "D. 樽を海底に沈めて竜神に捧げた"
+    ],
+    "answer": "A",
+    "explanation": "流し樽は、初穂料や神酒を入れた樽に「奉納金刀比羅宮」と書いた白旗を立て、航行中の船から海に投じる風習です。潮流に乗って漂着した樽を拾った漁師が代わりに金刀比羅宮へ届けました。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）\n（出典: [四国新聞 金毘羅信仰の源流](https://www.shikoku-np.co.jp/feature/kotohira/story/37.html)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮の「流し樽」の風習は現在も続いているが、どのような場面で行われているか？",
+    "choices": [
+      "A. 漁船の大漁祈願の出港時",
+      "B. 海上自衛隊の艦艇の処女航海時など",
+      "C. 毎年正月の初詣に合わせた行事として",
+      "D. 瀬戸内海の定期フェリーの就航記念時"
+    ],
+    "answer": "B",
+    "explanation": "流し樽の風習は現在でも海上自衛隊の艦艇の処女航海をはじめ、当該海域を通過する船舶によって行われています。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "easy",
+    "question": "金刀比羅宮は特に何の守り神として広く信仰されているか？",
+    "choices": [
+      "A. 学問の神",
+      "B. 海上交通の守り神",
+      "C. 商売繁盛の神",
+      "D. 縁結びの神"
+    ],
+    "answer": "B",
+    "explanation": "金刀比羅宮は古くから海上交通の守り神として信仰されており、漁師や船員など海事関係者の崇敬を集めています。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "全国にある金刀比羅神社・琴平神社・金比羅神社などの分社はおよそ何社あるか？",
+    "choices": [
+      "A. 約100社",
+      "B. 約300社",
+      "C. 約600社",
+      "D. 約1000社"
+    ],
+    "answer": "C",
+    "explanation": "金刀比羅宮を総本宮とする金刀比羅神社・琴平神社・金比羅神社は全国に約600社あります。江戸時代に海運業者や商人により金毘羅信仰が各地に広められました。（出典: [折橋商店 金毘羅信仰](https://orihasisyouten.jp/blog/konpira-shinkou/)）",
+    "source": "https://orihasisyouten.jp/blog/konpira-shinkou/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "江戸時代に全国で組織された「金毘羅講」の仕組みとして正しいのはどれ？",
+    "choices": [
+      "A. 藩主が費用を負担し家臣を代参させた",
+      "B. 講のメンバーが資金を積み立て、交代で代表者が参詣した",
+      "C. 寺社奉行が毎年参詣者を選抜した",
+      "D. 商人組合が一括で参詣の手配を行った"
+    ],
+    "answer": "B",
+    "explanation": "金毘羅講は庶民が資金を出し合い積み立て、交代で選出された代表者が金刀比羅宮に参詣する相互扶助の制度でした。（出典: [折橋商店 金毘羅信仰](https://orihasisyouten.jp/blog/konpira-shinkou/)）",
+    "source": "https://orihasisyouten.jp/blog/konpira-shinkou/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "江戸時代、金毘羅参りは何に次ぐ庶民の憧れだったとされるか？",
+    "choices": [
+      "A. 日光東照宮参り",
+      "B. 出雲大社参り",
+      "C. 伊勢神宮参り",
+      "D. 高野山参り"
+    ],
+    "answer": "C",
+    "explanation": "金毘羅参りは伊勢神宮への参詣（お蔭参り）に次ぐ庶民の憧れとされ、全国各地で金毘羅講が組織されました。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "江戸時代の「こんぴら狗」とはどのような風習か？",
+    "choices": [
+      "A. 境内で飼われていた神犬に参拝する風習",
+      "B. 飼い主の代わりに犬が金刀比羅宮へ代参する風習",
+      "C. 犬の形をした絵馬を奉納する風習",
+      "D. 参道で犬を売買する市が開かれた風習"
+    ],
+    "answer": "B",
+    "explanation": "こんぴら狗は、飼い主が初穂料と道中の食料を犬の首にかけて代参させる風習です。道中の人々の善意により犬は金刀比羅宮まで連れて行かれました。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "清水次郎長の代わりに金刀比羅宮へ代参し、預かった刀を奉納したと伝えられる人物は誰か？",
+    "choices": [
+      "A. 国定忠治",
+      "B. 森の石松",
+      "C. 大前田英五郎",
+      "D. 黒駒勝蔵"
+    ],
+    "answer": "B",
+    "explanation": "清水次郎長の子分である森の石松が、次郎長の代わりに金刀比羅宮へ代参し、刀を奉納したという逸話が伝えられています。（出典: [折橋商店 金毘羅信仰](https://orihasisyouten.jp/blog/konpira-shinkou/)）",
+    "source": "https://orihasisyouten.jp/blog/konpira-shinkou/"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "加美代飴の原材料として正しい組み合わせはどれ？",
+    "choices": [
+      "A. 砂糖・水飴・柚子油",
+      "B. 砂糖・蜂蜜・抹茶",
+      "C. 黒糖・水飴・生姜",
+      "D. 砂糖・きな粉・柚子油"
+    ],
+    "answer": "A",
+    "explanation": "加美代飴の原材料は砂糖・水飴・柚子油の3つだけで、添加物を使わないシンプルな飴です。（出典: [老舗食堂 池商店](https://shinise.tv/ikeshoten/)）",
+    "source": "https://shinise.tv/ikeshoten/"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "加美代飴の形が現在の扇型になった理由は何か？",
+    "choices": [
+      "A. 金刀比羅宮の神紋にちなんだため",
+      "B. 類似商品が出回ったため丸型から改められた",
+      "C. 扇は商売繁盛の縁起物とされたため",
+      "D. 参拝者が持ち運びやすい形にするため"
+    ],
+    "answer": "B",
+    "explanation": "加美代飴はもともと丸型の「こんぴら飴」でしたが、類似商品が出回ったことから1950年頃に扇型に改められました。（出典: [加美代飴 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4"
+  },
+  {
+    "category": "food",
+    "difficulty": "easy",
+    "question": "加美代飴のパッケージに同梱されている、飴を食べるための道具は何か？",
+    "choices": [
+      "A. 小さなハンマー",
+      "B. 竹串",
+      "C. 木のスプーン",
+      "D. 金属のピック"
+    ],
+    "answer": "A",
+    "explanation": "加美代飴は固い飴なので、パッケージに同梱された小さなハンマー（小槌）で割って食べます。割った飴を分け合うことが「幸せの御裾分け」とされています。（出典: [老舗食堂 池商店](https://shinise.tv/ikeshoten/)）",
+    "source": "https://shinise.tv/ikeshoten/"
+  },
+  {
+    "category": "food",
+    "difficulty": "hard",
+    "question": "江戸時代の加美代飴（当時の「こんぴら飴」）は何を原料にして作られていたか？",
+    "choices": [
+      "A. さとうきびの搾り汁",
+      "B. 神前に供えられた米のお下がり",
+      "C. 和三盆糖",
+      "D. 麦芽から作った水飴"
+    ],
+    "answer": "B",
+    "explanation": "江戸時代には神前に供えられたお米のお下がりで飴が作られていましたが、戦後に砂糖を原料とする製法に変わりました。（出典: [老舗食堂 池商店](https://shinise.tv/ikeshoten/)）",
+    "source": "https://shinise.tv/ikeshoten/"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "五人百姓の5家として伝わる家名に含まれないのはどれ？",
+    "choices": [
+      "A. 新庄家",
+      "B. 公文家",
+      "C. 田所家",
+      "D. 丸尾家"
+    ],
+    "answer": "D",
+    "explanation": "五人百姓の5家は新庄家・本庄家・公文家・田所家・案主家です。丸尾家は含まれません。（出典: [老舗食堂 池商店](https://shinise.tv/ikeshoten/)）",
+    "source": "https://shinise.tv/ikeshoten/"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "1677年に編纂された『玉藻集』に記録されている、加美代飴の前身にあたる土産菓子の名前は何か？",
+    "choices": [
+      "A. 金比羅の丸糖",
+      "B. 讃岐の白飴",
+      "C. 象頭山の水飴",
+      "D. 琴平の柚子菓子"
+    ],
+    "answer": "A",
+    "explanation": "1677年の『玉藻集』には「金比羅の丸糖」の記載があり、当時から金刀比羅宮の土産菓子として人気があったことがわかります。（出典: [加美代飴 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金毘羅五街道に含まれない街道はどれ？",
+    "choices": [
+      "A. 丸亀街道",
+      "B. 多度津街道",
+      "C. 高松街道",
+      "D. 善通寺街道"
+    ],
+    "answer": "D",
+    "explanation": "金毘羅五街道は高松街道・丸亀街道・多度津街道・阿波街道・伊予土佐街道の5つです。善通寺街道は含まれません。（出典: [金毘羅街道 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%A1%97%E9%81%93)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%A1%97%E9%81%93"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "天保年間の港の大改修後、丸亀街道をも凌ぐ賑わいを見せたとされる街道はどれか？",
+    "choices": [
+      "A. 高松街道",
+      "B. 阿波街道",
+      "C. 伊予・土佐街道",
+      "D. 多度津街道"
+    ],
+    "answer": "D",
+    "explanation": "天保年間に多度津港が大改修された後、多度津街道は丸亀街道をも凌ぐ賑わいを見せました。西国・九州からの参詣客が多く利用しました。（出典: [金毘羅街道 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%A1%97%E9%81%93)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E6%AF%98%E7%BE%85%E8%A1%97%E9%81%93"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "四国新聞の記事によると、金毘羅信仰の海上信仰が発展した背景として、塩飽（しわく）の海域が神聖視された理由は何か？",
+    "choices": [
+      "A. 海底から温泉が湧き出ていたため",
+      "B. 複数の潮流が衝突し「潮が湧き立つ」神聖な海域とされたため",
+      "C. 古代の海戦の跡地であったため",
+      "D. 珍しい深海魚が採れる不思議な海域とされたため"
+    ],
+    "answer": "B",
+    "explanation": "塩飽は「塩湧（しわく）」に由来し、複数の潮流が衝突して潮が湧き立つ海域です。古来より人形や依代を海に流す習俗と結びつき神聖視されました。（出典: [四国新聞 金毘羅信仰の源流](https://www.shikoku-np.co.jp/feature/kotohira/story/37.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/37.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮の参道について、江戸時代後期に本来直線だった参道を曲げた理由は何か？",
+    "choices": [
+      "A. 急勾配を緩和するため",
+      "B. 奉納された石碑を納めるスペースを確保するため",
+      "C. 風水上の理由で方角を変えるため",
+      "D. 門前町の店舗を増やすため"
+    ],
+    "answer": "B",
+    "explanation": "江戸時代後期には奉納が非常に多く行われ、奉納された石碑を納めるために本来直線だった参道を曲げたほどでした。（出典: [金刀比羅宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E5%88%80%E6%AF%94%E7%BE%85%E5%AE%AE"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "金丸座（旧金毘羅大芝居）が建設された背景として、当時の琴平はどのような行政上の地位にあったため興行が盛んだったのですか？",
+    "choices": [
+      "A. 城下町として藩の保護を受けていた",
+      "B. 朱印地・天領として取締が寛大だった",
+      "C. 幕府直轄の宿場町として特権を持っていた",
+      "D. 寺社奉行の管轄外で自由な商業が認められていた"
+    ],
+    "answer": "B",
+    "explanation": "江戸時代の琴平は朱印地・天領として取締が寛大であり、富籤や芝居など様々な興行が行われていました。この環境が金丸座建設の背景にあります。（出典: [金丸座 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金丸座の照明は自然光のみで行われますが、明かり窓の開閉は何段階で調整されますか？",
+    "choices": [
+      "A. 2段階",
+      "B. 3段階",
+      "C. 4段階",
+      "D. 5段階"
+    ],
+    "answer": "B",
+    "explanation": "金丸座の照明は自然光のみで、3段階になっている明かり窓の開閉によって調整されます。電気や機械を使わない江戸時代そのままの方式です。（出典: [こんぴら歌舞伎のあゆみ](https://www.konpirakabuki.jp/history/ayumi.html)）",
+    "source": "https://www.konpirakabuki.jp/history/ayumi.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "金丸座は1953年に一度香川県の重要文化財に指定されましたが、その後県指定が解除されたのは何年ですか？",
+    "choices": [
+      "A. 1960年",
+      "B. 1962年",
+      "C. 1964年",
+      "D. 1966年"
+    ],
+    "answer": "C",
+    "explanation": "金丸座は昭和28年（1953年）に香川県の重要文化財に指定されましたが、1964年に県指定が解除され、その後1970年に国の重要文化財に指定されました。（出典: [金丸座 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "四国こんぴら歌舞伎大芝居の復活のきっかけとなったテレビ番組「すばらしき仲間」の撮影で金丸座を訪れた歌舞伎役者に含まれないのは誰ですか？",
+    "choices": [
+      "A. 中村勘九郎",
+      "B. 中村吉右衛門",
+      "C. 澤村藤十郎",
+      "D. 片岡仁左衛門"
+    ],
+    "answer": "D",
+    "explanation": "1984年7月にTBS番組「すばらしき仲間」の撮影で金丸座を訪れたのは中村勘九郎、中村吉右衛門、澤村藤十郎の3名です。片岡仁左衛門はこの撮影には参加していません。（出典: [金丸座 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E4%B8%B8%E5%BA%A7"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "四国こんぴら歌舞伎大芝居の復活に尽力した近兼孝休は、琴平グランドホテルの経営者であるとともに、他にどのような要職を歴任しましたか？",
+    "choices": [
+      "A. 香川県知事と四国観光協会会長",
+      "B. 琴平町観光協会会長と日本旅館協会会長",
+      "C. 琴平町長と香川県文化功労者",
+      "D. 全国旅館組合理事長と四国経済連合会副会長"
+    ],
+    "answer": "B",
+    "explanation": "近兼孝休は琴平グランドホテル会長として1985年のこんぴら歌舞伎復活に尽力し、琴平町観光協会会長および日本旅館協会会長も歴任しました。（出典: [KSBニュース](https://news.ksb.co.jp/article/13845185)）",
+    "source": "https://news.ksb.co.jp/article/13845185"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "近兼孝休が出版した、こんぴら歌舞伎35周年に際する回顧録は何部印刷されましたか？",
+    "choices": [
+      "A. 1,000部",
+      "B. 1,500部",
+      "C. 2,500部",
+      "D. 5,000部"
+    ],
+    "answer": "C",
+    "explanation": "近兼孝休はこんぴら歌舞伎35周年に際し回顧録を出版し、2,500部が印刷されて要望に応じて無料配布されました。（出典: [KSBニュース](https://news.ksb.co.jp/article/13845185)）",
+    "source": "https://news.ksb.co.jp/article/13845185"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "和田邦坊が新聞社を退社して故郷の香川県に戻ったのは何年ですか？",
+    "choices": [
+      "A. 1932年",
+      "B. 1935年",
+      "C. 1938年",
+      "D. 1941年"
+    ],
+    "answer": "C",
+    "explanation": "和田邦坊は1926年に東京日日新聞社（現毎日新聞）に入社し、1938年に退社後、故郷の香川県で画家やデザイナーとして活動しました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "琴平町出身の和田邦坊は新聞漫画家として、ある有名漫画家と人気を二分していました。その人物は誰ですか？",
+    "choices": [
+      "A. 北沢楽天",
+      "B. 岡本一平",
+      "C. 田河水泡",
+      "D. 近藤日出造"
+    ],
+    "answer": "B",
+    "explanation": "和田邦坊は東京日日新聞の記者・風刺漫画家として活動し、朝日新聞社の岡本一平と並ぶ人気を誇りました。岡本一平は岡本太郎の父としても知られています。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "和田邦坊がパッケージデザインを手がけた香川県の銘菓として、灸まんの他に含まれるのはどれですか？",
+    "choices": [
+      "A. おいり",
+      "B. 名物かまど",
+      "C. 瓦せんべい",
+      "D. 讃岐おはぎ"
+    ],
+    "answer": "B",
+    "explanation": "和田邦坊は灸まんのほか、「名物かまど」「ひょうげ豆」「ぶどう餅」などのパッケージデザインも手がけました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "和田邦坊の小説『うちの女房にゃ髭がある』が映画化されたのは何年ですか？",
+    "choices": [
+      "A. 1932年",
+      "B. 1934年",
+      "C. 1936年",
+      "D. 1938年"
+    ],
+    "answer": "C",
+    "explanation": "和田邦坊の小説『うちの女房にゃ髭がある』は1936年に日活で映画化されました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "和田邦坊が1979年にプロデュースした、讃岐うどんの名店はどれですか？",
+    "choices": [
+      "A. 山越うどん",
+      "B. うどん本陣 山田家",
+      "C. 中野うどん学校",
+      "D. こんぴらうどん"
+    ],
+    "answer": "B",
+    "explanation": "和田邦坊は1979年に「うどん本陣 山田家」をプロデュースしました。和田邦坊は琴平町出身の画家・デザイナーで、多方面で香川の文化に貢献しました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "easy",
+    "question": "和田邦坊は何年に生まれ、何歳まで生きましたか？",
+    "choices": [
+      "A. 1895年生まれ、88歳",
+      "B. 1899年生まれ、93歳",
+      "C. 1902年生まれ、85歳",
+      "D. 1905年生まれ、90歳"
+    ],
+    "answer": "B",
+    "explanation": "和田邦坊は1899年（明治32年）に琴平町に生まれ、1992年に93歳で亡くなりました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "琴陵宥常が大日本帝国水難救済会の創設を直接訴えた総理大臣は誰ですか？",
+    "choices": [
+      "A. 伊藤博文",
+      "B. 山県有朋",
+      "C. 黒田清隆",
+      "D. 大隈重信"
+    ],
+    "answer": "C",
+    "explanation": "琴陵宥常は明治22年（1889年）3月に総理大臣・黒田清隆に直接会い、水難救済会の創設を訴えました。同年11月3日に大日本帝国水難救済会の開会式が挙行されました。（出典: [琴陵宥常紹介ページ](https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html)）",
+    "source": "https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "琴陵宥常が「金光院金毘羅大権現」から改称した神社名は何ですか？",
+    "choices": [
+      "A. 金毘羅宮",
+      "B. 金刀比羅宮",
+      "C. 象頭山神社",
+      "D. 琴平神社"
+    ],
+    "answer": "B",
+    "explanation": "琴陵宥常は江戸時代から称されていた寺院名「金光院金毘羅大権現」を、神社名「金刀比羅宮」に改めました。これは明治の神仏分離に伴う重要な改革でした。（出典: [琴陵宥常紹介ページ](https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html)）",
+    "source": "https://www.asuka-tobira.com/dozo/album/12meijijidai/kotookahirotsune/index.html"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "和田邦坊が入社した東京日日新聞社は、現在のどの新聞社にあたりますか？",
+    "choices": [
+      "A. 読売新聞",
+      "B. 朝日新聞",
+      "C. 毎日新聞",
+      "D. 産経新聞"
+    ],
+    "answer": "C",
+    "explanation": "和田邦坊は1926年に東京日日新聞社に入社しました。東京日日新聞社は現在の毎日新聞の前身にあたります。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "和田邦坊が1964年に受けた栄誉は何ですか？",
+    "choices": [
+      "A. 文化勲章",
+      "B. 紫綬褒章",
+      "C. 香川県文化功労者表彰",
+      "D. 人間国宝認定"
+    ],
+    "answer": "C",
+    "explanation": "和田邦坊は1964年に香川県文化功労者として表彰されました。さらに1966年には四国新聞社文化賞も受賞しています。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "香川県のにんにく生産量は全国第何位でしょうか？",
+    "choices": [
+      "A. 第1位",
+      "B. 第2位",
+      "C. 第3位",
+      "D. 第5位"
+    ],
+    "answer": "B",
+    "explanation": "香川県のにんにく生産は青森県に次いで全国第2位です。県内では琴平町がシェア23%で1位を誇り、「こんぴらにんにく」として知られています。（出典: [こんぴらにんにくについて - 琴平町公式ホームページ](https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html)）",
+    "source": "https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html"
+  },
+  {
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "琴平町は香川県内のにんにく生産で県内シェア何%を占めているでしょうか？",
+    "choices": [
+      "A. 約10%",
+      "B. 約15%",
+      "C. 約23%",
+      "D. 約35%"
+    ],
+    "answer": "C",
+    "explanation": "琴平町は香川県内のにんにく生産でシェア23%を占め、県内1位の産地です。強いにおい、大ぶり、色白が特徴の「こんぴらにんにく」が生産されています。（出典: [こんぴらにんにくについて - 琴平町公式ホームページ](https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html)）",
+    "source": "https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html"
+  },
+  {
+    "category": "modern",
+    "difficulty": "hard",
+    "question": "琴平町が電子地域通貨KOTOCAを全町民に一律給付した際、1人あたりの給付額はいくらだったでしょうか？",
+    "choices": [
+      "A. 3,000円",
+      "B. 5,000円",
+      "C. 10,000円",
+      "D. 15,000円"
+    ],
+    "answer": "B",
+    "explanation": "2021年12月、琴平町は全町民8,664名に電子地域通貨KOTOCAを一律5,000円給付しました。香川県初の電子地域通貨による全住民への給付金支給でした。（出典: [香川県琴平町電子地域通貨「KOTOCA」利用開始のお知らせ](https://www.felicapocketmk.co.jp/news/20211215/812/)）",
+    "source": "https://www.felicapocketmk.co.jp/news/20211215/812/"
+  },
+  {
+    "category": "modern",
+    "difficulty": "medium",
+    "question": "琴平町の電子地域通貨KOTOCAのチャージ時に付与されるプレミアムポイントは何%でしょうか？",
+    "choices": [
+      "A. 1%",
+      "B. 2%",
+      "C. 3%",
+      "D. 5%"
+    ],
+    "answer": "B",
+    "explanation": "KOTOCAはチャージ金額の2%のプレミアムポイントが付与されます。チャージは1,000円単位で行え、有効期限はありません。（出典: [琴平町電子地域通貨KOTOCA - 琴平町公式ホームページ](https://www.town.kotohira.kagawa.jp/site/denshitiikituuka-kotoca/)）",
+    "source": "https://www.town.kotohira.kagawa.jp/site/denshitiikituuka-kotoca/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "灸まんのパッケージデザインを手がけた琴平町出身の人物は誰でしょうか？",
+    "choices": [
+      "A. 和田邦坊",
+      "B. 猪熊弦一郎",
+      "C. 東山魁夷",
+      "D. 円山応挙"
+    ],
+    "answer": "A",
+    "explanation": "灸まんのパッケージデザインは琴平町出身の画家・和田邦坊（1899-1992）によるものです。和田邦坊は漫画家、小説家、デザイナー、画家として活躍し、灸まんのほか「名物かまど」などのデザインも手がけました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "和田邦坊が東京日日新聞社（現・毎日新聞）に入社したのは何年でしょうか？",
+    "choices": [
+      "A. 1920年（大正9年）",
+      "B. 1926年（大正15年）",
+      "C. 1930年（昭和5年）",
+      "D. 1938年（昭和13年）"
+    ],
+    "answer": "B",
+    "explanation": "和田邦坊は1926年（大正15年）に東京日日新聞社に入社し、記者や風刺漫画家として活動しました。朝日新聞社の岡本一平と並ぶ人気を誇りましたが、1938年に退社して故郷の香川県に戻りデザイナー・画家として活躍しました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "灸まん美術館に併設されている和田邦坊の作品を展示する施設の名称は何でしょうか？",
+    "choices": [
+      "A. 和田邦坊記念館",
+      "B. 和田邦坊画業館",
+      "C. 邦坊アートギャラリー",
+      "D. 和田美術記念室"
+    ],
+    "answer": "B",
+    "explanation": "灸まん美術館には和田邦坊画業館、大森照成陶芸館、灸まん美術館ギャラリー、カフェコンピーラが併設されています。和田邦坊画業館では琴平町出身の画家・和田邦坊の作品を展示公開しています。（出典: [灸まん美術館](https://kyuman.art/)）",
+    "source": "https://kyuman.art/"
+  },
+  {
+    "category": "food",
+    "difficulty": "easy",
+    "question": "琴平名物「灸まん」はどのような形をしたお菓子でしょうか？",
+    "choices": [
+      "A. 石段の形",
+      "B. お灸（もぐさ）の形",
+      "C. うちわの形",
+      "D. 船の形"
+    ],
+    "answer": "B",
+    "explanation": "灸まんはお灸（もぐさ）の形をした饅頭で、頂上部が丸く盛り上がったやや円錐形に近い形をしています。鶏卵の黄身を使った餡が特徴です。（出典: [灸まん - Wikipedia](https://ja.wikipedia.org/wiki/%E7%81%B8%E3%81%BE%E3%82%93)）",
+    "source": "https://ja.wikipedia.org/wiki/%E7%81%B8%E3%81%BE%E3%82%93"
+  },
+  {
+    "category": "food",
+    "difficulty": "hard",
+    "question": "灸まん本舗石段やの前身である旅籠「麻田屋久八」が金刀比羅宮参道に開業したのはいつ頃でしょうか？",
+    "choices": [
+      "A. 1665年（寛文5年）",
+      "B. 1765年（明和2年）",
+      "C. 1830年（天保元年）",
+      "D. 1868年（明治元年）"
+    ],
+    "answer": "B",
+    "explanation": "灸まん本舗石段やの前身は、1765年（明和2年）に「麻田屋久八」として金刀比羅宮参道の石段に軒を連ねた旅籠でした。その後、六代目の主人が屋号を「石段や」とし、お灸の形をした饅頭を創始しました。（出典: [灸まん - Wikipedia](https://ja.wikipedia.org/wiki/%E7%81%B8%E3%81%BE%E3%82%93)）",
+    "source": "https://ja.wikipedia.org/wiki/%E7%81%B8%E3%81%BE%E3%82%93"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "灸まん本舗石段やが販売する「こんぴら春団子」のみたらし団子はどのような出汁で作られているでしょうか？",
+    "choices": [
+      "A. 昆布出汁",
+      "B. かつお出汁",
+      "C. 讃岐うどんの出汁",
+      "D. いりこ出汁"
+    ],
+    "answer": "C",
+    "explanation": "こんぴら春団子は、讃岐うどんの出汁で作ったみたらし団子と、苺餡・抹茶餡・かぼちゃ餡・こし餡の4種を絞った彩団子の2本セットです。本店限定の商品です。（出典: [灸まん本舗石段や](https://kyuman.co.jp/)）",
+    "source": "https://kyuman.co.jp/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "和田邦坊がデザインした香川県の銘菓として正しくないものはどれでしょうか？",
+    "choices": [
+      "A. 灸まん",
+      "B. 名物かまど",
+      "C. ひょうげ豆",
+      "D. おいり"
+    ],
+    "answer": "D",
+    "explanation": "和田邦坊は「灸まん」「名物かまど」「ひょうげ豆」「ぶどう餅」など多数の香川県名物のパッケージデザインを手がけましたが、「おいり」のデザインは含まれていません。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "琴平町と旧大社町（現・出雲市）が友好都市協定を締結したのは何年でしょうか？",
+    "choices": [
+      "A. 2000年",
+      "B. 2002年",
+      "C. 2004年",
+      "D. 2007年"
+    ],
+    "answer": "C",
+    "explanation": "琴平町と旧大社町は2004年9月25日に友好都市協定を締結しました。旧大社町は2005年3月に合併して出雲市となり、2007年5月26日に出雲市として改めて友好都市関係が確認されています。（出典: [大社町 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A4%BE%E7%94%BA)）\n（出典: [友好・姉妹都市 | 出雲市](https://www.city.izumo.shimane.jp/www/genre/0000000000000/1179803256659/index.html)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A4%BE%E7%94%BA"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "明治12年（1879年）の第二回琴平山博覧会で油絵を出品した洋画家は誰でしょうか？",
+    "choices": [
+      "A. 黒田清輝",
+      "B. 高橋由一",
+      "C. 浅井忠",
+      "D. 藤島武二"
+    ],
+    "answer": "B",
+    "explanation": "明治12年（1879年）の第二回琴平山博覧会では、日本近代洋画の先駆者・高橋由一が37点の油絵作品を出品しました。うち35点を金刀比羅宮に奉納し、画塾の増築費用を獲得しています。（出典: [高橋由一 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%94%B1%E4%B8%80)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%94%B1%E4%B8%80"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "高橋由一が明治12年の琴平山博覧会に出品した油絵は何点でしょうか？",
+    "choices": [
+      "A. 15点",
+      "B. 27点",
+      "C. 35点",
+      "D. 37点"
+    ],
+    "answer": "D",
+    "explanation": "高橋由一は明治12年（1879年）の第二回琴平山博覧会に37点の油絵を出品し、うち35点を金刀比羅宮に奉納しました。現在、金刀比羅宮は27点を所蔵しており、境内の高橋由一館で展示されています。（出典: [金刀比羅宮 | 高橋由一館](https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm)）",
+    "source": "https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の高橋由一館で展示されている油絵は何点でしょうか？",
+    "choices": [
+      "A. 15点",
+      "B. 20点",
+      "C. 27点",
+      "D. 35点"
+    ],
+    "answer": "C",
+    "explanation": "金刀比羅宮が所蔵する高橋由一の油絵は27点で、そのうち20点ほどを選んで高橋由一館で展示し、定期的に展示替えを行っています。（出典: [金刀比羅宮 | 高橋由一館](https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm)）",
+    "source": "https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "高橋由一が金刀比羅宮に油絵を奉納した際に受け取った資金はいくらだったでしょうか？",
+    "choices": [
+      "A. 100円",
+      "B. 200円",
+      "C. 500円",
+      "D. 1,000円"
+    ],
+    "answer": "B",
+    "explanation": "明治12年（1879年）2月、高橋由一は35点の油絵を金刀比羅宮に奉納し、資金200円を受領しました。この資金は画塾「天絵学舎」の増築費用に充てられました。（出典: [金刀比羅宮 | 高橋由一館](https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm)）",
+    "source": "https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "香川県仲多度地区でにんにくの栽培が始まったのは昭和何年頃でしょうか？",
+    "choices": [
+      "A. 昭和36年頃",
+      "B. 昭和46年頃",
+      "C. 昭和56年頃",
+      "D. 昭和62年頃"
+    ],
+    "answer": "B",
+    "explanation": "香川県中西部に位置する仲多度地区（善通寺市・丸亀市・琴平町・まんのう町・多度津町）では昭和46年頃からにんにくの栽培が始まりました。仲多度地区は県下栽培面積の約半数を占める主要産地です。（出典: [香川県農業協同組合（にんにく）- 野菜情報](https://vegetable.alic.go.jp/yasaijoho/santi/1110_santi1.html)）",
+    "source": "https://vegetable.alic.go.jp/yasaijoho/santi/1110_santi1.html"
+  },
+  {
+    "category": "modern",
+    "difficulty": "medium",
+    "question": "琴平町電子地域通貨KOTOCAの利用方法は何種類あるでしょうか？",
+    "choices": [
+      "A. カード型のみ",
+      "B. カード型とアプリ型の2種類",
+      "C. アプリ型のみ",
+      "D. カード型とアプリ型とQRコード型の3種類"
+    ],
+    "answer": "B",
+    "explanation": "KOTOCAの利用方法はカード型とアプリ型の2種類です。琴平町民にはカードが配布され、町外の方はアプリをダウンロードして利用できます。（出典: [琴平町電子地域通貨KOTOCA - 琴平町公式ホームページ](https://www.town.kotohira.kagawa.jp/site/denshitiikituuka-kotoca/)）",
+    "source": "https://www.town.kotohira.kagawa.jp/site/denshitiikituuka-kotoca/"
+  },
+  {
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "象頭山の暖帯林で、自生北限に近いとして注目される樹種はどれですか？",
+    "choices": [
+      "A. モミ",
+      "B. サカキ",
+      "C. クス",
+      "D. アオキ"
+    ],
+    "answer": "C",
+    "explanation": "象頭山の中腹以上におけるクス（楠）の自然林は自生北限に近いものとして注目されています。（出典: [文化遺産オンライン](https://online.bunka.go.jp/heritages/detail/139607)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/139607"
+  },
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "象頭山は地質学的にどのような地形に分類されますか？",
+    "choices": [
+      "A. カルスト台地",
+      "B. 不完全なメサ",
+      "C. カルデラ",
+      "D. 成層火山"
+    ],
+    "answer": "B",
+    "explanation": "象頭山は花崗岩の風化によって崩れている不完全なメサ（卓状台地）に分類されます。下位から花崗岩、凝灰角礫岩、讃岐岩質安山岩で構成されています。（出典: [象頭山 (香川県) - Wikipedia](https://ja.wikipedia.org/wiki/%E8%B1%A1%E9%A0%AD%E5%B1%B1_(%E9%A6%99%E5%B7%9D%E7%9C%8C))）",
+    "source": "https://ja.wikipedia.org/wiki/%E8%B1%A1%E9%A0%AD%E5%B1%B1_(%E9%A6%99%E5%B7%9D%E7%9C%8C)"
+  },
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "象頭山の北側半分にあたる山の名前は何ですか？",
+    "choices": [
+      "A. 飯野山",
+      "B. 大麻山",
+      "C. 讃岐富士",
+      "D. 弥谷山"
+    ],
+    "answer": "B",
+    "explanation": "象頭山の南側半分を「象頭山」、北側半分を「大麻山」と呼び、両方合わせた全体が名勝「象頭山」として指定されています。大麻山の最高地点は標高616.3mです。（出典: [象頭山 (香川県) - Wikipedia](https://ja.wikipedia.org/wiki/%E8%B1%A1%E9%A0%AD%E5%B1%B1_(%E9%A6%99%E5%B7%9D%E7%9C%8C))）",
+    "source": "https://ja.wikipedia.org/wiki/%E8%B1%A1%E9%A0%AD%E5%B1%B1_(%E9%A6%99%E5%B7%9D%E7%9C%8C)"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮発祥の桜の栽培品種「コトヒラ」を1928年に穂木を採取して各地に広めた人物は誰ですか？",
+    "choices": [
+      "A. 牧野富太郎",
+      "B. 佐野藤右衛門",
+      "C. 三好学",
+      "D. 本草寺住職"
+    ],
+    "answer": "B",
+    "explanation": "桜の品種「コトヒラ」は、1928年に京都の桜守として知られる佐野藤右衛門が金刀比羅宮にあった桜から穂木を採取し、佐野園で増殖して各地に広めた白色中輪の八重咲き品種です。（出典: [金刀比羅宮 桜花祭と境内の桜](https://www.konpira.or.jp/ARCHIVES/ritual/04_B/O-ka-sai/page.html)）",
+    "source": "https://www.konpira.or.jp/ARCHIVES/ritual/04_B/O-ka-sai/page.html"
+  },
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "こんぴら温泉郷の温泉が初めて掘り当てられたのはいつですか？",
+    "choices": [
+      "A. 1978年",
+      "B. 1985年",
+      "C. 1997年",
+      "D. 2007年"
+    ],
+    "answer": "C",
+    "explanation": "1997年に旅館経営者の近兼孝休が自己保有地内で温泉の掘削に成功し、源泉を得ました。その後、周辺の宿泊施設に供給して温泉郷が形成されました。（出典: [こんぴら温泉郷 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7"
+  },
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "こんぴら温泉郷の主な泉質はどれですか？",
+    "choices": [
+      "A. 硫黄泉",
+      "B. ナトリウム・カルシウム塩化物泉",
+      "C. 単純温泉",
+      "D. 炭酸水素塩泉"
+    ],
+    "answer": "B",
+    "explanation": "こんぴら温泉郷の主な泉質はナトリウム・カルシウム塩化物泉です。神経痛、筋肉痛、関節痛、冷え性などに効能があるとされています。（出典: [こんぴら温泉郷 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7"
+  },
+  {
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "こんぴら温泉郷で2007年に新たな泉源を開発したのは誰ですか？",
+    "choices": [
+      "A. 近兼孝休",
+      "B. 琴平町",
+      "C. 香川県",
+      "D. 民間温泉組合"
+    ],
+    "answer": "B",
+    "explanation": "2007年に琴平町が新たな泉源を開発しました。最初の泉源は1997年に近兼孝休が掘削したもので、両泉源とも自噴ではなくポンプで汲み上げています。（出典: [こんぴら温泉郷 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7)）",
+    "source": "https://ja.wikipedia.org/wiki/%E3%81%93%E3%82%93%E3%81%B4%E3%82%89%E6%B8%A9%E6%B3%89%E9%83%B7"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "伊藤若冲が金刀比羅宮の奥書院上段の間に描いた「百花図」には何種の花が描かれていますか？",
+    "choices": [
+      "A. 100種",
+      "B. 150種",
+      "C. 201種",
+      "D. 365種"
+    ],
+    "answer": "C",
+    "explanation": "伊藤若冲の「百花図」（花丸図）は、奥書院上段の間の襖・壁・障子の腰張りなど空間全体に201種もの花々が描かれています。紫陽花、蓮、牡丹、菊、水仙など多様な花が百花繚乱のように表現されています。（出典: [四国新聞 金刀比羅宮 美の世界 第59話](https://www.shikoku-np.co.jp/feature/kotohira/story/59.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/59.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "伊藤若冲が金刀比羅宮奥書院の「百花図」を完成させたのは何年ですか？",
+    "choices": [
+      "A. 1748年（寛延元年）",
+      "B. 1764年（明和元年）",
+      "C. 1787年（天明7年）",
+      "D. 1800年（寛政12年）"
+    ],
+    "answer": "B",
+    "explanation": "伊藤若冲は1764年（明和元年）に金刀比羅宮奥書院上段の間の「百花図」を完成させました。当時の別当が若冲と懇意であったことから制作が実現したとされています。（出典: [四国新聞 金刀比羅宮 美の世界 第59話](https://www.shikoku-np.co.jp/feature/kotohira/story/59.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/59.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "田窪恭治が金刀比羅宮の白書院（新書院）に描いた障壁画のモチーフは何ですか？",
+    "choices": [
+      "A. ヤマザクラ",
+      "B. ヤブツバキ",
+      "C. ウメ",
+      "D. アジサイ"
+    ],
+    "answer": "B",
+    "explanation": "田窪恭治は白書院（新書院）の長さ12間に及ぶ襖と長押に、ヤブツバキをモチーフとしたパステル画の障壁画を描きました。2001年から始まった「琴平山再生計画」の一環です。（出典: [三重県立美術館 金刀比羅宮 書院の美 図録](https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm)）",
+    "source": "https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "田窪恭治が金刀比羅宮の白書院障壁画を手がける前に再生プロジェクトを行ったのはどこですか？",
+    "choices": [
+      "A. イタリアの修道院",
+      "B. フランス・ノルマンディーの礼拝堂",
+      "C. スペインの大聖堂",
+      "D. ドイツの城館"
+    ],
+    "answer": "B",
+    "explanation": "田窪恭治は1989年から1999年にかけてフランス・ノルマンディーの礼拝堂でリンゴをモチーフとした再生プロジェクトを行いました。その経験をもとに、金刀比羅宮ではリンゴをヤブツバキに変えて書院の装飾を手がけました。（出典: [三重県立美術館 金刀比羅宮 書院の美 図録](https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm)）",
+    "source": "https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "円山応挙が金刀比羅宮表書院に描いた障壁画は全部で何面ありますか？",
+    "choices": [
+      "A. 24面",
+      "B. 48面",
+      "C. 90面",
+      "D. 120面"
+    ],
+    "answer": "C",
+    "explanation": "円山応挙は表書院の山水之間、七賢之間、虎之間、鶴之間に合わせて90面の障壁画を描きました。これは現存する応挙の最大の空間構成とされ、すべて重要文化財に指定されています。（出典: [四国新聞 金刀比羅宮 美の世界 第12話](https://www.shikoku-np.co.jp/feature/kotohira/story/12.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/12.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金刀比羅宮表書院の「虎の間」で、円山応挙が襖16面に描いた虎は何頭ですか？",
+    "choices": [
+      "A. 4頭",
+      "B. 8頭",
+      "C. 12頭",
+      "D. 16頭"
+    ],
+    "answer": "B",
+    "explanation": "円山応挙は表書院「虎の間」の襖16面に8頭の虎を描きました。当時日本に虎はいなかったため、中国・朝鮮半島から入手した虎の画や毛皮を参考に想像して描いたとされています。（出典: [四国新聞 金刀比羅宮 美の世界 第12話](https://www.shikoku-np.co.jp/feature/kotohira/story/12.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/12.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "高橋由一が金刀比羅宮に油絵を奉納した直接のきっかけは何ですか？",
+    "choices": [
+      "A. 宮司から肖像画の制作を依頼された",
+      "B. 油絵普及のための画塾拡張資金を金刀比羅宮に依頼した",
+      "C. 明治政府の文化振興事業として派遣された",
+      "D. 琴平で開催された博覧会に招待された"
+    ],
+    "answer": "B",
+    "explanation": "明治11年（1878年）、高橋由一は自らの画塾「天絵舎」の拡張資金融資を金刀比羅宮に依頼しました。翌明治12年（1879年）2月に35点の油絵を奉納し、資金200円を受領したのが経緯です。（出典: [三重県立美術館 高橋由一と金刀比羅宮](https://www.bunka.pref.mie.lg.jp/art-museum/55460038533.htm)）",
+    "source": "https://www.bunka.pref.mie.lg.jp/art-museum/55460038533.htm"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "高橋由一が明治12年（1879年）に金刀比羅宮に奉納した油絵は何点ですか？",
+    "choices": [
+      "A. 15点",
+      "B. 27点",
+      "C. 35点",
+      "D. 50点"
+    ],
+    "answer": "C",
+    "explanation": "高橋由一は明治12年（1879年）2月に35点の油絵を奉納しました。現在金刀比羅宮に所蔵されているのは27点で、残りは散逸したとみられています。（出典: [三重県立美術館 高橋由一と金刀比羅宮](https://www.bunka.pref.mie.lg.jp/art-museum/55460038533.htm)）",
+    "source": "https://www.bunka.pref.mie.lg.jp/art-museum/55460038533.htm"
+  },
+  {
+    "category": "food",
+    "difficulty": "easy",
+    "question": "加美代飴を食べるときに使う道具は何ですか？",
+    "choices": [
+      "A. 割り箸",
+      "B. 小さなハンマー",
+      "C. 木べら",
+      "D. 銀のスプーン"
+    ],
+    "answer": "B",
+    "explanation": "加美代飴はべっこう飴の一種で、付属の小さなハンマーで砕き割って食べます。扇型の美しい形が特徴的な金刀比羅宮の名物です。（出典: [加美代飴 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の神馬「光驥号」の父親にあたる競走馬はどれですか？",
+    "choices": [
+      "A. ディープインパクト",
+      "B. オグリキャップ",
+      "C. マヤノトップガン",
+      "D. テイエムオペラオー"
+    ],
+    "answer": "C",
+    "explanation": "神馬「光驥号」は元競走馬の白馬で、父親はGI優勝馬のマヤノトップガンです。イタリア語で「光」を意味する旧名「ルーチェ」にちなみ、光驥号と命名されました。（出典: [COOL KAGAWA 新しい神馬お披露目](https://www.coolkagawa.jp/news/entry-4320.html)）",
+    "source": "https://www.coolkagawa.jp/news/entry-4320.html"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の先代の神馬「月琴号」はおよそ何年間奉仕しましたか？",
+    "choices": [
+      "A. 約10年間",
+      "B. 約13年間",
+      "C. 約17年間",
+      "D. 約20年間"
+    ],
+    "answer": "C",
+    "explanation": "月琴号は2008年から金刀比羅宮の神馬として奉仕し、2025年1月に19歳で帰幽（死亡）しました。約17年間にわたり参拝者に親しまれました。（出典: [金刀比羅宮 御神馬「月琴号」帰幽](https://www.konpira.or.jp/articles_2025/20250117_gekkin/article.html)）",
+    "source": "https://www.konpira.or.jp/articles_2025/20250117_gekkin/article.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "琴平海洋博物館（海の科学館）の3階「深海コーナー」で紹介されている深海潜水調査船は何ですか？",
+    "choices": [
+      "A. かいこう",
+      "B. しんかい2000",
+      "C. しんかい6500",
+      "D. ちきゅう"
+    ],
+    "answer": "C",
+    "explanation": "琴平海洋博物館の3階深海コーナーでは、有人潜水調査船「しんかい6500」の活躍が紹介されています。（出典: [琴平海洋博物館](https://kotohira.kaiyohakubutukan.or.jp/about-museum/)）",
+    "source": "https://kotohira.kaiyohakubutukan.or.jp/about-museum/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "琴平海洋博物館（海の科学館）の1階に展示されている、江戸時代にこんぴら参詣客が乗った船は何ですか？",
+    "choices": [
+      "A. 千石船",
+      "B. 弁財船",
+      "C. 遣唐使船",
+      "D. 丸子船"
+    ],
+    "answer": "B",
+    "explanation": "琴平海洋博物館の1階には、江戸時代にこんぴら参詣客が乗船した弁財船が展示されています。金刀比羅宮が海の守り神として信仰されてきた歴史を物語る展示です。（出典: [琴平海洋博物館](https://kotohira.kaiyohakubutukan.or.jp/about-museum/)）",
+    "source": "https://kotohira.kaiyohakubutukan.or.jp/about-museum/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "琴平海洋博物館（海の科学館）にある体験型展示はどれですか？",
+    "choices": [
+      "A. 天体観測シミュレーター",
+      "B. 操船シミュレーター",
+      "C. 地震体験装置",
+      "D. 台風体験室"
+    ],
+    "answer": "B",
+    "explanation": "琴平海洋博物館には操船シミュレーターやラジコン船、動くブリッジなどの体験型展示があり、実際に船を操る体験ができます。（出典: [琴平海洋博物館](https://kotohira.kaiyohakubutukan.or.jp/about-museum/)）",
+    "source": "https://kotohira.kaiyohakubutukan.or.jp/about-museum/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "金刀比羅宮表書院の障壁画制作を資金面で援助した人物は誰ですか？",
+    "choices": [
+      "A. 紀伊国屋文左衛門",
+      "B. 淀屋辰五郎",
+      "C. 三井八郎兵衛",
+      "D. 鴻池善右衛門"
+    ],
+    "answer": "C",
+    "explanation": "金刀比羅宮表書院の円山応挙による障壁画90面の制作は、京都の豪商・三井八郎兵衛の援助によって実現しました。（出典: [四国新聞 金刀比羅宮 美の世界 第12話](https://www.shikoku-np.co.jp/feature/kotohira/story/12.html)）",
+    "source": "https://www.shikoku-np.co.jp/feature/kotohira/story/12.html"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "田窪恭治がデザインした金刀比羅宮の茶所「神椿」の内装に使われているのはどのような素材ですか？",
+    "choices": [
+      "A. 京焼の陶板",
+      "B. 有田焼の陶壁",
+      "C. 備前焼のタイル",
+      "D. 信楽焼の壁面"
+    ],
+    "answer": "B",
+    "explanation": "田窪恭治がデザインした茶所「神椿」には、白書院の障壁画と同じヤブツバキをモチーフとした有田焼の大規模な陶壁が設置されています。（出典: [三重県立美術館 金刀比羅宮 書院の美 図録](https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm)）",
+    "source": "https://www.bunka.pref.mie.lg.jp/art-museum/55464038537.htm"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "江戸時代に五人百姓が大門内で傘を立てて飴を売る姿が描かれた文献は何ですか？",
+    "choices": [
+      "A. 東海道中膝栗毛",
+      "B. 金毘羅参詣名所図会",
+      "C. 四国遍路道指南",
+      "D. 讃岐国風土記"
+    ],
+    "answer": "B",
+    "explanation": "五人百姓が「傘の下商人」として大門内で飴を売る姿は、文化年間に編纂された『金毘羅参詣名所図会』にも描かれています。（出典: [加美代飴 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E7%BE%8E%E4%BB%A3%E9%A3%B4"
+  }
+]

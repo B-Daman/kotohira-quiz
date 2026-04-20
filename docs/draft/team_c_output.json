@@ -1,0 +1,209 @@
+[
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "香川県のにんにく生産量は全国第何位でしょうか？",
+    "choices": ["A. 第1位", "B. 第2位", "C. 第3位", "D. 第5位"],
+    "answer": "B",
+    "explanation": "香川県のにんにく生産は青森県に次いで全国第2位です。県内では琴平町がシェア23%で1位を誇り、「こんぴらにんにく」として知られています。（出典: [こんぴらにんにくについて - 琴平町公式ホームページ](https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html)）",
+    "source": "https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html"
+  },
+  {
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "琴平町は香川県内のにんにく生産で県内シェア何%を占めているでしょうか？",
+    "choices": ["A. 約10%", "B. 約15%", "C. 約23%", "D. 約35%"],
+    "answer": "C",
+    "explanation": "琴平町は香川県内のにんにく生産でシェア23%を占め、県内1位の産地です。強いにおい、大ぶり、色白が特徴の「こんぴらにんにく」が生産されています。（出典: [こんぴらにんにくについて - 琴平町公式ホームページ](https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html)）",
+    "source": "https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html"
+  },
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "「こんぴらにんにく」の特徴として正しくないものはどれでしょうか？",
+    "choices": ["A. 強いにおい", "B. 大ぶり", "C. 色白", "D. 小粒で辛味が強い"],
+    "answer": "D",
+    "explanation": "こんぴらにんにくは「強いにおい、大ぶり、色白」が特徴で、アミノ酸の一種アリインなどの栄養成分が豊富です。小粒で辛味が強いという特徴はありません。（出典: [こんぴらにんにくについて - 琴平町公式ホームページ](https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html)）",
+    "source": "https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html"
+  },
+  {
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "「こんぴらにんにく」の出荷先として最も多い地域はどこでしょうか？",
+    "choices": ["A. 関西方面", "B. 関東方面", "C. 九州方面", "D. 中国方面"],
+    "answer": "B",
+    "explanation": "こんぴらにんにくの出荷時期は5〜6月で、7割近くが関東方面へ出荷されています。（出典: [こんぴらにんにくについて - 琴平町公式ホームページ](https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html)）",
+    "source": "https://www.town.kotohira.kagawa.jp/soshiki/8/1091.html"
+  },
+  {
+    "category": "modern",
+    "difficulty": "medium",
+    "question": "琴平町の電子地域通貨「KOTOCA」の1コトカはいくらに相当するでしょうか？",
+    "choices": ["A. 0.5円", "B. 1円", "C. 5円", "D. 10円"],
+    "answer": "B",
+    "explanation": "琴平町電子地域通貨KOTOCAは1コトカ＝1円の価値があり、カード型とアプリ型の2種類で利用できます。（出典: [琴平町電子地域通貨KOTOCA - 琴平町公式ホームページ](https://www.town.kotohira.kagawa.jp/site/denshitiikituuka-kotoca/)）",
+    "source": "https://www.town.kotohira.kagawa.jp/site/denshitiikituuka-kotoca/"
+  },
+  {
+    "category": "modern",
+    "difficulty": "hard",
+    "question": "琴平町が電子地域通貨KOTOCAを全町民に一律給付した際、1人あたりの給付額はいくらだったでしょうか？",
+    "choices": ["A. 3,000円", "B. 5,000円", "C. 10,000円", "D. 15,000円"],
+    "answer": "B",
+    "explanation": "2021年12月、琴平町は全町民8,664名に電子地域通貨KOTOCAを一律5,000円給付しました。香川県初の電子地域通貨による全住民への給付金支給でした。（出典: [香川県琴平町電子地域通貨「KOTOCA」利用開始のお知らせ](https://www.felicapocketmk.co.jp/news/20211215/812/)）",
+    "source": "https://www.felicapocketmk.co.jp/news/20211215/812/"
+  },
+  {
+    "category": "modern",
+    "difficulty": "medium",
+    "question": "琴平町の電子地域通貨KOTOCAのチャージ時に付与されるプレミアムポイントは何%でしょうか？",
+    "choices": ["A. 1%", "B. 2%", "C. 3%", "D. 5%"],
+    "answer": "B",
+    "explanation": "KOTOCAはチャージ金額の2%のプレミアムポイントが付与されます。チャージは1,000円単位で行え、有効期限はありません。（出典: [琴平町電子地域通貨KOTOCA - 琴平町公式ホームページ](https://www.town.kotohira.kagawa.jp/site/denshitiikituuka-kotoca/)）",
+    "source": "https://www.town.kotohira.kagawa.jp/site/denshitiikituuka-kotoca/"
+  },
+  {
+    "category": "modern",
+    "difficulty": "hard",
+    "question": "琴平町が電子地域通貨KOTOCAの利用を開始したのはいつでしょうか？",
+    "choices": ["A. 2020年4月", "B. 2021年4月", "C. 2021年12月", "D. 2022年4月"],
+    "answer": "C",
+    "explanation": "琴平町電子地域通貨KOTOCAは2021年12月15日に利用が開始されました。フェリカポケットマーケティング社の「よむすび」インフラを活用しています。（出典: [香川県琴平町電子地域通貨「KOTOCA」利用開始のお知らせ](https://www.felicapocketmk.co.jp/news/20211215/812/)）",
+    "source": "https://www.felicapocketmk.co.jp/news/20211215/812/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "灸まんのパッケージデザインを手がけた琴平町出身の人物は誰でしょうか？",
+    "choices": ["A. 和田邦坊", "B. 猪熊弦一郎", "C. 東山魁夷", "D. 円山応挙"],
+    "answer": "A",
+    "explanation": "灸まんのパッケージデザインは琴平町出身の画家・和田邦坊（1899-1992）によるものです。和田邦坊は漫画家、小説家、デザイナー、画家として活躍し、灸まんのほか「名物かまど」などのデザインも手がけました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "和田邦坊が東京日日新聞社（現・毎日新聞）に入社したのは何年でしょうか？",
+    "choices": ["A. 1920年（大正9年）", "B. 1926年（大正15年）", "C. 1930年（昭和5年）", "D. 1938年（昭和13年）"],
+    "answer": "B",
+    "explanation": "和田邦坊は1926年（大正15年）に東京日日新聞社に入社し、記者や風刺漫画家として活動しました。朝日新聞社の岡本一平と並ぶ人気を誇りましたが、1938年に退社して故郷の香川県に戻りデザイナー・画家として活躍しました。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "灸まん美術館に併設されている和田邦坊の作品を展示する施設の名称は何でしょうか？",
+    "choices": ["A. 和田邦坊記念館", "B. 和田邦坊画業館", "C. 邦坊アートギャラリー", "D. 和田美術記念室"],
+    "answer": "B",
+    "explanation": "灸まん美術館には和田邦坊画業館、大森照成陶芸館、灸まん美術館ギャラリー、カフェコンピーラが併設されています。和田邦坊画業館では琴平町出身の画家・和田邦坊の作品を展示公開しています。（出典: [灸まん美術館](https://kyuman.art/)）",
+    "source": "https://kyuman.art/"
+  },
+  {
+    "category": "food",
+    "difficulty": "easy",
+    "question": "琴平名物「灸まん」はどのような形をしたお菓子でしょうか？",
+    "choices": ["A. 石段の形", "B. お灸（もぐさ）の形", "C. うちわの形", "D. 船の形"],
+    "answer": "B",
+    "explanation": "灸まんはお灸（もぐさ）の形をした饅頭で、頂上部が丸く盛り上がったやや円錐形に近い形をしています。鶏卵の黄身を使った餡が特徴です。（出典: [灸まん - Wikipedia](https://ja.wikipedia.org/wiki/%E7%81%B8%E3%81%BE%E3%82%93)）",
+    "source": "https://ja.wikipedia.org/wiki/%E7%81%B8%E3%81%BE%E3%82%93"
+  },
+  {
+    "category": "food",
+    "difficulty": "hard",
+    "question": "灸まん本舗石段やの前身である旅籠「麻田屋久八」が金刀比羅宮参道に開業したのはいつ頃でしょうか？",
+    "choices": ["A. 1665年（寛文5年）", "B. 1765年（明和2年）", "C. 1830年（天保元年）", "D. 1868年（明治元年）"],
+    "answer": "B",
+    "explanation": "灸まん本舗石段やの前身は、1765年（明和2年）に「麻田屋久八」として金刀比羅宮参道の石段に軒を連ねた旅籠でした。その後、六代目の主人が屋号を「石段や」とし、お灸の形をした饅頭を創始しました。（出典: [灸まん - Wikipedia](https://ja.wikipedia.org/wiki/%E7%81%B8%E3%81%BE%E3%82%93)）",
+    "source": "https://ja.wikipedia.org/wiki/%E7%81%B8%E3%81%BE%E3%82%93"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "灸まん本舗石段やが販売する「こんぴら春団子」のみたらし団子はどのような出汁で作られているでしょうか？",
+    "choices": ["A. 昆布出汁", "B. かつお出汁", "C. 讃岐うどんの出汁", "D. いりこ出汁"],
+    "answer": "C",
+    "explanation": "こんぴら春団子は、讃岐うどんの出汁で作ったみたらし団子と、苺餡・抹茶餡・かぼちゃ餡・こし餡の4種を絞った彩団子の2本セットです。本店限定の商品です。（出典: [灸まん本舗石段や](https://kyuman.co.jp/)）",
+    "source": "https://kyuman.co.jp/"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "和田邦坊がデザインした香川県の銘菓として正しくないものはどれでしょうか？",
+    "choices": ["A. 灸まん", "B. 名物かまど", "C. ひょうげ豆", "D. おいり"],
+    "answer": "D",
+    "explanation": "和田邦坊は「灸まん」「名物かまど」「ひょうげ豆」「ぶどう餅」など多数の香川県名物のパッケージデザインを手がけましたが、「おいり」のデザインは含まれていません。（出典: [和田邦坊 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%94%B0%E9%82%A6%E5%9D%8A"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "琴平町と旧大社町（現・出雲市）が友好都市協定を締結したのは何年でしょうか？",
+    "choices": ["A. 2000年", "B. 2002年", "C. 2004年", "D. 2007年"],
+    "answer": "C",
+    "explanation": "琴平町と旧大社町は2004年9月25日に友好都市協定を締結しました。旧大社町は2005年3月に合併して出雲市となり、2007年5月26日に出雲市として改めて友好都市関係が確認されています。（出典: [大社町 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A4%BE%E7%94%BA)）\n（出典: [友好・姉妹都市 | 出雲市](https://www.city.izumo.shimane.jp/www/genre/0000000000000/1179803256659/index.html)）",
+    "source": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A4%BE%E7%94%BA"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮の分社は全国にいくつあるでしょうか？",
+    "choices": ["A. 3社", "B. 6社", "C. 10社", "D. 15社"],
+    "answer": "B",
+    "explanation": "金刀比羅宮には東京分社・尾張分社・鳥羽分社・神戸分社・出雲分社・松山分社の6つの分社があります。出雲分社は明治22年（1889年）に本宮から御分霊を迎え、金刀比羅宮の境外末社に加えられました。（出典: [金刀比羅宮 | 分社](https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html)）",
+    "source": "https://www.konpira.or.jp/articles_2023/0925_subsidiary-shrine/article.html"
+  },
+  {
+    "category": "history",
+    "difficulty": "medium",
+    "question": "明治12年（1879年）の第二回琴平山博覧会で油絵を出品した洋画家は誰でしょうか？",
+    "choices": ["A. 黒田清輝", "B. 高橋由一", "C. 浅井忠", "D. 藤島武二"],
+    "answer": "B",
+    "explanation": "明治12年（1879年）の第二回琴平山博覧会では、日本近代洋画の先駆者・高橋由一が37点の油絵作品を出品しました。うち35点を金刀比羅宮に奉納し、画塾の増築費用を獲得しています。（出典: [高橋由一 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%94%B1%E4%B8%80)）",
+    "source": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%94%B1%E4%B8%80"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "高橋由一が明治12年の琴平山博覧会に出品した油絵は何点でしょうか？",
+    "choices": ["A. 15点", "B. 27点", "C. 35点", "D. 37点"],
+    "answer": "D",
+    "explanation": "高橋由一は明治12年（1879年）の第二回琴平山博覧会に37点の油絵を出品し、うち35点を金刀比羅宮に奉納しました。現在、金刀比羅宮は27点を所蔵しており、境内の高橋由一館で展示されています。（出典: [金刀比羅宮 | 高橋由一館](https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm)）",
+    "source": "https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の高橋由一館で展示されている油絵は何点でしょうか？",
+    "choices": ["A. 15点", "B. 20点", "C. 27点", "D. 35点"],
+    "answer": "C",
+    "explanation": "金刀比羅宮が所蔵する高橋由一の油絵は27点で、そのうち20点ほどを選んで高橋由一館で展示し、定期的に展示替えを行っています。（出典: [金刀比羅宮 | 高橋由一館](https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm)）",
+    "source": "https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "高橋由一が金刀比羅宮に油絵を奉納した際に受け取った資金はいくらだったでしょうか？",
+    "choices": ["A. 100円", "B. 200円", "C. 500円", "D. 1,000円"],
+    "answer": "B",
+    "explanation": "明治12年（1879年）2月、高橋由一は35点の油絵を金刀比羅宮に奉納し、資金200円を受領しました。この資金は画塾「天絵学舎」の増築費用に充てられました。（出典: [金刀比羅宮 | 高橋由一館](https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm)）",
+    "source": "https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm"
+  },
+  {
+    "category": "history",
+    "difficulty": "hard",
+    "question": "香川県仲多度地区でにんにくの栽培が始まったのは昭和何年頃でしょうか？",
+    "choices": ["A. 昭和36年頃", "B. 昭和46年頃", "C. 昭和56年頃", "D. 昭和62年頃"],
+    "answer": "B",
+    "explanation": "香川県中西部に位置する仲多度地区（善通寺市・丸亀市・琴平町・まんのう町・多度津町）では昭和46年頃からにんにくの栽培が始まりました。仲多度地区は県下栽培面積の約半数を占める主要産地です。（出典: [香川県農業協同組合（にんにく）- 野菜情報](https://vegetable.alic.go.jp/yasaijoho/santi/1110_santi1.html)）",
+    "source": "https://vegetable.alic.go.jp/yasaijoho/santi/1110_santi1.html"
+  },
+  {
+    "category": "modern",
+    "difficulty": "medium",
+    "question": "琴平町電子地域通貨KOTOCAの利用方法は何種類あるでしょうか？",
+    "choices": ["A. カード型のみ", "B. カード型とアプリ型の2種類", "C. アプリ型のみ", "D. カード型とアプリ型とQRコード型の3種類"],
+    "answer": "B",
+    "explanation": "KOTOCAの利用方法はカード型とアプリ型の2種類です。琴平町民にはカードが配布され、町外の方はアプリをダウンロードして利用できます。（出典: [琴平町電子地域通貨KOTOCA - 琴平町公式ホームページ](https://www.town.kotohira.kagawa.jp/site/denshitiikituuka-kotoca/)）",
+    "source": "https://www.town.kotohira.kagawa.jp/site/denshitiikituuka-kotoca/"
+  }
+]

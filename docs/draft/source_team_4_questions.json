@@ -1,0 +1,284 @@
+[
+  {
+    "id": "kotohira_071",
+    "question": "池商店は創業何年で、およそ何年の歴史がありますか？",
+    "explanation": "池商店は弘安3年（1280年）の創業で、約740年の歴史があります。日本最古の飴屋として知られています。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_072",
+    "question": "池商店はどのような店として日本最古とされていますか？",
+    "explanation": "池商店は創業弘安3年（1280年）の日本最古の飴屋です。約740年の歴史を誇ります。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_073",
+    "question": "「名物かまど」が受賞した全国菓子大博覧会の賞は何ですか？",
+    "explanation": "名物かまどは全国菓子大博覧会で「橘花栄光章」を受賞しています。創業70余年の老舗菓子店です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_074",
+    "question": "「旧万（きゅうまん）」のお菓子の特徴は何ですか？",
+    "explanation": "旧万（きゅうまん）のお菓子はもぐさの形をしており、皇室献上品としても知られています。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_076",
+    "question": "琴平花壇の創業年はいつですか？",
+    "explanation": "琴平花壇の創業は1627年（寛永4年）です。約400年の歴史を持つ老舗旅館です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_077",
+    "question": "旅館「八千代」は何代続く老舗ですか？",
+    "explanation": "八千代は15代続く老舗旅館です。創業は享保10年（1725年）です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_078",
+    "question": "敷島館が開業したのは何年ですか？",
+    "explanation": "敷島館は令和元年（2019年）に開業しました。共立リゾートの四国初の施設です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_080",
+    "question": "琴平町の町営駐車場の1日の料金はいくらですか？",
+    "explanation": "琴平町の町営駐車場は1日500円で利用できます。収容台数は200台です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_097",
+    "question": "敷島館を運営する共立リゾートにとって、敷島館はどのような施設ですか？",
+    "explanation": "敷島館は共立リゾートにとって四国初の施設です。令和元年（2019年）に開業しました。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_214",
+    "question": "琴平町の町営駐車場の容量と料金の組み合わせで正しいのはどれですか？",
+    "explanation": "琴平町の町営駐車場は200台収容で、1日500円です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_261",
+    "question": "琴参閣の客室数はおよそ何室ですか？",
+    "explanation": "琴参閣の客室数は約223室です。200台の駐車場も備えた大型旅館です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_264",
+    "question": "紅梅亭の特徴は何ですか？",
+    "explanation": "紅梅亭は2種類の泉質と15種類のお風呂が特徴の旅館です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_265",
+    "question": "紅梅亭にはお風呂が何種類ありますか？",
+    "explanation": "紅梅亭には15種類のお風呂があります。2種類の泉質を楽しめるのも特徴です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_266",
+    "question": "ことねの特徴は何ですか？",
+    "explanation": "ことねの特徴は6つの貸切風呂です。プライベートなお風呂を楽しめます。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_267",
+    "question": "こんぴらさんに最も近い旅館はどこですか？",
+    "explanation": "とら丸旅館はこんぴらさんに最も近い旅館です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_268",
+    "question": "八千代の創業年はいつですか？",
+    "explanation": "八千代の創業は享保10年（1725年）です。15代続く老舗旅館です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_269",
+    "question": "琴平花壇の本館が改装されたのは何年ですか？",
+    "explanation": "琴平花壇の本館は2008年に改装されました。創業は1627年（寛永4年）の老舗旅館です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_270",
+    "question": "金陵の郷の入場料はいくらですか？",
+    "explanation": "金陵の郷は入場無料です。寛政年間創業の白壁酒蔵を見学できます。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_273",
+    "question": "琴平町歴史民俗資料館の入場料（大人）はいくらですか？",
+    "explanation": "琴平町歴史民俗資料館の入場料は大人200円です。火曜日が休館日です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_274",
+    "question": "琴平町歴史民俗資料館の休館日は何曜日ですか？",
+    "explanation": "琴平町歴史民俗資料館の休館日は火曜日です。入場料は大人200円です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_275",
+    "question": "愛宕神社は何の名所として知られていますか？",
+    "explanation": "愛宕神社は梅の名所として知られています。県立琴平公園内にあります。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_276",
+    "question": "愛宕神社はどこにありますか？",
+    "explanation": "愛宕神社は県立琴平公園内にあります。梅の名所として知られています。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_277",
+    "question": "こんぴら扇子の特徴は何ですか？",
+    "explanation": "こんぴら扇子は金の文字で「金」と書かれているのが特徴の定番お土産です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_278",
+    "question": "旧万（きゅうまん）のお菓子は何に献上されたことがありますか？",
+    "explanation": "旧万のお菓子は皇室と栗林公園茶室に献上されたことがある格式高い和菓子です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_279",
+    "question": "旧万のお菓子の中身は何ですか？",
+    "explanation": "旧万のお菓子はもぐさの形で、中身は黄身あんです。皇室・栗林公園茶室への献上品としても知られています。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_280",
+    "question": "琴参閣の駐車場は何台収容できますか？",
+    "explanation": "琴参閣の駐車場は200台収容できます。約223室の客室を持つ大型旅館です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_297",
+    "question": "金陵の郷の建物の特徴は何ですか？",
+    "explanation": "金陵の郷は白壁酒蔵が特徴です。寛政年間創業の老舗で、入場無料で見学できます。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_311",
+    "question": "敷島館はどのリゾート会社が運営していますか？",
+    "explanation": "敷島館は共立リゾートが運営しています。四国初の共立リゾート施設として2019年に開業しました。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_318",
+    "question": "琴平町の宿泊施設で最も客室数が多いのはどこですか？",
+    "explanation": "琴参閣は約223室と琴平町で最も客室数が多い大型旅館です。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_343",
+    "question": "琴平花壇の創業からおよそ何年の歴史がありますか？",
+    "explanation": "琴平花壇は1627年（寛永4年）創業で、約400年の歴史があります。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_350",
+    "question": "金陵の郷では何を見学できますか？",
+    "explanation": "金陵の郷では寛政年間創業の白壁酒蔵を見学できます。入場無料です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_357",
+    "question": "琴平町で最も新しい大型宿泊施設はどこですか？",
+    "explanation": "敷島館は令和元年（2019年）に開業した琴平町で最も新しい大型宿泊施設です。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_362",
+    "question": "琴平町の旅館のうち、最も古い歴史を持つのはどこですか？",
+    "explanation": "琴平花壇は1627年（寛永4年）創業で、琴平町の旅館の中で最も古い歴史を持ちます。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_369",
+    "question": "池商店はどのようなお店ですか？",
+    "explanation": "池商店は創業弘安3年（1280年）の日本最古の飴屋です。約740年の歴史があります。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_376",
+    "question": "紅梅亭の泉質は何種類ありますか？",
+    "explanation": "紅梅亭は2種類の泉質を持ち、15種類のお風呂が楽しめる旅館です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_384",
+    "question": "琴平町で酒蔵を無料で見学できる施設はどこですか？",
+    "explanation": "金陵の郷では白壁酒蔵を入場無料で見学できます。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_391",
+    "question": "琴平町の宿泊施設で貸切風呂が最も多いのはどこですか？",
+    "explanation": "ことねは6つの貸切風呂を備えています。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_407",
+    "question": "敷島館はどこのリゾート会社にとって四国初の施設ですか？",
+    "explanation": "敷島館は共立リゾートにとって四国初の施設です。令和元年（2019年）に開業しました。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_423",
+    "question": "琴平町の宿泊施設で、温泉の種類が最も多いのはどこですか？",
+    "explanation": "紅梅亭は2種類の泉質と15種類のお風呂があり、温泉の種類が最も多い宿泊施設です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_430",
+    "question": "琴平町で皇室に献上された和菓子はどれですか？",
+    "explanation": "旧万（きゅうまん）は皇室・栗林公園茶室への献上品として知られるもぐさ形の黄身あん入り和菓子です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_437",
+    "question": "琴平町で日本最古の飴屋はどこですか？",
+    "explanation": "池商店は弘安3年（1280年）創業の日本最古の飴屋です。約740年の歴史があります。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_443",
+    "question": "琴平町で「寛政年間」に創業した施設はどれですか？",
+    "explanation": "金陵の郷は寛政年間（1789〜1801年頃）に創業した白壁酒蔵の施設です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_444",
+    "question": "琴平花壇と八千代、どちらが創業が古いですか？",
+    "explanation": "琴平花壇（1627年/寛永4年創業）のほうが八千代（1725年/享保10年創業）より約100年古いです。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_451",
+    "question": "金刀比羅宮の加美代飴の歴史が始まったのはおよそ何時代ですか？",
+    "explanation": "加美代飴は700年以上の歴史があるため、鎌倉時代頃から販売されていたと推定されます。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_458",
+    "question": "池商店（日本最古の飴屋）が創業した1280年は何時代ですか？",
+    "explanation": "1280年（弘安3年）は鎌倉時代です。池商店は約740年の歴史を持つ日本最古の飴屋です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_463",
+    "question": "琴平町で無料で見学できる施設はどれですか？",
+    "explanation": "金陵の郷は入場無料で白壁酒蔵を見学できます。他の施設はいずれも有料です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_472",
+    "question": "琴平町で最大の宿泊施設（客室数）はどこですか？",
+    "explanation": "琴参閣は約223室で琴平町最大の宿泊施設です。200台の駐車場も備えています。",
+    "category": "tourism"
+  }
+]

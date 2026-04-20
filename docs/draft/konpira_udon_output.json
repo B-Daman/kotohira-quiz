@@ -1,0 +1,92 @@
+[
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "琴平町のうどん店11店が2023年に結成した、琴平を「讃岐うどん屋発祥の地」としてPRする会の名称は何ですか？",
+    "choices": ["A. こんぴら麺の会", "B. こんぴら會（かい）", "C. 讃岐うどん琴平連合", "D. 金毘羅うどん振興会"],
+    "answer": "B",
+    "explanation": "2023年2月9日に琴平町観光協会加盟のうどん店11店が「讃岐うどん屋発祥の地 こんぴら會」を発足しました。約300年前の屏風絵を根拠に、琴平が讃岐うどん店発祥の地であることをPRしています。（出典: [四国新聞 COOL KAGAWA](https://www.coolkagawa.jp/news/entry-2824.html)）\n（出典: [木下製粉 讃岐うどん屋発祥の地](https://www.flour.co.jp/news/article/847/)）",
+    "source": "https://www.coolkagawa.jp/news/entry-2824.html"
+  },
+  {
+    "category": "food",
+    "difficulty": "hard",
+    "question": "「讃岐うどん屋発祥の地」の根拠とされる、1703年頃に描かれた金刀比羅宮周辺の屏風絵の名前は何ですか？",
+    "choices": ["A. 金毘羅参詣名所図屏風", "B. 讃岐国名勝図屏風", "C. 象頭山社頭並大祭行列図屏風", "D. 琴平門前町繁栄図屏風"],
+    "answer": "C",
+    "explanation": "「象頭山社頭並大祭行列図屏風」は1703年頃の作品で、金刀比羅宮の秋の例大祭時の境内や門前町の様子が描かれています。この屏風絵にうどん店が3軒描かれており、讃岐うどん店が記録された史料としては最も古いものです。（出典: [四国新聞 COOL KAGAWA](https://www.coolkagawa.jp/news/entry-2824.html)）\n（出典: [木下製粉 讃岐うどん屋発祥の地](https://www.flour.co.jp/news/article/847/)）",
+    "source": "https://www.coolkagawa.jp/news/entry-2824.html"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "「象頭山社頭並大祭行列図屏風」（1703年頃）に描かれたうどん店の軒先に吊るされている、讃岐うどん店の看板を何と呼びますか？",
+    "choices": ["A. 暖簾（のれん）", "B. 招牌（しょうはい）", "C. 行灯（あんどん）", "D. 看板（かんばん）"],
+    "answer": "B",
+    "explanation": "招牌（しょうはい）は、うどん店の軒先に吊るされた看板で、今で言う「のれん」にあたるものです。現在も香川県の「さぬきの夢こだわり店」に認定されたうどん店には、この招牌が掲げられています。（出典: [木下製粉 招牌とさぬきの夢こだわり店](https://www.flour.co.jp/news/article/384/)）\n（出典: [四国新聞 COOL KAGAWA](https://www.coolkagawa.jp/news/entry-2824.html)）",
+    "source": "https://www.flour.co.jp/news/article/384/"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "琴平町が「讃岐うどん屋発祥の地」を主張する一方、「讃岐うどん発祥の地」を名乗るもう一つの町はどこですか？",
+    "choices": ["A. 丸亀市", "B. 高松市", "C. 綾川町", "D. 善通寺市"],
+    "answer": "C",
+    "explanation": "綾川町（旧綾南町）は空海の甥・智泉大徳がうどんの原型を伝えたとする伝承をもとに「讃岐うどん発祥の地」を名乗っています。琴平町は屏風絵に基づく「うどん屋（専門店）発祥の地」、綾川町は伝承に基づく「うどんそのものの発祥の地」と、主張の切り口が異なります。（出典: [木下製粉 讃岐うどん屋発祥の地](https://www.flour.co.jp/news/article/847/)）",
+    "source": "https://www.flour.co.jp/news/article/847/"
+  },
+  {
+    "category": "food",
+    "difficulty": "easy",
+    "question": "琴平町の「おがわうどん」が元祖として知られる、讃岐うどんでは珍しい麺のスタイルはどれですか？",
+    "choices": ["A. 極太麺", "B. 平打ち麺", "C. 細切り麺", "D. ちぢれ麺"],
+    "answer": "C",
+    "explanation": "おがわうどんは昭和40年から細切りうどんを提供している元祖で、約3ミリの太さながら独特のコシの強さがあります。先代が試行錯誤を重ねて考案した麺で、「細切り＝おがわ」と言われるほど有名です。（出典: [四国新聞 COOL KAGAWA おがわうどん](https://www.coolkagawa.jp/news/entry-3093.html)）\n（出典: [ぽしぞうの香川あるき おがわうどん](https://kagawalk.com/7435/)）",
+    "source": "https://www.coolkagawa.jp/news/entry-3093.html"
+  },
+  {
+    "category": "food",
+    "difficulty": "easy",
+    "question": "琴平町のうどん店「むさし」のカレーうどんで、残ったルーの楽しみ方として知られる「むさし流」の食べ方は何ですか？",
+    "choices": ["A. 追加の麺を入れる", "B. ご飯を入れてカレーライスにする", "C. 天ぷらを浸して食べる", "D. 出汁で薄めてスープにする"],
+    "answer": "B",
+    "explanation": "むさしのカレーうどんは出汁を加えない濃厚なルーが特徴で、残ったルーにご飯を入れてカレーライスとして楽しむのが「むさし流」です。大量のタマネギと肉をじっくり煮込んだコク深い味わいが人気です。（出典: [ナイスタウン むさし](https://nicetown.co.jp/gourmet/93460/)）\n（出典: [むさし 公式サイト](https://www.udon-musashi.com/)）",
+    "source": "https://nicetown.co.jp/gourmet/93460/"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "こんぴらうどんの製麺で、麺を真四角に延ばすために用いられる伝統技法は何ですか？",
+    "choices": ["A. たたき打ち", "B. すかし打ち", "C. 押し延ばし", "D. 巻き打ち"],
+    "answer": "B",
+    "explanation": "こんぴらうどんでは「すかし打ち」と呼ばれる伝統技法を用い、計8工程で麺を真四角に延ばしています。粉から麺まで一昼夜かけてすべての工程を店内で行っています。（出典: [こんぴらうどん コンセプト](https://www.konpira.co.jp/concept/)）",
+    "source": "https://www.konpira.co.jp/concept/"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "こんぴらうどんの出汁は、北海道産の昆布、瀬戸内海のいりこなどをブレンドして何時間かけて抽出していますか？",
+    "choices": ["A. 6時間", "B. 10時間", "C. 15時間", "D. 24時間"],
+    "answer": "C",
+    "explanation": "こんぴらうどんの出汁は、北海道産の昆布、瀬戸内海のいりこ、さば節、かつお節をオリジナルでブレンドし、15時間かけて抽出しています。粉から麺まですべての工程を店内で行っています。（出典: [こんぴらうどん コンセプト](https://www.konpira.co.jp/concept/)）",
+    "source": "https://www.konpira.co.jp/concept/"
+  },
+  {
+    "category": "food",
+    "difficulty": "medium",
+    "question": "琴平町の狸屋（たぬきや）の名物メニュー「金毘羅饂飩」の特徴はどれですか？",
+    "choices": ["A. カレー味のつけ汁で食べる", "B. ワカメや山菜など具がたっぷり入っている", "C. 極太の手延べ麺を使用している", "D. 冷たいぶっかけ専用のうどん"],
+    "answer": "B",
+    "explanation": "狸屋の名物「金毘羅饂飩」は、ワカメ、山菜、肉、揚げ、シイタケ、カマボコ、ネギなど具がたっぷり入ったうどんです。つゆは数種のカツオとコンブの出汁に2種類の醤油をブレンドしています。（出典: [狸屋 公式サイト](https://www.tanukiyaudon.com/)）\n（出典: [琴平町観光協会 狸屋](https://www.kotohirakankou.jp/gourmet/udon/entry-140.html)）",
+    "source": "https://www.tanukiyaudon.com/"
+  },
+  {
+    "category": "food",
+    "difficulty": "easy",
+    "question": "琴平町の「うどんや井上」の特徴として正しいのはどれですか？",
+    "choices": ["A. 100席以上の大型店舗", "B. 店主が一人で切り盛りしている", "C. 24時間営業している", "D. セルフサービス方式"],
+    "answer": "B",
+    "explanation": "うどんや井上は店主の井上佳子さんが一人で切り盛りしている店で、練り鉢で一日40玉程度の手打ちうどんを作っています。JR琴平駅から徒歩5分の住宅街の路地裏にあります。（出典: [四国新聞 讃岐うどん遍路 うどんや井上](https://www.shikoku-np.co.jp/udon/shop/994)）",
+    "source": "https://www.shikoku-np.co.jp/udon/shop/994"
+  }
+]

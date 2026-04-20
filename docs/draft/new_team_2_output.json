@@ -1,0 +1,245 @@
+[
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "国の重要有形民俗文化財「金毘羅庶民信仰資料」の総点数は何点ですか？",
+    "choices": ["A. 約500点", "B. 約1,000点", "C. 約1,725点", "D. 約3,000点"],
+    "answer": "C",
+    "explanation": "金毘羅庶民信仰資料は、船絵馬・大漁旗・燈篭・流し樽類など合計1,725点からなる重要有形民俗文化財です。1979年5月21日に指定されました。（出典: [文化遺産オンライン 金毘羅庶民信仰資料](https://online.bunka.go.jp/heritages/detail/214399)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/214399"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "金毘羅庶民信仰資料のうち、最も点数が多い種類はどれですか？",
+    "choices": ["A. 船絵馬", "B. 大漁旗", "C. 燈篭", "D. 神札類"],
+    "answer": "C",
+    "explanation": "金毘羅庶民信仰資料1,725点のうち、燈篭が668基で最多です。次いで神札類375点、大漁旗282点と続きます。（出典: [文化遺産オンライン 金毘羅庶民信仰資料](https://online.bunka.go.jp/heritages/detail/214399)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/214399"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金毘羅庶民信仰資料に含まれる「流し樽類」とは、どのような信仰に関係するものですか？",
+    "choices": ["A. 豊作祈願のために川に流した樽", "B. 海上から金毘羅宮へ参拝代わりに流した樽", "C. 酒造りの成功を祈って奉納した樽", "D. 厄除けのために海に流した樽"],
+    "answer": "B",
+    "explanation": "流し樽は、船乗りが海上から金毘羅宮への代参を願い、初穂料を入れて海に流したものです。金毘羅庶民信仰資料には129点が含まれています。（出典: [文化遺産オンライン 金毘羅庶民信仰資料](https://online.bunka.go.jp/heritages/detail/214399)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/214399"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金毘羅庶民信仰資料が国の重要有形民俗文化財に指定された年はいつですか？",
+    "choices": ["A. 1953年（昭和28年）", "B. 1965年（昭和40年）", "C. 1979年（昭和54年）", "D. 1990年（平成2年）"],
+    "answer": "C",
+    "explanation": "金毘羅庶民信仰資料は1979年（昭和54年）5月21日に重要有形民俗文化財に指定されました。（出典: [文化遺産オンライン 金毘羅庶民信仰資料](https://online.bunka.go.jp/heritages/detail/214399)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/214399"
+  },
+  {
+    "category": "geography",
+    "difficulty": "medium",
+    "question": "国の天然記念物「琴平町の大センダン」の推定樹齢はどれくらいですか？",
+    "choices": ["A. 約100年", "B. 約300年", "C. 約500年", "D. 約800年"],
+    "answer": "B",
+    "explanation": "琴平町の大センダンは推定樹齢約300年で、樹高13メートル、幹周囲6メートルの巨木です。1953年3月31日に天然記念物に指定されました。（出典: [文化遺産オンライン 琴平町の大センダン](https://online.bunka.go.jp/heritages/detail/162298)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/162298"
+  },
+  {
+    "category": "geography",
+    "difficulty": "hard",
+    "question": "天然記念物「琴平町の大センダン」の根廻りの大きさはどれくらいですか？",
+    "choices": ["A. 3.5メートル", "B. 4.8メートル", "C. 6.9メートル", "D. 9.2メートル"],
+    "answer": "C",
+    "explanation": "琴平町の大センダンの根廻りは6.9メートルです。地上1.5メートル地点の幹周囲は6メートルで、センダンの巨木として貴重なものとされています。（出典: [文化遺産オンライン 琴平町の大センダン](https://online.bunka.go.jp/heritages/detail/162298)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/162298"
+  },
+  {
+    "category": "geography",
+    "difficulty": "easy",
+    "question": "国の天然記念物「琴平町の大センダン」が天然記念物に指定されたのは何年ですか？",
+    "choices": ["A. 1935年（昭和10年）", "B. 1953年（昭和28年）", "C. 1968年（昭和43年）", "D. 1979年（昭和54年）"],
+    "answer": "B",
+    "explanation": "琴平町の大センダンは1953年（昭和28年）3月31日に国の天然記念物に指定されました。（出典: [文化遺産オンライン 琴平町の大センダン](https://online.bunka.go.jp/heritages/detail/162298)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/162298"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "登録有形文化財「丸尾醸造所」は何を製造していた醸造所ですか？",
+    "choices": ["A. 日本酒", "B. 醤油と味噌", "C. みりん", "D. 焼酎"],
+    "answer": "B",
+    "explanation": "丸尾醸造所は味噌・醤油の醸造所で、西味噌蔵はもと醤油諸味蔵でした。2005年11月10日に東主屋・西主屋・原料蔵及び作業場・西味噌蔵の4棟が登録有形文化財に登録されました。（出典: [文化遺産オンライン 丸尾醸造所西味噌蔵](https://online.bunka.go.jp/heritages/detail/189770)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/189770"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "丸尾醸造所の東主屋2階正面の外観の特徴はどれですか？",
+    "choices": ["A. 白漆喰塗で格子窓が並ぶ", "B. 黒漆喰塗で白縁取の虫籠窓が並ぶ", "C. 板張りで出格子窓が並ぶ", "D. 土壁に丸窓が配される"],
+    "answer": "B",
+    "explanation": "丸尾醸造所東主屋は大正期の建造で、2階正面は黒漆喰塗に白縁取の縦格子虫籠窓2所を並べる意匠が特徴です。（出典: [文化遺産オンライン 丸尾醸造所東主屋](https://online.bunka.go.jp/heritages/detail/118117)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/118117"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "丸尾醸造所の所在地はどこですか？",
+    "choices": ["A. 琴平町内町", "B. 琴平町榎井", "C. 琴平町川西", "D. 琴平町五条"],
+    "answer": "B",
+    "explanation": "丸尾醸造所は琴平町榎井字籏岡に所在し、琴平への入口にあたる街道筋の歴史的景観をかたちづくる要素として評価されています。（出典: [文化遺産オンライン 丸尾醸造所東主屋](https://online.bunka.go.jp/heritages/detail/118117)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/118117"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "丸尾醸造所の原料蔵及び作業場の小屋組に採用されている構造はどれですか？",
+    "choices": ["A. 和小屋組", "B. クイーンポストトラス", "C. キングポストトラス", "D. マンサード構造"],
+    "answer": "C",
+    "explanation": "丸尾醸造所の原料蔵及び作業場は昭和7年（1932年）建造で、小屋組は木造キングポストトラス構造を採用しています。（出典: [文化遺産オンライン 丸尾醸造所原料蔵及び作業場](https://online.bunka.go.jp/heritages/detail/196039)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/196039"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "登録有形文化財「へんこつ屋店舗」の内部にある特徴的な天井の造りはどれですか？",
+    "choices": ["A. 格天井", "B. 船底天井", "C. 網代組のヴォールト状天井", "D. 折上格天井"],
+    "answer": "C",
+    "explanation": "へんこつ屋店舗の内部には網代組のヴォールト状天井など、凝った造作や銘木珍木の使用が随所にみられます。金刀比羅宮参道筋の一之橋東詰近くに位置する明治期の建物です。（出典: [文化遺産オンライン へんこつ屋店舗](https://online.bunka.go.jp/heritages/detail/116924)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/116924"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "登録有形文化財「へんこつ屋店舗」は金刀比羅宮参道のどのあたりに位置していますか？",
+    "choices": ["A. 大門の手前", "B. 一之橋東詰近く", "C. 旭社の隣", "D. 奥社への途中"],
+    "answer": "B",
+    "explanation": "へんこつ屋店舗は金刀比羅宮参道筋の一之橋東詰近くの角地に建つ明治期の建物で、2004年3月2日に登録有形文化財に登録されました。（出典: [文化遺産オンライン へんこつ屋店舗](https://online.bunka.go.jp/heritages/detail/116924)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/116924"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "登録有形文化財「こんぴらうどん参道店」の建物は、もともと何として使われていましたか？",
+    "choices": ["A. 味噌蔵", "B. 旅館（櫻屋旅館）", "C. 茶屋", "D. 土産物屋"],
+    "answer": "B",
+    "explanation": "こんぴらうどん参道店は旧櫻屋旅館で、草花彫刻をつけた2階高欄など旅館建築らしい細部を残しています。明治期の建物で2003年3月18日に登録有形文化財に登録されました。（出典: [文化遺産オンライン こんぴらうどん参道店（旧櫻屋旅館）](https://online.bunka.go.jp/heritages/detail/194329)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/194329"
+  },
+  {
+    "category": "culture",
+    "difficulty": "hard",
+    "question": "旧櫻屋旅館（現こんぴらうどん参道店）に残る、旅館建築らしい意匠はどれですか？",
+    "choices": ["A. 唐破風の玄関", "B. 草花彫刻をつけた2階高欄", "C. 千鳥破風の屋根", "D. 蔵造りの外壁"],
+    "answer": "B",
+    "explanation": "旧櫻屋旅館には草花彫刻をつけた2階高欄など、旅館建築らしい細部が残されています。金刀比羅宮東参道の景観を構成する重要な要素です。（出典: [文化遺産オンライン こんぴらうどん参道店（旧櫻屋旅館）](https://online.bunka.go.jp/heritages/detail/194329)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/194329"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮宝物館の建築的特徴として、文化遺産オンラインで評価されている点はどれですか？",
+    "choices": ["A. 日本最古の木造博物館である", "B. 日本人建築家が伝統建築に本格的な洋風意匠を持ち込んだ初期の事例", "C. 完全な西洋式石造建築である", "D. 和洋折衷の木造建築である"],
+    "answer": "B",
+    "explanation": "金刀比羅宮宝物館は明治38年（1905年）建設の石造2階建で、「日本人建築家が伝統的な建築に本格的な洋風の意匠を持ち込んだ初期の事例として注目できる」と評価されています。（出典: [文化遺産オンライン 金刀比羅宮宝物館](https://online.bunka.go.jp/heritages/detail/180013)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/180013"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "金刀比羅宮宝物館の玄関の屋根形式はどれですか？",
+    "choices": ["A. 入母屋造", "B. 切妻造", "C. 唐破風造", "D. 寄棟造"],
+    "answer": "C",
+    "explanation": "金刀比羅宮宝物館は石造2階建・本瓦葺・入母屋造で、玄関は唐破風造です。アーチ窓や石組による目地など洋風意匠も取り入れられています。（出典: [文化遺産オンライン 金刀比羅宮宝物館](https://online.bunka.go.jp/heritages/detail/180013)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/180013"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮の本宮本殿の構造として正しいのはどれですか？",
+    "choices": ["A. 木造、入母屋造、檜皮葺", "B. 木造、切妻造、銅板葺", "C. 石造、寄棟造、本瓦葺", "D. 木造、春日造、杮葺"],
+    "answer": "A",
+    "explanation": "本宮本殿は木造、建築面積39.01平方メートル、入母屋造、正面千鳥破風付、檜皮葺の構造です。明治10年（1877年）上棟で、2024年8月15日に重要文化財に指定されました。（出典: [文化遺産オンライン 金刀比羅宮 本宮本殿・中殿・拝殿](https://online.bunka.go.jp/heritages/detail/564638)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/564638"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮の別宮本殿の屋根形式は、本宮本殿とどう異なりますか？",
+    "choices": ["A. 本宮は入母屋造、別宮は隅木入春日造", "B. 本宮は寄棟造、別宮は入母屋造", "C. 本宮は切妻造、別宮は流造", "D. 本宮も別宮も同じ入母屋造"],
+    "answer": "A",
+    "explanation": "本宮本殿は入母屋造・正面千鳥破風付であるのに対し、別宮本殿は隅木入春日造です。どちらも檜皮葺で、仏教色を排して素木を用いた明治期の社殿です。（出典: [文化遺産オンライン 金刀比羅宮 本宮本殿・中殿・拝殿](https://online.bunka.go.jp/heritages/detail/564638)）\n（出典: [文化遺産オンライン 金刀比羅宮 別宮本殿・中殿・拝殿](https://online.bunka.go.jp/heritages/detail/566141)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/564638"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "medium",
+    "question": "金刀比羅宮の神輿庫はいつ建てられましたか？",
+    "choices": ["A. 江戸前期（1650年頃）", "B. 江戸後期（1761年）", "C. 明治初期（1878年）", "D. 大正期（1920年頃）"],
+    "answer": "B",
+    "explanation": "神輿庫は江戸後期の1761年に建てられ、1874年に現在地に移築されました。土蔵造・入母屋造・本瓦葺の構造で、2024年に重要文化財に指定されました。（出典: [文化遺産オンライン 金刀比羅宮 神輿庫](https://online.bunka.go.jp/heritages/detail/564648)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/564648"
+  },
+  {
+    "category": "shrine",
+    "difficulty": "hard",
+    "question": "金刀比羅宮の神庫が建てられた年はいつですか？",
+    "choices": ["A. 1761年", "B. 1810年", "C. 1857年", "D. 1878年"],
+    "answer": "C",
+    "explanation": "神庫は江戸末期の1857年に建てられた土蔵造2階建で、寄棟造・本瓦葺の建物です。正面庇は向唐破風造・檜皮葺で、2024年に重要文化財に指定されました。（出典: [文化遺産オンライン 金刀比羅宮 神庫](https://online.bunka.go.jp/heritages/detail/619879)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/619879"
+  },
+  {
+    "category": "modern",
+    "difficulty": "hard",
+    "question": "JR琴平駅本屋の正面中央に設けられている特徴的な建築要素はどれですか？",
+    "choices": ["A. 唐破風の車寄せ", "B. 切妻の車寄せ", "C. アーチ型のポーチ", "D. 列柱のポルティコ"],
+    "answer": "B",
+    "explanation": "JR琴平駅本屋は大正11年（1922年）建設の木造平屋建で、寄棟造の建物の正面中央に切妻の車寄を構えています。丸金印の軒飾りや大ぶりの半円窓など大らかな意匠が特徴です。（出典: [文化遺産オンライン ＪＲ琴平駅本屋](https://online.bunka.go.jp/heritages/detail/239795)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/239795"
+  },
+  {
+    "category": "modern",
+    "difficulty": "medium",
+    "question": "JR琴平駅の乗換跨線橋が「県内最古に属する」とされる理由は何ですか？",
+    "choices": ["A. 明治時代に建設された木造跨線橋だから", "B. 昭和初期に建設された鉄骨造跨線橋だから", "C. 大正時代に建設されたコンクリート跨線橋だから", "D. 江戸時代の橋を転用した跨線橋だから"],
+    "answer": "B",
+    "explanation": "JR琴平駅の乗換跨線橋は昭和2年（1927年）建設の鉄骨造で、下路式プラットトラスの構造を持ちます。「鉄道駅の跨線橋として県内最古に属する」と評価されています。（出典: [文化遺産オンライン ＪＲ琴平駅乗換跨線橋](https://online.bunka.go.jp/heritages/detail/284189)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/284189"
+  },
+  {
+    "category": "modern",
+    "difficulty": "hard",
+    "question": "JR琴平駅の陳列所一号は、もともと何として建てられた建物ですか？",
+    "choices": ["A. 団体旅客用の旅客上屋三号", "B. 駅長官舎", "C. 貨物倉庫", "D. 切符売り場"],
+    "answer": "A",
+    "explanation": "JR琴平駅陳列所一号は大正11年（1922年）建設で、本来は団体旅客用の旅客上屋三号でしたが、現在は外壁を付け陳列所に改装されています。（出典: [文化遺産オンライン ＪＲ琴平駅陳列所一号](https://online.bunka.go.jp/heritages/detail/269406)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/269406"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "琴平町公会堂の建物はどのような構成ですか？",
+    "choices": ["A. 本堂と鐘楼", "B. 玄関棟・ホール棟・和室棟", "C. 管理棟と体育館", "D. 事務棟と大広間"],
+    "answer": "B",
+    "explanation": "琴平町公会堂は昭和9年（1934年）建設の和風公会堂で、玄関棟・ホール棟・和室棟から構成されます。入母屋造の大屋根が特徴的な優雅な外観を持っています。（出典: [文化遺産オンライン 琴平町公会堂](https://online.bunka.go.jp/heritages/detail/137821)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/137821"
+  },
+  {
+    "category": "culture",
+    "difficulty": "easy",
+    "question": "琴平町で国の天然記念物に指定されている樹木の種類はどれですか？",
+    "choices": ["A. クスノキ", "B. センダン", "C. イチョウ", "D. ケヤキ"],
+    "answer": "B",
+    "explanation": "琴平町の大センダン（栴檀）が国の天然記念物に指定されています。推定樹齢約300年、樹高13メートルの巨木で、センダンとしては非常に珍しい大きさです。（出典: [文化遺産オンライン 琴平町の大センダン](https://online.bunka.go.jp/heritages/detail/162298)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/162298"
+  },
+  {
+    "category": "culture",
+    "difficulty": "medium",
+    "question": "金毘羅庶民信仰資料に含まれる和船模型は何点ですか？",
+    "choices": ["A. 15点", "B. 27点", "C. 41点", "D. 63点"],
+    "answer": "C",
+    "explanation": "金毘羅庶民信仰資料には和船模型41点が含まれています。船乗りや漁民の信仰が特に篤かったことを示す資料群の一つです。（出典: [文化遺産オンライン 金毘羅庶民信仰資料](https://online.bunka.go.jp/heritages/detail/214399)）",
+    "source": "https://online.bunka.go.jp/heritages/detail/214399"
+  }
+]

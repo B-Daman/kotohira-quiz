@@ -1,0 +1,65 @@
+[
+  {
+    "category": "modern",
+    "difficulty": "easy",
+    "question": "ポケモンのヤドンが香川県の「うどん県PR団」に任命されたのは何年ですか？",
+    "choices": ["A. 2015年", "B. 2016年", "C. 2018年", "D. 2020年"],
+    "answer": "C",
+    "explanation": "2018年12月に香川県と株式会社ポケモンが「地域活性化に関する連携・協力協定」を締結し、ヤドンが「うどん県PR団」に任命されました。（出典: [グローカルミッションタイムズ](https://www.glocaltimes.jp/4991)）",
+    "source": "https://www.glocaltimes.jp/4991"
+  },
+  {
+    "category": "modern",
+    "difficulty": "easy",
+    "question": "ポケモンのヤドンが香川県の「うどん県PR団」に選ばれた主な理由は何ですか？",
+    "choices": ["A. ヤドンが四国地方原産のポケモンだから", "B. 「うどん」と「ヤドン」の語感が似ているから", "C. ヤドンの体の色がうどんに似ているから", "D. ヤドンがうどんを食べるシーンがアニメにあるから"],
+    "answer": "B",
+    "explanation": "香川県の名物「うどん」とポケモンの「ヤドン」の音の響きが似ていることが主な理由です。他にも、ヤドンのしっぽが甘いことと香川の和三盆、ヤドンがあくびをすると雨が降る伝承と香川の水不足など、複数の共通点があります。（出典: [楽天トラベル 香川ヤドンガイド](https://travel.rakuten.co.jp/mytrip/howto/kagawa-yadon-guide)）",
+    "source": "https://travel.rakuten.co.jp/mytrip/howto/kagawa-yadon-guide"
+  },
+  {
+    "category": "modern",
+    "difficulty": "medium",
+    "question": "琴平町の一之橋公園に設置されているヤドンの「ポケふた」（ポケモンマンホール）は、香川県内で最初に設置されたポケふたの一つです。琴平町の設置日はいつですか？",
+    "choices": ["A. 2018年12月19日", "B. 2019年9月25日", "C. 2020年8月10日", "D. 2021年4月1日"],
+    "answer": "B",
+    "explanation": "琴平町のヤドンのポケふたは2019年9月25日に一之橋公園に設置されました。香川県内で最も早い設置で、その後他の市町にも順次設置されていきました。（出典: [丸亀つーしん](https://www.marugame2.jp/topics/11737)）",
+    "source": "https://www.marugame2.jp/topics/11737"
+  },
+  {
+    "category": "modern",
+    "difficulty": "easy",
+    "question": "琴平町にある「ヤドンのお宿」として知られる、ヤドンをテーマにした客室がある温泉旅館はどこですか？",
+    "choices": ["A. 紅梅亭", "B. 琴参閣", "C. 桜の抄", "D. 湯元こんぴら温泉華の湯"],
+    "answer": "B",
+    "explanation": "ことひら温泉 琴参閣の讃水館和洋室に、1室限定でヤドンをテーマにした「ヤドンのお宿」が設けられています。2022年2月から予約受付が始まりました。（出典: [ファミ通.com](https://www.famitsu.com/news/202202/04250257.html)）",
+    "source": "https://www.famitsu.com/news/202202/04250257.html"
+  },
+  {
+    "category": "modern",
+    "difficulty": "medium",
+    "question": "2025年3月21日から、ヤドンのラッピング電車「うどん県×ヤドン号」が運行を開始した路線はどれですか？",
+    "choices": ["A. ことでん長尾線", "B. ことでん志度線", "C. ことでん琴平線", "D. JR土讃線"],
+    "answer": "C",
+    "explanation": "「うどん県×ヤドン号」は高松琴平電気鉄道（ことでん）の琴平線で運行されています。1100形の2両編成で、車内外にヤドンがデザインされており、約3年間の運行が予定されています。（出典: [PR TIMES 香川県観光協会](https://prtimes.jp/main/html/rd/p/000000045.000062688.html)）",
+    "source": "https://prtimes.jp/main/html/rd/p/000000045.000062688.html"
+  },
+  {
+    "category": "modern",
+    "difficulty": "hard",
+    "question": "ヤドンのポケふた（ポケモンマンホール）は香川県内の全市町に設置されていますが、全部で何種類ありますか？",
+    "choices": ["A. 15種類", "B. 17種類", "C. 18種類", "D. 20種類"],
+    "answer": "C",
+    "explanation": "香川県内には全18種類のヤドンのポケふたが設置されています。2019年9月から各市町に順次設置が始まり、当初は17種類でしたが、2023年4月の綾川町ヤドン公園の開園に合わせて18枚目が追加されました。（出典: [カガワン](https://kagawan.com/yadon-manhole/)）",
+    "source": "https://kagawan.com/yadon-manhole/"
+  },
+  {
+    "category": "modern",
+    "difficulty": "medium",
+    "question": "8月10日は「ヤドンの日」として知られていますが、その由来は何ですか？",
+    "choices": ["A. ヤドンが初めてゲームに登場した日", "B. 8（や）10（ど）の語呂合わせ", "C. 香川県との協定が結ばれた日", "D. ヤドンの図鑑番号が810番"],
+    "answer": "B",
+    "explanation": "8（や）と10（ど＝とお）の語呂合わせで、8月10日が「ヤドンの日」とされています。2014年にポケモン公式サイトで発表され、以降毎年イベントが行われています。香川県でも「ヤドンの日」に合わせたイベントが開催されてきました。（出典: [ピクシブ百科事典 ヤドンの日](https://dic.pixiv.net/a/%E3%83%A4%E3%83%89%E3%83%B3%E3%81%AE%E6%97%A5)）",
+    "source": "https://dic.pixiv.net/a/%E3%83%A4%E3%83%89%E3%83%B3%E3%81%AE%E6%97%A5"
+  }
+]

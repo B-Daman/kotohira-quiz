@@ -1,0 +1,698 @@
+[
+  {
+    "id": "kotohira_005",
+    "question": "金刀比羅宮は何の神様の総本山として知られていますか？",
+    "explanation": "金刀比羅宮は「海の神様の総本山」として知られています。ご利益には海上安全のほか、五穀豊穣や商売繁盛もあります。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_016",
+    "question": "琴平町が町制を施行したのは何年ですか？",
+    "explanation": "琴平町が町制を施行したのは1890年（明治23年）です。なお、琴平町の成立は1873年（明治6年）です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_017",
+    "question": "琴平町が榎井村と合併したのは何年ですか？",
+    "explanation": "琴平町が榎井村と合併したのは1955年（昭和30年）です。その後1958年（昭和33年）には象郷村とも合併しました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_018",
+    "question": "琴平町が象郷村と合併したのは何年ですか？",
+    "explanation": "琴平町が象郷村と合併したのは1958年（昭和33年）です。1955年の榎井村合併に続き、3年後に象郷村とも合併しました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_022",
+    "question": "讃岐鉄道を提唱した人物は誰ですか？",
+    "explanation": "讃岐鉄道を提唱したのは大久保諶之丞です。琴平地域の交通発展に大きく貢献した人物です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_030",
+    "question": "琴平町が成立したのは何年ですか？",
+    "explanation": "琴平町が成立したのは1873年（明治6年）です。その後1890年（明治23年）に町制を施行しました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_051",
+    "question": "琴平町は何県にありますか？",
+    "explanation": "琴平町は香川県仲多度郡にあります。面積8.47km²、人口約7,700人の町です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_052",
+    "question": "琴平町の面積はどのくらいですか？",
+    "explanation": "琴平町の面積は8.47km²です。香川県仲多度郡に位置し、人口は約7,700人です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_053",
+    "question": "琴平町の人口はおよそどのくらいですか？",
+    "explanation": "琴平町の人口は約7,700人です。香川県仲多度郡に位置しています。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_054",
+    "question": "高松から琴平までJRでおよそどのくらいかかりますか？",
+    "explanation": "高松から琴平までJRで約1時間かかります。ことでんでも同じく約1時間です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_055",
+    "question": "岡山から琴平まで特急でおよそどのくらいかかりますか？",
+    "explanation": "岡山から琴平まで特急で約1時間かかります。本州からのアクセスも比較的便利です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_056",
+    "question": "善通寺ICから琴平町まで車でおよそどのくらいかかりますか？",
+    "explanation": "善通寺ICから琴平町まで車で約15分です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_057",
+    "question": "高松空港から琴平町まで車でおよそどのくらいかかりますか？",
+    "explanation": "高松空港から琴平町まで車で約45分です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_058",
+    "question": "こんぴら街道は全部で何本ありますか？",
+    "explanation": "こんぴら街道は全部で5本あります。高松、丸亀、多度津、阿波、伊予土佐からの街道です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_059",
+    "question": "琴平参宮電鉄が営業していた期間はいつからいつまでですか？",
+    "explanation": "琴平参宮電鉄は1922年から1963年まで営業していました。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_060",
+    "question": "琴平急行電鉄が営業していた期間はわずか何年間ですか？",
+    "explanation": "琴平急行電鉄は1930年から1944年までのわずか14年間営業していました。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_091",
+    "question": "琴平町立病院の病床数はおよそ何床ですか？",
+    "explanation": "琴平町立病院の病床数は約60床です。琴平町の地域医療を支える病院です。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_092",
+    "question": "香川県を代表する地方銀行はどこですか？",
+    "explanation": "香川県を代表する地方銀行は百十四銀行です。琴平町にも支店があります。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_093",
+    "question": "琴平町は何郡に属していますか？",
+    "explanation": "琴平町は香川県仲多度郡に属しています。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_094",
+    "question": "琴平町の町営駐車場の収容台数は何台ですか？",
+    "explanation": "琴平町の町営駐車場の収容台数は200台です。1日500円で利用できます。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_099",
+    "question": "金刀比羅宮のご利益に含まれないものはどれですか？",
+    "explanation": "金刀比羅宮の主なご利益は海上安全、五穀豊穣、商売繁盛です。学業成就は金刀比羅宮の主なご利益には含まれていません。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_109",
+    "question": "金刀比羅宮のご利益として正しくないものはどれですか？",
+    "explanation": "金刀比羅宮の主なご利益は海上安全、五穀豊穣、商売繁盛です。恋愛成就は主なご利益に含まれていません。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_124",
+    "question": "呑象楼とは誰の住居ですか？",
+    "explanation": "呑象楼は日柳燕石が12年間暮らした住居です。昭和29年に榎井小学校に移築されました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_125",
+    "question": "呑象楼は現在どこに移築されていますか？",
+    "explanation": "呑象楼は昭和29年に榎井小学校に移築されました。日柳燕石が12年間暮らした住居です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_128",
+    "question": "大久保諶之丞が生まれたのは何年ですか？",
+    "explanation": "大久保諶之丞は嘉永2年（1849年）に生まれました。讃岐鉄道の提唱者として知られています。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_129",
+    "question": "大久保諶之丞は何歳で亡くなりましたか？",
+    "explanation": "大久保諶之丞は42歳で逝去しました。短い生涯の中で讃岐鉄道の提唱や四国新道の建設など、多大な功績を残しました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_130",
+    "question": "大久保諶之丞が建設に携わった道路は何ですか？",
+    "explanation": "大久保諶之丞は四国新道の建設に携わりました。讃岐鉄道の提唱とともに、四国の交通発展に貢献しました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_139",
+    "question": "讃岐鉄道として琴平に鉄道が開業したのは何年ですか？",
+    "explanation": "讃岐鉄道として琴平に鉄道が開業したのは1889年（明治22年）です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_140",
+    "question": "JR琴平駅が現在の場所に移転したのは何年ですか？",
+    "explanation": "JR琴平駅は1923年（大正12年）に現在地に移転しました。最初は1889年に讃岐鉄道として開業しています。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_141",
+    "question": "琴平町の榎井地区の地名の由来は何ですか？",
+    "explanation": "榎井地区の地名は榎の大樹と泉に由来しています。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_142",
+    "question": "興泉寺で琴平初の小学校が設立されたのは何年何月ですか？",
+    "explanation": "明治5年4月に興泉寺で琴平初の小学校が設立されました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_148",
+    "question": "日柳燕石が呑象楼で暮らした期間は何年間ですか？",
+    "explanation": "日柳燕石は呑象楼で12年間暮らしました。呑象楼は昭和29年に榎井小学校に移築されています。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_158",
+    "question": "琴平町が「消滅可能性自治体」に指定されている理由として最も関連するものはどれですか？",
+    "explanation": "琴平町は人口減少により消滅可能性自治体に指定されています。2025年5月時点の人口は約7,700人です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_211",
+    "question": "琴平町はどの郡にありますか？",
+    "explanation": "琴平町は香川県仲多度郡にあります。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_213",
+    "question": "高松から琴平までJRとことでんの運賃の差額はいくらですか？",
+    "explanation": "JRは860円、ことでんは620円なので、差額は240円です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_215",
+    "question": "琴平町に通じるこんぴら街道で、四国の東側から来る街道は何ですか？",
+    "explanation": "四国の東側（徳島方面）から来るのは阿波街道です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_216",
+    "question": "高知から琴平までの所要時間と運賃の組み合わせで正しいのはどれですか？",
+    "explanation": "高知から琴平までは約2時間30分、3,410円です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_217",
+    "question": "JR琴平駅の建築様式は何風ですか？",
+    "explanation": "JR琴平駅は赤い三角屋根の北欧風平屋です。大正11年（1922年）に建設されました。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_218",
+    "question": "琴平町から本州（岡山）に行くにはどの橋を渡りますか？",
+    "explanation": "琴平町から岡山に行くには瀬戸大橋を渡ります。JR特急で約1時間です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_219",
+    "question": "琴平参宮電鉄と琴平急行電鉄で、営業期間が短かったのはどちらですか？",
+    "explanation": "琴平急行電鉄は1930〜1944年のわずか14年間で、琴平参宮電鉄（1922〜1963年、約41年）より短かったです。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_220",
+    "question": "高松空港から琴平町までの交通手段と料金で正しいのはどれですか？",
+    "explanation": "高松空港から琴平町まで車で約45分、約1,500円です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_221",
+    "question": "高松から琴平までことでんで行くと運賃はいくらですか？",
+    "explanation": "高松から琴平までことでんの運賃は620円です。所要時間は約1時間です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_222",
+    "question": "高松から琴平までJRの運賃はいくらですか？",
+    "explanation": "高松から琴平までJRの運賃は860円です。所要時間は約1時間（特急は約30分）です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_223",
+    "question": "高松から琴平まで特急を使うとおよそ何分かかりますか？",
+    "explanation": "高松から琴平まで特急を使うと約30分です。普通列車だと約1時間かかります。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_224",
+    "question": "高知から琴平までの運賃はいくらですか？",
+    "explanation": "高知から琴平までの運賃は3,410円です。所要時間は約2時間30分です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_225",
+    "question": "高知から琴平までの所要時間はおよそどのくらいですか？",
+    "explanation": "高知から琴平までの所要時間は約2時間30分です。運賃は3,410円です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_226",
+    "question": "岡山から琴平まで特急の運賃はいくらですか？",
+    "explanation": "岡山から琴平まで特急の運賃は1,680円です。所要時間は約1時間です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_227",
+    "question": "高松空港から琴平町までのタクシー料金はおよそいくらですか？",
+    "explanation": "高松空港から琴平町までの料金は約1,500円です。所要時間は約45分です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_228",
+    "question": "こんぴら街道の5本に含まれないものはどれですか？",
+    "explanation": "こんぴら街道5本は高松、丸亀、多度津、阿波、伊予土佐です。松山街道は含まれません。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_231",
+    "question": "琴平参宮電鉄は何年間営業していましたか？",
+    "explanation": "琴平参宮電鉄は1922年から1963年まで約41年間営業していました。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_232",
+    "question": "琴平急行電鉄の営業期間はいつからいつまでですか？",
+    "explanation": "琴平急行電鉄は1930年から1944年まで営業していました。わずか14年間の短い歴史でした。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_233",
+    "question": "琴平町は四国のどの県にありますか？",
+    "explanation": "琴平町は四国の香川県にあります。香川県仲多度郡に位置しています。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_234",
+    "question": "こんぴら街道のうち、四国外から来る街道はいくつありますか？",
+    "explanation": "こんぴら街道5本（高松、丸亀、多度津、阿波、伊予土佐）はすべて四国内からの街道です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_235",
+    "question": "ことでん琴平駅の現駅舎が建てられたのは何年ですか？",
+    "explanation": "ことでん琴平駅の現駅舎は1988年に建てられました。旧駅舎は1927年のもので、高さ15mの広告塔が特徴でした。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_236",
+    "question": "ことでん琴平駅の旧駅舎の特徴は何ですか？",
+    "explanation": "ことでん琴平駅の旧駅舎（1927年）は高さ15mの広告塔が特徴でした。現駅舎は1988年に建て替えられています。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_237",
+    "question": "JR琴平駅の建築スタイルはどのように表現されていますか？",
+    "explanation": "JR琴平駅は赤い三角屋根の北欧風平屋として知られています。大正11年（1922年）に建設されました。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_271",
+    "question": "海の科学館が開館したのは何年ですか？",
+    "explanation": "海の科学館は昭和41年（1966年）に開館しました。入場料は大人450円です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_272",
+    "question": "海の科学館の入場料（大人）はいくらですか？",
+    "explanation": "海の科学館の入場料は大人450円です。開館時間は9:00〜17:00です。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_293",
+    "question": "丸亀街道起点石に刻まれた年は何年ですか？",
+    "explanation": "丸亀街道起点石は1767年（明和4年）のもので、「従是丸亀江百五拾町」と刻まれています。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_294",
+    "question": "丸亀街道起点石に刻まれている文字は何ですか？",
+    "explanation": "丸亀街道起点石には「従是丸亀江百五拾町」と刻まれています。1767年（明和4年）のものです。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_299",
+    "question": "高燈籠の「燈籠」は何に使われる構造物ですか？",
+    "explanation": "燈籠は灯りをともすための構造物です。高燈籠は約27.5mもの高さがあり、航海の目印にもなりました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_301",
+    "question": "琴平町立病院はどのような対応ができますか？",
+    "explanation": "琴平町立病院は救急対応が可能です。約60床の病床を有しています。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_302",
+    "question": "中讃地域夜間急病センターはどこにありますか？",
+    "explanation": "中讃地域夜間急病センターは丸亀市にあります。19:30〜22:30に年中無休で対応しています。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_303",
+    "question": "中讃地域夜間急病センターの診療時間は何時から何時までですか？",
+    "explanation": "中讃地域夜間急病センターの診療時間は19:30〜22:30です。年中無休で対応しています。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_304",
+    "question": "琴平町は何という自治体区分に指定されていますか？",
+    "explanation": "琴平町は消滅可能性自治体に指定されています。人口約7,700人の小さな町です。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_305",
+    "question": "百十四銀行の「百十四」の由来は何ですか？",
+    "explanation": "百十四銀行の名前は国立銀行としての番号（第百十四国立銀行）に由来しています。香川県を代表する地方銀行です。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_306",
+    "question": "琴平町の2025年5月時点の人口はおよそ何人ですか？",
+    "explanation": "琴平町の2025年5月時点の人口は約7,700人です。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_307",
+    "question": "琴平町の面積は香川県の市町の中でどのような特徴がありますか？",
+    "explanation": "琴平町の面積は8.47km²とかなり小さいです。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_308",
+    "question": "中讃地域夜間急病センターは休診日がありますか？",
+    "explanation": "中讃地域夜間急病センターは年中無休で対応しています。診療時間は19:30〜22:30です。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_309",
+    "question": "琴平町から最も近い高速道路のICはどこですか？",
+    "explanation": "琴平町から最も近い高速道路のICは善通寺ICで、約15分の距離です。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_310",
+    "question": "琴平町へのアクセスで、JRとことでんのどちらが運賃が安いですか？",
+    "explanation": "高松からの場合、ことでんは620円でJR（860円）より安いです。所要時間はどちらも約1時間です。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_315",
+    "question": "琴平町が「消滅可能性自治体」から脱するために重要なことは何ですか？",
+    "explanation": "消滅可能性自治体から脱するためには定住人口の維持・増加が重要です。琴平町の人口は約7,700人まで減少しています。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_316",
+    "question": "2025年のわん詣と2026年のわん詣から、このイベントは何回目の開催が予定されていますか？",
+    "explanation": "わん詣は2025年に初回が開催され（約3,000人参加）、2026年1月30日〜2月1日に2回目が予定されています。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_319",
+    "question": "琴平町の観光で「食」の特徴として正しいものはどれですか？",
+    "explanation": "琴平町は讃岐うどんの店や老舗和菓子店が充実しており、「食」も重要な観光資源です。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_328",
+    "question": "金刀比羅宮の主なご利益は何種類ありますか？",
+    "explanation": "金刀比羅宮の主なご利益は海上安全、五穀豊穣、商売繁盛の3種類です。",
+    "category": "shrine"
+  },
+  {
+    "id": "kotohira_332",
+    "question": "琴平町に関わる歴史人物のうち、讃岐鉄道と四国新道の両方に関わった人物は誰ですか？",
+    "explanation": "大久保諶之丞は讃岐鉄道の提唱と四国新道の建設の両方に携わった人物です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_341",
+    "question": "琴平町は香川県の何地域に位置していますか？",
+    "explanation": "琴平町は香川県の中讃地域に位置しています。仲多度郡に属しています。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_353",
+    "question": "海の科学館の開館時間は何時から何時までですか？",
+    "explanation": "海の科学館の開館時間は9:00〜17:00です。入場料は大人450円です。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_355",
+    "question": "琴平町には何本のこんぴら街道がありますか？",
+    "explanation": "琴平町には5本のこんぴら街道があります。高松、丸亀、多度津、阿波、伊予土佐の各方面からの街道です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_356",
+    "question": "琴平町で急病になった場合、夜間はどこに行けばよいですか？",
+    "explanation": "夜間の急病には丸亀市にある中讃地域夜間急病センター（19:30〜22:30、年中無休）が対応しています。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_363",
+    "question": "琴平町に関わる歴史人物で、土木事業に貢献した人物を2人挙げるとすれば誰ですか？",
+    "explanation": "長谷川佐太郎（満濃池修復）と大久保諶之丞（讃岐鉄道・四国新道）は土木事業に貢献した人物です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_365",
+    "question": "ことでん琴平駅の旧駅舎は何年に建てられましたか？",
+    "explanation": "ことでん琴平駅の旧駅舎は1927年に建てられました。高さ15mの広告塔が特徴的でした。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_372",
+    "question": "琴平町は「仲多度郡」に属していますが、同じ郡にある町はどこですか？",
+    "explanation": "仲多度郡には琴平町のほか多度津町とまんのう町が属しています。善通寺市と丸亀市は市です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_377",
+    "question": "琴平町の高齢化と人口減少の状況を表す指定は何ですか？",
+    "explanation": "琴平町は消滅可能性自治体に指定されています。人口は約7,700人まで減少しています。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_378",
+    "question": "琴平町への観光で、本州からの最短ルートは？",
+    "explanation": "本州からは岡山から特急で約1時間が最短ルートです。運賃は1,680円です。",
+    "category": "modern"
+  },
+  {
+    "id": "kotohira_386",
+    "question": "琴平町にある2つの鉄道駅はどれですか？",
+    "explanation": "琴平町にはJR琴平駅とことでん琴平駅の2つの主要鉄道駅があります。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_387",
+    "question": "讃岐鉄道が開業した1889年は明治何年ですか？",
+    "explanation": "1889年は明治22年です。この年に讃岐鉄道として琴平に鉄道が開業しました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_392",
+    "question": "琴平町から高松市へ行く方法は主に何がありますか？",
+    "explanation": "琴平町から高松市へはJR（約1時間、860円）またはことでん（約1時間、620円）で行けます。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_395",
+    "question": "琴平町に鉄道が通じたのは、町制施行の何年前ですか？",
+    "explanation": "讃岐鉄道開業は1889年（明治22年）、町制施行は1890年（明治23年）なので、鉄道が1年先です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_396",
+    "question": "こんぴら街道5本のうち、四国の他の3県（徳島・高知・愛媛）から来る街道は何本ですか？",
+    "explanation": "阿波街道（徳島方面）と伊予土佐街道（愛媛・高知方面）の2本です。残り3本（高松・丸亀・多度津）は香川県内からです。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_402",
+    "question": "金刀比羅宮の高燈籠はなぜ高く作られたのですか？",
+    "explanation": "高燈籠は航海する船からも見える灯りの目印として約27.5mの高さに作られました。海の神様の総本山にふさわしい構造物です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_403",
+    "question": "琴平町と丸亀市を結ぶ街道の名前は何ですか？",
+    "explanation": "琴平町と丸亀市を結ぶのは丸亀街道です。こんぴら街道5本のうちの1つです。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_406",
+    "question": "JR琴平駅は何造りの建物ですか？",
+    "explanation": "JR琴平駅は赤い三角屋根の北欧風平屋で、木造建築です。大正11年（1922年）に建設されました。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_408",
+    "question": "琴平町立病院ではどのような対応が可能ですか？",
+    "explanation": "琴平町立病院は約60床で救急対応が可能な地域の医療拠点です。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_411",
+    "question": "琴平町の成立（1873年）から町制施行（1890年）まで何年かかりましたか？",
+    "explanation": "琴平町の成立は1873年（明治6年）、町制施行は1890年（明治23年）で、17年間かかりました。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_412",
+    "question": "琴平町に合併された2つの村が合併した順番は？",
+    "explanation": "榎井村が1955年に先に合併し、象郷村は1958年に後から合併しました。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_419",
+    "question": "高松から琴平に行く鉄道は何路線ありますか？",
+    "explanation": "高松から琴平にはJRとことでんの2路線で行くことができます。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_425",
+    "question": "琴平の歴史人物のうち、最も長生きしたのは誰ですか？",
+    "explanation": "大原東野は1764年〜1840年で76歳まで生きました。大久保諶之丞は42歳で最も短命でした。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_426",
+    "question": "JR琴平駅とことでん琴平駅、どちらの歴史が古いですか？",
+    "explanation": "JR琴平駅は1889年（明治22年）に讃岐鉄道として開業しており、歴史が古いです。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_432",
+    "question": "琴平町の榎井村と象郷村の合併の間隔は何年ですか？",
+    "explanation": "榎井村は1955年、象郷村は1958年に合併したため、間隔は3年です。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_433",
+    "question": "琴平町のある香川県は、四国の何方に位置していますか？",
+    "explanation": "香川県は四国の北東に位置しています。瀬戸内海に面しています。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_436",
+    "question": "高燈籠は何のための構造物として建てられましたか？",
+    "explanation": "高燈籠は航海する船からも見える灯りの目印として建てられました。約27.5mの高さがあります。",
+    "category": "architecture"
+  },
+  {
+    "id": "kotohira_439",
+    "question": "金刀比羅宮は何県にありますか？",
+    "explanation": "金刀比羅宮は香川県仲多度郡琴平町にあります。象頭山の中腹に鎮座しています。",
+    "category": "history"
+  },
+  {
+    "id": "kotohira_440",
+    "question": "琴平町の面積（8.47km²）は東京ドーム約何個分ですか？",
+    "explanation": "東京ドームの面積は約0.047km²なので、8.47÷0.047≒約180個分です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_445",
+    "question": "琴平町に住む人が最寄りの高速道路ICに行くにはどのくらいかかりますか？",
+    "explanation": "琴平町から善通寺ICまで車で約15分です。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_449",
+    "question": "JRとことでん、高松から琴平まで安く行けるのはどちらですか？",
+    "explanation": "ことでんは620円でJR（860円）より240円安く高松から琴平まで行けます。所要時間はどちらも約1時間です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_452",
+    "question": "琴平町から最も近い空港はどこですか？",
+    "explanation": "琴平町から最も近い空港は高松空港で、車で約45分、料金約1,500円です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_459",
+    "question": "高松からJR特急で琴平に行くと、普通列車と比べて何分短縮できますか？",
+    "explanation": "JR普通列車は約1時間、特急は約30分なので、約30分の短縮になります。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_464",
+    "question": "琴平町への車でのアクセスで、最寄りの高速ICと駐車場の組み合わせは？",
+    "explanation": "車では善通寺ICから約15分で琴平町に着き、町営駐車場（200台収容、1日500円）が利用できます。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_468",
+    "question": "こんぴら街道のうち、香川県内を起点とするものは何本ですか？",
+    "explanation": "香川県内を起点とするのは高松街道、丸亀街道、多度津街道の3本です。阿波街道と伊予土佐街道は他県からです。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_475",
+    "question": "琴平町から岡山へは何に乗って行けますか？",
+    "explanation": "琴平町から岡山へはJR特急で約1時間、1,680円で行けます。瀬戸大橋を渡ります。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_480",
+    "question": "琴平町は人口約何人の町ですか？",
+    "explanation": "琴平町の人口は約7,700人です（2025年5月時点）。",
+    "category": "life"
+  },
+  {
+    "id": "kotohira_484",
+    "question": "こんぴら街道のうち「阿波街道」はどの方面からの街道ですか？",
+    "explanation": "阿波街道は阿波（徳島）方面からの街道です。阿波は徳島県の旧国名です。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_491",
+    "question": "こんぴら街道で高松方面からの街道の名前は何ですか？",
+    "explanation": "高松方面からの街道は高松街道です。こんぴら街道5本のうちの1つです。",
+    "category": "geography"
+  },
+  {
+    "id": "kotohira_495",
+    "question": "琴平町の有料観光施設の入場料を安い順に並べると？",
+    "explanation": "琴平町歴史民俗資料館200円→海の科学館450円→金丸座500円の順に高くなります。",
+    "category": "tourism"
+  },
+  {
+    "id": "kotohira_496",
+    "question": "琴平町民が利用する夜間急病センターまでの移動手段は主に何ですか？",
+    "explanation": "中讃地域夜間急病センターは丸亀市にあり、夜間のため電車がなく自家用車での移動が主な手段です。",
+    "category": "life"
+  }
+]

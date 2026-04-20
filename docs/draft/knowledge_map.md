@@ -1,9 +1,11 @@
 # 琴平クイズ ナレッジマップ
 
 作成日: 2026-04-06
-最終更新: 2026-04-09
-総問題数: 991問（有効948問 / 無効43問）
+最終更新: 2026-04-11
+総問題数: 991問（有効866問 / 無効125問）
 理由型: 42問(4.6%) / easy: 226問(23.8%)
+
+出典URLの全一覧: `docs/draft/source_url_catalog.md`（ドメイン別・テーマ別の詳細カタログ）
 
 ---
 
@@ -80,6 +82,14 @@ mindmap
 
 ### 1. 金刀比羅宮（~330問）
 
+主要出典:
+- https://www.konpira.or.jp/ — 金刀比羅宮公式（166問で引用）
+- https://www.konpira.or.jp/articles/20200616_guide/article.htm — 参拝ガイド（御本宮まで）
+- https://www.konpira.or.jp/articles/20200616_guide_inner-shrine/article.htm — 奥社参拝ガイド
+- https://www.konpira.or.jp/charms/article.php — お守り・授与品
+- https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html — 年中行事
+- https://www.konpira.or.jp/articles/20200814_history/article.htm — 歴史
+
 #### 1.1 祭神・由緒（22問）✅
 - カバー済み: 大物主神、崇徳天皇、創建の歴史、御利益、神仏分離
 
@@ -91,81 +101,117 @@ mindmap
 
 #### 1.4 書院・美術（26問）✅
 - 今回追加: 伊藤若冲「百花図」201種、田窪恭治の白書院ヤブツバキ障壁画、円山応挙90面、高橋由一35点奉納の経緯、三井八郎兵衛の援助
+- 出典: https://www.konpira.or.jp/articles/20200710_takahashi-yuichi/article.htm — 高橋由一館
 
 #### 1.5 お守り・授与品（22問）✅
 
 #### 1.6 海上信仰（22問）✅
 - 今回追加: 流し樽の風習、金毘羅講の仕組み、こんぴら狗の代参、分社6社、全国約600社
+- 出典: https://www.konpira.or.jp/articles/20200907_konpira-dog/article.htm — こんぴら狗
 
 #### 1.7 祭事・神事（59問）✅
 
 #### 1.8 境内・自然（21問）✅
 - 今回追加: 象頭山の名勝指定、暖帯林のクス自生北限、メサ地形、桜の品種「コトヒラ」「ヤオトメ」、神馬（光驥号・月琴号）
+- 出典: https://online.bunka.go.jp/heritages/detail/180013 — 象頭山（文化遺産オンライン）
 
 ---
 
 ### 2. 金毘羅参り・五街道（26問）✅
 - 726-772で大幅に拡充済み（五街道総論、丸亀街道、多度津街道、参詣文化）
+- 出典: https://ja.wikipedia.org/wiki/金毘羅街道 — 金毘羅街道
 
 ---
 
 ### 3. 金丸座・歌舞伎（81問）✅
 - 今回追加: 朱印地・天領の背景、明かり窓3段階調整、収容約740人、お茶子、近兼孝休の功績、すばらしき仲間のエピソード
+- 主要出典:
+  - https://www.konpirakabuki.jp/history/reform.html — 金丸座の歴史・復元（23問）
+  - https://www.konpirakabuki.jp/history/ayumi.html — こんぴら歌舞伎のあゆみ（9問）
+  - https://www.town.kotohira.kagawa.jp/soshiki/3/1270.html — 琴平町文化財
 
 ---
 
 ### 4. 琴平町の歴史（23問）✅
 - 今回追加: 門前町形成（天保5年の打毀）、琴平博覧会（高橋由一）、友好都市（出雲市）
+- 主要出典:
+  - https://www.konpira.or.jp/ARCHIVES/center/founder/page.html — 琴陵宥常
+  - https://www.konpira.or.jp/ARCHIVES/ritual/00/kemari/kemari-2017.html — 蹴鞠
+  - https://www.bunka.pref.mie.lg.jp/art-museum/55459038532.htm — 和田邦坊（三重県立美術館）
 
 ---
 
 ### 5. 地理・行政（29問）✅
+- 主要出典:
+  - https://www.town.kotohira.kagawa.jp/ — 琴平町公式（42問）
+  - https://ja.wikipedia.org/wiki/琴平町 — 琴平町
 
 ---
 
 ### 6. 観光スポット
 
 #### 6.1 高灯籠（21問）✅
+- 出典: https://kotohira.kaiyohakubutukan.or.jp/syuhen-spot/takatoro/
 #### 6.2 鞘橋（12問）✅ — 726-772で新規作成済み
+- 出典: https://kotohira.kaiyohakubutukan.or.jp/syuhen-spot/sayabashi/
 #### 6.3 金陵の郷（14問）✅
+- 出典: https://www.nishino-kinryo.co.jp/museum/
 #### 6.4 海の科学館（13問）✅ — 今回追加（しんかい6500、弁財船、操船シミュレーター）
+- 出典: https://kotohira.kaiyohakubutukan.or.jp/about-museum/
 #### 6.5 こんぴら温泉郷（3問）✅ — 今回追加（1997年掘削、泉質）
 
 ---
 
 ### 7. 伝統文化・産業
+- 主要出典: https://online.bunka.go.jp/ — 文化遺産オンライン（14問）
 #### 7.1 讃岐一刀彫（4問）✅ — 726-772で新規作成済み
+- 出典: https://online.bunka.go.jp/heritages/detail/118117
 #### 7.2 讃岐のり染め（3問）✅ — 726-772で新規作成済み
+- 出典: https://online.bunka.go.jp/heritages/detail/116924
 #### 7.3 にんにく（4問）✅ — 今回新規作成
 
 ---
 
 ### 8. グルメ・名産品
+- 主要出典: https://www.kotohirakankou.jp/ — 琴平町観光協会（13問）
 #### 8.1 讃岐うどん（30問）✅
+- 出典: https://www.kotohirakankou.jp/gourmet/udon/entry-143.html, https://osyoya.com/10pun.html, https://kamitsubaki.com/
 #### 8.2 灸まん（13問）✅ — 今回追加（和田邦坊デザイン、こんぴら春団子）
+- 出典: https://kyuman.co.jp/
 #### 8.3 加美代飴・池商店（28問）✅ — 今回追加（創業1245年、五人百姓の由来、5家の家名、原材料、扇型の経緯）
+- 出典: https://ikesyouten.com/
 #### 8.4 地酒（金陵）✅
+- 出典: https://www.nishino-kinryo.co.jp/
 
 ---
 
 ### 9. 祭り・イベント
+- 主要出典: https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html — 年中行事
 #### 9.1 例大祭 ✅
 #### 9.2 石段マラソン（12問）✅ — 726-772で新規作成済み
+- 出典: https://moshicom.com/111190
 
 ---
 
 ### 10. 現代の琴平
+- 主要出典: https://www.town.kotohira.kagawa.jp/ — 琴平町公式
 #### 10.1 街ガチャ ✅
+- 出典: https://www.town.kotohira.kagawa.jp/soshiki/0/10876.html
 #### 10.2 こんぴーくん ✅
 #### 10.3 KOTOCA（2問）✅ — 今回新規作成
+- 出典: https://www.town.kotohira.kagawa.jp/site/denshitiikituuka-kotoca/
 #### 10.4 移住支援 ✅
+- 出典: https://www.town.kotohira.kagawa.jp/site/ijyuu/3791.html
 
 ---
 
 ### 11. 人物
 #### 11.1 日柳燕石（11問）✅
+- 出典: https://kotobank.jp/word/%E6%97%A5%E6%9F%B3%E7%87%95%E7%9F%B3-16408
 #### 11.2 琴陵宥常（9問）✅ — 今回新規作成（ノルマントン号事件、水難救済会創設、黒田清隆への直訴）
+- 出典: https://www.konpira.or.jp/ARCHIVES/center/founder/page.html
 #### 11.3 和田邦坊（10問）✅ — 今回新規作成（生涯、パッケージデザイン、映画化、うどん本陣山田家）
+- 出典: https://www.bunka.pref.mie.lg.jp/art-museum/55459038532.htm
 #### 11.4 近兼孝休 ✅ — 今回新規作成（歌舞伎復活、温泉掘削）
 #### 11.5 中村光一 — 丸亀市出身と判明し対象外
 

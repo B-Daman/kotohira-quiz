@@ -1,0 +1,73 @@
+[
+  {
+    "id": "kotohira_788",
+    "claim": "天保年間に多度津港が大改修された後、多度津街道が丸亀街道を凌ぐ賑わいとなった",
+    "verified": "partial",
+    "notes": "多度津港の天保年間改修は裏付けあり。丸亀街道を『凌ぐ』賑わいという比較表現はWikipedia以外で確認できず",
+    "additional_source_url": "https://tono202.livedoor.blog/archives/13066101.html",
+    "additional_source_title": "瀬戸の島から（ブログ）",
+    "evidence": "「天保４年 1833 丸亀新掘湛甫竣工。天保５年 1834 多度津港新湛甫起工。天保９年 1838 多度津港新湛甫完成。」「多度津湛甫の建設資金は、一万両を超えるもので、この額は多度津藩の１年の予算額に相当するものでした」",
+    "supplementary_sources": [
+      {
+        "url": "https://www.kagawa-konzouji.or.jp/konzouji/mannaka/history/entry-456.html",
+        "title": "金蔵寺（鉄道発祥の町、多度津町の昔話）",
+        "evidence": "第5代多度津藩藩主・京極高琢が瀬戸内屈指の立派な港（現在の多度津港）を完成させた"
+      }
+    ],
+    "conclusion": "多度津港が天保年間に大改修されたことは複数サイトで確認可。ただし『丸亀街道を凌ぐ賑わい』という比較はWikipedia以外のWebソースでは未確認。問題文の表現は要検討"
+  },
+  {
+    "id": "kotohira_790",
+    "claim": "江戸時代後期に奉納された石碑のために参道を曲げた",
+    "verified": false,
+    "additional_source_url": null,
+    "additional_source_title": null,
+    "evidence": null,
+    "notes": "金刀比羅宮公式サイト、各種観光サイト、参拝ガイド等を調査したが、参道を石碑のために曲げたという記述はWikipedia以外で確認できなかった",
+    "conclusion": "Wikipedia以外のWebソースでは裏付けが取れなかった。公式サイト(konpira.or.jp)の参拝ガイドにも該当記述なし"
+  },
+  {
+    "id": "kotohira_793",
+    "claim": "金丸座が1953年県重文指定→1964年解除→1970年国重文指定",
+    "verified": "partial",
+    "notes": "1953年県指定と1970年国指定は複数サイトで確認。1964年の県指定解除はWeblio等に記述があるが、琴平町公式・こんぴら歌舞伎公式では1964年解除への言及なし",
+    "additional_source_url": "https://www.arc.ritsumei.ac.jp/lib/exhibition/2010/kabuki/1/post_14.html",
+    "additional_source_title": "立命館大学アート・リサーチセンター",
+    "evidence": "「昭和28年(1953)に香川県の重要文化財、昭和45年(1970)に『旧金毘羅大芝居』として国の重要指定文化財に指定された」",
+    "supplementary_sources": [
+      {
+        "url": "https://www.konpirakabuki.jp/history/reform.html",
+        "title": "こんぴら歌舞伎公式サイト",
+        "evidence": "「昭和45年6月17日『旧金毘羅大芝居』として国の重要文化財に指定されます。」"
+      },
+      {
+        "url": "https://kunishitei.bunka.go.jp/heritage/detail/102/3303",
+        "title": "国指定文化財等データベース",
+        "evidence": "「重文指定年月日：1970.06.17(昭和45.06.17)」"
+      }
+    ],
+    "conclusion": "1953年県指定・1970年国指定は立命館大学・文化庁データベース等で確認。1964年県指定解除はWebSearchの要約に出現するが、個別ページで直接の引用文を取得できなかった。年代自体はWikipediaの記述と矛盾する情報は見つかっていない"
+  },
+  {
+    "id": "kotohira_794",
+    "claim": "TBS「すばらしき仲間」1984年7月に中村勘九郎・中村吉右衛門・澤村藤十郎が金丸座を訪問",
+    "verified": true,
+    "additional_source_url": "https://www.konpirakabuki.jp/history/ayumi.html",
+    "additional_source_title": "こんぴら歌舞伎公式サイト（こんぴら歌舞伎のあゆみ）",
+    "evidence": "「蝉時雨が降る、昭和59年7月5日、6日の2日間、旧金毘羅大芝居で撮影が行われ、歌舞伎俳優中村吉右衛門丈、澤村藤十郎丈、中村勘九郎丈の今をときめく江戸歌舞伎の人気役者に多くのスタッフが加わり」",
+    "supplementary_sources": [
+      {
+        "url": "https://kioku.tv/program/1795",
+        "title": "みんなのテレビの記憶",
+        "evidence": "「『すばらしき仲間』は、1976年1月4日から1992年3月29日までTBS系列局で放送されていたトーク番組・ドキュメンタリー番組である。中部日本放送 (CBC) とイーストの共同製作。」"
+      },
+      {
+        "url": "https://www.bpcj.or.jp/program/detail/003017/",
+        "title": "放送ライブラリー",
+        "evidence": "放送局：CBCテレビ、制作社：CBCテレビ、イースト"
+      }
+    ],
+    "notes": "番組名・年月・訪問した3名の役者名はこんぴら歌舞伎公式サイトで完全に一致。ただし問題文で『TBS番組』とあるが、正確にはCBC（中部日本放送）制作・TBS系列放送。『TBS番組』という表現は不正確ではないがやや曖昧。こんぴら歌舞伎公式サイトでは番組名のみ記載で放送局名の記載なし",
+    "conclusion": "訪問した役者名（中村吉右衛門・澤村藤十郎・中村勘九郎）、撮影日（1984年7月5-6日）、番組名（すばらしき仲間）はすべてこんぴら歌舞伎公式サイトで確認。放送局はCBC制作・TBS系列であり、問題文の『TBS番組』は厳密にはCBC制作番組"
+  }
+]
