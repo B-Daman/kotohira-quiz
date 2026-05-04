@@ -4,7 +4,8 @@ import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-KOTOHIRA_FILE = r"C:\Users\user\hisho-bot\data\quiz\kotohira_questions.json"
+import os
+KOTOHIRA_FILE = os.environ.get("KOTOHIRA_QUIZ_FILE", os.path.expanduser("~/hisho-bot/data/quiz/kotohira_questions.json"))
 url = "https://www.konpira.or.jp/ARCHIVES/ritual/00_annual-festival/page.html"
 sl = f"\n（出典: [金刀比羅宮 例大祭]({url})）"
 sl_inline = f"（出典: [金刀比羅宮 例大祭]({url})）"

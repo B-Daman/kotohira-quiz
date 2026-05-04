@@ -4,6 +4,9 @@
 import json
 import urllib.parse
 import random
+from pathlib import Path
+
+DATA_FILE = Path(__file__).resolve().parent.parent / "public" / "data" / "japanese_questions.json"
 
 # Words that already exist - DO NOT DUPLICATE
 EXISTING_WORDS = {
@@ -1352,7 +1355,7 @@ for w in clean_words:
 print(f"Level distribution: {levels}")
 
 # Load existing questions
-with open("C:/Users/user/kotohira-quiz/web/public/data/japanese_questions.json", "r", encoding="utf-8") as f:
+with open(DATA_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 existing = data["questions"]
@@ -1418,7 +1421,7 @@ print(f"Total questions: {len(existing) + len(new_questions)}")
 # Write combined file
 data["questions"] = existing + new_questions
 
-with open("C:/Users/user/kotohira-quiz/web/public/data/japanese_questions.json", "w", encoding="utf-8") as f:
+with open(DATA_FILE, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
 print("Done! File written successfully.")

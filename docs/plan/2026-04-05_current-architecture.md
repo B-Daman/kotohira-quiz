@@ -12,7 +12,7 @@ Discord Bot（2問ティーザー）+ Web アプリ（10問フル回答）の構
 
 - Web: https://b-daman.github.io/kotohira-quiz/
 - GitHub: https://github.com/B-Daman/kotohira-quiz (public)
-- 問題データの正典: `C:\Users\user\hisho-bot\data\quiz\`
+- 問題データの正典: `~/hisho-bot/data/quiz/`
 
 ---
 

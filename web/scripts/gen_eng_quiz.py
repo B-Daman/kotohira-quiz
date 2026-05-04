@@ -1,8 +1,11 @@
 import json
 import urllib.parse
+from pathlib import Path
+
+DATA_FILE = Path(__file__).resolve().parent.parent / "public" / "data" / "english_questions.json"
 
 # Read existing file
-with open("C:/Users/user/kotohira-quiz/web/public/data/english_questions.json", "r", encoding="utf-8") as f:
+with open(DATA_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 existing = data["questions"]
@@ -1217,7 +1220,7 @@ data["questions"] = all_questions
 print(f"\nTotal questions in file: {len(all_questions)}")
 
 # Write
-with open("C:/Users/user/kotohira-quiz/web/public/data/english_questions.json", "w", encoding="utf-8") as f:
+with open(DATA_FILE, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
 print("File written successfully!")

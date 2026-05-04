@@ -1,7 +1,10 @@
 import json, re, os
 from collections import defaultdict, Counter
+from pathlib import Path
 
-with open('C:/Users/user/kotohira-quiz/web/public/data/kotohira_questions.json', 'r', encoding='utf-8') as f:
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
+with open(REPO_ROOT / 'web/public/data/kotohira_questions.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 qs = data['questions']
 
@@ -317,7 +320,7 @@ for topic, ids in sorted(keyword_groups.items()):
 lines.append("")
 
 output = "\n".join(lines)
-outpath = 'C:/Users/user/kotohira-quiz/docs/draft/existing_analysis.md'
+outpath = str(REPO_ROOT / 'docs/draft/existing_analysis.md')
 
 os.makedirs(os.path.dirname(outpath), exist_ok=True)
 with open(outpath, 'w', encoding='utf-8') as f:

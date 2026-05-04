@@ -90,7 +90,8 @@ new_qs = [
     },
 ]
 
-KOTOHIRA_FILE = r"C:\Users\user\hisho-bot\data\quiz\kotohira_questions.json"
+import os
+KOTOHIRA_FILE = os.environ.get("KOTOHIRA_QUIZ_FILE", os.path.expanduser("~/hisho-bot/data/quiz/kotohira_questions.json"))
 
 with open(KOTOHIRA_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)

@@ -1,7 +1,10 @@
 import json
+from pathlib import Path
+
+DATA_FILE = Path(__file__).resolve().parent.parent / "public" / "data" / "english_questions.json"
 
 # Read current file
-with open("C:/Users/user/kotohira-quiz/web/public/data/english_questions.json", "r", encoding="utf-8") as f:
+with open(DATA_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 questions = data["questions"]
@@ -166,7 +169,7 @@ new_b1 = len(set(q["word"] for q in balanced if q["level"] == "B1"))
 print(f"New A2 words: {new_a2}, New B1 words: {new_b1}")
 
 # Write
-with open("C:/Users/user/kotohira-quiz/web/public/data/english_questions.json", "w", encoding="utf-8") as f:
+with open(DATA_FILE, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
 print("\nFile written successfully!")

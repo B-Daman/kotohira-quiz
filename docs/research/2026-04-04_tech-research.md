@@ -360,7 +360,7 @@ Phase2（ユーザー認証・ランキング実装時）: 方式C（Cloudflare 
 ### ディレクトリ構造
 
 ```
-C:/Users/user/hisho-bot/
+~/hisho-bot/
 ├── src/
 │   ├── cogs/
 │   │   └── daily_quiz.py          # Discord Bot Cog（クイズ出題・ボタン処理）
@@ -371,7 +371,7 @@ C:/Users/user/hisho-bot/
     ├── english_questions.json     # 英単語クイズ問題バンク
     └── quiz_history.json          # 出題履歴・ユーザー回答記録
 
-C:/Users/user/kotohira-quiz/       # ← 現在は空（新規プロジェクト）
+~/kotohira-quiz/                  # ← 現在は空（新規プロジェクト）
 ```
 
 ### 問題データ構造（kotohira_questions.json）

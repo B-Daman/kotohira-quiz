@@ -7,6 +7,9 @@ Shuffles choice positions to distribute answers evenly across A/B/C/D.
 import json
 import urllib.parse
 import random
+from pathlib import Path
+
+DATA_FILE = Path(__file__).resolve().parent.parent / "public" / "data" / "japanese_questions.json"
 
 random.seed(42)  # Reproducible
 
@@ -17,7 +20,7 @@ def make_translate_url(word):
     return "https://translate.google.co.jp/details?sl=ja&tl=en&text=" + urllib.parse.quote(word, safe='') + "&op=translate"
 
 # Load the file
-with open("C:/Users/user/kotohira-quiz/web/public/data/japanese_questions.json", "r", encoding="utf-8") as f:
+with open(DATA_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 questions = data["questions"]
@@ -443,7 +446,7 @@ print(f"New answer distribution: {target_dist}")
 # Combine and write
 data["questions"] = old_qs + new_qs
 
-with open("C:/Users/user/kotohira-quiz/web/public/data/japanese_questions.json", "w", encoding="utf-8") as f:
+with open(DATA_FILE, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
 # Final verification
