@@ -13,7 +13,7 @@ class Config:
     QUIZ_CHANNEL_ID: str = os.getenv("QUIZ_CHANNEL_ID", "")
     QUIZ_DATA_DIR: str = os.getenv(
         "QUIZ_DATA_DIR",
-        os.path.join(os.path.expanduser("~"), "hisho-bot", "data", "quiz"),
+        os.path.join(os.path.expanduser("~"), "kotohira-quiz", "data", "quiz"),
     )
     WEB_URL: str = os.getenv("WEB_URL", "https://kotohira-quiz.pages.dev")
 
