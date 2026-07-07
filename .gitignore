@@ -6,3 +6,4 @@ bot/__pycache__/
 quiz_history.json
 *.bak
 *.tmp
+bot/bot.log
