@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base target="_blank">
+<!--
+  琴平クイズ プロジェクトダッシュボード（project-hub規格・小型/上部タブ＋左目次型・7ページ）
+  デザイン: kotohira-dao/dashboard.html の確定形シェル（紺ヘッダー＋ヒーロー＋ピルタブ＋左目次＋ページャー）に準拠
+  正本: C:\Users\user\kotohira-quiz\dashboard\kotohira-quiz-dashboard.html
+  データ実数の取得元: web/public/data/*.json（2026-06-14時点）
+-->
+<title>琴平クイズ プロジェクトダッシュボード</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#f6f7fb; --card:#ffffff; --text:#1f2433; --muted:#5b6276;
+    --border:#e4e7f2; --border-strong:#c7cce4;
+    --accent:#4f46e5; --accent-d:#3730a3; --accent-soft:#eef1ff; --accent-2:#c2700b;
+    --done:#0d9488; --done-soft:#dcf3ee;
+    --pending:#c2700b; --pending-soft:#fdf3e3;
+    --future:#9aa3c7; --future-soft:#eceef6;
+    --urgent:#dc2626; --urgent-soft:#fdeaea;
+    --hero-bg:#0e1530; --code-bg:#0e1530; --code-ink:#e8ecfb; --shadow:0 1px 2px rgba(15,23,42,.06);
+    /* クイズ3種別の識別カラー（識別目的・7色以内） */
+    --c-kotohira:#4f46e5; --c-english:#2563eb; --c-kanji:#0d9488;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: "Noto Sans JP","Yu Gothic UI","Meiryo",system-ui,sans-serif;
+         background: var(--bg); color: var(--text); line-height: 1.6; }
+  .mono, .num, code, .path, .upd-h, .pager .ind b {
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; }
+  a { color: var(--accent); }
+
+  /* ===== シェル: 紺ヘッダー＋上部タブ＋左目次＋ページャー ===== */
+  .hdr { background: var(--hero-bg); color: #fff; padding: 13px 40px; display: flex;
+         align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .hdr .bt { font-size: 15px; font-weight: 900; letter-spacing: .02em; }
+  .hdr .bt small { font-weight: 500; font-size: 11px; color: rgba(255,255,255,.6); margin-left: 8px; }
+  .hdr .meta { display: flex; align-items: center; gap: 12px; font-size: 11px; color: rgba(255,255,255,.62); }
+
+  .ptopbar { position: sticky; top: 0; z-index: 60; background: rgba(255,255,255,.92);
+             backdrop-filter: saturate(180%) blur(6px); border-bottom: 1px solid var(--border); padding: 9px 40px; }
+  .ptabs { display: flex; flex-wrap: wrap; gap: 6px; }
+  .ptab { flex: 0 0 auto; border: 1px solid var(--border); background: var(--card); color: var(--text);
+          border-radius: 999px; padding: 7px 15px; font-size: 13.5px; font-weight: 700; cursor: pointer;
+          white-space: nowrap; transition: .12s; font-family: inherit; }
+  .ptab .no { font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; font-size: 11px; color: var(--muted); margin-right: 6px; }
+  .ptab:hover { background: var(--accent-soft); color: var(--accent-d); }
+  .ptab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .ptab.active .no { color: rgba(255,255,255,.8); }
+
+  .layout { display: flex; align-items: flex-start; }
+  .toc { width: 240px; flex: 0 0 240px; position: sticky; top: 54px; max-height: calc(100vh - 54px);
+         overflow-y: auto; padding: 22px 6px 22px 24px; }
+  .toc .tl { font-size: 10.5px; font-weight: 700; color: var(--muted); letter-spacing: .08em; margin-bottom: 6px; }
+  .toc a { display: block; font-size: 12.5px; color: var(--muted); padding: 5px 10px; cursor: pointer;
+           border-left: 2px solid var(--border); line-height: 1.45; text-decoration: none; }
+  .toc a.grp { font-weight: 800; color: var(--text); }
+  .toc a.sub { padding-left: 22px; font-size: 12px; }
+  .toc a:hover { color: var(--accent-d); background: var(--accent-soft); }
+  .toc a.on { color: var(--accent-d); font-weight: 700; border-left-color: var(--accent); background: var(--accent-soft); }
+  .pmain { flex: 1; min-width: 0; }
+  .pcontent { max-width: 1180px; margin-left: max(0px, calc(50vw - 590px - 240px)); margin-right: auto;
+              padding: 18px 36px 96px; }
+
+  .psec { display: none; }
+  .psec.active { display: block; animation: fade .25s ease; }
+  @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+  /* 見出し階層 */
+  .pagehead { margin: 6px 0 8px; }
+  .pagehead h2 { margin: 0; font-size: 26px; font-weight: 900; color: var(--text); }
+  .pagehead .desc { color: var(--muted); font-size: 13px; margin-top: 3px; }
+  .grouphead { font-size: 20px; font-weight: 800; color: var(--text); line-height: 1.4;
+               margin: 34px 0 12px; padding: 8px 0 8px 14px; border-left: 7px solid var(--accent-d); scroll-margin-top: 64px; }
+  .grouphead:first-of-type { margin-top: 14px; }
+  .grouphead .gh-note { font-size: 12px; color: var(--muted); font-weight: 500; margin-left: 8px; }
+  .section-title { font-size: 16.5px; font-weight: 900; color: var(--text); letter-spacing: .02em; scroll-margin-top: 64px;
+                   margin: 26px 0 12px; border-left: 6px solid var(--accent); padding-left: 11px; line-height: 1.4; }
+  .section-title .sub { font-size: 12px; color: var(--muted); font-weight: 500; margin-left: 8px; }
+
+  /* hero */
+  .hero { background: var(--hero-bg); color: #fff; border-radius: 20px; padding: 32px 36px 26px;
+          margin: 4px 0 18px; position: relative; overflow: hidden; }
+  .hero .dot { position: absolute; border-radius: 50%; background: rgba(255,255,255,.06); }
+  .hero .eyebrow { letter-spacing: .3em; font-size: 11px; color: rgba(255,255,255,.6); font-weight: 700; }
+  .hero h1 { font-size: 28px; font-weight: 900; margin: 10px 0 8px; line-height: 1.3; }
+  .hero p { font-size: 14px; color: rgba(255,255,255,.85); margin: 0; max-width: 820px; }
+  .hero .meta { display: flex; gap: 16px; margin-top: 14px; font-size: 11.5px; color: rgba(255,255,255,.6); flex-wrap: wrap; }
+  .hero .herolinks { margin-top: 16px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .hero .herolinks a { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,.1);
+                       border: 1px solid rgba(255,255,255,.2); color: #fff; text-decoration: none; font-size: 12.5px;
+                       font-weight: 700; border-radius: 999px; padding: 6px 14px; }
+  .hero .herolinks a:hover { background: rgba(255,255,255,.18); }
+
+  .panel { background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+           padding: 16px 20px; box-shadow: var(--shadow); margin-bottom: 4px; }
+  .panel + .panel { margin-top: 12px; }
+  .panel p { margin: 6px 0; font-size: 13.5px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 760px){ .grid2 { grid-template-columns: 1fr; } }
+
+  /* action-item（タスク・最優先） */
+  .action-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0;
+                 border-bottom: 1px solid var(--border); font-size: 14px; }
+  .action-item:last-child { border-bottom: none; }
+  .action-checkbox { width: 16px; height: 16px; border: 1.5px solid var(--pending); border-radius: 3px; flex-shrink: 0; margin-top: 4px; }
+  .action-item.done .action-checkbox { background: var(--done); border-color: var(--done); position: relative; }
+  .action-item.done .action-checkbox::after { content: "✓"; color: #fff; font-size: 12px; position: absolute; top: -3px; left: 2px; }
+  .action-item.urgent .action-checkbox { border-color: var(--urgent); }
+  .action-item.done .action-text { color: var(--muted); text-decoration: line-through; }
+  .action-tag { font-size: 11px; background: #e9ecf5; color: var(--muted); padding: 1px 6px; border-radius: 3px; margin-right: 6px; }
+  .action-tag.urgent { background: var(--urgent-soft); color: var(--urgent); font-weight: 600; }
+  .action-tag.soon { background: var(--pending-soft); color: #9a5b00; font-weight: 600; }
+  .action-tag.cont { background: var(--accent-soft); color: var(--accent-d); font-weight: 600; }
+  .action-meta { color: var(--muted); font-size: 11px; margin-left: 6px; }
+
+  /* KPI */
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+  .kpi { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px;
+         box-shadow: var(--shadow); border-top: 3px solid var(--accent); }
+  .kpi.gold { border-top-color: var(--accent-2); }
+  .kpi.teal { border-top-color: var(--done); }
+  .kpi-label { font-size: 11px; color: var(--muted); font-weight: 700; letter-spacing: .04em; }
+  .kpi-value { font-size: 22px; font-weight: 900; margin-top: 4px; color: var(--accent-d); }
+  .kpi-value small { font-size: 13px; font-weight: 700; color: var(--muted); }
+  .kpi-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .progress { background: #e2e6f4; border-radius: 3px; height: 6px; overflow: hidden; margin-top: 8px; }
+  .progress > span { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+
+  /* 分布バー */
+  .dist { display: flex; flex-direction: column; gap: 10px; }
+  .dist-row { display: grid; grid-template-columns: 200px 1fr 120px; align-items: center; gap: 12px; font-size: 13px; }
+  .dist-label { color: var(--muted); font-weight: 600; }
+  .dist-bar { background: #e9ecf5; border-radius: 3px; height: 18px; position: relative; overflow: hidden; }
+  .dist-bar > span { display: block; height: 100%; border-radius: 3px; background: var(--accent); }
+  .dist-bar.k > span { background: var(--c-kanji); }
+  .dist-bar.e > span { background: var(--c-english); }
+  .dist-num { font-size: 13px; color: var(--text); text-align: right; font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; }
+  .dist-num .sub { color: var(--muted); font-size: 11px; margin-left: 4px; }
+  @media (max-width: 640px){ .dist-row { grid-template-columns: 120px 1fr 90px; } }
+
+  /* テーブル */
+  .data-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .data-table th, .data-table td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .data-table th { background: var(--accent-soft); font-weight: 700; font-size: 12px; color: var(--accent-d); letter-spacing: .03em; }
+  .data-table tr:last-child td { border-bottom: none; }
+  .data-table tr:nth-child(even) td { background: #fafbff; }
+  .data-table td.num, .data-table th.num { text-align: right; font-variant-numeric: tabular-nums; font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; }
+
+  /* リンクテーブル */
+  .link-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .link-table th, .link-table td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--border); }
+  .link-table th { background: var(--accent-soft); font-weight: 700; font-size: 12px; color: var(--accent-d); letter-spacing: .03em; }
+  .link-table tr:last-child td { border-bottom: none; }
+  .link-table tr:nth-child(even) td { background: #fafbff; }
+  .link-table a { color: var(--accent); text-decoration: none; font-weight: 500; }
+  .link-table a:hover { text-decoration: underline; }
+  .link-table .path { font-size: 11px; color: var(--muted); word-break: break-all; font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; }
+
+  /* 兄弟プロジェクト/外部カード */
+  .repo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .repo-card { background: var(--card); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+               border-radius: 14px; padding: 12px 14px; box-shadow: var(--shadow); }
+  .repo-card.sibling { border-left-color: var(--accent-2); }
+  .repo-name { font-size: 14px; font-weight: 700; }
+  .repo-name a { color: var(--accent); text-decoration: none; }
+  .repo-name a:hover { text-decoration: underline; }
+  .repo-desc { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .repo-link { font-size: 11px; color: var(--muted); margin-top: 6px; word-break: break-all;
+               font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; }
+
+  /* note / ul.b / pill / status */
+  .note { border-radius: 12px; padding: 11px 16px; margin: 12px 0; font-size: 13.5px; border: 1px solid var(--border); line-height: 1.65; }
+  .note.info { background: var(--accent-soft); border-left: 4px solid var(--accent); }
+  .note.warn { background: var(--urgent-soft); border-left: 4px solid var(--urgent); }
+  .note.teal { background: var(--done-soft); border-left: 4px solid var(--done); }
+  ul.b { list-style: none; margin: 8px 0; padding: 0; }
+  ul.b li { position: relative; padding: 5px 0 5px 22px; font-size: 13.5px; }
+  ul.b li::before { content: ""; position: absolute; left: 4px; top: 13px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+  .pill { display: inline-block; font-size: 11px; font-weight: 800; border-radius: 999px; padding: 2px 10px; margin-left: 8px; vertical-align: middle; }
+  .pill.on { background: var(--done-soft); color: #0b6e64; }
+  .pill.idea { background: var(--pending-soft); color: #8a5a12; }
+  .pill.stop { background: #e9ecf5; color: var(--muted); }
+  .pill.hot { background: var(--urgent-soft); color: var(--urgent); }
+  /* ステータスチップ（テーブル内・全ハブ共通語彙） */
+  .chip { display: inline-block; font-size: 11px; font-weight: 700; border-radius: 10px; padding: 1px 9px; color: #fff; }
+  .chip.done { background: var(--done); } .chip.pending { background: var(--pending); }
+  .chip.future { background: var(--future); } .chip.urgent { background: var(--urgent); }
+  .chip.outline { background: none; border: 1px solid var(--border-strong); color: var(--muted); }
+
+  /* ページ内タブ（.itabs） */
+  .itabs { display: flex; gap: 6px; overflow-x: auto; border-bottom: 2px solid var(--border-strong); margin: 14px 0 16px; }
+  .itab { flex: 0 0 auto; border: 0; background: none; cursor: pointer; font: inherit; font-size: 13.5px; font-weight: 700;
+          color: var(--muted); padding: 9px 14px; border-bottom: 3px solid transparent; margin-bottom: -2px;
+          white-space: nowrap; border-radius: 8px 8px 0 0; }
+  .itab:hover { color: var(--accent-d); background: var(--accent-soft); }
+  .itab.active { color: var(--accent-d); border-bottom-color: var(--accent); }
+  .itab-panel { display: none; }
+  .itab-panel.active { display: block; animation: fade .2s ease; }
+
+  /* コードブロック・構成図 */
+  code { background: var(--accent-soft); border-radius: 3px; padding: 1px 5px; font-size: 12px; }
+  pre { background: var(--code-bg); color: var(--code-ink); border-radius: 12px; padding: 13px 16px;
+        overflow-x: auto; margin: 12px 0; font-size: 12.5px; line-height: 1.7; }
+  pre code { background: none; padding: 0; font-size: 12.5px; }
+  pre .cmt { color: #8b93b8; }
+
+  /* ワークフロー図 */
+  .wf { display: flex; flex-direction: column; align-items: center; background: var(--card);
+        border: 1px solid var(--border); border-radius: 14px; padding: 16px 14px; margin: 12px 0; box-shadow: var(--shadow); }
+  .wf-node { border: 1.5px solid var(--accent); color: var(--accent-d); background: #fff; border-radius: 9px;
+             padding: 7px 14px; font-size: 12.5px; font-weight: 700; text-align: center; max-width: 440px; }
+  .wf-node small { display: block; font-weight: 500; font-size: 11px; color: var(--muted); }
+  .wf-node.src { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .wf-node.src small { color: rgba(255,255,255,.85); }
+  .wf-node.gate { border-color: var(--pending); color: var(--pending); border-style: dashed; border-radius: 999px; }
+  .wf-node.out { border-color: var(--done); color: #0b6e64; background: var(--done-soft); }
+  .wf-arr { color: var(--border-strong); font-size: 13px; margin: 3px 0; }
+  .wf-legend { font-size: 11.5px; color: var(--muted); margin: 6px 0 0; }
+
+  /* 意思決定ログ */
+  .declog .d { border-left: 3px solid var(--accent); background: var(--card); border-radius: 0 12px 12px 0;
+               padding: 9px 15px; margin: 10px 0; box-shadow: var(--shadow); font-size: 13.5px; }
+  .declog .when { font-size: 11px; color: var(--muted); font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; }
+
+  footer { text-align: center; padding: 24px; font-size: 12px; color: var(--muted); }
+
+  .pager { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; background: rgba(255,255,255,.95);
+           backdrop-filter: blur(6px); border-top: 1px solid var(--border); display: flex;
+           align-items: center; justify-content: center; gap: 18px; padding: 10px; }
+  .pager button { border: 1px solid var(--border); background: var(--card); color: var(--accent-d);
+                  font: inherit; font-weight: 700; border-radius: 10px; padding: 7px 18px; font-size: 13.5px; cursor: pointer; }
+  .pager button:hover:not(:disabled) { background: var(--accent-soft); }
+  .pager button:disabled { opacity: .4; cursor: default; }
+  .pager .ind { font-size: 13px; font-weight: 700; color: var(--muted); min-width: 200px; text-align: center; }
+  .pager .ind b { color: var(--accent-d); }
+
+  @media (max-width: 980px) {
+    .toc { display: none; }
+    .pcontent { margin: 0 auto; padding: 16px 16px 88px; }
+    .hdr { padding: 12px 18px; }
+    .ptopbar { padding: 8px 14px; overflow-x: auto; }
+    .ptabs { flex-wrap: nowrap; }
+    .hero { padding: 22px 20px 18px; }
+    .hero h1 { font-size: 21px; }
+  }
+
+  @media print {
+    .ptopbar, .toc, .pager { display: none !important; }
+    .layout { display: block; }
+    .pcontent { margin: 0; max-width: none; padding: 0; }
+    body { background: #fff; }
+    .psec { display: block !important; page-break-after: always; }
+    .psec::before { content: attr(data-title); display: block; font-size: 18px; font-weight: 900;
+                    border-left: 6px solid var(--accent); padding-left: 10px; margin: 0 0 12px; }
+    .panel, .kpi, .wf, table { break-inside: avoid; }
+    pre { background: #f3f5fd !important; color: var(--text) !important; border: 1px solid var(--border); }
+    pre .cmt { color: #6b7280 !important; }
+    .itabs { display: none !important; }
+    .itab-panel { display: block !important; margin-bottom: 16px; padding-top: 10px; border-top: 1px dashed var(--border-strong); }
+  }
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="bt">⛩️ 琴平クイズ プロジェクトダッシュボード <small>琴平町への興味を育てる毎日10問のデイリークイズ</small></div>
+  <div class="meta"><span>管理: あっきー</span><span class="upd-h">更新: 2026-06-14</span></div>
+</header>
+
+<div class="ptopbar">
+  <nav class="ptabs" id="ptabs">
+    <button class="ptab active" data-portal="home"><span class="no">1</span>🏠 ホーム</button>
+    <button class="ptab" data-portal="product"><span class="no">2</span>🎯 プロダクト</button>
+    <button class="ptab" data-portal="content"><span class="no">3</span>🗂 問題データ</button>
+    <button class="ptab" data-portal="arch"><span class="no">4</span>🏗 技術・運用</button>
+    <button class="ptab" data-portal="roadmap"><span class="no">5</span>🗺 ロードマップ</button>
+    <button class="ptab" data-portal="decisions"><span class="no">6</span>🧭 意思決定</button>
+    <button class="ptab" data-portal="docs"><span class="no">7</span>📚 ドキュメント</button>
+  </nav>
+</div>
+
+<div class="layout">
+<aside class="toc" id="toc"></aside>
+<div class="pmain"><div class="pcontent">
+<main>
+
+  <!-- ========== ホーム ========== -->
+  <section class="psec active" data-portal="home" data-title="ホーム">
+    <div class="hero">
+      <div class="dot" style="width:220px;height:220px;right:-70px;top:-70px;"></div>
+      <div class="dot" style="width:150px;height:150px;left:-40px;bottom:-40px;"></div>
+      <div class="eyebrow">KOTOHIRA QUIZ / PROJECT DASHBOARD</div>
+      <h1>⛩️ 琴平クイズ プロジェクトダッシュボード</h1>
+      <p>琴平町の知識・英単語・漢字読みを毎日10問で学べるデイリークイズ。検定ではなく「知らなかった → 知った → 覚えた」のサイクルを回すのが最優先。Discord Bot が朝に2問をティーザー投稿し、残りは Web アプリでフル回答する。</p>
+      <div class="meta"><span>管理: あっきー（地域おこし協力隊）</span><span>最終更新: 2026-06-14（kotohira-dao 確定形デザインに刷新／7ページ構成）</span></div>
+      <div class="herolinks">
+        <a href="https://b-daman.github.io/kotohira-quiz/">🌐 公開サイトを開く</a>
+        <a href="https://github.com/B-Daman/kotohira-quiz">⌨ GitHub リポジトリ</a>
+      </div>
+    </div>
+
+    <div class="section-title">サマリー <span class="sub">— web/public/data の実数（2026-06-14）</span></div>
+    <div class="kpis">
+      <div class="kpi teal">
+        <div class="kpi-label">公開状況</div>
+        <div class="kpi-value" style="color:var(--done);">稼働中</div>
+        <div class="kpi-sub">GitHub Pages 自動デプロイ</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">出題可能 問題数</div>
+        <div class="kpi-value">2,896</div>
+        <div class="kpi-sub">琴平948 ＋ 英語1000 ＋ 漢字948</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">琴平クイズ（有効 / 総数）</div>
+        <div class="kpi-value">948 <small>/ 991</small></div>
+        <div class="kpi-sub">無効化 43問</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">レビュー済み（琴平・有効）</div>
+        <div class="kpi-value">866 <small>/ 948</small></div>
+        <div class="kpi-sub">91.4%</div>
+        <div class="progress"><span style="width:91.4%"></span></div>
+      </div>
+      <div class="kpi gold">
+        <div class="kpi-label">琴平 未レビュー</div>
+        <div class="kpi-value" style="color:var(--accent-2);">82</div>
+        <div class="kpi-sub">reviewed:false ／ 要対応</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">最終コミット</div>
+        <div class="kpi-value" style="font-size:17px;">2026-05-04</div>
+        <div class="kpi-sub">フェーズ1 稼働中</div>
+      </div>
+    </div>
+
+    <div class="section-title">🔥 いま最優先 <span class="sub">— 品質改善 Phase 1.1 の残り</span></div>
+    <div class="panel">
+      <div class="action-item urgent">
+        <div class="action-checkbox"></div>
+        <div class="action-text"><span class="action-tag urgent">要対応</span>琴平クイズの未レビュー 82問（<code>reviewed:false</code>）を確認 → 出題対象へ昇格
+          <span class="action-meta">有効問題のうち約8.6%がまだ出題プールに入っていない</span></div>
+      </div>
+      <div class="action-item">
+        <div class="action-checkbox"></div>
+        <div class="action-text"><span class="action-tag soon">継続</span>Wikipedia 単独出典 167問を Tier 1（公式サイト等）で裏取りして格上げ
+          <span class="action-meta">出典信頼性の底上げ／レビュー時に必ず Tier 1 で裏取り</span></div>
+      </div>
+      <div class="action-item">
+        <div class="action-checkbox"></div>
+        <div class="action-text"><span class="action-tag cont">未着手</span>Web に「この問題を報告」ボタンを追加 → 運用フィードバックの入口をつくる
+          <span class="action-meta">報告された問題は enabled:false にして出題停止</span></div>
+      </div>
+    </div>
+
+    <div class="section-title">データフロー <span class="sub">— 問題が画面に届くまで</span></div>
+    <div class="wf">
+      <div class="wf-node src">問題データ正本<small>~/hisho-bot/data/quiz/*.json</small></div>
+      <div class="wf-arr">▼</div>
+      <div class="wf-node">同期スクリプト<small>data/sync_to_web.sh（手動実行）</small></div>
+      <div class="wf-arr">▼</div>
+      <div class="wf-node">web/public/data/*.json<small>Webアプリに同梱</small></div>
+      <div class="wf-arr">▼</div>
+      <div class="wf-node gate">git push → GitHub Actions<small>master への push で起動</small></div>
+      <div class="wf-arr">▼</div>
+      <div class="wf-node out">GitHub Pages 公開<small>ブラウザで出題・localStorage に記録</small></div>
+    </div>
+    <p class="wf-legend"><b>凡例</b>　塗り=起点（正本）／枠=処理／<span style="color:var(--pending)">破線=人の操作・ゲート</span>／<span style="color:#0b6e64">teal=成果物（公開）</span></p>
+  </section>
+
+  <!-- ========== プロダクト ========== -->
+  <section class="psec" data-portal="product" data-title="プロダクト">
+    <div class="pagehead"><h2>プロダクト概要</h2><div class="desc">目的・ターゲット・出題方針（要件定義より）</div></div>
+
+    <div class="section-title">🎯 目的</div>
+    <div class="panel">
+      <p>琴平町への興味を育て、知識を定着させるためのクイズ。検定試験ではなく、
+        <b>「知らなかった → 知った → 覚えた」のサイクルを回す</b>ことが最優先。成功指標は<b>プレイ回数</b>を主とする。</p>
+    </div>
+
+    <div class="section-title">👥 ターゲットユーザー</div>
+    <div class="grid2">
+      <div class="panel">
+        <b>メインターゲット</b>
+        <ul class="b">
+          <li>観光客（訪問の前・中・後に楽しむ）</li>
+          <li>移住検討者</li>
+          <li>琴平町DAOメンバー</li>
+          <li>琴平ファン・リピーター</li>
+          <li>着任したばかりの役場職員</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <b>サブターゲット（副産物）</b>
+        <ul class="b">
+          <li>地元住民（hard問題で深い知識を楽しむ）</li>
+          <li>上級志向のリピーター</li>
+        </ul>
+        <p style="font-size:12.5px;color:var(--muted);margin-top:8px;">メイン向けにしっかり設計し、上級者も自然に楽しめるようにする（hard問題が受け皿）。</p>
+      </div>
+    </div>
+
+    <div class="section-title">📦 コンテンツのスコープ</div>
+    <div class="grid2">
+      <div class="panel">
+        <b>含める</b>
+        <ul class="b">
+          <li>金刀比羅宮とその信仰</li>
+          <li>琴平町の歴史・地理・文化・産業・観光・人物</li>
+          <li>町内の店舗・施設・イベント・食文化</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <b>除外する</b>
+        <ul class="b">
+          <li>琴平と接点のない香川県全般</li>
+          <li>隣接自治体単独の情報（関連言及は可）</li>
+          <li>変わりやすい時事情報（料金・営業時間）</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section-title">📝 出題形式と難易度</div>
+    <div class="panel">
+      <p><b>4択のみ</b>（記述式・○×式は不採用）。正解は常に1つで明確に正しい。
+        「選択肢があるから、わからなくても選べる → 解説で学ぶ」体験を成立させる。</p>
+      <p style="font-weight:700;margin-top:12px;">難易度の目標比率と実績（琴平クイズ・有効948問）</p>
+      <div class="dist" style="margin-top:8px;">
+        <div class="dist-row"><div class="dist-label">easy（目標 25–30%）</div><div class="dist-bar"><span style="width:23.8%"></span></div><div class="dist-num">226<span class="sub">23.8%</span></div></div>
+        <div class="dist-row"><div class="dist-label">medium（目標 40–50%）</div><div class="dist-bar"><span style="width:45.1%"></span></div><div class="dist-num">428<span class="sub">45.1%</span></div></div>
+        <div class="dist-row"><div class="dist-label">hard（目標 25–30%）</div><div class="dist-bar"><span style="width:31.0%"></span></div><div class="dist-num">294<span class="sub">31.0%</span></div></div>
+      </div>
+      <div class="note info" style="margin-top:14px;">easy がやや目標下限を下回る。easy 問題の追加が品質改善の継続テーマ。</div>
+    </div>
+
+    <div class="section-title">🧠 出題パターン（認知レベル）</div>
+    <div class="panel">
+      <p>主力（80%以上）＝<b>事実想起・定義説明・分類・概念説明</b>。
+        積極的に増やすのは<b>因果・理由型（なぜ○○か?）</b>＝「へぇ」感が高く知的好奇心を刺激するため、各テーマに最低1問。
+        最善判断・予測型は不採用。</p>
+      <p style="font-size:12.5px;color:var(--muted);">目標: 記憶・理解70%以上／分析（理由型）5–10%／応用・評価5%以下。</p>
+    </div>
+  </section>
+
+  <!-- ========== 問題データ ========== -->
+  <section class="psec" data-portal="content" data-title="問題データ">
+    <div class="pagehead"><h2>問題データ</h2><div class="desc">3種別の内訳・品質基準・出典ルール（web/public/data の実数 2026-06-14）</div></div>
+
+    <div class="itabs" data-itabs="ct" role="tablist">
+      <button class="itab active" data-itab="ct-1">⛩️ 琴平クイズ</button>
+      <button class="itab" data-itab="ct-2">🔤 英語・📝 漢字</button>
+      <button class="itab" data-itab="ct-3">✅ 品質基準</button>
+      <button class="itab" data-itab="ct-4">🧩 スキーマ</button>
+    </div>
+
+    <div class="itab-panel active" data-itab-panel="ct-1">
+      <div class="grouphead">琴平クイズ カテゴリ別 <span class="gh-note">— 有効948問</span></div>
+      <div class="panel">
+        <div class="dist">
+          <div class="dist-row"><div class="dist-label">shrine 参拝・信仰</div><div class="dist-bar"><span style="width:100%"></span></div><div class="dist-num">208</div></div>
+          <div class="dist-row"><div class="dist-label">history 歴史・人物</div><div class="dist-bar"><span style="width:85%"></span></div><div class="dist-num">176</div></div>
+          <div class="dist-row"><div class="dist-label">geography 地理・行政</div><div class="dist-bar"><span style="width:41%"></span></div><div class="dist-num">86</div></div>
+          <div class="dist-row"><div class="dist-label">event 祭り・イベント</div><div class="dist-bar"><span style="width:39%"></span></div><div class="dist-num">82</div></div>
+          <div class="dist-row"><div class="dist-label">culture 文化・伝統</div><div class="dist-bar"><span style="width:33%"></span></div><div class="dist-num">68</div></div>
+          <div class="dist-row"><div class="dist-label">architecture 建造物・美術</div><div class="dist-bar"><span style="width:32%"></span></div><div class="dist-num">66</div></div>
+          <div class="dist-row"><div class="dist-label">theater 金丸座・歌舞伎</div><div class="dist-bar"><span style="width:26%"></span></div><div class="dist-num">55</div></div>
+          <div class="dist-row"><div class="dist-label">tourism 観光スポット</div><div class="dist-bar"><span style="width:25%"></span></div><div class="dist-num">52</div></div>
+          <div class="dist-row"><div class="dist-label">modern まちの取り組み</div><div class="dist-bar"><span style="width:23%"></span></div><div class="dist-num">47</div></div>
+          <div class="dist-row"><div class="dist-label">gourmet うどん・名店</div><div class="dist-bar"><span style="width:21%"></span></div><div class="dist-num">44</div></div>
+          <div class="dist-row"><div class="dist-label">life 暮らし・施設</div><div class="dist-bar"><span style="width:21%"></span></div><div class="dist-num">44</div></div>
+          <div class="dist-row"><div class="dist-label">food お菓子・地酒</div><div class="dist-bar"><span style="width:10%"></span></div><div class="dist-num">20</div></div>
+        </div>
+      </div>
+      <div class="section-title">状態サマリー</div>
+      <div class="panel">
+        <table class="data-table">
+          <tr><th>指標</th><th class="num">問題数</th></tr>
+          <tr><td>総数</td><td class="num">991</td></tr>
+          <tr><td>有効（enabled）</td><td class="num">948</td></tr>
+          <tr><td>無効化（enabled:false）</td><td class="num">43</td></tr>
+          <tr><td>有効かつレビュー済み</td><td class="num">866</td></tr>
+          <tr><td>有効だが<b>未レビュー</b>（reviewed:false）</td><td class="num">82</td></tr>
+          <tr><td>有効問題のうち出典なし</td><td class="num">0</td></tr>
+        </table>
+        <div class="note teal" style="margin-top:12px;">有効問題はすべて <code>source</code> を保持。UIグループは要件定義で
+          ⛩️金刀比羅宮 / 📜歴史・人物 / 🎭金丸座・歌舞伎 / 🗺️地理・観光 / 🍜グルメ / 🎨文化 / 🎪祭り / 🏘️現代 の8グループに整理。</div>
+      </div>
+    </div>
+
+    <div class="itab-panel" data-itab-panel="ct-2">
+      <div class="grouphead">🔤 英単語クイズ <span class="gh-note">— 1,000問（500語 × 2パターン）</span></div>
+      <div class="panel">
+        <p style="font-size:13px;color:var(--muted);">英→日 / 日→英 の2パターン。解答画面に Google検索・翻訳リンク。</p>
+        <div class="dist" style="margin-top:8px;">
+          <div class="dist-row"><div class="dist-label">A2</div><div class="dist-bar e"><span style="width:85%"></span></div><div class="dist-num">460</div></div>
+          <div class="dist-row"><div class="dist-label">B1</div><div class="dist-bar e"><span style="width:100%"></span></div><div class="dist-num">540</div></div>
+        </div>
+        <p style="font-size:12px;color:var(--muted);margin-top:8px;">パターン: en_to_ja 500 / ja_to_en 500</p>
+      </div>
+      <div class="grouphead">📝 漢字読みクイズ <span class="gh-note">— 948問（474語 × 2パターン）</span></div>
+      <div class="panel">
+        <p style="font-size:13px;color:var(--muted);">漢字→読み / 読み→漢字 の2パターン。一般漢字70%＋琴平・神社関連30%。</p>
+        <div class="dist" style="margin-top:8px;">
+          <div class="dist-row"><div class="dist-label">easy</div><div class="dist-bar k"><span style="width:81%"></span></div><div class="dist-num">327</div></div>
+          <div class="dist-row"><div class="dist-label">medium</div><div class="dist-bar k"><span style="width:100%"></span></div><div class="dist-num">401</div></div>
+          <div class="dist-row"><div class="dist-label">hard</div><div class="dist-bar k"><span style="width:55%"></span></div><div class="dist-num">220</div></div>
+        </div>
+        <p style="font-size:12px;color:var(--muted);margin-top:8px;">パターン: kanji_to_reading 474 / reading_to_kanji 474</p>
+      </div>
+      <div class="section-title">出題モード（Webアプリ）</div>
+      <div class="panel">
+        <p>フリーモード（琴平10問）が主役。英語・漢字はオプション。
+          「英語もまぜる」=琴平5＋英語5、「漢字もまぜる」=琴平5＋漢字5、各「○○だけ」で単独10問。
+          難易度えらび・テーマえらびで絞り込み可。同じ日に同じ問題は出さない（localStorage）。</p>
+      </div>
+    </div>
+
+    <div class="itab-panel" data-itab-panel="ct-3">
+      <div class="grouphead">品質基準</div>
+      <div class="section-title">選択肢の品質基準</div>
+      <div class="panel">
+        <ul class="b">
+          <li>4つの選択肢は<b>同カテゴリ・同粒度</b>にする</li>
+          <li>選択肢の文字数を4つとも揃える（<b>最長と最短の比率は1.3倍以内</b>。正解だけ長くしない）</li>
+          <li>ディストラクターは「よくある誤解」に基づき、もっともらしい具体性を持たせる</li>
+          <li>「すべて正しい」「正しいものはない」は使わない</li>
+        </ul>
+      </div>
+      <div class="section-title">解説の方針（SEEED フレームワーク）</div>
+      <div class="panel">
+        <table class="data-table">
+          <tr><th>要素</th><th>内容</th><th>状態</th></tr>
+          <tr><td>S — Source</td><td>信頼できる出典の明記</td><td><span class="chip done">運用中</span></td></tr>
+          <tr><td>E — Essence</td><td>正答の核心的な理由</td><td><span class="chip done">運用中</span></td></tr>
+          <tr><td>E — Episode</td><td>記憶に残るエピソード</td><td><span class="chip future">今後</span></td></tr>
+          <tr><td>E — Expansion</td><td>関連知識への広がり</td><td><span class="chip future">今後</span></td></tr>
+          <tr><td>D — Discovery</td><td>「へぇ」と思わせる豆知識</td><td><span class="chip future">今後</span></td></tr>
+        </table>
+        <p style="font-size:12.5px;color:var(--muted);margin-top:8px;">現状は主に Source＋Essence で構成。Episode 以降は段階的に拡充。</p>
+      </div>
+      <div class="section-title">出典の信頼性 Tier</div>
+      <div class="panel">
+        <table class="data-table">
+          <tr><th>Tier</th><th>例</th></tr>
+          <tr><td><b>Tier 1</b> 高信頼</td><td>公式サイト（konpira.or.jp, town.kotohira.kagawa.jp）、新聞社、学術資料、政府系（文化遺産オンライン等）</td></tr>
+          <tr><td><b>Tier 2</b> 中信頼</td><td>Wikipedia — 単独出典としては不十分。Tier 1 での裏取りが必要</td></tr>
+          <tr><td><b>Tier 3</b> 参考</td><td>個人ブログ、観光情報サイト — 補助的な参考のみ</td></tr>
+        </table>
+        <div class="note warn" style="margin-top:12px;">残課題: Wikipedia 単独出典 167問の Tier 1 化（→ ロードマップ）。</div>
+      </div>
+      <div class="section-title">既知の品質課題</div>
+      <div class="panel">
+        <ul class="b">
+          <li>konpie-bot ナレッジベース由来の問題は AI 生成のため事実確認が不十分な可能性</li>
+          <li>例: 「こんぴらビール」は存在しない（正しくは「こんぴら麦酒」2008年製造終了、「呑象ブリューイング」2023年開業）</li>
+          <li>内容矛盾の要確認: kotohira_450 / 466（車での参拝不可）が公式「お車参拝予約」と矛盾の可能性</li>
+          <li>現地確認待ち: kotohira_645（金刀比羅宮の図書館が現在も開館しているか）</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="itab-panel" data-itab-panel="ct-4">
+      <div class="grouphead">問題データのスキーマ</div>
+      <div class="panel">
+        <p style="font-weight:700;">琴平クイズ</p>
+        <pre><code>{ id, category, difficulty, question, choices[], answer,
+  explanation, source, reviewed, enabled }</code></pre>
+        <p style="font-weight:700;">英単語クイズ</p>
+        <pre><code>{ id, level, pattern, question, choices[], answer, explanation,
+  word, pronunciation, search_url, translate_url, reviewed, enabled }</code></pre>
+        <p style="font-weight:700;">漢字読みクイズ</p>
+        <pre><code>{ id, level, pattern, question, choices[], answer, explanation,
+  word, reading, english, search_url, translate_url, reviewed, enabled }
+<span class="cmt"># pattern: kanji_to_reading（漢字→読み）/ reading_to_kanji（読み→漢字）</span>
+<span class="cmt"># english: 英訳。複数はカンマ区切り（例: "offering, dedication"）</span></code></pre>
+        <div class="note info">出題対象は <code>enabled:true</code> かつ <code>reviewed:true</code> のみ。
+          <code>search_url</code> / <code>translate_url</code> は作成時に <code>word</code> から生成して保存（毎回動的生成しない）。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 技術・運用 ========== -->
+  <section class="psec" data-portal="arch" data-title="技術・運用">
+    <div class="pagehead"><h2>技術・運用</h2><div class="desc">アーキテクチャ・設計方針・運用手順（Phase 1 稼働中）</div></div>
+
+    <div class="grouphead">アーキテクチャ</div>
+    <div class="section-title">技術スタック</div>
+    <div class="panel">
+      <table class="data-table">
+        <tr><th>レイヤー</th><th>技術</th><th>選定理由</th></tr>
+        <tr><td>フロントエンド</td><td>Vite + React 19 + TypeScript + Tailwind CSS v4</td><td>軽量・高速ビルド</td></tr>
+        <tr><td>Discord Bot</td><td>Python 3.14 + discord.py 2.7</td><td>hisho-bot と同じスタック</td></tr>
+        <tr><td>ホスティング</td><td>GitHub Pages（Actions 自動デプロイ）</td><td>無料・push で自動公開</td></tr>
+        <tr><td>データ保存（Phase 1）</td><td>localStorage</td><td>認証不要の個人利用</td></tr>
+        <tr><td>問題データ管理</td><td>JSON ファイル（hisho-bot 内が正典）</td><td>シンプル・git 管理可能</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title">ディレクトリ構成</div>
+    <div class="panel">
+      <pre><code>C:\Users\user\kotohira-quiz\
+├── web\                         <span class="cmt"># Vite + React 19 + TS + Tailwind v4</span>
+│   ├── src\
+│   │   ├── types.ts             <span class="cmt"># Question/English/Japanese 型定義</span>
+│   │   ├── data\                <span class="cmt"># questions.ts(fetch+filter) / history.ts</span>
+│   │   ├── config\categories.ts <span class="cmt"># テーマグループ・カテゴリ階層</span>
+│   │   ├── hooks\useQuiz.ts     <span class="cmt"># 問題選出・進行管理</span>
+│   │   ├── components\          <span class="cmt"># QuizCard / ResultCard / ScoreSummary ほか</span>
+│   │   └── pages\DailyQuiz.tsx  <span class="cmt"># メインページ（phase状態遷移）</span>
+│   ├── public\data\            <span class="cmt"># kotohira/english/japanese _questions.json</span>
+│   └── vite.config.ts          <span class="cmt"># base: '/kotohira-quiz/'</span>
+├── bot\                         <span class="cmt"># Discord Bot（Python・スタンドアロン）</span>
+│   ├── main.py                  <span class="cmt"># エントリ＋毎朝7:00ループ＋PersistentView</span>
+│   ├── config.py                <span class="cmt"># 環境変数（TOKEN/CHANNEL_ID/WEB_URL/DATA_DIR）</span>
+│   ├── quiz_store.py            <span class="cmt"># 問題読み込み・選出（読み取り専用）</span>
+│   └── daily_teaser.py          <span class="cmt"># 2問投稿＋Webリンク</span>
+├── data\sync_to_web.sh          <span class="cmt"># hisho-bot → web/public/data コピー</span>
+├── .github\workflows\deploy.yml <span class="cmt"># GitHub Pages 自動デプロイ</span>
+└── docs\                        <span class="cmt"># plan / research / review / draft</span></code></pre>
+    </div>
+
+    <div class="section-title">設計方針・Bot 構成</div>
+    <div class="grid2">
+      <div class="panel">
+        <b>設計方針（レビュー反映済み）</b>
+        <ul class="b">
+          <li>Repository Pattern / DI は<b>不使用</b>（Phase 1 では過剰設計＝YAGNI）</li>
+          <li>Bot の2問と Web の10問は<b>独立</b>（共有状態なし・意図的な割り切り）</li>
+          <li>JST 日付処理は <code>sv-SE</code> 方式で UTC/JST ズレを防止</li>
+          <li>JSON ロード失敗時はエラー画面（白画面にしない）</li>
+          <li>重複フィルタは <code>Set&lt;string&gt;</code> で ID 比較</li>
+          <li>正解はフロントに含む（Phase 1 は許容、Phase 2 でサーバー採点へ）</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <b>Discord Bot の投稿フォーマット</b>
+        <ul class="b">
+          <li>🏛️ 琴平町クイズ 1問（Embed＋A/B/C/D ボタン）</li>
+          <li>🔤 英単語クイズ 1問（Embed＋A/B/C/D ボタン）</li>
+          <li>📝 残り8問は Web へ → 公開 URL（テキスト）</li>
+        </ul>
+        <p style="font-size:12.5px;color:var(--muted);">ボタン押下で ephemeral に正解/不正解＋解説。<code>PersistentTeaserView</code> で Bot 再起動後もボタンが動作。</p>
+      </div>
+    </div>
+    <div class="note info">問題データの<b>正典は <code>~/hisho-bot/data/quiz/</code></b>。kotohira-quiz-bot は環境変数 <code>QUIZ_DATA_DIR</code> で直接参照する。正典を kotohira-quiz 側へ移すかは技術的負債として保留中。</div>
+
+    <div class="grouphead">運用手順</div>
+    <div class="section-title">問題データの更新フロー</div>
+    <div class="panel">
+      <pre><code>cd C:\Users\user\kotohira-quiz
+bash data/sync_to_web.sh          <span class="cmt"># hisho-bot/data/quiz → web/public/data</span>
+git add web/public/data/
+git commit -m "Update questions"
+git push                          <span class="cmt"># master へ push → Actions が自動デプロイ</span></code></pre>
+    </div>
+
+    <div class="section-title">Discord Bot の管理</div>
+    <div class="panel">
+      <p>タスクスケジューラ名: <code>kotohira-quiz-bot</code></p>
+      <pre><code>Start-ScheduledTask -TaskName 'kotohira-quiz-bot'   <span class="cmt"># 起動</span>
+Stop-ScheduledTask  -TaskName 'kotohira-quiz-bot'   <span class="cmt"># 停止</span></code></pre>
+      <p style="font-size:12.5px;color:var(--muted);">ログはコンソール出力（タスクスケジューラのログから確認）。ファイル保存は技術的負債として未対応。</p>
+    </div>
+
+    <div class="section-title">障害時の対応</div>
+    <div class="panel">
+      <table class="data-table">
+        <tr><th>シナリオ</th><th>影響</th><th>対応</th></tr>
+        <tr><td>GitHub Pages ダウン</td><td>Web 不可。Bot は独立動作</td><td>GitHub Status 確認、待機</td></tr>
+        <tr><td>Bot クラッシュ</td><td>朝の投稿なし。Web は独立動作</td><td>タスクスケジューラから再起動</td></tr>
+        <tr><td>問題 JSON 破損</td><td>Web: エラー画面／Bot: 投稿失敗</td><td>hisho-bot の正典から再コピー</td></tr>
+      </table>
+    </div>
+
+    <div class="section-title">ローカル開発コマンド</div>
+    <div class="panel">
+      <pre><code>cd C:\Users\user\kotohira-quiz\web
+npm install
+npm run dev       <span class="cmt"># 開発サーバー</span>
+npm run build     <span class="cmt"># 本番ビルド（変更後は必ず確認）</span>
+npm run lint      <span class="cmt"># ESLint</span>
+npm run preview   <span class="cmt"># ビルド結果のプレビュー</span></code></pre>
+    </div>
+  </section>
+
+  <!-- ========== ロードマップ ========== -->
+  <section class="psec" data-portal="roadmap" data-title="ロードマップ">
+    <div class="pagehead"><h2>ロードマップ・タスク</h2><div class="desc">Phase 1.1 〜 Phase 3 と技術的負債</div></div>
+
+    <div class="section-title">フェーズ全体</div>
+    <div class="panel">
+      <table class="data-table">
+        <tr><th>フェーズ</th><th>内容</th><th>状態</th></tr>
+        <tr><td>Phase 1.1</td><td>品質改善（出典・レビュー・UI）</td><td><span class="chip pending">進行中</span></td></tr>
+        <tr><td>Phase 1.5</td><td>コンテンツ拡充・体験向上（履歴・復習）</td><td><span class="chip pending">一部着手</span></td></tr>
+        <tr><td>Phase 2</td><td>複数ユーザー対応（認証・バックエンド・ランキング）</td><td><span class="chip future">未来</span></td></tr>
+        <tr><td>Phase 3</td><td>琴平町DAO との統合（共創・トークン連携）</td><td><span class="chip future">未来</span></td></tr>
+      </table>
+    </div>
+
+    <div class="itabs" data-itabs="rm" role="tablist">
+      <button class="itab active" data-itab="rm-1">Phase 1.1 品質改善</button>
+      <button class="itab" data-itab="rm-2">Phase 1.5 拡充</button>
+      <button class="itab" data-itab="rm-3">Phase 2・3</button>
+      <button class="itab" data-itab="rm-4">技術的負債</button>
+    </div>
+
+    <div class="itab-panel active" data-itab-panel="rm-1">
+      <div class="grouphead">完了済み</div>
+      <div class="panel">
+        <table class="data-table">
+          <tr><th>状態</th><th>項目</th></tr>
+          <tr><td><span class="chip done">完了</span></td><td>出典URL一括付与（1–500 の390問にURL付与）</td></tr>
+          <tr><td><span class="chip done">完了</span></td><td>公式サイト優先化（Wikipedia単独 293問 → 167問に削減）</td></tr>
+          <tr><td><span class="chip done">完了</span></td><td>全850問の選択肢品質レビュー（80件検出 → 78件修正）</td></tr>
+          <tr><td><span class="chip done">完了</span></td><td>理由型・easy定義型の拡充（901–947）／easy追加（948–991）</td></tr>
+          <tr><td><span class="chip done">完了</span></td><td>漢字読みクイズの仕組み・データ整備（948問）</td></tr>
+          <tr><td><span class="chip done">完了</span></td><td>英語クイズ拡充（500 → 1000問）＋検索/翻訳リンク</td></tr>
+          <tr><td><span class="chip done">完了</span></td><td>Web UI Phase A/B（スタート画面・モード・連続プレイ・難易度/テーマ）</td></tr>
+        </table>
+      </div>
+      <div class="grouphead">残タスク</div>
+      <div class="panel">
+        <table class="data-table">
+          <tr><th>状態</th><th>項目</th></tr>
+          <tr><td><span class="chip urgent">要対応</span></td><td>琴平 未レビュー 82問の確認 → 出題対象へ昇格</td></tr>
+          <tr><td><span class="chip pending">継続</span></td><td>Wikipedia 単独出典 167問の Tier 1 化（個別ソース調査）</td></tr>
+          <tr><td><span class="chip pending">継続</span></td><td>URL出典なし 71問（個別店舗・ローカルイベント系）への対応</td></tr>
+          <tr><td><span class="chip future">未着手</span></td><td>Web に「この問題を報告」ボタン（問題ID をクリップボードへ）</td></tr>
+          <tr><td><span class="chip future">未着手</span></td><td>毎日10問を解いて怪しい問題を特定する運用の開始</td></tr>
+          <tr><td><span class="chip future">未着手</span></td><td>内容矛盾の確認（kotohira_450/466）・現地確認（kotohira_645）</td></tr>
+          <tr><td><span class="chip future">未着手</span></td><td>ファビコン変更（琴平らしいアイコン）・モバイル操作感の改善</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="itab-panel" data-itab-panel="rm-2">
+      <div class="grouphead">コンテンツ拡充</div>
+      <div class="panel">
+        <ul class="b">
+          <li><span class="chip future">未来</span> 琴平町の「人」に関する問題（現在活躍する人々）</li>
+          <li><span class="chip future">未来</span> 季節・時事ネタ問題（例大祭・歌舞伎シーズン連動）</li>
+          <li><span class="chip future">未来</span> 呑象ブリューイング等、最新の琴平町情報の反映</li>
+        </ul>
+      </div>
+      <div class="grouphead">体験向上（Phase C）</div>
+      <div class="panel">
+        <ul class="b">
+          <li><span class="chip done">完了</span> スコア画面の難易度別正答率表示</li>
+          <li><span class="chip future">未来</span> 過去のスコア履歴グラフ（localStorage から）</li>
+          <li><span class="chip future">未来</span> 「今日の復習」モード（間違えた問題をもう一度）</li>
+          <li><span class="chip outline">不要と判断</span> SNS シェアボタン（2026-04-09）</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="itab-panel" data-itab-panel="rm-3">
+      <div class="grouphead">Phase 2: 複数ユーザー対応 <span class="gh-note">— ユーザーが増えたら着手</span></div>
+      <div class="panel">
+        <ul class="b">
+          <li>認証: Discord OAuth2 + PKCE</li>
+          <li>バックエンド: Cloudflare Workers + D1（SQLite）</li>
+          <li>正解のサーバーサイド判定（チート防止）</li>
+          <li>ランキング（日次/週次/月次）・ストリーク・実績バッジ</li>
+          <li>ホスティング移行: GitHub Pages → Cloudflare Pages、または DAO HP の <code>/quiz</code> へ統合</li>
+        </ul>
+      </div>
+      <div class="grouphead">Phase 3: 琴平町DAO との統合</div>
+      <div class="panel">
+        <ul class="b">
+          <li>DAO の Discord サーバーに Bot 導入</li>
+          <li>DAO メンバー向けランキング・イベント</li>
+          <li>琴平ポイント / トークンエコノミーとの連携</li>
+          <li>DAO メンバーからの問題投稿機能・承認フロー</li>
+          <li>店舗・施設からの協賛問題（PR問題）</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="itab-panel" data-itab-panel="rm-4">
+      <div class="grouphead">技術的負債 <span class="gh-note">— 対応タイミング未定</span></div>
+      <div class="panel">
+        <table class="data-table">
+          <tr><th>項目</th><th>状態</th></tr>
+          <tr><td>hisho-bot 内の無効化済みファイル整理</td><td><span class="chip future">未対応</span></td></tr>
+          <tr><td>問題データの正典を hisho-bot → kotohira-quiz へ移す判断</td><td><span class="chip future">保留</span></td></tr>
+          <tr><td>GitHub Actions Node.js のアップグレード（現在 node 22。24 化は未対応）</td><td><span class="chip pending">一部対応</span></td></tr>
+          <tr><td>Bot のログをファイル保存（現在コンソール出力のみ）</td><td><span class="chip future">未対応</span></td></tr>
+        </table>
+        <div class="note info" style="margin-top:12px;">deploy.yml は <code>node-version: 22</code> に更新済み（ロードマップ記載の「20→24」は途中。24 化は未着手）。</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 意思決定 ========== -->
+  <section class="psec" data-portal="decisions" data-title="意思決定">
+    <div class="pagehead"><h2>意思決定ログ</h2><div class="desc">「いつ・何を・なぜ」を1件1ブロックで。新しい順</div></div>
+    <div class="section-title">記録</div>
+    <div class="declog">
+      <div class="d"><div class="when">2026-04-11</div><b>漢字読みクイズの追加・英語1000問化・単独モード</b> — 学習対象を琴平知識に加え漢字・英語へ拡張。各クイズに Google検索/翻訳リンクを付与し学習を深める導線にした。</div>
+      <div class="d"><div class="when">2026-04-09</div><b>SNS シェアボタンは不要と判断</b> — Phase 1 ではプレイ回数が主指標で、シェア導線の優先度が低いため見送り。</div>
+      <div class="d"><div class="when">2026-04-07</div><b>琴平のみ10問をデフォルト・英語はオプション化</b> — 琴平クイズが主役。英語が混ざると「琴平だけ解きたい」ニーズを邪魔するため、スタート画面でモード選択する設計に刷新。</div>
+      <div class="d"><div class="when">2026-04-06</div><b>4択のみを採用（記述式・○×式は不採用）</b> — まず興味を持ち覚えることが目的。選択肢があることで「わからなくても選べる → 解説で学ぶ」体験が成立する。</div>
+      <div class="d"><div class="when">2026-04-06</div><b>解説は SEEED フレームワークを採用</b> — 出典の明記と記憶定着を両立。現状は Source＋Essence 中心で、Episode 以降は段階的に拡充。</div>
+      <div class="d"><div class="when">2026-04-05</div><b>正解はフロントに含める（Phase 1）</b> — 個人利用では許容。チート防止が必要になる Phase 2 でサーバーサイド採点に移行する前提で割り切り。</div>
+      <div class="d"><div class="when">2026-04-05</div><b>Bot の2問と Web の10問は独立させる</b> — 共有状態を持たせない意図的な割り切り。Phase 1 の実装をシンプルに保つ。</div>
+      <div class="d"><div class="when">2026-04-05</div><b>Repository Pattern / DI は不使用（YAGNI）</b> — Phase 1 では過剰設計。シンプルな fetch 関数で実装する。</div>
+      <div class="d"><div class="when">2026-04-05</div><b>問題データの正典は hisho-bot/data/quiz/ に置く</b> — 既存の Bot 資産と一元管理。kotohira-quiz は <code>QUIZ_DATA_DIR</code> で参照し、Web へは同期スクリプトでコピーする。</div>
+    </div>
+  </section>
+
+  <!-- ========== ドキュメント ========== -->
+  <section class="psec" data-portal="docs" data-title="ドキュメント">
+    <div class="pagehead"><h2>ドキュメント・関連資料</h2><div class="desc">設計書・調査・公開先。パスはフルパス、リンクは新しいタブで開く</div></div>
+
+    <div class="grouphead">計画・設計（docs/plan）</div>
+    <div class="panel">
+      <table class="link-table">
+        <tr><th>資料</th><th>パス</th></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/docs/plan/requirements.md">要件定義</a></td><td class="path">C:\Users\user\kotohira-quiz\docs\plan\requirements.md</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/docs/plan/ui_requirements.md">Web UI 要件定義</a></td><td class="path">C:\Users\user\kotohira-quiz\docs\plan\ui_requirements.md</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/docs/plan/2026-04-05_current-architecture.md">現行アーキテクチャ設計書</a></td><td class="path">C:\Users\user\kotohira-quiz\docs\plan\2026-04-05_current-architecture.md</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/docs/plan/2026-04-05_roadmap.md">実装ロードマップ</a></td><td class="path">C:\Users\user\kotohira-quiz\docs\plan\2026-04-05_roadmap.md</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/docs/plan/2026-04-04_architecture.md">初期アーキテクチャ案</a></td><td class="path">C:\Users\user\kotohira-quiz\docs\plan\2026-04-04_architecture.md</td></tr>
+      </table>
+    </div>
+
+    <div class="grouphead">調査・レビュー・ドラフト</div>
+    <div class="panel">
+      <table class="link-table">
+        <tr><th>資料</th><th>パス</th></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/docs/draft/knowledge_map.md">ナレッジマップ</a></td><td class="path">C:\Users\user\kotohira-quiz\docs\draft\knowledge_map.md</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/docs/draft/quiz_design_research.md">クイズ設計理論リサーチ</a></td><td class="path">C:\Users\user\kotohira-quiz\docs\draft\quiz_design_research.md</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/docs/draft/gotochi_quiz_research.md">ご当地検定事例リサーチ</a></td><td class="path">C:\Users\user\kotohira-quiz\docs\draft\gotochi_quiz_research.md</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/docs/research/2026-04-08_ui-ux-research.md">UI/UX リサーチ</a></td><td class="path">C:\Users\user\kotohira-quiz\docs\research\2026-04-08_ui-ux-research.md</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/docs/review/">レビュー記録（フォルダ）</a></td><td class="path">C:\Users\user\kotohira-quiz\docs\review\</td></tr>
+      </table>
+    </div>
+
+    <div class="grouphead">問題データ・コード</div>
+    <div class="panel">
+      <table class="link-table">
+        <tr><th>資料</th><th>パス</th></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/web/public/data/kotohira_questions.json">琴平クイズ JSON</a></td><td class="path">C:\Users\user\kotohira-quiz\web\public\data\kotohira_questions.json</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/web/public/data/english_questions.json">英単語クイズ JSON</a></td><td class="path">C:\Users\user\kotohira-quiz\web\public\data\english_questions.json</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/web/public/data/japanese_questions.json">漢字読みクイズ JSON</a></td><td class="path">C:\Users\user\kotohira-quiz\web\public\data\japanese_questions.json</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/AGENTS.md">AGENTS.md（開発ルール）</a></td><td class="path">C:\Users\user\kotohira-quiz\AGENTS.md</td></tr>
+        <tr><td><a href="file:///C:/Users/user/kotohira-quiz/">プロジェクトルート</a></td><td class="path">C:\Users\user\kotohira-quiz\</td></tr>
+      </table>
+    </div>
+
+    <div class="grouphead">公開・外部</div>
+    <div class="repo-grid">
+      <div class="repo-card">
+        <div class="repo-name"><a href="https://b-daman.github.io/kotohira-quiz/">🌐 公開サイト（GitHub Pages）</a></div>
+        <div class="repo-desc">琴平クイズ Web アプリ本体</div>
+        <div class="repo-link">https://b-daman.github.io/kotohira-quiz/</div>
+      </div>
+      <div class="repo-card sibling">
+        <div class="repo-name"><a href="https://github.com/B-Daman/kotohira-quiz">⌨ GitHub リポジトリ</a></div>
+        <div class="repo-desc">public ／ push で自動デプロイ</div>
+        <div class="repo-link">https://github.com/B-Daman/kotohira-quiz</div>
+      </div>
+      <div class="repo-card sibling">
+        <div class="repo-name"><a href="file:///C:/Users/user/kotohira-dao/dashboard.html">⛩️ 琴平町DAO ダッシュボード</a></div>
+        <div class="repo-desc">兄弟プロジェクト（Phase 3 統合先候補）</div>
+        <div class="repo-link">C:\Users\user\kotohira-dao\dashboard.html</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+</div><!--pcontent--></div><!--pmain-->
+</div><!--layout-->
+
+<footer>
+  正本: C:\Users\user\kotohira-quiz\dashboard\kotohira-quiz-dashboard.html ／ 最終更新: 2026-06-14 ／
+  問題数は web/public/data/*.json の実数 ／ ローカルファイルとしてブラウザで開いて閲覧
+</footer>
+
+<div class="pager">
+  <button id="prev" type="button">← 前へ</button>
+  <div class="ind"><b id="pgno">1</b> / 7　<span id="pgttl">ホーム</span></div>
+  <button id="next" type="button">次へ →</button>
+</div>
+
+<script>
+(function(){
+  var ptabs = Array.prototype.slice.call(document.querySelectorAll('.ptab'));
+  var psecs = Array.prototype.slice.call(document.querySelectorAll('.psec'));
+  var order = psecs.map(function(s){ return s.dataset.portal; });
+  var tocBox = document.getElementById('toc');
+  var prevBtn = document.getElementById('prev'), nextBtn = document.getElementById('next');
+  var pgno = document.getElementById('pgno'), pgttl = document.getElementById('pgttl');
+  var curIdx = 0, tocLinks = [], tocTargets = [];
+
+  function buildToc(cur){
+    tocBox.innerHTML = '';
+    tocLinks = []; tocTargets = [];
+    var tl = document.createElement('div'); tl.className = 'tl'; tl.textContent = 'このページの内容'; tocBox.appendChild(tl);
+    var heads = Array.prototype.slice.call(cur.querySelectorAll('.grouphead, .section-title')).filter(function(h){
+      return h.offsetParent !== null;  // 非表示（別タブ）の見出しは出さない
+    });
+    heads.forEach(function(sec){
+      var a = document.createElement('a');
+      a.href = '#';
+      a.className = sec.classList.contains('grouphead') ? 'grp' : 'sub';
+      a.textContent = sec.textContent.replace(/\s+/g, ' ').trim();
+      (function(t){ a.addEventListener('click', function(e){ e.preventDefault(); t.scrollIntoView({behavior:'smooth', block:'start'}); }); })(sec);
+      tocBox.appendChild(a); tocLinks.push(a); tocTargets.push(sec);
+    });
+  }
+  function spy(){
+    if (!tocTargets.length) return;
+    var act = 0;
+    for (var i = 0; i < tocTargets.length; i++){ if (tocTargets[i].getBoundingClientRect().top <= 96) act = i; }
+    for (var j = 0; j < tocLinks.length; j++){ tocLinks[j].classList.toggle('on', j === act); }
+  }
+  function render(){
+    var id = (location.hash || '#home').slice(1).split('.')[0];
+    if (order.indexOf(id) < 0) id = order[0];
+    ptabs.forEach(function(b){ b.classList.toggle('active', b.dataset.portal === id); });
+    psecs.forEach(function(s){ s.classList.toggle('active', s.dataset.portal === id); });
+    var cur = document.querySelector('.psec[data-portal="' + id + '"]');
+    curIdx = order.indexOf(id);
+    if (prevBtn) prevBtn.disabled = curIdx === 0;
+    if (nextBtn) nextBtn.disabled = curIdx === order.length - 1;
+    if (pgno) pgno.textContent = curIdx + 1;
+    if (pgttl && cur) pgttl.textContent = cur.dataset.title || id;
+    if (cur) buildToc(cur);
+    window.scrollTo(0, 0);
+    spy();
+  }
+  ptabs.forEach(function(b){ b.addEventListener('click', function(){ location.hash = b.dataset.portal; }); });
+
+  // ページ内タブ（.itabs/.itab/.itab-panel）
+  Array.prototype.slice.call(document.querySelectorAll('.itabs')).forEach(function(bar){
+    var sec = bar.closest('.psec');
+    var btns = Array.prototype.slice.call(bar.querySelectorAll('.itab'));
+    btns.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var key = btn.dataset.itab;
+        btns.forEach(function(b){ b.classList.toggle('active', b === btn); });
+        Array.prototype.slice.call(sec.querySelectorAll('.itab-panel')).forEach(function(p){
+          p.classList.toggle('active', p.dataset.itabPanel === key);
+        });
+        if (sec.classList.contains('active')) { buildToc(sec); window.scrollTo(0, 0); spy(); }
+      });
+    });
+  });
+
+  function go(d){ var i = curIdx + d; if (i >= 0 && i < order.length) location.hash = order[i]; }
+  if (prevBtn) prevBtn.addEventListener('click', function(){ go(-1); });
+  if (nextBtn) nextBtn.addEventListener('click', function(){ go(1); });
+  document.addEventListener('keydown', function(e){
+    if (e.target.closest && e.target.closest('input, textarea, select')) return;
+    if (e.key === 'ArrowLeft') go(-1);
+    if (e.key === 'ArrowRight') go(1);
+  });
+
+  window.addEventListener('scroll', spy, {passive:true});
+  window.addEventListener('hashchange', render);
+  render();
+})();
+</script>
+</body>
+</html>
